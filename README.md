@@ -28,7 +28,7 @@ Installation
 - Clone the repository:
 
   ```
-  git clone https://github.com/yourusername/tagforge.git
+  git clone https://github.com/deadthread/tagforge.git
   cd tagforge
   ```
 
