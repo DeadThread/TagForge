@@ -177,9 +177,21 @@ class Processor:
             self.log("Evaluating output folder path with current schemes.")
 
             try:
-                out_folder = self._evaluate_schemes(meta).strip(os.sep)
+                # Get the scheme-generated path
+                scheme_path = self._evaluate_schemes(meta).strip(os.sep)
+                
+                # Get the parent directory of the source folder to use as base path
+                # This preserves the original staging folder structure
+                source_parent = os.path.dirname(folder)
+                
+                # Combine source parent with scheme-generated path
+                out_folder = os.path.join(source_parent, scheme_path)
+                
+                # Normalize path separators
+                out_folder = os.path.normpath(out_folder)
+                
                 meta["album"] = os.path.basename(out_folder)
-                self.log(f"Output folder: {out_folder}")
+                self.log(f"=> Output folder: {out_folder}")
                 os.makedirs(out_folder, exist_ok=True)
             except Exception as e:
                 self.log(f"Failed evaluating output folder path: {e}")

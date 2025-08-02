@@ -2951,3 +2951,231 @@ Processing folder: M:/Live Music/2025-06-07 - Charleston Pour House - Charlotte,
 2025-08-02 11:40:01,865 - INFO - Used cache saved.
 2025-08-02 11:40:09,011 - INFO - History saved.
 2025-08-02 11:40:09,012 - INFO - Used cache saved.
+2025-08-02 13:30:40,059 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 13:30:40,059 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 13:31:43,606 - INFO - => Output folder: Phish/1995
+2025-08-02 13:31:43,607 - INFO - => Output folder: Phish/1995
+2025-08-02 13:32:09,842 - INFO - History saved.
+2025-08-02 13:32:09,843 - INFO - Used cache saved.
+2025-08-02 13:32:13,019 - INFO - Loaded folder scheme: 
+2025-08-02 13:32:13,019 - INFO - Loaded saving scheme: 
+2025-08-02 13:35:00,771 - INFO - Loaded folder scheme: 
+2025-08-02 13:35:00,771 - INFO - Loaded saving scheme: 
+2025-08-02 13:36:15,775 - INFO - Loaded folder scheme: 
+2025-08-02 13:36:15,776 - INFO - Loaded saving scheme: 
+2025-08-02 13:39:43,849 - INFO - Loaded folder scheme: 
+2025-08-02 13:39:43,849 - INFO - Loaded saving scheme: 
+2025-08-02 13:41:17,038 - INFO - Loaded folder scheme: 
+2025-08-02 13:41:17,038 - INFO - Loaded saving scheme: 
+2025-08-02 13:47:37,339 - INFO - Loaded folder scheme: 
+2025-08-02 13:47:37,339 - INFO - Loaded saving scheme: 
+2025-08-02 13:47:39,777 - INFO - Created scheme_preset.ini with default preset
+2025-08-02 13:47:42,422 - INFO - Loaded preset: Default
+2025-08-02 13:49:37,270 - INFO - Created scheme_preset.ini with default preset
+2025-08-02 13:49:37,285 - INFO - Loaded preset: Default
+2025-08-02 13:52:54,584 - INFO - Loaded preset: Default
+2025-08-02 13:54:52,033 - INFO - History saved.
+2025-08-02 13:54:52,034 - INFO - Used cache saved.
+2025-08-02 13:56:01,152 - ERROR - Error saving schemes to config: invalid interpolation syntax in '%artist%/$year(%date%)' at position 0
+2025-08-02 13:56:01,155 - ERROR - Traceback: Traceback (most recent call last):
+  File "S:\Projects\GitHub\tagforge\TagForge.py", line 360, in _save_schemes_to_config
+    self.cfg.set(section_name, "saving_scheme", self.saving_scheme or "")
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gaming\AppData\Local\Programs\Python\Python313\Lib\configparser.py", line 1240, in set
+    super().set(section, option, value)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gaming\AppData\Local\Programs\Python\Python313\Lib\configparser.py", line 923, in set
+    value = self._interpolation.before_set(self, section, option,
+                                           value)
+  File "C:\Users\Gaming\AppData\Local\Programs\Python\Python313\Lib\configparser.py", line 422, in before_set
+    raise ValueError("invalid interpolation syntax in %r at "
+                     "position %d" % (value, tmp_value.find('%')))
+ValueError: invalid interpolation syntax in '%artist%/$year(%date%)' at position 0
+
+2025-08-02 13:56:03,274 - INFO - Loaded preset: Default
+2025-08-02 13:56:08,350 - INFO - History saved.
+2025-08-02 13:56:08,351 - INFO - Used cache saved.
+2025-08-02 13:56:11,184 - ERROR - Error saving schemes to config: invalid interpolation syntax in '%artist%/$year(%date%)' at position 0
+2025-08-02 13:56:11,186 - ERROR - Traceback: Traceback (most recent call last):
+  File "S:\Projects\GitHub\tagforge\TagForge.py", line 360, in _save_schemes_to_config
+    self.cfg.set(section_name, "saving_scheme", self.saving_scheme or "")
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gaming\AppData\Local\Programs\Python\Python313\Lib\configparser.py", line 1240, in set
+    super().set(section, option, value)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gaming\AppData\Local\Programs\Python\Python313\Lib\configparser.py", line 923, in set
+    value = self._interpolation.before_set(self, section, option,
+                                           value)
+  File "C:\Users\Gaming\AppData\Local\Programs\Python\Python313\Lib\configparser.py", line 422, in before_set
+    raise ValueError("invalid interpolation syntax in %r at "
+                     "position %d" % (value, tmp_value.find('%')))
+ValueError: invalid interpolation syntax in '%artist%/$year(%date%)' at position 0
+
+2025-08-02 13:56:25,815 - ERROR - Error saving schemes to config: invalid interpolation syntax in '%artist%/$year(%date%)' at position 0
+2025-08-02 13:56:25,816 - ERROR - Traceback: Traceback (most recent call last):
+  File "S:\Projects\GitHub\tagforge\TagForge.py", line 360, in _save_schemes_to_config
+    self.cfg.set(section_name, "saving_scheme", self.saving_scheme or "")
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gaming\AppData\Local\Programs\Python\Python313\Lib\configparser.py", line 1240, in set
+    super().set(section, option, value)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gaming\AppData\Local\Programs\Python\Python313\Lib\configparser.py", line 923, in set
+    value = self._interpolation.before_set(self, section, option,
+                                           value)
+  File "C:\Users\Gaming\AppData\Local\Programs\Python\Python313\Lib\configparser.py", line 422, in before_set
+    raise ValueError("invalid interpolation syntax in %r at "
+                     "position %d" % (value, tmp_value.find('%')))
+ValueError: invalid interpolation syntax in '%artist%/$year(%date%)' at position 0
+
+2025-08-02 13:58:06,235 - INFO - => Output folder: TEST/2003
+2025-08-02 13:58:07,010 - INFO - 
+Processing folder: M:/Projects/Staging/1 - Copy
+2025-08-02 13:58:07,015 - INFO -   Updated artists.txt with: TEST
+2025-08-02 13:58:07,022 - INFO - Metadata for scheme evaluation: {'artist': 'TEST', 'venue': 'Madison Square Garden', 'city': 'Miami, FL', 'source': 'SBD', 'format': 'FLAC16', 'genre': 'Rock', 'additional': '', 'add': '', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-02 13:58:07,025 - INFO - Evaluating output folder path with current schemes.
+2025-08-02 13:58:07,027 - INFO - => Output folder: TEST/2003
+2025-08-02 13:58:07,030 - INFO - Output folder: TEST/2003/2003-01-02 - Madison Square Garden - Miami, FL [FLAC16]
+2025-08-02 13:58:08,310 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-02 13:58:10,034 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-02 13:58:10,942 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-02 13:58:12,554 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-02 13:58:13,264 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-02 13:58:13,388 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-02 13:58:14,107 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-02 13:58:15,784 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-02 13:58:16,505 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-02 13:58:17,327 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-02 13:58:19,709 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-02 13:58:20,975 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-02 13:58:21,782 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-02 13:58:22,903 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-02 13:58:23,597 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-02 13:58:24,911 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-02 13:58:25,803 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-02 13:58:26,483 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-02 13:58:26,496 - INFO - Removed empty source folder: M:\Projects\Staging\1 - Copy
+2025-08-02 13:58:26,504 - INFO - Finished processing folder: TEST/2003/2003-01-02 - Madison Square Garden - Miami, FL [FLAC16]
+2025-08-02 13:58:26,597 - INFO - Used cache saved.
+2025-08-02 14:02:16,851 - INFO - => Output folder: TEST/2003
+2025-08-02 14:02:17,594 - INFO - 
+Processing folder: M:/Projects/Staging/TEST/2003/2003-01-02 - Madison Square Garden - Miami, FL [FLAC16]
+2025-08-02 14:02:17,606 - INFO - Metadata for scheme evaluation: {'artist': 'TEST', 'venue': 'Madison Square Garden', 'city': 'Miami, FL', 'source': '', 'format': 'FLAC16', 'genre': 'Rock', 'additional': '', 'add': '', 'date': '2003-01-02', 'currentfoldername': '2003-01-02 - Madison Square Garden - Miami, FL [FLAC16]'}
+2025-08-02 14:02:17,608 - INFO - Evaluating output folder path with current schemes.
+2025-08-02 14:02:17,611 - INFO - => Output folder: TEST/2003
+2025-08-02 14:02:17,615 - INFO - => Output folder: M:\Projects\Staging\TEST\2003\TEST\2003\2003-01-02 - Madison Square Garden - Miami, FL [FLAC16]
+2025-08-02 14:02:17,652 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-02 14:02:17,671 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-02 14:02:17,692 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-02 14:02:17,710 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-02 14:02:17,729 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-02 14:02:17,746 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-02 14:02:17,767 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-02 14:02:17,790 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-02 14:02:17,822 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-02 14:02:17,846 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-02 14:02:17,871 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-02 14:02:17,904 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-02 14:02:17,923 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-02 14:02:17,948 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-02 14:02:17,968 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-02 14:02:17,997 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-02 14:02:18,017 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-02 14:02:18,037 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-02 14:02:18,042 - INFO - Removed empty source folder: M:\Projects\Staging\TEST\2003\2003-01-02 - Madison Square Garden - Miami, FL [FLAC16]
+2025-08-02 14:02:18,055 - INFO - Finished processing folder: M:\Projects\Staging\TEST\2003\TEST\2003\2003-01-02 - Madison Square Garden - Miami, FL [FLAC16]
+2025-08-02 14:02:18,123 - INFO - Used cache saved.
+2025-08-02 14:03:55,487 - INFO - => Output folder: TEST/2003
+2025-08-02 14:03:56,064 - INFO - 
+Processing folder: Y:/TEST/2003/TEST/2003/2003-01-02 - Madison Square Garden - Miami, FL [FLAC16]
+2025-08-02 14:03:56,079 - INFO - Metadata for scheme evaluation: {'artist': 'TEST', 'venue': 'Madison Square Garden', 'city': 'Miami, FL', 'source': '', 'format': 'FLAC16', 'genre': 'Rock', 'additional': '', 'add': '', 'date': '2003-01-02', 'currentfoldername': '2003-01-02 - Madison Square Garden - Miami, FL [FLAC16]'}
+2025-08-02 14:03:56,084 - INFO - Evaluating output folder path with current schemes.
+2025-08-02 14:03:56,092 - INFO - => Output folder: TEST/2003
+2025-08-02 14:03:56,098 - INFO - => Output folder: Y:\TEST\2003\TEST\2003\TEST\2003\2003-01-02 - Madison Square Garden - Miami, FL [FLAC16]
+2025-08-02 14:03:56,137 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-02 14:03:56,158 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-02 14:03:56,183 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-02 14:03:56,203 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-02 14:03:56,225 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-02 14:03:56,245 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-02 14:03:56,269 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-02 14:03:56,291 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-02 14:03:56,316 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-02 14:03:56,338 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-02 14:03:56,355 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-02 14:03:56,377 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-02 14:03:56,403 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-02 14:03:56,419 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-02 14:03:56,443 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-02 14:03:56,470 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-02 14:03:56,496 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-02 14:03:56,526 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-02 14:03:56,536 - INFO - Removed empty source folder: Y:\TEST\2003\TEST\2003\2003-01-02 - Madison Square Garden - Miami, FL [FLAC16]
+2025-08-02 14:03:56,543 - INFO - Finished processing folder: Y:\TEST\2003\TEST\2003\TEST\2003\2003-01-02 - Madison Square Garden - Miami, FL [FLAC16]
+2025-08-02 14:03:56,581 - INFO - Used cache saved.
+2025-08-02 14:04:09,652 - INFO - History saved.
+2025-08-02 14:04:09,654 - INFO - Used cache saved.
+2025-08-02 14:05:15,879 - INFO - Added preset: Default
+2025-08-02 14:05:57,456 - INFO - Saved schemes to config file
+2025-08-02 14:05:57,460 - INFO - Updated main config.ini with current schemes
+2025-08-02 14:05:57,461 - INFO - => Output folder: M:\Live Music\Phish\1995
+2025-08-02 14:05:57,462 - INFO - => Output folder: M:\Live Music\Phish\1995
+2025-08-02 14:06:05,418 - INFO - Loaded preset: Default
+2025-08-02 14:06:27,093 - INFO - Added preset: Phish
+2025-08-02 14:06:32,709 - INFO - Saved schemes to config file
+2025-08-02 14:06:32,716 - INFO - Updated main config.ini with current schemes
+2025-08-02 14:06:32,717 - INFO - => Output folder: Y:\Music-II\Live Phish\1995
+2025-08-02 14:06:32,717 - INFO - => Output folder: Y:\Music-II\Live Phish\1995
+2025-08-02 14:06:40,145 - INFO - History saved.
+2025-08-02 14:06:40,146 - INFO - Used cache saved.
+2025-08-02 14:06:56,724 - INFO - Loaded preset: Default
+2025-08-02 14:07:02,414 - INFO - Saved schemes to config file
+2025-08-02 14:07:02,420 - INFO - Updated main config.ini with current schemes
+2025-08-02 14:07:02,421 - INFO - => Output folder: M:\Live Music\Phish\1995
+2025-08-02 14:07:02,422 - INFO - => Output folder: M:\Live Music\Phish\1995
+2025-08-02 14:13:23,281 - INFO - Loaded preset: Phish
+2025-08-02 14:13:25,193 - INFO - Loaded preset: Default
+2025-08-02 14:13:29,904 - INFO - Saved schemes to config file
+2025-08-02 14:13:29,905 - INFO - Updated main config.ini with current schemes
+2025-08-02 14:13:29,906 - INFO - => Output folder: M:\Live Music\Phish\1995
+2025-08-02 14:13:29,907 - INFO - => Output folder: M:\Live Music\Phish\1995
+2025-08-02 14:14:15,971 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 14:14:15,971 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 14:14:25,346 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 14:14:25,346 - INFO - Loaded saving scheme: %artist%/$year(%date%)
+2025-08-02 14:14:43,835 - INFO - Added preset: Default
+2025-08-02 14:15:05,985 - INFO - Added preset: Phish
+2025-08-02 14:15:07,896 - INFO - Saved schemes to config file
+2025-08-02 14:15:07,903 - INFO - Updated main config.ini with current schemes
+2025-08-02 14:15:07,904 - INFO - => Output folder: Y:\Music-II\Live Phish\1995
+2025-08-02 14:15:07,904 - INFO - => Output folder: Y:\Music-II\Live Phish\1995
+2025-08-02 14:15:17,327 - INFO - Loaded preset: Default
+2025-08-02 14:15:19,467 - INFO - Saved schemes to config file
+2025-08-02 14:15:19,474 - INFO - Updated main config.ini with current schemes
+2025-08-02 14:15:19,474 - INFO - => Output folder: M:\Live MusicPhish\1995
+2025-08-02 14:15:19,475 - INFO - => Output folder: M:\Live MusicPhish\1995
+2025-08-02 14:22:40,670 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 14:22:40,670 - INFO - Loaded saving scheme: M:\Live Music%artist%\$year(%date%)
+2025-08-02 14:23:03,098 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 14:23:03,098 - INFO - Loaded saving scheme: M:\Live Music%artist%\$year(%date%)
+2025-08-02 14:29:55,526 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 14:29:55,526 - INFO - Loaded saving scheme: M:\Live Music%artist%\$year(%date%)
+2025-08-02 14:30:02,855 - INFO - Loaded preset: Phish
+2025-08-02 14:30:04,501 - INFO - Loaded preset: Default
+2025-08-02 14:30:06,777 - INFO - Scheme saved to config.ini
+2025-08-02 14:30:06,778 - ERROR - Folder scheme evaluated to empty — check tokens and metadata.
+2025-08-02 14:30:06,778 - ERROR - Folder scheme evaluated to empty — check tokens and metadata.
+2025-08-02 14:31:19,601 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 14:31:19,601 - INFO - Loaded saving scheme: M:\Live Music%artist%\$year(%date%)
+2025-08-02 14:31:31,227 - INFO - Loaded preset: Default
+2025-08-02 14:31:32,136 - INFO - Scheme saved to config.ini
+2025-08-02 14:31:32,137 - ERROR - Folder scheme evaluated to empty — check tokens and metadata.
+2025-08-02 14:31:32,138 - ERROR - Folder scheme evaluated to empty — check tokens and metadata.
+2025-08-02 14:31:39,403 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 14:31:39,403 - INFO - Loaded saving scheme: M:\Live Music%artist%\$year(%date%)
+2025-08-02 14:32:05,186 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 14:32:05,186 - INFO - Loaded saving scheme: M:\Live Music%artist%\$year(%date%)
+2025-08-02 14:32:09,020 - INFO - Loaded preset: Phish
+2025-08-02 14:32:09,847 - INFO - Saved schemes to config file
+2025-08-02 14:32:09,853 - INFO - Updated main config.ini with current schemes
+2025-08-02 14:32:09,854 - INFO - => Output folder: Y:\Music-II\Live Phish\1995
+2025-08-02 14:32:09,855 - INFO - => Output folder: Y:\Music-II\Live Phish\1995

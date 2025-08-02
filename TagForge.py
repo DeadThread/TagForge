@@ -98,7 +98,7 @@ class TkTagForge:
         # Config parser and config file path
         self.config_file = Path("config/config.ini")
         self.config_file.parent.mkdir(parents=True, exist_ok=True)
-        self.cfg = configparser.ConfigParser()
+        self.cfg = configparser.ConfigParser(interpolation=None)
         self.cfg.read(self.config_file)
 
         # Prepare themes folder
@@ -280,10 +280,106 @@ class TkTagForge:
         )
 
     def load_schemes_from_config(self, log_loaded=True):
-        self.folder_scheme, self.saving_scheme = load_schemes_from_ini(log=self.gui_logger.log, log_loaded=log_loaded)
+        """Load schemes from config.ini, or Default preset if no schemes exist."""
+        # First try to load from existing config
+        self.folder_scheme, self.saving_scheme = load_schemes_from_ini(log=self.gui_logger.log, log_loaded=False)
+        
+        # If no schemes found, try to load Default preset
+        if not self.folder_scheme and not self.saving_scheme:
+            self._load_default_preset()
+        
         if log_loaded:
-            self.gui_logger.log(f"Loaded folder scheme: {self.folder_scheme}", level="debug")
-            self.gui_logger.log(f"Loaded saving scheme: {self.saving_scheme}", level="debug")
+            self.gui_logger.log(f"Loaded folder scheme: {self.folder_scheme}", level="info")
+            self.gui_logger.log(f"Loaded saving scheme: {self.saving_scheme}", level="info")
+
+    def _load_default_preset(self):
+        """Load the Default preset from scheme_preset.ini if available."""
+        try:
+            preset_file = Path("config/scheme_preset.ini")
+            
+            # Ensure preset file exists with Default
+            if not preset_file.exists():
+                self._create_default_preset_file(preset_file)
+            
+            # Load Default preset
+            config = configparser.ConfigParser(interpolation=None)
+            config.read(preset_file)
+            
+            if "Default" in config:
+                self.saving_scheme = config["Default"].get("saving_scheme", "%artist%/$year(%date%)")
+                self.folder_scheme = config["Default"].get("folder_scheme", "%date% - %venue% - %city% [%format%] [%additional%]")
+                
+                # Also update the main config.ini with these values
+                self._save_schemes_to_config()
+                
+                self.gui_logger.log("Loaded Default preset schemes", level="debug")
+            else:
+                # Fallback to hardcoded defaults
+                self.saving_scheme = "%artist%/$year(%date%)"
+                self.folder_scheme = "%date% - %venue% - %city% [%format%] [%additional%]"
+                self.gui_logger.log("Using hardcoded default schemes", level="debug")
+                
+        except Exception as e:
+            # Fallback to hardcoded defaults
+            self.saving_scheme = "%artist%/$year(%date%)"
+            self.folder_scheme = "%date% - %venue% - %city% [%format%] [%additional%]"
+            self.gui_logger.log(f"Error loading Default preset, using hardcoded defaults: {e}", level="warn")
+
+    def _create_default_preset_file(self, preset_file):
+        """Create scheme_preset.ini with Default preset."""
+        try:
+            preset_file.parent.mkdir(parents=True, exist_ok=True)
+            config = configparser.ConfigParser(interpolation=None)
+            
+            # Add default preset
+            config.add_section("Default")
+            config.set("Default", "saving_scheme", "%artist%/$year(%date%)")
+            config.set("Default", "folder_scheme", "%date% - %venue% - %city% [%format%] [%additional%]")
+            
+            with open(preset_file, "w", encoding="utf-8") as f:
+                config.write(f)
+            
+            self.gui_logger.log("Created scheme_preset.ini with Default preset", level="debug")
+            
+        except Exception as e:
+            self.gui_logger.log(f"Error creating preset file: {e}", level="error")
+
+    def _save_schemes_to_config(self):
+        """Save current schemes to config.ini while preserving existing sections."""
+        try:
+            self.config_file.parent.mkdir(parents=True, exist_ok=True)
+            
+            # Use the existing self.cfg instead of creating a new one
+            # This preserves all existing sections that were loaded at startup
+            section_name = "SchemeEditor"
+            
+            # Check if section exists before trying to add it
+            if not self.cfg.has_section(section_name):
+                self.cfg.add_section(section_name)
+            
+            self.cfg.set(section_name, "saving_scheme", self.saving_scheme or "")
+            self.cfg.set(section_name, "folder_scheme", self.folder_scheme or "")
+            
+            # Write the entire config back
+            with open(self.config_file, "w", encoding="utf-8") as f:
+                self.cfg.write(f)
+            
+            self.gui_logger.log(f"Updated config.ini with schemes - saving: '{self.saving_scheme}', folder: '{self.folder_scheme}'", level="debug")
+            
+            # Verify the write worked by reading back
+            verify_config = configparser.ConfigParser(interpolation=None)  # Also disable interpolation here
+            verify_config.read(self.config_file)
+            if verify_config.has_section(section_name):
+                saved_saving = verify_config.get(section_name, "saving_scheme", fallback="")
+                saved_folder = verify_config.get(section_name, "folder_scheme", fallback="")
+                self.gui_logger.log(f"Verified config.ini - saving: '{saved_saving}', folder: '{saved_folder}'", level="debug")
+            else:
+                self.gui_logger.log("ERROR: Section not found in config.ini after saving!", level="error")
+            
+        except Exception as e:
+            self.gui_logger.log(f"Error saving schemes to config: {e}", level="error")
+            import traceback
+            self.gui_logger.log(f"Traceback: {traceback.format_exc()}", level="error")
 
     def update_processor_schemes(self):
         self.gui_logger.log("Updating processor schemes...", level="debug")

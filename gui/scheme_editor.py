@@ -1,7 +1,7 @@
 import os
 import re
 import tkinter as tk
-from tkinter import ttk, messagebox
+from tkinter import ttk, messagebox, simpledialog
 from datetime import datetime
 from pathlib import Path
 import configparser
@@ -167,27 +167,34 @@ SAMPLE_METADATA = {
 class SchemeEditor(tk.Toplevel):
     CONFIG_DIR = Path("config")
     CONFIG_FILE = CONFIG_DIR / "config.ini"
+    PRESET_FILE = CONFIG_DIR / "scheme_preset.ini"
     CONFIG_SECTION = "SchemeEditor"
 
     def __init__(self, master=None, log_callback=None, on_save_callback=None, config_file=None):
         super().__init__(master)
         self.title("Folder Naming Scheme Editor")
-        self.geometry("900x600")
-        self.minsize(700, 480)
+        self.geometry("900x650")
+        self.minsize(700, 530)
         self.log_callback = log_callback
         self.on_save_callback = on_save_callback
 
         # Support injected config file or fallback
         self.config_file = Path(config_file) if config_file else self.CONFIG_FILE
         self.config_dir = self.config_file.parent
+        self.preset_file = self.config_dir / "scheme_preset.ini"
 
         self.text_font = tkfont.Font(family="TkDefaultFont", size=11, weight="bold")
 
+        # Track if user has manually modified schemes (to avoid auto-preset selection)
+        self.user_modified = False
+        self.loading_preset = False  # Flag to prevent marking as user-modified during preset loading
+
+        self._ensure_preset_file()
         self._build_widgets()
-        self._set_default_texts()
-        self._bind_events()
+        self._load_presets()
         self._load_config()
         self._refresh_preview()
+        self._bind_events()
 
     def _log(self, msg):
         if not SUPPRESS_LOGGING:
@@ -198,13 +205,34 @@ class SchemeEditor(tk.Toplevel):
     def normalize_path_slashes(self, path: str) -> str:
         return path.replace("\\", "/") if path else ""
 
+    def _ensure_preset_file(self):
+        """Create scheme_preset.ini with default preset if it doesn't exist."""
+        if not self.preset_file.exists():
+            self.config_dir.mkdir(parents=True, exist_ok=True)
+            config = configparser.ConfigParser(interpolation=None)
+            
+            # Add default preset
+            config["Default"] = {
+                "saving_scheme": "%artist%/$year(%date%)",
+                "folder_scheme": "%date% - %venue% - %city% [%format%] [%additional%]"
+            }
+            
+            with open(self.preset_file, "w", encoding="utf-8") as f:
+                config.write(f)
+            self._log("Created scheme_preset.ini with default preset")
+
     def _build_widgets(self):
         style = ttk.Style()
         fg = style.lookup("TEntry", "foreground", default="black")
         bg = style.lookup("TEntry", "fieldbackground", default="white")
 
-        frm_tokens = ttk.Frame(self)
-        frm_tokens.pack(side=tk.LEFT, fill=tk.Y, padx=8, pady=8)
+        # Main container
+        main_frame = ttk.Frame(self)
+        main_frame.pack(fill=tk.BOTH, expand=True, padx=8, pady=8)
+
+        # Left panel for tokens
+        frm_tokens = ttk.Frame(main_frame)
+        frm_tokens.pack(side=tk.LEFT, fill=tk.Y, padx=(0, 8))
 
         ttk.Label(frm_tokens, text="Tokens / Functions").pack(anchor="nw", padx=4, pady=4)
 
@@ -225,8 +253,26 @@ class SchemeEditor(tk.Toplevel):
             self.lst_tokens.insert(tk.END, t)
         self.lst_tokens.bind("<Double-Button-1>", self._on_token_insert)
 
-        frm_right = ttk.Frame(self)
-        frm_right.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=8, pady=8)
+        # Right panel for schemes and controls
+        frm_right = ttk.Frame(main_frame)
+        frm_right.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+
+        # Preset controls at the top
+        preset_frame = ttk.Frame(frm_right)
+        preset_frame.pack(fill=tk.X, pady=(0, 8))
+
+        ttk.Label(preset_frame, text="Select Preset:").pack(side=tk.LEFT, padx=(0, 4))
+        
+        self.preset_var = tk.StringVar()
+        self.preset_combo = ttk.Combobox(preset_frame, textvariable=self.preset_var, state="readonly", width=20)
+        self.preset_combo.pack(side=tk.LEFT, padx=(0, 4))
+        self.preset_combo.bind("<<ComboboxSelected>>", self._on_preset_selected)
+
+        self.btn_add_preset = ttk.Button(preset_frame, text="Add Preset", command=self._add_preset)
+        self.btn_add_preset.pack(side=tk.LEFT, padx=2)
+
+        self.btn_remove_preset = ttk.Button(preset_frame, text="Remove Preset", command=self._remove_preset)
+        self.btn_remove_preset.pack(side=tk.LEFT, padx=2)
 
         # Colors for schemes
         self.saving_bg = "#e6f2ff"   # Light blue background
@@ -285,6 +331,134 @@ class SchemeEditor(tk.Toplevel):
         self.txt_preview.tag_configure("saving_scheme", foreground=self.saving_fg)
         self.txt_preview.tag_configure("folder_scheme", foreground=self.folder_fg)
 
+    def _load_presets(self):
+        """Load presets from preset file and populate combobox."""
+        try:
+            config = configparser.ConfigParser(interpolation=None)
+            config.read(self.preset_file)
+            
+            presets = list(config.sections())
+            if not presets:
+                presets = ["Default"]
+            
+            self.preset_combo['values'] = presets
+            
+            # Auto-select Default if no config exists yet
+            if not self.config_file.exists():
+                self.preset_var.set("Default")
+                self._on_preset_selected()
+            
+        except Exception as e:
+            self._log(f"Error loading presets: {e}")
+            self.preset_combo['values'] = ["Default"]
+            # Auto-select Default on error too
+            if not self.config_file.exists():
+                self.preset_var.set("Default")
+                self._on_preset_selected()
+
+    def _on_preset_selected(self, event=None):
+        """Handle preset selection from dropdown."""
+        if self.loading_preset:
+            return
+            
+        preset_name = self.preset_var.get()
+        if not preset_name:
+            return
+            
+        try:
+            config = configparser.ConfigParser(interpolation=None)
+            config.read(self.preset_file)
+            
+            if preset_name in config:
+                self.loading_preset = True  # Prevent marking as user-modified
+                
+                saving_scheme = config[preset_name].get("saving_scheme", "")
+                folder_scheme = config[preset_name].get("folder_scheme", "")
+                
+                self.txt_saving.delete("1.0", tk.END)
+                self.txt_saving.insert("1.0", saving_scheme)
+                
+                self.txt_folder.delete("1.0", tk.END)
+                self.txt_folder.insert("1.0", folder_scheme)
+                
+                self._refresh_preview()
+                self._log(f"Loaded preset: {preset_name}")
+                
+                self.loading_preset = False
+        except Exception as e:
+            self._log(f"Error loading preset {preset_name}: {e}")
+            self.loading_preset = False
+
+    def _add_preset(self):
+        """Add a new preset with current scheme values."""
+        name = simpledialog.askstring("Add Preset", "Enter preset name:")
+        if not name or not name.strip():
+            return
+            
+        name = name.strip()
+        
+        try:
+            config = configparser.ConfigParser(interpolation=None)
+            config.read(self.preset_file)
+            
+            # Check if preset already exists
+            if name in config:
+                if not messagebox.askyesno("Preset Exists", f"Preset '{name}' already exists. Overwrite?"):
+                    return
+            
+            # Add/update preset
+            config[name] = {
+                "saving_scheme": self.txt_saving.get("1.0", "end-1c").strip(),
+                "folder_scheme": self.txt_folder.get("1.0", "end-1c").strip()
+            }
+            
+            with open(self.preset_file, "w", encoding="utf-8") as f:
+                config.write(f)
+            
+            # Refresh preset list and select the new preset
+            self._load_presets()
+            self.preset_var.set(name)
+            
+            self._log(f"Added preset: {name}")
+            
+        except Exception as e:
+            self._log(f"Error adding preset: {e}")
+            messagebox.showerror("Error", f"Failed to add preset: {e}")
+
+    def _remove_preset(self):
+        """Remove the currently selected preset."""
+        preset_name = self.preset_var.get()
+        if not preset_name:
+            messagebox.showwarning("No Selection", "Please select a preset to remove.")
+            return
+            
+        if preset_name == "Default":
+            messagebox.showwarning("Cannot Remove", "Cannot remove the Default preset.")
+            return
+            
+        if not messagebox.askyesno("Confirm Delete", f"Are you sure you want to delete preset '{preset_name}'?"):
+            return
+            
+        try:
+            config = configparser.ConfigParser(interpolation=None)
+            config.read(self.preset_file)
+            
+            if preset_name in config:
+                config.remove_section(preset_name)
+                
+                with open(self.preset_file, "w", encoding="utf-8") as f:
+                    config.write(f)
+                
+                # Refresh preset list and clear selection
+                self._load_presets()
+                self.preset_var.set("")
+                
+                self._log(f"Removed preset: {preset_name}")
+            
+        except Exception as e:
+            self._log(f"Error removing preset: {e}")
+            messagebox.showerror("Error", f"Failed to remove preset: {e}")
+
     def _set_default_texts(self):
         self.txt_saving.delete("1.0", tk.END)
         self.txt_saving.insert("1.0", "%artist%/$year(%date%)")
@@ -297,6 +471,14 @@ class SchemeEditor(tk.Toplevel):
 
     def _on_text_modified(self, event):
         event.widget.edit_modified(False)
+        
+        # Only mark as user-modified if we're not loading a preset
+        if not self.loading_preset:
+            self.user_modified = True
+            # Clear preset selection since user has manually modified
+            if self.preset_var.get():
+                self.preset_var.set("")
+        
         self._refresh_preview()
 
     def _on_token_insert(self, event):
@@ -344,20 +526,72 @@ class SchemeEditor(tk.Toplevel):
         self.txt_preview.config(state="disabled")
 
     def _reset_to_default(self):
+        self.loading_preset = True
         self._set_default_texts()
+        self.preset_var.set("Default")
         self._refresh_preview()
+        self.user_modified = False
+        self.loading_preset = False
 
     def _load_config(self):
+        """Load saved schemes from config.ini, but don't auto-select preset if user has custom schemes."""
         if not self.config_file.exists():
+            # If no config exists, load Default preset
+            if not self.preset_var.get():
+                self.preset_var.set("Default")
+                self._on_preset_selected()
             return
+            
         config = configparser.ConfigParser(interpolation=None)
         config.read(self.config_file)
+        
         if self.CONFIG_SECTION in config:
             section = config[self.CONFIG_SECTION]
-            self.txt_saving.delete("1.0", tk.END)
-            self.txt_saving.insert("1.0", section.get("saving_scheme", ""))
-            self.txt_folder.delete("1.0", tk.END)
-            self.txt_folder.insert("1.0", section.get("folder_scheme", ""))
+            saving_scheme = section.get("saving_scheme", "")
+            folder_scheme = section.get("folder_scheme", "")
+            
+            if saving_scheme or folder_scheme:
+                self.loading_preset = True
+                
+                self.txt_saving.delete("1.0", tk.END)
+                self.txt_saving.insert("1.0", saving_scheme)
+                self.txt_folder.delete("1.0", tk.END)
+                self.txt_folder.insert("1.0", folder_scheme)
+                
+                # Check if current schemes match any preset
+                preset_match = self._find_matching_preset(saving_scheme, folder_scheme)
+                if preset_match:
+                    self.preset_var.set(preset_match)
+                else:
+                    # User has custom schemes, don't select any preset
+                    self.preset_var.set("")
+                    self.user_modified = True
+                
+                self.loading_preset = False
+            else:
+                # Empty schemes in config, load Default
+                if not self.preset_var.get():
+                    self.preset_var.set("Default")
+                    self._on_preset_selected()
+        else:
+            # No section in config, load Default
+            if not self.preset_var.get():
+                self.preset_var.set("Default")
+                self._on_preset_selected()
+
+    def _find_matching_preset(self, saving_scheme, folder_scheme):
+        """Find if current schemes match any existing preset."""
+        try:
+            config = configparser.ConfigParser(interpolation=None)
+            config.read(self.preset_file)
+            
+            for preset_name in config.sections():
+                if (config[preset_name].get("saving_scheme", "") == saving_scheme and
+                    config[preset_name].get("folder_scheme", "") == folder_scheme):
+                    return preset_name
+        except Exception:
+            pass
+        return None
 
     def _save_schemes(self):
         saving_scheme = self.txt_saving.get("1.0", "end-1c").strip()
@@ -370,22 +604,69 @@ class SchemeEditor(tk.Toplevel):
             preview_path = folder_eval
         else:
             preview_path = str(Path(saving_eval) / Path(folder_eval)).replace("\\", "/").rstrip("/")
+        
         self._save_config()
+        
+        # Update main config.ini
+        self._update_main_config(saving_scheme, folder_scheme)
+        
         if self.on_save_callback:
             # Pass evaluated live preview as third param
             self.on_save_callback(saving_scheme, folder_scheme, preview_path)
         self.destroy()
 
+    def _update_main_config(self, saving_scheme, folder_scheme):
+        """Update the main config.ini file with current schemes."""
+        try:
+            self.config_dir.mkdir(parents=True, exist_ok=True)
+            
+            main_config = configparser.ConfigParser(interpolation=None)
+            if self.config_file.exists():
+                main_config.read(self.config_file)
+            
+            if self.CONFIG_SECTION not in main_config:
+                main_config.add_section(self.CONFIG_SECTION)
+            
+            main_config.set(self.CONFIG_SECTION, "saving_scheme", saving_scheme)
+            main_config.set(self.CONFIG_SECTION, "folder_scheme", folder_scheme)
+            
+            with open(self.config_file, "w", encoding="utf-8") as f:
+                main_config.write(f)
+                
+            self._log("Updated main config.ini with current schemes")
+            
+        except Exception as e:
+            self._log(f"Error updating main config: {e}")
+            import traceback
+            self._log(f"Traceback: {traceback.format_exc()}")
 
     def _save_config(self):
-        self.config_dir.mkdir(exist_ok=True)
-        config = configparser.ConfigParser(interpolation=None)
-        config[self.CONFIG_SECTION] = {
-            "saving_scheme": self.txt_saving.get("1.0", "end-1c"),
-            "folder_scheme": self.txt_folder.get("1.0", "end-1c"),
-        }
-        with open(self.config_file, "w", encoding="utf-8") as f:
-            config.write(f)
+        """Save current schemes to config file."""
+        try:
+            self.config_dir.mkdir(exist_ok=True)
+            config = configparser.ConfigParser(interpolation=None)
+            
+            # Read existing config first
+            if self.config_file.exists():
+                config.read(self.config_file)
+            
+            # Add section if it doesn't exist
+            if self.CONFIG_SECTION not in config:
+                config.add_section(self.CONFIG_SECTION)
+            
+            # Set the values
+            config.set(self.CONFIG_SECTION, "saving_scheme", self.txt_saving.get("1.0", "end-1c"))
+            config.set(self.CONFIG_SECTION, "folder_scheme", self.txt_folder.get("1.0", "end-1c"))
+            
+            with open(self.config_file, "w", encoding="utf-8") as f:
+                config.write(f)
+                
+            self._log("Saved schemes to config file")
+            
+        except Exception as e:
+            self._log(f"Error saving config: {e}")
+            import traceback
+            self._log(f"Traceback: {traceback.format_exc()}")
 
 
 if __name__ == "__main__":
