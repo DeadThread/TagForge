@@ -23,7 +23,7 @@ from utils.combobox_utils import update_combobox_values
 from utils.scheme_evaluator import load_schemes_from_ini, apply_schemes_to_processor, SchemeEvaluator
 from gui.build_gui import build_main_gui
 from gui.scheme_editor import SchemeEditor
-from gui.tree_selector import handle_tree_selection, populate_tree, on_tree_open
+from gui.metadata_gui import handle_tree_selection, populate_tree, on_tree_open
 from gui.build_menu import build_menu
 from utils.audio_player import AudioPlayer
 

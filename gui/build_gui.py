@@ -2,8 +2,7 @@ import tkinter as tk
 from tkinter import ttk, filedialog
 from datetime import datetime
 from utils.constants import DEFAULTS
-from gui.tree_selector import handle_tree_selection, on_tree_open
-from utils.theme_manager import load_ttk_theme, invert_textbox_colors, _current_theme_colors, _restyle_existing_tk_widgets
+from gui.metadata_gui import handle_tree_selection, on_tree_open
 from utils.audio_player import AudioPlayer
 from utils.autocomplete import AutocompleteCombobox
 from utils.logger import log_message  # Make sure this is imported

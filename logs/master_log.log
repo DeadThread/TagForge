@@ -5961,3 +5961,366 @@ Processing folder: M:/Live Music/2025-06-07 - Charleston Pour House - Charlotte,
 2025-08-02 11:27:16,685 - DEBUG - Found .txt files: []
 2025-08-02 11:27:16,685 - DEBUG - No .txt files found in: M:/Projects/Staging\1 - Copy
 2025-08-02 11:27:16,685 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-02 11:28:32,935 - DEBUG - Verified themes folder at: themes
+2025-08-02 11:28:32,941 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:28:32,941 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:28:32,942 - DEBUG - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:28:32,942 - DEBUG - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:28:32,942 - DEBUG - Updating processor schemes...
+2025-08-02 11:28:32,942 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:28:32,942 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:28:33,080 - DEBUG - History loaded.
+2025-08-02 11:28:33,080 - DEBUG - Used cache loaded.
+2025-08-02 11:28:33,095 - DEBUG - TagForge GUI initialization complete.
+2025-08-02 11:28:33,159 - DEBUG - Restored main window geometry: 1600x1100+740+163
+2025-08-02 11:28:33,167 - DEBUG - Saved main window size and position: 1600x1100+740+163
+2025-08-02 11:28:33,192 - DEBUG - No saved sash position for main found in config
+2025-08-02 11:28:33,192 - DEBUG - Set default outer pane sash pos: 860
+2025-08-02 11:28:33,192 - DEBUG - No saved sash position for left_paned found in config
+2025-08-02 11:28:36,513 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'TEST', 'album': 'Madison Square Garden - Miami, FL - 2003-01-02 SBD FLAC16', 'date': '2003-01-02', 'genre': 'Rock'}
+2025-08-02 11:28:36,520 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Madison Square Garden', 'city': 'Miami, FL', 'source': 'SBD', 'format': 'FLAC16'}
+2025-08-02 11:28:36,522 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-02 11:28:36,522 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 - Copy
+2025-08-02 11:28:36,522 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-02 11:28:36,522 - DEBUG - Found .txt files: []
+2025-08-02 11:28:36,523 - DEBUG - No .txt files found in: M:/Projects/Staging\1 - Copy
+2025-08-02 11:28:36,523 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-02 11:28:38,895 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-02 11:28:38,899 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-02 11:28:38,901 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-02 11:28:38,901 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1
+2025-08-02 11:28:38,901 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-02 11:28:38,901 - DEBUG - Found .txt files: []
+2025-08-02 11:28:38,901 - DEBUG - No .txt files found in: M:/Projects/Staging\1
+2025-08-02 11:28:38,902 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-02 11:28:41,875 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-02 11:28:41,879 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-02 11:28:41,881 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-02 11:28:41,881 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1
+2025-08-02 11:28:41,881 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-02 11:28:41,882 - DEBUG - Found .txt files: []
+2025-08-02 11:28:41,882 - DEBUG - No .txt files found in: M:/Projects/Staging\1
+2025-08-02 11:28:41,882 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-02 11:28:45,696 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Pink Floyd', 'albumartist': 'Pink Floyd', 'album': 'Newcastle 1974', 'date': '1974', 'genre': 'Rock'}
+2025-08-02 11:28:45,701 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-02 11:28:45,703 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '1974-11-09', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-02 11:28:45,703 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\PF_1974-11-09
+2025-08-02 11:28:45,705 - DEBUG - All files in directory: ['1974-11-09 Odeon, Newcastle, England']
+2025-08-02 11:28:45,705 - DEBUG - Found .txt files: []
+2025-08-02 11:28:45,705 - DEBUG - No .txt files found in: M:/Projects/Staging\PF_1974-11-09
+2025-08-02 11:28:45,705 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-02 11:28:46,283 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Pink Floyd', 'albumartist': 'Pink Floyd', 'album': 'Newcastle 1974', 'date': '1974', 'genre': 'Rock'}
+2025-08-02 11:28:46,288 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-02 11:28:46,291 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '1974-11-09', 'venue': 'Odeon', 'city': 'Newcastle, En', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-02 11:28:46,291 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\PF_1974-11-09\1974-11-09 Odeon, Newcastle, England
+2025-08-02 11:28:46,291 - DEBUG - All files in directory: ['101 Tune Up.flac', '102 Shine On You Crazy Diamond Parts 1-9.flac', '103 Raving And Drooling.flac', '104 Tune Up.flac', "105 You've Gotta Be Crazy.flac", '201 Speak To Me.flac', '202 Breathe.flac', '203 On The Run.flac', '204 Time.flac', '205 Breathe (Reprise).flac', '206 The Great Gig In The Sky.flac', '207 Money.flac', '208 Us And Them.flac', '209 Any Colour You Like.flac', '210 Brain Damage.flac', '211 Eclipse.flac', '212 Echoes.flac']
+2025-08-02 11:28:46,291 - DEBUG - Found .txt files: []
+2025-08-02 11:28:46,291 - DEBUG - No .txt files found in: M:/Projects/Staging\PF_1974-11-09\1974-11-09 Odeon, Newcastle, England
+2025-08-02 11:28:46,292 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-02 11:28:48,674 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Pearl Jam', 'albumartist': 'Pearl Jam', 'album': '2025.05.18 Pittsburgh, PA', 'date': '2025', 'genre': 'Rock'}
+2025-08-02 11:28:48,678 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-05-18', 'venue': '', 'city': 'Pittsburgh, PA', 'source': '', 'format': ''}
+2025-08-02 11:28:48,680 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-02 11:28:48,680 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\PJ Pitt 2
+2025-08-02 11:28:48,680 - DEBUG - All files in directory: ['CD 01', 'CD 02', 'CD 03', 'DS_Store', 'pj250518_01.jpg']
+2025-08-02 11:28:48,681 - DEBUG - Found .txt files: []
+2025-08-02 11:28:48,681 - DEBUG - No .txt files found in: M:/Projects/Staging\PJ Pitt 2
+2025-08-02 11:28:48,681 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-02 11:35:13,742 - DEBUG - Verified themes folder at: themes
+2025-08-02 11:35:13,747 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:35:13,748 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:35:13,748 - DEBUG - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:35:13,748 - DEBUG - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:35:13,748 - DEBUG - Updating processor schemes...
+2025-08-02 11:35:13,748 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:35:13,748 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:35:13,855 - DEBUG - History loaded.
+2025-08-02 11:35:13,856 - DEBUG - Used cache loaded.
+2025-08-02 11:35:13,869 - DEBUG - TagForge GUI initialization complete.
+2025-08-02 11:35:13,929 - DEBUG - Restored main window geometry: 1600x1100+740+163
+2025-08-02 11:35:13,937 - DEBUG - Saved main window size and position: 1600x1100+740+163
+2025-08-02 11:35:13,972 - DEBUG - No saved sash position for main found in config
+2025-08-02 11:35:13,972 - DEBUG - Set default outer pane sash pos: 860
+2025-08-02 11:35:13,972 - DEBUG - No saved sash position for left_paned found in config
+2025-08-02 11:35:18,694 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'TEST', 'album': 'Madison Square Garden - Miami, FL - 2003-01-02 SBD FLAC16', 'date': '2003-01-02', 'genre': 'Rock'}
+2025-08-02 11:35:18,701 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Madison Square Garden', 'city': 'Miami, FL', 'source': 'SBD', 'format': 'FLAC16'}
+2025-08-02 11:35:18,703 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-02 11:35:18,704 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 - Copy
+2025-08-02 11:35:18,704 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-02 11:35:18,704 - DEBUG - Found .txt files: []
+2025-08-02 11:35:18,704 - DEBUG - No .txt files found in: M:/Projects/Staging\1 - Copy
+2025-08-02 11:35:18,704 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-02 11:35:20,485 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-02 11:35:20,489 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-02 11:35:20,490 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-02 11:35:20,491 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1
+2025-08-02 11:35:20,491 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-02 11:35:20,491 - DEBUG - Found .txt files: []
+2025-08-02 11:35:20,491 - DEBUG - No .txt files found in: M:/Projects/Staging\1
+2025-08-02 11:35:20,491 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-02 11:35:23,631 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-02 11:35:23,635 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-02 11:35:23,637 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-02 11:35:23,637 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1
+2025-08-02 11:35:23,637 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-02 11:35:23,637 - DEBUG - Found .txt files: []
+2025-08-02 11:35:23,638 - DEBUG - No .txt files found in: M:/Projects/Staging\1
+2025-08-02 11:35:23,638 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-02 11:35:26,389 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Pink Floyd', 'albumartist': 'Pink Floyd', 'album': 'Newcastle 1974', 'date': '1974', 'genre': 'Rock'}
+2025-08-02 11:35:26,394 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-02 11:35:26,396 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '1974-11-09', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-02 11:35:26,396 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\PF_1974-11-09
+2025-08-02 11:35:26,396 - DEBUG - All files in directory: ['1974-11-09 Odeon, Newcastle, England']
+2025-08-02 11:35:26,396 - DEBUG - Found .txt files: []
+2025-08-02 11:35:26,396 - DEBUG - No .txt files found in: M:/Projects/Staging\PF_1974-11-09
+2025-08-02 11:35:26,396 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-02 11:35:26,903 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Pink Floyd', 'albumartist': 'Pink Floyd', 'album': 'Newcastle 1974', 'date': '1974', 'genre': 'Rock'}
+2025-08-02 11:35:26,908 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-02 11:35:26,911 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '1974-11-09', 'venue': 'Odeon', 'city': 'Newcastle, En', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-02 11:35:26,911 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\PF_1974-11-09\1974-11-09 Odeon, Newcastle, England
+2025-08-02 11:35:26,914 - DEBUG - All files in directory: ['101 Tune Up.flac', '102 Shine On You Crazy Diamond Parts 1-9.flac', '103 Raving And Drooling.flac', '104 Tune Up.flac', "105 You've Gotta Be Crazy.flac", '201 Speak To Me.flac', '202 Breathe.flac', '203 On The Run.flac', '204 Time.flac', '205 Breathe (Reprise).flac', '206 The Great Gig In The Sky.flac', '207 Money.flac', '208 Us And Them.flac', '209 Any Colour You Like.flac', '210 Brain Damage.flac', '211 Eclipse.flac', '212 Echoes.flac']
+2025-08-02 11:35:26,914 - DEBUG - Found .txt files: []
+2025-08-02 11:35:26,914 - DEBUG - No .txt files found in: M:/Projects/Staging\PF_1974-11-09\1974-11-09 Odeon, Newcastle, England
+2025-08-02 11:35:26,914 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-02 11:35:29,883 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Pearl Jam', 'albumartist': 'Pearl Jam', 'album': '2025.05.18 Pittsburgh, PA', 'date': '2025', 'genre': 'Rock'}
+2025-08-02 11:35:29,888 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-05-18', 'venue': '', 'city': 'Pittsburgh, PA', 'source': '', 'format': ''}
+2025-08-02 11:35:29,890 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-02 11:35:29,890 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\PJ Pitt 2
+2025-08-02 11:35:29,890 - DEBUG - All files in directory: ['CD 01', 'CD 02', 'CD 03', 'DS_Store', 'pj250518_01.jpg']
+2025-08-02 11:35:29,890 - DEBUG - Found .txt files: []
+2025-08-02 11:35:29,891 - DEBUG - No .txt files found in: M:/Projects/Staging\PJ Pitt 2
+2025-08-02 11:35:29,891 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-02 11:35:32,262 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phil Lesh And Friends', 'albumartist': 'Phil Lesh And Friends', 'album': '2015/05/04 Terrapin Crossroads, San Rafael, CA', 'date': '2015', 'genre': 'Rock', 'comment': 'Official TXR Thumbdrive 24/48 '}
+2025-08-02 11:35:32,267 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2015-05-04', 'venue': '', 'city': 'San Rafael, CA', 'source': '', 'format': ''}
+2025-08-02 11:35:32,269 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-02 11:35:32,269 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Phil Lesh & Friends 2015 Soundboards - Part 2
+2025-08-02 11:35:32,270 - DEBUG - All files in directory: ['DS_Store', 'PLF 2015-05-04 TXR, San Rafael, CA - GD 1975 (Bruno Rev Thumpdrive) [FLAC 24-48]', 'PLF 2015-05-27 TXR, San Rafael, CA - GD 1976 (Bruno Rev Thumpdrive) [FLAC 24-48]', 'PLF 2015-06-12 TXR, San Rafael, CA - GD 1977 Part 1 (Thumbdrive) [FLAC 24-48]', 'PLF 2015-06-13 TXR, San Rafael, CA - GD 1977 Part 2 (Bruno Rev Thumpdrive) [FLAC 24-48]', 'PLF 2015-07-16 TXR, San Rafael, CA (Thumbdrive) [FLAC 24-48]', 'PLF 2015-07-19 TXR, San Rafael, CA - GD 1979 (Bruno Rev Thumpdrive) [FLAC 24-48]', 'PLF 2015-08-27 TXR, San Rafael, CA - GD 1980-06-21 (Thumbdrive) [FLAC 24-48]', 'PLF 2015-08-30 TXR, San Rafael, CA - GD 1981 (Thumbdrive) [FLAC 24-48]', 'PLF 2015-09-01 TXR, San Rafael, CA (Thumbdrive) [FLAC 24-48]', "PLF 2015-09-11 Lockn' Festival, Arrington, VA (Nugs) [FLAC]", "PLF 2015-09-12 Lockn' Festival, Arrington, VA with Carlos Santana (134472 Alex Leary DPA 4023)[FLAC]", "PLF 2015-09-12 Lockn' Festival, Arrington, VA with Carlos Santana (Perks MK41's)[FLAC]", "PLF 2015-09-12 Lockn' Festival, Arrington, VA with Carlos Santana (Webcast Audio)[MP3]", 'PLF 2015-10-27 TXR, San Rafael, CA (Thumbdrive) [FLAC 24-48]', 'PLF 2015-10-30 Capitol Theatre, Port Chester, NY (Livedownloads SBD) [FLAC 24-48]', 'PLF 2015-10-31 Capitol Theatre, Port Chester, NY (SBD) [FLAC 24-48]', 'PLF 2015-11-01 Capitol Theatre, Port Chester, NY (Livedownloads SBD) [FLAC 24-48]', 'PLF 2015-11-05 Capitol Theatre, Port Chester, NY (SBD) [FLAC 24-48]', 'PLF 2015-11-06 Capitol Theatre, Port Chester, NY (SBD) [FLAC 24-48]', 'PLF 2015-11-07 Capitol Theater, Port Chester, NY (Livedownloads SBD) [FLAC]', 'PLF 2015-11-23 TXR, San Rafael, CA (171532 SBD) [FLAC 24-48]', 'PLF 2015.rtf', '__MACOSX']
+2025-08-02 11:35:32,270 - DEBUG - Found .txt files: []
+2025-08-02 11:35:32,270 - DEBUG - No .txt files found in: M:/Projects/Staging\Phil Lesh & Friends 2015 Soundboards - Part 2
+2025-08-02 11:35:32,270 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-02 11:38:35,228 - DEBUG - Verified themes folder at: themes
+2025-08-02 11:38:35,233 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:38:35,234 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:38:35,234 - DEBUG - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:38:35,234 - DEBUG - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:38:35,234 - DEBUG - Updating processor schemes...
+2025-08-02 11:38:35,234 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:38:35,234 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:38:35,343 - DEBUG - History loaded.
+2025-08-02 11:38:35,343 - DEBUG - Used cache loaded.
+2025-08-02 11:38:35,357 - DEBUG - TagForge GUI initialization complete.
+2025-08-02 11:38:35,419 - DEBUG - Restored main window geometry: 1600x1100+740+163
+2025-08-02 11:38:35,438 - DEBUG - Saved main window size and position: 1600x1100+740+163
+2025-08-02 11:38:35,459 - DEBUG - No saved sash position for main found in config
+2025-08-02 11:38:35,459 - DEBUG - Set default outer pane sash pos: 860
+2025-08-02 11:38:35,460 - DEBUG - No saved sash position for left_paned found in config
+2025-08-02 11:38:39,572 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Pink Floyd', 'albumartist': 'Pink Floyd', 'album': 'Newcastle 1974', 'date': '1974', 'genre': 'Rock'}
+2025-08-02 11:38:39,577 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-02 11:38:39,580 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '1974-11-09', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-02 11:38:39,580 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\PF_1974-11-09
+2025-08-02 11:38:39,580 - DEBUG - All files in directory: ['1974-11-09 Odeon, Newcastle, England']
+2025-08-02 11:38:39,580 - DEBUG - Found .txt files: []
+2025-08-02 11:38:39,580 - DEBUG - No .txt files found in: M:/Projects/Staging\PF_1974-11-09
+2025-08-02 11:38:39,580 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-02 11:38:41,321 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Pink Floyd', 'albumartist': 'Pink Floyd', 'album': 'Newcastle 1974', 'date': '1974', 'genre': 'Rock'}
+2025-08-02 11:38:41,326 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-02 11:38:41,328 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '1974-11-09', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-02 11:38:41,328 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\PF_1974-11-09
+2025-08-02 11:38:41,328 - DEBUG - All files in directory: ['1974-11-09 Odeon, Newcastle, England']
+2025-08-02 11:38:41,328 - DEBUG - Found .txt files: []
+2025-08-02 11:38:41,329 - DEBUG - No .txt files found in: M:/Projects/Staging\PF_1974-11-09
+2025-08-02 11:38:41,329 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-02 11:38:42,116 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Pink Floyd', 'albumartist': 'Pink Floyd', 'album': 'Newcastle 1974', 'date': '1974', 'genre': 'Rock'}
+2025-08-02 11:38:42,122 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-02 11:38:42,124 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '1974-11-09', 'venue': 'Odeon', 'city': 'Newcastle, En', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-02 11:38:42,124 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\PF_1974-11-09\1974-11-09 Odeon, Newcastle, England
+2025-08-02 11:38:42,125 - DEBUG - All files in directory: ['101 Tune Up.flac', '102 Shine On You Crazy Diamond Parts 1-9.flac', '103 Raving And Drooling.flac', '104 Tune Up.flac', "105 You've Gotta Be Crazy.flac", '201 Speak To Me.flac', '202 Breathe.flac', '203 On The Run.flac', '204 Time.flac', '205 Breathe (Reprise).flac', '206 The Great Gig In The Sky.flac', '207 Money.flac', '208 Us And Them.flac', '209 Any Colour You Like.flac', '210 Brain Damage.flac', '211 Eclipse.flac', '212 Echoes.flac']
+2025-08-02 11:38:42,125 - DEBUG - Found .txt files: []
+2025-08-02 11:38:42,125 - DEBUG - No .txt files found in: M:/Projects/Staging\PF_1974-11-09\1974-11-09 Odeon, Newcastle, England
+2025-08-02 11:38:42,125 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-02 11:38:43,189 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Herbie Hancock', 'album': 'HH1973-11-01', 'comment': 'Ultrasonic Studios'}
+2025-08-02 11:38:43,194 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-02 11:38:43,197 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '1973-11-01', 'venue': 'Ultrasonic Studios', 'city': 'Hampstead, NY', 'id': '', 'source': '', 'format': 'FLAC', 'genre': '', 'additional': '', 'add': ''}
+2025-08-02 11:38:43,197 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)
+2025-08-02 11:38:43,197 - DEBUG - All files in directory: ['01. Actual Proof.flac', '02. Butterfly.flac', '03. Sly.flac', '04. Chameleon.flac', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY-EACLog.log', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.ffp', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-02 11:38:43,197 - DEBUG - Found .txt files: ['Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-02 11:38:43,204 - DEBUG - Trying to read metadata from: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)\Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt
+2025-08-02 11:38:43,246 - DEBUG - Extracted metadata: {'source': 'FM'}
+2025-08-02 11:38:43,247 - DEBUG - [DEBUG] TXT metadata parsed: {'source': 'FM'}
+2025-08-02 11:38:43,544 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'TEST', 'album': 'Madison Square Garden - Miami, FL - 2003-01-02 SBD FLAC16', 'date': '2003-01-02', 'genre': 'Rock'}
+2025-08-02 11:38:43,549 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Madison Square Garden', 'city': 'Miami, FL', 'source': 'SBD', 'format': 'FLAC16'}
+2025-08-02 11:38:43,551 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-02 11:38:43,551 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 - Copy
+2025-08-02 11:38:43,551 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-02 11:38:43,551 - DEBUG - Found .txt files: []
+2025-08-02 11:38:43,551 - DEBUG - No .txt files found in: M:/Projects/Staging\1 - Copy
+2025-08-02 11:38:43,551 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-02 11:38:43,984 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-02 11:38:43,988 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-02 11:38:43,990 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-02 11:38:43,990 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1
+2025-08-02 11:38:43,990 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-02 11:38:43,990 - DEBUG - Found .txt files: []
+2025-08-02 11:38:43,990 - DEBUG - No .txt files found in: M:/Projects/Staging\1
+2025-08-02 11:38:43,991 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-02 11:38:45,852 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phil Lesh And Friends', 'albumartist': 'Phil Lesh And Friends', 'album': '2015/05/04 Terrapin Crossroads, San Rafael, CA', 'date': '2015', 'genre': 'Rock', 'comment': 'Official TXR Thumbdrive 24/48 '}
+2025-08-02 11:38:45,857 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2015-05-04', 'venue': '', 'city': 'San Rafael, CA', 'source': '', 'format': ''}
+2025-08-02 11:38:45,860 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-02 11:38:45,860 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Phil Lesh & Friends 2015 Soundboards - Part 2
+2025-08-02 11:38:45,860 - DEBUG - All files in directory: ['DS_Store', 'PLF 2015-05-04 TXR, San Rafael, CA - GD 1975 (Bruno Rev Thumpdrive) [FLAC 24-48]', 'PLF 2015-05-27 TXR, San Rafael, CA - GD 1976 (Bruno Rev Thumpdrive) [FLAC 24-48]', 'PLF 2015-06-12 TXR, San Rafael, CA - GD 1977 Part 1 (Thumbdrive) [FLAC 24-48]', 'PLF 2015-06-13 TXR, San Rafael, CA - GD 1977 Part 2 (Bruno Rev Thumpdrive) [FLAC 24-48]', 'PLF 2015-07-16 TXR, San Rafael, CA (Thumbdrive) [FLAC 24-48]', 'PLF 2015-07-19 TXR, San Rafael, CA - GD 1979 (Bruno Rev Thumpdrive) [FLAC 24-48]', 'PLF 2015-08-27 TXR, San Rafael, CA - GD 1980-06-21 (Thumbdrive) [FLAC 24-48]', 'PLF 2015-08-30 TXR, San Rafael, CA - GD 1981 (Thumbdrive) [FLAC 24-48]', 'PLF 2015-09-01 TXR, San Rafael, CA (Thumbdrive) [FLAC 24-48]', "PLF 2015-09-11 Lockn' Festival, Arrington, VA (Nugs) [FLAC]", "PLF 2015-09-12 Lockn' Festival, Arrington, VA with Carlos Santana (134472 Alex Leary DPA 4023)[FLAC]", "PLF 2015-09-12 Lockn' Festival, Arrington, VA with Carlos Santana (Perks MK41's)[FLAC]", "PLF 2015-09-12 Lockn' Festival, Arrington, VA with Carlos Santana (Webcast Audio)[MP3]", 'PLF 2015-10-27 TXR, San Rafael, CA (Thumbdrive) [FLAC 24-48]', 'PLF 2015-10-30 Capitol Theatre, Port Chester, NY (Livedownloads SBD) [FLAC 24-48]', 'PLF 2015-10-31 Capitol Theatre, Port Chester, NY (SBD) [FLAC 24-48]', 'PLF 2015-11-01 Capitol Theatre, Port Chester, NY (Livedownloads SBD) [FLAC 24-48]', 'PLF 2015-11-05 Capitol Theatre, Port Chester, NY (SBD) [FLAC 24-48]', 'PLF 2015-11-06 Capitol Theatre, Port Chester, NY (SBD) [FLAC 24-48]', 'PLF 2015-11-07 Capitol Theater, Port Chester, NY (Livedownloads SBD) [FLAC]', 'PLF 2015-11-23 TXR, San Rafael, CA (171532 SBD) [FLAC 24-48]', 'PLF 2015.rtf', '__MACOSX']
+2025-08-02 11:38:45,860 - DEBUG - Found .txt files: []
+2025-08-02 11:38:45,860 - DEBUG - No .txt files found in: M:/Projects/Staging\Phil Lesh & Friends 2015 Soundboards - Part 2
+2025-08-02 11:38:45,860 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-02 11:38:46,417 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Pearl Jam', 'albumartist': 'Pearl Jam', 'album': '2025.05.18 Pittsburgh, PA', 'date': '2025', 'genre': 'Rock'}
+2025-08-02 11:38:46,421 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-05-18', 'venue': '', 'city': 'Pittsburgh, PA', 'source': '', 'format': ''}
+2025-08-02 11:38:46,423 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-02 11:38:46,423 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\PJ Pitt 2
+2025-08-02 11:38:46,424 - DEBUG - All files in directory: ['CD 01', 'CD 02', 'CD 03', 'DS_Store', 'pj250518_01.jpg']
+2025-08-02 11:38:46,424 - DEBUG - Found .txt files: []
+2025-08-02 11:38:46,424 - DEBUG - No .txt files found in: M:/Projects/Staging\PJ Pitt 2
+2025-08-02 11:38:46,424 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-02 11:38:48,388 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phil Lesh And Friends', 'albumartist': 'Phil Lesh And Friends', 'album': '2015/05/04 Terrapin Crossroads, San Rafael, CA', 'date': '2015', 'genre': 'Rock', 'comment': 'Official TXR Thumbdrive 24/48 '}
+2025-08-02 11:38:48,393 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2015-05-04', 'venue': '', 'city': 'San Rafael, CA', 'source': '', 'format': ''}
+2025-08-02 11:38:48,396 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-02 11:38:48,396 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Phil Lesh & Friends 2015 Soundboards - Part 2
+2025-08-02 11:38:48,396 - DEBUG - All files in directory: ['DS_Store', 'PLF 2015-05-04 TXR, San Rafael, CA - GD 1975 (Bruno Rev Thumpdrive) [FLAC 24-48]', 'PLF 2015-05-27 TXR, San Rafael, CA - GD 1976 (Bruno Rev Thumpdrive) [FLAC 24-48]', 'PLF 2015-06-12 TXR, San Rafael, CA - GD 1977 Part 1 (Thumbdrive) [FLAC 24-48]', 'PLF 2015-06-13 TXR, San Rafael, CA - GD 1977 Part 2 (Bruno Rev Thumpdrive) [FLAC 24-48]', 'PLF 2015-07-16 TXR, San Rafael, CA (Thumbdrive) [FLAC 24-48]', 'PLF 2015-07-19 TXR, San Rafael, CA - GD 1979 (Bruno Rev Thumpdrive) [FLAC 24-48]', 'PLF 2015-08-27 TXR, San Rafael, CA - GD 1980-06-21 (Thumbdrive) [FLAC 24-48]', 'PLF 2015-08-30 TXR, San Rafael, CA - GD 1981 (Thumbdrive) [FLAC 24-48]', 'PLF 2015-09-01 TXR, San Rafael, CA (Thumbdrive) [FLAC 24-48]', "PLF 2015-09-11 Lockn' Festival, Arrington, VA (Nugs) [FLAC]", "PLF 2015-09-12 Lockn' Festival, Arrington, VA with Carlos Santana (134472 Alex Leary DPA 4023)[FLAC]", "PLF 2015-09-12 Lockn' Festival, Arrington, VA with Carlos Santana (Perks MK41's)[FLAC]", "PLF 2015-09-12 Lockn' Festival, Arrington, VA with Carlos Santana (Webcast Audio)[MP3]", 'PLF 2015-10-27 TXR, San Rafael, CA (Thumbdrive) [FLAC 24-48]', 'PLF 2015-10-30 Capitol Theatre, Port Chester, NY (Livedownloads SBD) [FLAC 24-48]', 'PLF 2015-10-31 Capitol Theatre, Port Chester, NY (SBD) [FLAC 24-48]', 'PLF 2015-11-01 Capitol Theatre, Port Chester, NY (Livedownloads SBD) [FLAC 24-48]', 'PLF 2015-11-05 Capitol Theatre, Port Chester, NY (SBD) [FLAC 24-48]', 'PLF 2015-11-06 Capitol Theatre, Port Chester, NY (SBD) [FLAC 24-48]', 'PLF 2015-11-07 Capitol Theater, Port Chester, NY (Livedownloads SBD) [FLAC]', 'PLF 2015-11-23 TXR, San Rafael, CA (171532 SBD) [FLAC 24-48]', 'PLF 2015.rtf', '__MACOSX']
+2025-08-02 11:38:48,396 - DEBUG - Found .txt files: []
+2025-08-02 11:38:48,397 - DEBUG - No .txt files found in: M:/Projects/Staging\Phil Lesh & Friends 2015 Soundboards - Part 2
+2025-08-02 11:38:48,397 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-02 11:38:49,079 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Pearl Jam', 'albumartist': 'Pearl Jam', 'album': '2025.05.18 Pittsburgh, PA', 'date': '2025', 'genre': 'Rock'}
+2025-08-02 11:38:49,083 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-05-18', 'venue': '', 'city': 'Pittsburgh, PA', 'source': '', 'format': ''}
+2025-08-02 11:38:49,085 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-02 11:38:49,085 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\PJ Pitt 2
+2025-08-02 11:38:49,087 - DEBUG - All files in directory: ['CD 01', 'CD 02', 'CD 03', 'DS_Store', 'pj250518_01.jpg']
+2025-08-02 11:38:49,087 - DEBUG - Found .txt files: []
+2025-08-02 11:38:49,087 - DEBUG - No .txt files found in: M:/Projects/Staging\PJ Pitt 2
+2025-08-02 11:38:49,087 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-02 11:39:17,628 - DEBUG - Verified themes folder at: themes
+2025-08-02 11:39:17,634 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:39:17,634 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:39:17,634 - DEBUG - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:39:17,634 - DEBUG - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:39:17,634 - DEBUG - Updating processor schemes...
+2025-08-02 11:39:17,634 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:39:17,635 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:39:17,743 - DEBUG - History loaded.
+2025-08-02 11:39:17,743 - DEBUG - Used cache loaded.
+2025-08-02 11:39:17,757 - DEBUG - TagForge GUI initialization complete.
+2025-08-02 11:39:17,817 - DEBUG - Restored main window geometry: 1600x1100+740+163
+2025-08-02 11:39:17,825 - DEBUG - Saved main window size and position: 1600x1100+740+163
+2025-08-02 11:39:17,860 - DEBUG - No saved sash position for main found in config
+2025-08-02 11:39:17,860 - DEBUG - Set default outer pane sash pos: 860
+2025-08-02 11:39:17,860 - DEBUG - No saved sash position for left_paned found in config
+2025-08-02 11:39:28,603 - DEBUG - Sourced theme file: radiance
+2025-08-02 11:39:28,610 - DEBUG - Activated theme: radiance
+2025-08-02 11:39:28,610 - INFO - Theme applied: S:\Projects\GitHub\tagforge\themes\ttkthemes-3.2.2\ttkthemes\themes\radiance\radiance.tcl
+2025-08-02 11:39:31,545 - INFO - History saved.
+2025-08-02 11:39:31,546 - INFO - Used cache saved.
+2025-08-02 11:39:35,119 - DEBUG - Verified themes folder at: themes
+2025-08-02 11:39:35,148 - DEBUG - Activated theme: radiance
+2025-08-02 11:39:35,153 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:39:35,154 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:39:35,154 - DEBUG - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:39:35,154 - DEBUG - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:39:35,154 - DEBUG - Updating processor schemes...
+2025-08-02 11:39:35,154 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:39:35,154 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:39:35,269 - DEBUG - History loaded.
+2025-08-02 11:39:35,270 - DEBUG - Used cache loaded.
+2025-08-02 11:39:35,286 - DEBUG - TagForge GUI initialization complete.
+2025-08-02 11:39:35,329 - DEBUG - Restored main window geometry: 1600x1100+740+163
+2025-08-02 11:39:35,335 - DEBUG - Saved main window size and position: 1600x1100+740+163
+2025-08-02 11:39:35,379 - DEBUG - No saved sash position for main found in config
+2025-08-02 11:39:35,380 - DEBUG - Set default outer pane sash pos: 860
+2025-08-02 11:39:35,380 - DEBUG - No saved sash position for left_paned found in config
+2025-08-02 11:39:36,520 - DEBUG - Saved main window size and position: 1600x1100+733+163
+2025-08-02 11:39:36,524 - DEBUG - Saved main window size and position: 1600x1100+729+162
+2025-08-02 11:39:36,531 - DEBUG - Saved main window size and position: 1600x1100+723+162
+2025-08-02 11:39:36,538 - DEBUG - Saved main window size and position: 1600x1100+715+162
+2025-08-02 11:39:36,545 - DEBUG - Saved main window size and position: 1600x1100+705+161
+2025-08-02 11:39:36,553 - DEBUG - Saved main window size and position: 1600x1100+695+161
+2025-08-02 11:39:36,560 - DEBUG - Saved main window size and position: 1600x1100+683+161
+2025-08-02 11:39:36,569 - DEBUG - Saved main window size and position: 1600x1100+665+159
+2025-08-02 11:39:36,575 - DEBUG - Saved main window size and position: 1600x1100+650+159
+2025-08-02 11:39:36,583 - DEBUG - Saved main window size and position: 1600x1100+632+158
+2025-08-02 11:39:36,591 - DEBUG - Saved main window size and position: 1600x1100+617+158
+2025-08-02 11:39:36,598 - DEBUG - Saved main window size and position: 1600x1100+603+158
+2025-08-02 11:39:36,606 - DEBUG - Saved main window size and position: 1600x1100+591+158
+2025-08-02 11:39:36,614 - DEBUG - Saved main window size and position: 1600x1100+579+158
+2025-08-02 11:39:36,621 - DEBUG - Saved main window size and position: 1600x1100+566+158
+2025-08-02 11:39:36,628 - DEBUG - Saved main window size and position: 1600x1100+552+158
+2025-08-02 11:39:36,637 - DEBUG - Saved main window size and position: 1600x1100+539+158
+2025-08-02 11:39:36,645 - DEBUG - Saved main window size and position: 1600x1100+526+158
+2025-08-02 11:39:36,652 - DEBUG - Saved main window size and position: 1600x1100+511+158
+2025-08-02 11:39:36,659 - DEBUG - Saved main window size and position: 1600x1100+499+157
+2025-08-02 11:39:36,666 - DEBUG - Saved main window size and position: 1600x1100+489+156
+2025-08-02 11:39:36,674 - DEBUG - Saved main window size and position: 1600x1100+479+155
+2025-08-02 11:39:36,682 - DEBUG - Saved main window size and position: 1600x1100+475+154
+2025-08-02 11:39:36,689 - DEBUG - Saved main window size and position: 1600x1100+474+154
+2025-08-02 11:39:38,494 - INFO - Using default ttk theme: vista
+2025-08-02 11:39:38,495 - INFO - Custom theme cleared; reverted to native look.
+2025-08-02 11:39:40,346 - INFO - History saved.
+2025-08-02 11:39:40,347 - INFO - Used cache saved.
+2025-08-02 11:39:42,624 - DEBUG - Verified themes folder at: themes
+2025-08-02 11:39:42,625 - DEBUG - Using built-in theme: vista
+2025-08-02 11:39:42,631 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:39:42,631 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:39:42,631 - DEBUG - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:39:42,631 - DEBUG - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:39:42,631 - DEBUG - Updating processor schemes...
+2025-08-02 11:39:42,631 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:39:42,632 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:39:42,746 - DEBUG - History loaded.
+2025-08-02 11:39:42,747 - DEBUG - Used cache loaded.
+2025-08-02 11:39:42,761 - DEBUG - TagForge GUI initialization complete.
+2025-08-02 11:39:42,819 - DEBUG - Restored main window geometry: 1600x1100+474+154
+2025-08-02 11:39:42,837 - DEBUG - Saved main window size and position: 1600x1100+474+154
+2025-08-02 11:39:42,863 - DEBUG - No saved sash position for main found in config
+2025-08-02 11:39:42,863 - DEBUG - Set default outer pane sash pos: 860
+2025-08-02 11:39:42,863 - DEBUG - No saved sash position for left_paned found in config
+2025-08-02 11:39:49,205 - DEBUG - Sourced theme file: radiance
+2025-08-02 11:39:49,209 - DEBUG - Activated theme: radiance
+2025-08-02 11:39:49,210 - INFO - Theme applied: S:\Projects\GitHub\tagforge\themes\ttkthemes-3.2.2\ttkthemes\themes\radiance\radiance.tcl
+2025-08-02 11:39:54,277 - DEBUG - Saved sash position for left_paned: 683
+2025-08-02 11:39:54,292 - DEBUG - Saved sash position for left_paned: 683
+2025-08-02 11:39:54,377 - DEBUG - Saved sash position for left_paned: 682
+2025-08-02 11:39:54,380 - DEBUG - Saved sash position for left_paned: 671
+2025-08-02 11:39:54,464 - DEBUG - Saved sash position for left_paned: 634
+2025-08-02 11:39:54,506 - DEBUG - Saved sash position for left_paned: 592
+2025-08-02 11:39:54,739 - DEBUG - Saved sash position for left_paned: 589
+2025-08-02 11:39:54,860 - DEBUG - Saved sash position for left_paned: 583
+2025-08-02 11:39:54,863 - DEBUG - Saved sash position for left_paned: 578
+2025-08-02 11:39:54,950 - DEBUG - Saved sash position for left_paned: 577
+2025-08-02 11:39:55,027 - DEBUG - Saved sash position for left_paned: 573
+2025-08-02 11:39:55,069 - DEBUG - Saved sash position for left_paned: 568
+2025-08-02 11:39:55,232 - DEBUG - Saved sash position for left_paned: 566
+2025-08-02 11:39:55,309 - DEBUG - Saved sash position for left_paned: 548
+2025-08-02 11:39:55,510 - DEBUG - Saved sash position for left_paned: 542
+2025-08-02 11:39:55,513 - DEBUG - Saved sash position for left_paned: 541
+2025-08-02 11:39:55,560 - DEBUG - Saved sash position for left_paned: 532
+2025-08-02 11:39:55,719 - DEBUG - Saved sash position for left_paned: 529
+2025-08-02 11:39:55,723 - DEBUG - Saved sash position for left_paned: 525
+2025-08-02 11:39:55,807 - DEBUG - Saved sash position for left_paned: 513
+2025-08-02 11:39:55,966 - DEBUG - Saved sash position for left_paned: 509
+2025-08-02 11:39:56,122 - DEBUG - Saved sash position for left_paned: 508
+2025-08-02 11:39:57,592 - DEBUG - Saved sash position for outer pane: 852
+2025-08-02 11:39:57,615 - DEBUG - Saved sash position for outer pane: 852
+2025-08-02 11:39:57,623 - DEBUG - Saved sash position for outer pane: 852
+2025-08-02 11:39:57,658 - DEBUG - Saved sash position for outer pane: 850
+2025-08-02 11:39:57,738 - DEBUG - Saved sash position for outer pane: 849
+2025-08-02 11:39:57,753 - DEBUG - Saved sash position for outer pane: 848
+2025-08-02 11:39:57,771 - DEBUG - Saved sash position for outer pane: 834
+2025-08-02 11:39:57,807 - DEBUG - Saved sash position for outer pane: 831
+2025-08-02 11:39:57,898 - DEBUG - Saved sash position for outer pane: 826
+2025-08-02 11:39:58,142 - DEBUG - Saved sash position for outer pane: 821
+2025-08-02 11:39:59,936 - DEBUG - Saved main window size and position: 1600x1101+740+163
+2025-08-02 11:39:59,997 - DEBUG - Saved main window size and position: 1600x1107+740+163
+2025-08-02 11:40:00,066 - DEBUG - Saved main window size and position: 1600x1112+740+163
+2025-08-02 11:40:00,322 - DEBUG - Saved main window size and position: 1600x1116+740+163
+2025-08-02 11:40:00,390 - DEBUG - Saved main window size and position: 1600x1118+740+163
+2025-08-02 11:40:00,771 - DEBUG - Saved main window size and position: 1600x1121+740+163
+2025-08-02 11:40:01,864 - INFO - History saved.
+2025-08-02 11:40:01,865 - INFO - Used cache saved.
+2025-08-02 11:40:03,670 - DEBUG - Saved main window size and position: 1600x1101+474+154
+2025-08-02 11:40:03,957 - DEBUG - Saved main window size and position: 1600x1118+474+154
+2025-08-02 11:40:09,011 - INFO - History saved.
+2025-08-02 11:40:09,012 - INFO - Used cache saved.

@@ -1,12 +1,16 @@
 import os
 import re
 from datetime import datetime
+import tkinter as tk
+from tkinter import ttk
 from utils.match_folder import match_folder
 from utils.txt_parser import TxtMetadataParser
 from utils.constants import DEFAULTS
-import tkinter as tk
-from tkinter import ttk
-import mutagen  # Make sure mutagen is installed: pip install mutagen
+from utils.metadata_parser import (
+    parse_album_flexible,
+    parse_tags_from_folder,
+    normalize_date
+)
 
 
 def handle_tree_selection(self, event=None):
@@ -20,104 +24,6 @@ def handle_tree_selection(self, event=None):
         current_values = list(combo['values'])
         if value not in current_values:
             combo['values'] = current_values + [value]
-
-    def try_parse_date(text):
-        if not text:
-            return None
-        date_formats = [
-            "%Y-%m-%d", "%Y%m%d", "%m/%d/%Y", "%d %b %Y",
-            "%b %d, %Y", "%B %d, %Y",
-        ]
-        date_regex = re.compile(r"\b(\d{4}[-/]?\d{2}[-/]?\d{2})\b")
-        match = date_regex.search(text)
-        if match:
-            candidate = match.group(1).replace("/", "-")
-            for fmt in date_formats:
-                try:
-                    return datetime.strptime(candidate, fmt).strftime("%Y-%m-%d")
-                except Exception:
-                    continue
-        for fmt in date_formats:
-            try:
-                dt = datetime.strptime(text.strip(), fmt)
-                return dt.strftime("%Y-%m-%d")
-            except Exception:
-                continue
-        return None
-
-    def parse_album_flexible(album_str, venues_list, cities_list):
-        result = {"date": "", "venue": "", "city": "", "source": "", "format": ""}
-        if not album_str:
-            return result
-
-        # Normalize date string: replace dots with dashes
-        album_str_norm = album_str.replace('.', '-')
-
-        # Try to extract date anywhere in string (improved)
-        date = None
-        date_formats = [
-            "%Y-%m-%d", "%Y%m%d", "%m/%d/%Y", "%d %b %Y",
-            "%b %d, %Y", "%B %d, %Y",
-        ]
-        date_regex = re.compile(r"\b(\d{4}[-/]?\d{2}[-/]?\d{2})\b")
-        match = date_regex.search(album_str_norm)
-        if match:
-            candidate = match.group(1).replace("/", "-")
-            for fmt in date_formats:
-                try:
-                    date = datetime.strptime(candidate, fmt).strftime("%Y-%m-%d")
-                    break
-                except Exception:
-                    continue
-        result["date"] = date or ""
-
-        venues_norm = {v.lower(): v for v in venues_list}
-        cities_norm = {c.lower(): c for c in cities_list}
-
-        album_lower = album_str.lower()
-        # Find city by substring match (case-insensitive)
-        for city in cities_list:
-            if city.lower() in album_lower:
-                result["city"] = city
-                break
-
-        # Find venue by substring match (case-insensitive), skip if equal to city
-        for venue in venues_list:
-            if venue.lower() in album_lower:
-                if result["city"] and venue.lower() == result["city"].lower():
-                    continue
-                result["venue"] = venue
-                break
-
-        # Match source and format using DEFAULTS (case-insensitive)
-        lowered = album_str.lower()
-        for src in DEFAULTS["source"]:
-            if src.lower() in lowered:
-                result["source"] = src
-                break
-        for fmt in DEFAULTS["format"]:
-            if fmt.lower() in lowered:
-                result["format"] = fmt
-                break
-
-        return result
-
-    def parse_tags_from_folder(folder_path):
-        tags = {}
-        for root, _, files in os.walk(folder_path):
-            for file in files:
-                if file.lower().endswith(('.flac', '.mp3', '.m4a', '.wav', '.ogg')):
-                    file_path = os.path.join(root, file)
-                    try:
-                        audio = mutagen.File(file_path, easy=True)
-                        if audio:
-                            for tag_key in ['artist', 'albumartist', 'album', 'date', 'genre', 'comment']:
-                                if tag_key in audio and audio[tag_key]:
-                                    tags[tag_key] = audio[tag_key][0]
-                            return tags
-                    except Exception:
-                        continue
-        return tags
 
     selected = self.tree.selection()
     if not selected:
@@ -157,7 +63,6 @@ def handle_tree_selection(self, event=None):
     self.log_message(f"[DEBUG] Folder name parsed metadata: {folder_md}", level="debug")
 
     for key in ['artist', 'venue', 'city', 'date', 'source', 'format', 'genre', 'add', 'additional']:
-        # Only update if md[key] is empty or not valid in DEFAULTS for source/format
         if key in ("source", "format"):
             val = md.get(key)
             if not val or val.upper() not in [x.upper() for x in DEFAULTS[key]]:
@@ -178,7 +83,6 @@ def handle_tree_selection(self, event=None):
     for key in ('artist', 'venue', 'city', 'date', 'source', 'format'):
         if key in ("source", "format"):
             val = md.get(key)
-            # Only update if current md[key] is missing or invalid
             txt_val = txt_md.get(key)
             if txt_val and txt_val.upper() in [x.upper() for x in DEFAULTS[key]]:
                 md[key] = txt_val
@@ -186,52 +90,18 @@ def handle_tree_selection(self, event=None):
             if txt_md.get(key):
                 md[key] = txt_md[key]
 
-    # Improved date selection logic:
-    candidate_dates = []
-
-    # From txt metadata
-    txt_date = txt_md.get("date") or txt_md.get("release date")
-    if txt_date:
-        candidate_dates.append(txt_date)
-
-    # From folder metadata
-    folder_date = folder_md.get("date")
-    if folder_date:
-        candidate_dates.append(folder_date)
-
-    # From album_parsed
-    album_date = album_parsed.get("date")
-    if album_date:
-        candidate_dates.append(album_date)
-
-    # From file tags
-    filetag_date = file_tags.get("date")
-    if filetag_date:
-        candidate_dates.append(filetag_date)
-
-    def normalize_date(d):
-        if not d:
-            return None
-        try:
-            dt = datetime.strptime(d.strip(), "%Y-%m-%d")
-            return dt.strftime("%Y-%m-%d")
-        except Exception:
-            pass
-        formats = ["%Y%m%d", "%m/%d/%Y", "%d %b %Y", "%b %d, %Y", "%B %d, %Y", "%Y"]
-        for fmt in formats:
-            try:
-                dt = datetime.strptime(d.strip(), fmt)
-                if fmt == "%Y":
-                    return dt.strftime("%Y-01-01")
-                return dt.strftime("%Y-%m-%d")
-            except Exception:
-                continue
-        return None
+    # Compose candidate dates from all sources
+    candidate_dates = [
+        txt_md.get("date") or txt_md.get("release date"),
+        folder_md.get("date"),
+        album_parsed.get("date"),
+        file_tags.get("date"),
+    ]
 
     selected_date = None
     for cd in candidate_dates:
         nd = normalize_date(cd)
-        if nd and not nd.endswith("-01-01"):  # exclude year-only fallback
+        if nd and not nd.endswith("-01-01"):
             selected_date = nd
             break
     if not selected_date:
@@ -244,7 +114,6 @@ def handle_tree_selection(self, event=None):
     if selected_date:
         md["date"] = selected_date
 
-    # If still no source, try regex match from folder name and ensure it is in DEFAULTS["source"]
     if not md.get("source"):
         match = re.search(r"\b(aud|sbd|fm|dsbd|mtx|matrix)\b", folder_name.lower())
         if match:

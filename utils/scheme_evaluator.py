@@ -3,7 +3,6 @@ import os
 import configparser
 import pathlib
 from pathlib import Path
-from utils.logger import log_message  # Optional, for external logging
 
 CONFIG_PATH = Path("config/config.ini")
 
