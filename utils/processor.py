@@ -118,17 +118,17 @@ class Processor:
             )
 
             # GUI fallbacks take precedence over parsed values
-            # This ensures UI-set values override folder name parsing
-            date_raw = gui_fallbacks.get("date", "") or md.get("date", "")
+            # This ensures UI-set values override folder name parsing, even when empty
+            date_raw = gui_fallbacks.get("date") if "date" in gui_fallbacks else md.get("date", "")
             date = self._normalize_date(date_raw)
 
-            artist = gui_fallbacks.get("artist", "") or md.get("artist", "")
-            venue = gui_fallbacks.get("venue", "") or md.get("venue", "")
-            city = gui_fallbacks.get("city", "") or md.get("city", "")
-            source = gui_fallbacks.get("source", "") or md.get("source", "")
-            fmt = gui_fallbacks.get("format", "") or md.get("format", "")
-            genre = gui_fallbacks.get("genre", "") or md.get("genre", "")
-            add = gui_fallbacks.get("add", "") or md.get("additional", "") or md.get("add", "")
+            artist = gui_fallbacks.get("artist") if "artist" in gui_fallbacks else md.get("artist", "")
+            venue = gui_fallbacks.get("venue") if "venue" in gui_fallbacks else md.get("venue", "")
+            city = gui_fallbacks.get("city") if "city" in gui_fallbacks else md.get("city", "")
+            source = gui_fallbacks.get("source") if "source" in gui_fallbacks else md.get("source", "")
+            fmt = gui_fallbacks.get("format") if "format" in gui_fallbacks else md.get("format", "")
+            genre = gui_fallbacks.get("genre") if "genre" in gui_fallbacks else md.get("genre", "")
+            add = gui_fallbacks.get("add") if "add" in gui_fallbacks else (md.get("additional", "") or md.get("add", ""))
 
             # Update dropdown histories
             for key, val in [("source", source), ("format", fmt), ("genre", genre), ("add", add)]:
@@ -231,36 +231,52 @@ class Processor:
             ext = os.path.splitext(fp)[1].lower()
             if ext == ".flac":
                 audio = FLAC(fp)
+                # FLAC supports custom fields, so we can include venue/location/source
+                if artist:
+                    audio["artist"] = artist
+                if album:
+                    audio["album"] = album
+                if date:
+                    audio["date"] = date
+                if venue:
+                    audio["venue"] = venue  # FLAC allows custom fields
+                if city:
+                    audio["location"] = city  # FLAC allows custom fields
+                if genres:
+                    audio["genre"] = "; ".join(sorted({g.strip() for g in genres if g.strip()}))
+                if src:
+                    audio["source"] = src  # FLAC allows custom fields
+                if fmt:
+                    audio["comment"] = fmt
+                    
             elif ext == ".mp3":
                 audio = MP3(fp, ID3=EasyID3)
                 if audio.tags is None:
                     audio.add_tags()
+                
+                # MP3/ID3 only supports standard EasyID3 fields
+                if artist:
+                    audio["artist"] = artist
+                if album:
+                    audio["album"] = album
+                if date:
+                    audio["date"] = date
+                if genres:
+                    audio["genre"] = "; ".join(sorted({g.strip() for g in genres if g.strip()}))
+                
+                # For MP3, just tag the basic fields - venue/city/source info is in the album name
+                # The album name already contains: "2025-06-06 - Charleston Pour House - Charleston, SC [SBD] [MP3-256]"
+                # So venue, city, source, and format info is preserved there
+                    
             else:
                 self.log(f"  Skipped unsupported file type: {os.path.basename(fp)}")
                 return
-
-            if artist:
-                audio["artist"] = artist
-            if album:
-                audio["album"] = album
-            if date:
-                audio["date"] = date
-            if venue:
-                audio["venue"] = venue
-            if city:
-                audio["location"] = city
-            if genres:
-                audio["genre"] = "; ".join(sorted({g.strip() for g in genres if g.strip()}))
-            if src:
-                audio["source"] = src
-            if fmt:
-                audio["comment"] = fmt
 
             audio.save()
             self.log(f"  Tagged: {os.path.basename(fp)}")
         except Exception as e:
             self.log(f"  Tagging failed for {os.path.basename(fp)}: {e}")
-
+            
     def _cleanup_folder(self, folder, msg, stop_at=None):
         """
         Recursively remove empty folders from `folder` up to `stop_at`.

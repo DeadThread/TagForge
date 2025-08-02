@@ -1,6 +1,7 @@
 import re
 import logging
 from datetime import datetime
+from utils.constants import DEFAULTS
 
 logger = logging.getLogger(__name__)
 
@@ -24,8 +25,10 @@ STATE_ABBR = {
 
 CITY_STATE_RE = re.compile(r'([A-Za-z.\s]+)[,\s]+([A-Za-z]{2,})', re.IGNORECASE)
 
-KNOWN_FORMATS = {"FLAC24", "FLAC16", "FLAC", "MP3", "MP4", "WAV", "MKV", "MOV"}
-KNOWN_SOURCES = {"SBD", "AUD", "FM", "SOFT"}
+# Use proper constants from constants.py
+KNOWN_FORMATS = set(DEFAULTS["format"])  # {"FLAC16", "FLAC24", "FLAC", "MP3-V0", "MP3-320", "MP3-256", "MP3-128"}
+KNOWN_SOURCES = set(DEFAULTS["source"])  # {"SBD", "AUD", "MTX", "FM", "DAT"}
+KNOWN_ADDITIONAL = set(DEFAULTS["add"])  # {"Remastered", "Bootleg", "5.1"}
 
 # --- Helper Functions ---
 
@@ -83,7 +86,7 @@ def extract_id(text):
     m = re.search(r'\[([^\]]+)\]$', text)
     if m:
         v = m.group(1)
-        if v.upper() not in KNOWN_SOURCES.union(KNOWN_FORMATS):
+        if v.upper() not in KNOWN_SOURCES.union(KNOWN_FORMATS).union(KNOWN_ADDITIONAL):
             return v
     return ""
 
@@ -194,34 +197,61 @@ def match_folder(name, normalized_artists=None, normalized_venues=None, normaliz
             logger.debug(f"  Matched venue from list: {venue_match}")
 
     bracket_tokens = re.findall(r"\[([^\]]+)\]", name)
+    logger.debug(f"  Found bracket tokens: {bracket_tokens}")
 
-    format_token = next((t for t in bracket_tokens if t.upper() in KNOWN_FORMATS), None)
-    if format_token:
-        info["format"] = info["format"] or format_token
+    # Find format token - check longest matches first to prioritize MP3-256 over MP3
+    format_token = None
+    sorted_formats = sorted(KNOWN_FORMATS, key=len, reverse=True)
+    for fmt in sorted_formats:
+        if any(t.upper() == fmt.upper() for t in bracket_tokens):
+            format_token = fmt
+            info["format"] = info["format"] or format_token
+            logger.debug(f"  Found format token: {format_token}")
+            break
 
-    source_token = next((t for t in bracket_tokens if t.upper() in KNOWN_SOURCES), None)
-    if source_token:
-        info["source"] = info["source"] or source_token
+    # Find source token
+    source_token = None
+    for src in KNOWN_SOURCES:
+        if any(t.upper() == src.upper() for t in bracket_tokens):
+            source_token = src
+            info["source"] = info["source"] or source_token
+            logger.debug(f"  Found source token: {source_token}")
+            break
+
+    # Find additional tokens
+    additional_token = None
+    for add in KNOWN_ADDITIONAL:
+        if any(t.upper() == add.upper() for t in bracket_tokens):
+            additional_token = add
+            logger.debug(f"  Found additional token: {additional_token}")
+            break
 
     info["id"] = info["id"] or extract_id(name)
+
+    # Collect remaining bracket tokens as additional
+    remaining_tokens = []
+    for t in bracket_tokens:
+        if (t.upper() != (format_token or "").upper() and 
+            t.upper() != (source_token or "").upper() and 
+            t.upper() != (additional_token or "").upper() and
+            not (t.strip().startswith('%') and t.strip().endswith('%'))):
+            remaining_tokens.append(t)
+    
+    if additional_token:
+        remaining_tokens.insert(0, additional_token)
+    
+    info["additional"] = info["add"] = " ".join(remaining_tokens).strip()
+    logger.debug(f"  Final additional: {info['additional']}")
 
     # --- Fixed fallback format detection (prioritize longest match first) ---
     if not info["format"]:
         name_upper = name.upper()
         tokens = re.findall(r'\w+', name_upper)
-        sorted_formats = sorted(KNOWN_FORMATS, key=len, reverse=True)
         for fmt in sorted_formats:
             if any(token.startswith(fmt.upper()) for token in tokens):
                 info["format"] = fmt
                 logger.debug(f"  Found format in name (fallback): {fmt}")
                 break
-
-    additional_tokens = [
-        t for t in bracket_tokens
-        if t != format_token and t != source_token and not (t.strip().startswith('%') and t.strip().endswith('%'))
-    ]
-    info["additional"] = info["add"] = " ".join(additional_tokens).strip()
-    logger.debug(f"  Extracted additional: {info['additional']}")
 
     logger.debug(f"Finished parsing folder name with info: {info}")
     return info

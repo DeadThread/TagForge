@@ -1,6 +1,7 @@
 {
   "artist": [
     "Big Something",
+    "Billy Strings",
     "Daniel Donato",
     "Dizgo",
     "Grateful Dead",
@@ -15,10 +16,12 @@
     "Madison Square Garden",
     "Meow Wolf Denver",
     "Romp Music Festival",
+    "Spark Arena",
     "The Enchanted Forest",
     "Warfield Theatre"
   ],
   "city": [
+    "Auckland, NZ",
     "Denver, CO",
     "High Point, NC",
     "New Albany, IN",
@@ -56,6 +59,10 @@
     "43317",
     "43319",
     "43320",
+    "43331",
+    "43332",
+    "43333",
+    "43334",
     "43376",
     "test test 43211"
   ],
@@ -67,8 +74,8 @@
     "DAT"
   ],
   "format": [
-    "FLAC24",
     "FLAC16",
+    "FLAC24",
     "FLAC",
     "MP3-V0",
     "MP3-320",
@@ -76,6 +83,7 @@
     "MP3-128"
   ],
   "genre": [
+    "Bluegrass; Jam",
     "Jam",
     "Progressive Rock",
     "Rock",
