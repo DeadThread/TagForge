@@ -2839,3 +2839,91 @@ Processing folder: M:/Live Music/2025-06-07 - Charleston Pour House - Charlotte,
 2025-08-02 09:46:54,574 - INFO - Removed empty source folder: M:\Live Music\2025-06-07 - Charleston Pour House - Charlotte, NC [SBD] [MP3-256] [165465]
 2025-08-02 09:46:54,600 - INFO - Finished processing folder: M:/Live Music/Mountain Grass Unit/2025/2025-06-07 - Charleston Pour House - Charlotte, NC [SBD] [MP3-256] [165465]
 2025-08-02 09:46:55,003 - INFO - Used cache saved.
+2025-08-02 09:50:22,578 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 09:50:22,579 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 09:51:53,070 - INFO - => Output folder: M:\Live Music\Mountain Grass Unit\2025
+2025-08-02 09:51:53,739 - INFO - 
+Processing folder: M:/Live Music/2025-06-07 - Charleston Pour House - Charlotte, NC [SBD] [MP3-256] [165465]
+2025-08-02 09:51:53,751 - INFO - Metadata for scheme evaluation: {'artist': 'Mountain Grass Unit', 'venue': 'Charleston Pour House', 'city': 'Charlotte, NC', 'source': 'SBD', 'format': 'MP3-256', 'genre': 'Bluegrass, Jam', 'additional': '', 'add': '', 'date': '2025-06-07', 'currentfoldername': '2025-06-07 - Charleston Pour House - Charlotte, NC [SBD] [MP3-256] [165465]'}
+2025-08-02 09:51:53,754 - INFO - Evaluating output folder path with current schemes.
+2025-08-02 09:51:53,757 - INFO - => Output folder: M:\Live Music\Mountain Grass Unit\2025
+2025-08-02 09:51:53,761 - INFO - Output folder: M:/Live Music/Mountain Grass Unit/2025/2025-06-07 - Charleston Pour House - Charlotte, NC [SBD] [MP3-256]
+2025-08-02 09:51:53,810 - INFO -   Tagged: mountaingr250607d1_01_Intro.mp3
+2025-08-02 09:51:53,849 - INFO -   Tagged: mountaingr250607d1_02_Mastersons.mp3
+2025-08-02 09:51:53,889 - INFO -   Tagged: mountaingr250607d1_03_Im_Still_Here.mp3
+2025-08-02 09:51:53,928 - INFO -   Tagged: mountaingr250607d1_04_Where_I_Land.mp3
+2025-08-02 09:51:53,968 - INFO -   Tagged: mountaingr250607d1_05_Mary_Janes_Last_Dance.mp3
+2025-08-02 09:51:54,009 - INFO -   Tagged: mountaingr250607d1_06_Old_Train.mp3
+2025-08-02 09:51:54,049 - INFO -   Tagged: mountaingr250607d1_07_Same_Ole_Moon.mp3
+2025-08-02 09:51:54,089 - INFO -   Tagged: mountaingr250607d1_08_Blue_Ridge_Cabin_Home.mp3
+2025-08-02 09:51:54,129 - INFO -   Tagged: mountaingr250607d1_09_Doin_My_Time.mp3
+2025-08-02 09:51:54,169 - INFO -   Tagged: mountaingr250607d1_10_Shoot_the_gun.mp3
+2025-08-02 09:51:54,209 - INFO -   Tagged: mountaingr250607d1_11_Slow_Train.mp3
+2025-08-02 09:51:54,244 - INFO -   Tagged: mountaingr250607d2_01_Boxcar.mp3
+2025-08-02 09:51:54,284 - INFO -   Tagged: mountaingr250607d2_02_South_Woodridge__A_Jam.mp3
+2025-08-02 09:51:54,327 - INFO -   Tagged: mountaingr250607d2_03_John_Hardy.mp3
+2025-08-02 09:51:54,373 - INFO -   Tagged: mountaingr250607d2_04_Likes_of_Me.mp3
+2025-08-02 09:51:54,423 - INFO -   Tagged: mountaingr250607d2_05_Jericho.mp3
+2025-08-02 09:51:54,472 - INFO -   Tagged: mountaingr250607d2_06_Wait_For_Me.mp3
+2025-08-02 09:51:54,519 - INFO -   Tagged: mountaingr250607d2_07_The_Train_That_Carried_My_Girl_From_Town.mp3
+2025-08-02 09:51:54,563 - INFO -   Tagged: mountaingr250607d2_08_Shakedown_Street.mp3
+2025-08-02 09:51:54,611 - INFO -   Tagged: mountaingr250607d2_09_Lonesome_Dove.mp3
+2025-08-02 09:51:54,657 - INFO -   Tagged: mountaingr250607d2_10_Shays_Rebellion.mp3
+2025-08-02 09:51:54,704 - INFO -   Tagged: mountaingr250607d2_11_Aint_Life_Grand.mp3
+2025-08-02 09:51:54,752 - INFO -   Tagged: mountaingr250607d2_12_Cicada_Song.mp3
+2025-08-02 09:51:54,791 - INFO -   Tagged: mountaingr250607d2_13_Midnight_Rider.mp3
+2025-08-02 09:51:54,795 - INFO - Removed empty source folder: M:\Live Music\2025-06-07 - Charleston Pour House - Charlotte, NC [SBD] [MP3-256] [165465]
+2025-08-02 09:51:54,814 - INFO - Finished processing folder: M:/Live Music/Mountain Grass Unit/2025/2025-06-07 - Charleston Pour House - Charlotte, NC [SBD] [MP3-256]
+2025-08-02 09:51:55,199 - INFO - Used cache saved.
+2025-08-02 09:57:50,242 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 09:57:50,242 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 10:03:42,783 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 10:03:42,783 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 10:05:17,522 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 10:05:17,522 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 10:06:39,546 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 10:06:39,546 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 10:08:44,187 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 10:08:44,187 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 10:11:59,088 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 10:11:59,088 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 10:14:15,082 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 10:14:15,082 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 10:16:59,621 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 10:16:59,622 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 10:24:31,920 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 10:24:31,920 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 10:28:02,536 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 10:28:02,536 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 10:44:55,129 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 10:44:55,129 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 10:50:39,859 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 10:50:39,859 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 10:51:44,231 - INFO - Opened S:\Projects\GitHub\tagforge\assets\Venues.txt in default editor.
+2025-08-02 10:51:47,068 - INFO - Opened S:\Projects\GitHub\tagforge\assets\Cities.txt in default editor.
+2025-08-02 10:53:09,441 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 10:53:09,441 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 10:55:44,904 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 10:55:44,905 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:15:43,191 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:15:43,191 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:16:26,625 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:16:26,625 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:20:39,055 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:20:39,055 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:21:37,854 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:21:37,854 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:22:42,389 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:22:42,389 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:23:19,572 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:23:19,572 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:23:32,955 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:23:32,955 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:23:41,645 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:23:41,645 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:23:52,050 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:23:52,050 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:25:18,926 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:25:18,927 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
+2025-08-02 11:26:54,600 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 11:26:54,600 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(date)
