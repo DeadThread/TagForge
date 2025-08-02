@@ -117,17 +117,18 @@ class Processor:
                 log=self.log,
             )
 
-            # Fallbacks for missing metadata
-            date_raw = md.get("date") or gui_fallbacks.get("date", "")
+            # GUI fallbacks take precedence over parsed values
+            # This ensures UI-set values override folder name parsing
+            date_raw = gui_fallbacks.get("date", "") or md.get("date", "")
             date = self._normalize_date(date_raw)
 
-            artist = md.get("artist") or gui_fallbacks.get("artist", "")
-            venue = md.get("venue") or gui_fallbacks.get("venue", "")
-            city = md.get("city") or gui_fallbacks.get("city", "")
-            source = md.get("source") or gui_fallbacks.get("source", "")
-            fmt = md.get("format") or gui_fallbacks.get("format", "")
-            genre = md.get("genre") or gui_fallbacks.get("genre", "")
-            add = md.get("additional") or md.get("add") or gui_fallbacks.get("add", "")
+            artist = gui_fallbacks.get("artist", "") or md.get("artist", "")
+            venue = gui_fallbacks.get("venue", "") or md.get("venue", "")
+            city = gui_fallbacks.get("city", "") or md.get("city", "")
+            source = gui_fallbacks.get("source", "") or md.get("source", "")
+            fmt = gui_fallbacks.get("format", "") or md.get("format", "")
+            genre = gui_fallbacks.get("genre", "") or md.get("genre", "")
+            add = gui_fallbacks.get("add", "") or md.get("additional", "") or md.get("add", "")
 
             # Update dropdown histories
             for key, val in [("source", source), ("format", fmt), ("genre", genre), ("add", add)]:

@@ -1,0 +1,807 @@
+2025-07-29 13:31:14,858 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-07-29 13:31:14,858 - INFO - Loaded saving scheme: M:/Test-Folder-14/%artist%/$year(%date%)/%currentfoldername%
+2025-07-29 13:31:43,120 - INFO - => Output folder: M:/Test-Folder-14
+2025-07-29 13:32:09,388 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]/ph1995-12-31 - Madison Square Garden - New York, NY
+2025-07-29 13:32:09,388 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]/ph1995-12-31 - Madison Square Garden - New York, NY
+2025-07-29 13:32:14,061 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]/Phish - 2025-07-18 - Chicago, IL [FLAC24]
+2025-07-29 13:32:17,128 - INFO - 
+Processing folder: M:/Projects/Staging/Phish - 2025-07-18 - Chicago, IL [FLAC24]/Phish - 2025-07-18 - Chicago, IL [FLAC24]
+2025-07-29 13:32:17,139 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': 'United Center', 'city': 'Chicago, IL', 'source': 'SBD', 'format': 'FLAC24', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2025-07-18', 'currentfoldername': 'Phish - 2025-07-18 - Chicago, IL [FLAC24]'}
+2025-07-29 13:32:17,141 - INFO - Evaluating output folder path with current schemes.
+2025-07-29 13:32:17,146 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]/Phish - 2025-07-18 - Chicago, IL [FLAC24]
+2025-07-29 13:32:17,151 - INFO - Output folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/Phish - 2025-07-18 - Chicago, IL [FLAC24]/2025-07-18 - United Center - Chicago, IL [SBD] [FLAC24]
+2025-07-29 13:32:18,604 - INFO -   Tagged: ph250718d1_01_Harry_Hood.flac
+2025-07-29 13:32:19,960 - INFO -   Tagged: ph250718d1_02_Oblivion.flac
+2025-07-29 13:32:21,589 - INFO -   Tagged: ph250718d1_03_Heavy_Things.flac
+2025-07-29 13:32:23,462 - INFO -   Tagged: ph250718d1_04_Bathtub_Gin.flac
+2025-07-29 13:32:24,208 - INFO -   Tagged: ph250718d1_05_On_Your_Way_Down.flac
+2025-07-29 13:32:25,072 - INFO -   Tagged: ph250718d1_06_Limb_By_Limb.flac
+2025-07-29 13:32:26,034 - INFO -   Tagged: ph250718d1_07_hey_stranger.flac
+2025-07-29 13:32:27,037 - INFO -   Tagged: ph250718d1_08_Character_Zero.flac
+2025-07-29 13:32:28,717 - INFO -   Tagged: ph250718d2_01_No_Men_in_No_Mans_Land.flac
+2025-07-29 13:32:32,431 - INFO -   Tagged: ph250718d2_02_Whats_Going_Through_Your_Mind.flac
+2025-07-29 13:32:34,595 - INFO -   Tagged: ph250718d2_03_Crosseyed_and_Painless.flac
+2025-07-29 13:32:35,293 - INFO -   Tagged: ph250718d2_04_Farmhouse.flac
+2025-07-29 13:32:35,928 - INFO -   Tagged: ph250718d3_01_Light.flac
+2025-07-29 13:32:36,765 - INFO -   Tagged: ph250718d3_02_Backwards_Down_the_Number_Line.flac
+2025-07-29 13:32:37,506 - INFO -   Tagged: ph250718d3_03_Cavern.flac
+2025-07-29 13:32:37,772 - INFO -   Tagged: ph250718d3_04_The_Horse.flac
+2025-07-29 13:32:38,434 - INFO -   Tagged: ph250718d3_05_Silent_In_The_Morning.flac
+2025-07-29 13:32:39,477 - INFO -   Tagged: ph250718d3_06_46_Days.flac
+2025-07-29 13:32:39,688 - INFO - Removed empty source folder: M:\Projects\Staging\Phish - 2025-07-18 - Chicago, IL [FLAC24]\Phish - 2025-07-18 - Chicago, IL [FLAC24]
+2025-07-29 13:32:39,702 - INFO - Removed empty source folder: M:\Projects\Staging\Phish - 2025-07-18 - Chicago, IL [FLAC24]
+2025-07-29 13:32:39,731 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/Phish - 2025-07-18 - Chicago, IL [FLAC24]/2025-07-18 - United Center - Chicago, IL [SBD] [FLAC24]
+2025-07-29 13:32:40,310 - INFO - Used cache saved.
+2025-07-29 13:32:47,395 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]/1995-12-31 - Madison Square Garden - New York, NY [SBD] [FLAC24] [NYE95]
+2025-07-29 13:32:47,396 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]/1995-12-31 - Madison Square Garden - New York, NY [SBD] [FLAC24] [NYE95]
+2025-07-29 13:33:11,697 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]/2025-07-22 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]
+2025-07-29 13:33:20,149 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]/2025-07-23 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]
+2025-07-29 13:33:29,398 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]/2025-07-25 - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 13:33:41,030 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]/2025-07-26 - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 13:33:54,733 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]/2025-07-27 - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 13:33:57,920 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]/2025-07-20 - United Center - Chicago, IL [SBD] [FLAC24]
+2025-07-29 13:34:08,991 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]/2025-07-19 - United Center - Chicago, IL [SBD] [FLAC24]
+2025-07-29 13:34:21,702 - INFO - 
+Processing folder: M:/Projects/Staging/Phish - 2025-07-22 Forest Hills Stadium, Forest Hills, NY - FLAC24
+2025-07-29 13:34:21,722 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': 'Forest Hills Stadium', 'city': 'Forest Hills, NY', 'source': 'SBD', 'format': 'FLAC24', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2025-07-22', 'currentfoldername': 'Phish - 2025-07-22 Forest Hills Stadium, Forest Hills, NY - FLAC24'}
+2025-07-29 13:34:21,726 - INFO - Evaluating output folder path with current schemes.
+2025-07-29 13:34:21,740 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]/2025-07-22 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]
+2025-07-29 13:34:21,748 - INFO - Output folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-22 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]/2025-07-22 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]
+2025-07-29 13:34:23,003 - INFO -   Tagged: ph250722d1_01_The_Moma_Dance.flac
+2025-07-29 13:34:23,864 - INFO -   Tagged: ph250722d1_02_Rift.flac
+2025-07-29 13:34:25,473 - INFO -   Tagged: ph250722d1_03_Sigma_Oasis.flac
+2025-07-29 13:34:26,971 - INFO -   Tagged: ph250722d1_04_Possum.flac
+2025-07-29 13:34:28,469 - INFO -   Tagged: ph250722d1_05_Wolfmans_Brother.flac
+2025-07-29 13:34:29,567 - INFO -   Tagged: ph250722d1_06_Stash.flac
+2025-07-29 13:34:30,756 - INFO -   Tagged: ph250722d1_07_Blaze_On.flac
+2025-07-29 13:34:31,553 - INFO -   Tagged: ph250722d1_08_Monsters.flac
+2025-07-29 13:34:32,316 - INFO -   Tagged: ph250722d2_01_I_Am_The_Walrus.flac
+2025-07-29 13:34:35,375 - INFO -   Tagged: ph250722d2_02_Carini.flac
+2025-07-29 13:34:37,442 - INFO -   Tagged: ph250722d2_03_Tweezer.flac
+2025-07-29 13:34:38,950 - INFO -   Tagged: ph250722d2_04_Whats_Going_Through_Your_Mind.flac
+2025-07-29 13:34:40,023 - INFO -   Tagged: ph250722d2_05_A_Life_Beyond_The_Dream.flac
+2025-07-29 13:34:41,886 - INFO -   Tagged: ph250722d3_01_Harry_Hood.flac
+2025-07-29 13:34:43,149 - INFO -   Tagged: ph250722d3_02_Slave_To_The_Traffic_Light.flac
+2025-07-29 13:34:43,864 - INFO -   Tagged: ph250722d3_03_More.flac
+2025-07-29 13:34:44,312 - INFO -   Tagged: ph250722d3_04_Tweezer_Reprise.flac
+2025-07-29 13:34:44,416 - INFO - Removed empty source folder: M:\Projects\Staging\Phish - 2025-07-22 Forest Hills Stadium, Forest Hills, NY - FLAC24
+2025-07-29 13:34:44,458 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-22 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]/2025-07-22 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]
+2025-07-29 13:34:44,469 - INFO - 
+Processing folder: M:/Projects/Staging/Phish - 2025-07-23 Forest Hills, NY [FLAC24]/Phish - 2025-07-23 Forest Hills, NY [FLAC24]
+2025-07-29 13:34:44,495 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': 'Forest Hills Stadium', 'city': 'Forest Hills, NY', 'source': 'SBD', 'format': 'FLAC24', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2025-07-23', 'currentfoldername': 'Phish - 2025-07-23 Forest Hills, NY [FLAC24]'}
+2025-07-29 13:34:44,505 - INFO - Evaluating output folder path with current schemes.
+2025-07-29 13:34:44,529 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]/2025-07-23 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]
+2025-07-29 13:34:44,547 - INFO - Output folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-23 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]/2025-07-23 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]
+2025-07-29 13:34:46,206 - INFO -   Tagged: ph250723d1_01_Free.flac
+2025-07-29 13:34:47,725 - INFO -   Tagged: ph250723d1_02_Back_on_the_Train.flac
+2025-07-29 13:34:49,341 - INFO -   Tagged: ph250723d1_03_Theme_from_the_Bottom.flac
+2025-07-29 13:34:51,755 - INFO -   Tagged: ph250723d1_04_Cities.flac
+2025-07-29 13:34:53,745 - INFO -   Tagged: ph250723d1_05_Divided_Sky.flac
+2025-07-29 13:34:54,928 - INFO -   Tagged: ph250723d1_06_Timber.flac
+2025-07-29 13:34:57,459 - INFO -   Tagged: ph250723d1_07_Ether_Edge.flac
+2025-07-29 13:34:58,488 - INFO -   Tagged: ph250723d2_01_The_Squirming_Coil.flac
+2025-07-29 13:34:59,763 - INFO -   Tagged: ph250723d2_02_Punch_You_in_the_Eye.flac
+2025-07-29 13:35:01,749 - INFO -   Tagged: ph250723d2_03_Ghost.flac
+2025-07-29 13:35:03,681 - INFO -   Tagged: ph250723d2_04_A_Wave_of_Hope.flac
+2025-07-29 13:35:04,960 - INFO -   Tagged: ph250723d2_05_Whats_the_Use.flac
+2025-07-29 13:35:07,587 - INFO -   Tagged: ph250723d3_01_Ruby_Waves.flac
+2025-07-29 13:35:08,453 - INFO -   Tagged: ph250723d3_02_Backwards_Down_the_Number_Line.flac
+2025-07-29 13:35:09,781 - INFO -   Tagged: ph250723d3_03_Character_Zero.flac
+2025-07-29 13:35:11,025 - INFO -   Tagged: ph250723d3_04_Sneakin_Sally_thru_the_Alley.flac
+2025-07-29 13:35:11,959 - INFO -   Tagged: ph250723d3_05_Wilson.flac
+2025-07-29 13:35:12,521 - INFO -   Tagged: ph250723d3_06_Rocky_Top.flac
+2025-07-29 13:35:12,537 - INFO - Removed empty source folder: M:\Projects\Staging\Phish - 2025-07-23 Forest Hills, NY [FLAC24]\Phish - 2025-07-23 Forest Hills, NY [FLAC24]
+2025-07-29 13:35:12,566 - INFO - Removed empty source folder: M:\Projects\Staging\Phish - 2025-07-23 Forest Hills, NY [FLAC24]
+2025-07-29 13:35:12,589 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-23 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]/2025-07-23 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]
+2025-07-29 13:35:12,606 - INFO - 
+Processing folder: M:/Projects/Staging/Phish - 2025-07-25 Broadview Stage at SPAC, Saratoga Springs, NY [FLAC24]/Phish - 2025-07-25 Broadview Stage at SPAC, Saratoga Springs, NY [FLAC24]
+2025-07-29 13:35:12,619 - INFO -   Updated venues.txt with: Broadview Stage at SPAC
+2025-07-29 13:35:12,638 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': 'Broadview Stage at SPAC', 'city': 'Saratoga Springs, NY', 'source': 'SBD', 'format': 'FLAC24', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2025-07-25', 'currentfoldername': 'Phish - 2025-07-25 Broadview Stage at SPAC, Saratoga Springs, NY [FLAC24]'}
+2025-07-29 13:35:12,649 - INFO - Evaluating output folder path with current schemes.
+2025-07-29 13:35:12,670 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]/2025-07-25 - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 13:35:12,688 - INFO - Output folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-25 - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]/2025-07-25 - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 13:35:13,496 - INFO -   Tagged: 01 - First Tube.flac
+2025-07-29 13:35:15,551 - INFO -   Tagged: 02 - Bathtub Gin.flac
+2025-07-29 13:35:16,373 - INFO -   Tagged: 03 - Devotion to a Dream.flac
+2025-07-29 13:35:17,376 - INFO -   Tagged: 04 - The Well.flac
+2025-07-29 13:35:18,408 - INFO -   Tagged: 05 - Birds of a Feather.flac
+2025-07-29 13:35:18,945 - INFO -   Tagged: 06 - Strawberry Letter 23.flac
+2025-07-29 13:35:19,395 - INFO -   Tagged: 07 - Lawn Boy.flac
+2025-07-29 13:35:19,945 - INFO -   Tagged: 08 - The Old Home Place.flac
+2025-07-29 13:35:21,226 - INFO -   Tagged: 09 - Hey Stranger.flac
+2025-07-29 13:35:22,424 - INFO -   Tagged: 10 - Walls of the Cave.flac
+2025-07-29 13:35:24,434 - INFO -   Tagged: 11 - Set Your Soul Free ».flac
+2025-07-29 13:35:28,353 - INFO -   Tagged: 12 - Chalk Dust Torture ».flac
+2025-07-29 13:35:29,548 - INFO -   Tagged: 13 - Beneath a Sea of Stars Part 1 ».flac
+2025-07-29 13:35:30,865 - INFO -   Tagged: 14 - Piper ».flac
+2025-07-29 13:35:32,854 - INFO -   Tagged: 15 - Everything's Right.flac
+2025-07-29 13:35:33,581 - INFO -   Tagged: 16 - Loving Cup ».flac
+2025-07-29 13:35:35,757 - INFO -   Tagged: 17 - Run Like An Antelope.flac
+2025-07-29 13:35:36,983 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-25 - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]/2025-07-25 - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 13:35:37,001 - INFO - 
+Processing folder: M:/Projects/Staging/Phish - 2025-07-26 Broadview Stage at SPAC, Saratoga Springs, NY [FLAC24]/Phish - 2025-07-26 Broadview Stage at SPAC, Saratoga Springs, NY [FLAC24]
+2025-07-29 13:35:37,028 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': 'Broadview Stage at SPAC', 'city': 'Saratoga Springs, NY', 'source': 'SBD', 'format': 'FLAC24', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2025-07-26', 'currentfoldername': 'Phish - 2025-07-26 Broadview Stage at SPAC, Saratoga Springs, NY [FLAC24]'}
+2025-07-29 13:35:37,030 - INFO - Evaluating output folder path with current schemes.
+2025-07-29 13:35:37,037 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]/2025-07-26 - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 13:35:37,053 - INFO - Output folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-26 - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]/2025-07-26 - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 13:35:37,920 - INFO -   Tagged: 01 - Martian Monster ».flac
+2025-07-29 13:35:39,136 - INFO -   Tagged: 02 - 2001 ».flac
+2025-07-29 13:35:40,590 - INFO -   Tagged: 03 - Mike's Song ».flac
+2025-07-29 13:35:41,451 - INFO -   Tagged: 04 - Wading in the Velvet Sea ».flac
+2025-07-29 13:35:42,644 - INFO -   Tagged: 05 - Weekapaug Groove.flac
+2025-07-29 13:35:44,283 - INFO -   Tagged: 06 - Sand.flac
+2025-07-29 13:35:45,508 - INFO -   Tagged: 07 - Evolve.flac
+2025-07-29 13:35:47,276 - INFO -   Tagged: 08 - My Friend, My Friend ».flac
+2025-07-29 13:35:48,619 - INFO -   Tagged: 09 - No Men in No Man’s Land.flac
+2025-07-29 13:35:50,549 - INFO -   Tagged: 10 - Oblivion ».flac
+2025-07-29 13:35:53,235 - INFO -   Tagged: 11 - Down with Disease ».flac
+2025-07-29 13:35:55,161 - INFO -   Tagged: 12 - Light ».flac
+2025-07-29 13:35:57,049 - INFO -   Tagged: 13 - Life Saving Gun ».flac
+2025-07-29 13:35:57,651 - INFO -   Tagged: 14 - Waste ».flac
+2025-07-29 13:35:59,997 - INFO -   Tagged: 15 - Fluffhead.flac
+2025-07-29 13:36:00,777 - INFO -   Tagged: 16 - Golgi Apparatus.flac
+2025-07-29 13:36:01,877 - INFO -   Tagged: 17 - Rock and Roll.flac
+2025-07-29 13:36:02,827 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-26 - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]/2025-07-26 - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 13:36:02,837 - INFO - 
+Processing folder: M:/Projects/Staging/Phish - 2025-07-27 - Broadview Stage at SPAC, Saratoga Springs, NY [FLAC24]/Phish - 2025-07-27 - Broadview Stage at SPAC, Saratoga Springs, NY [FLAC24]
+2025-07-29 13:36:02,850 - INFO -   Updated venues.txt with: - Broadview Stage at SPAC
+2025-07-29 13:36:02,873 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': '- Broadview Stage at SPAC', 'city': 'Saratoga Springs, NY', 'source': 'SBD', 'format': 'FLAC24', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2025-07-27', 'currentfoldername': 'Phish - 2025-07-27 - Broadview Stage at SPAC, Saratoga Springs, NY [FLAC24]'}
+2025-07-29 13:36:02,876 - INFO - Evaluating output folder path with current schemes.
+2025-07-29 13:36:02,894 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]/2025-07-27 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 13:36:02,902 - INFO - Output folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-27 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]/2025-07-27 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 13:36:04,122 - INFO -   Tagged: ph250727d1_01_Buried_Alive.flac
+2025-07-29 13:36:10,823 - INFO -   Tagged: ph250727d1_02_Tweezer_Reprise.flac
+2025-07-29 13:36:16,555 - INFO -   Tagged: ph250727d1_03_Reba.flac
+2025-07-29 13:36:18,023 - INFO -   Tagged: ph250727d1_04_Tweezer_Reprise.flac
+2025-07-29 13:36:20,513 - INFO -   Tagged: ph250727d1_05_Funky_Bitch.flac
+2025-07-29 13:36:26,175 - INFO -   Tagged: ph250727d1_06_Roses_Are_Free.flac
+2025-07-29 13:36:27,273 - INFO -   Tagged: ph250727d1_07_Tweezer_Reprise.flac
+2025-07-29 13:36:30,538 - INFO -   Tagged: ph250727d1_08_46_Days.flac
+2025-07-29 13:36:32,412 - INFO -   Tagged: ph250727d1_09_About_to_Run.flac
+2025-07-29 13:36:37,487 - INFO -   Tagged: ph250727d2_01_Split_Open_And_Melt.flac
+2025-07-29 13:36:39,419 - INFO -   Tagged: ph250727d2_02_Tweezer_Reprise.flac
+2025-07-29 13:36:45,332 - INFO -   Tagged: ph250727d2_03_Kill_Devil_Falls.flac
+2025-07-29 13:36:51,291 - INFO -   Tagged: ph250727d2_04_Twist.flac
+2025-07-29 13:36:53,873 - INFO -   Tagged: ph250727d3_01_Golden_Age.flac
+2025-07-29 13:37:00,180 - INFO -   Tagged: ph250727d3_02_Tweezer_Reprise.flac
+2025-07-29 13:37:03,091 - INFO -   Tagged: ph250727d3_03_Boogie_On_Reggae_Woman.flac
+2025-07-29 13:37:10,151 - INFO -   Tagged: ph250727d3_04_You_Enjoy_Myself.flac
+2025-07-29 13:37:12,102 - INFO -   Tagged: ph250727d3_05_Tweezer_Reprise.flac
+2025-07-29 13:37:14,089 - INFO -   Tagged: ph250727d3_06_Tweezer.flac
+2025-07-29 13:37:19,172 - INFO -   Tagged: ph250727d3_07_Harry_Hood.flac
+2025-07-29 13:37:19,244 - INFO - Removed empty source folder: M:\Projects\Staging\Phish - 2025-07-27 - Broadview Stage at SPAC, Saratoga Springs, NY [FLAC24]\Phish - 2025-07-27 - Broadview Stage at SPAC, Saratoga Springs, NY [FLAC24]
+2025-07-29 13:37:19,290 - INFO - Removed empty source folder: M:\Projects\Staging\Phish - 2025-07-27 - Broadview Stage at SPAC, Saratoga Springs, NY [FLAC24]
+2025-07-29 13:37:19,314 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-27 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]/2025-07-27 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 13:37:19,332 - INFO - 
+Processing folder: M:/Projects/Staging/Phish 2025-07-20 - United Center - Chicago, IL FLAC24
+2025-07-29 13:37:19,363 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': 'United Center', 'city': 'Chicago, IL', 'source': 'SBD', 'format': 'FLAC24', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2025-07-20', 'currentfoldername': 'Phish 2025-07-20 - United Center - Chicago, IL FLAC24'}
+2025-07-29 13:37:19,371 - INFO - Evaluating output folder path with current schemes.
+2025-07-29 13:37:19,395 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]/2025-07-20 - United Center - Chicago, IL [SBD] [FLAC24]
+2025-07-29 13:37:19,410 - INFO - Output folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-20 - United Center - Chicago, IL [SBD] [FLAC24]/2025-07-20 - United Center - Chicago, IL [SBD] [FLAC24]
+2025-07-29 13:37:20,107 - INFO -   Tagged: ph250720d1_01_Cars_Trucks_Buses.flac
+2025-07-29 13:37:20,833 - INFO -   Tagged: ph250720d1_02_ACDC_Bag.flac
+2025-07-29 13:37:21,864 - INFO -   Tagged: ph250720d1_03_Funky_Bitch.flac
+2025-07-29 13:37:22,925 - INFO -   Tagged: ph250720d1_04_Alaska.flac
+2025-07-29 13:37:24,037 - INFO -   Tagged: ph250720d1_05_Mikes_Song.flac
+2025-07-29 13:37:24,509 - INFO -   Tagged: ph250720d1_06_Horn.flac
+2025-07-29 13:37:26,057 - INFO -   Tagged: ph250720d1_07_Reba.flac
+2025-07-29 13:37:27,447 - INFO -   Tagged: ph250720d1_08_Leaves.flac
+2025-07-29 13:37:28,339 - INFO -   Tagged: ph250720d1_09_Taste.flac
+2025-07-29 13:37:29,100 - INFO -   Tagged: ph250720d1_10_Izabella.flac
+2025-07-29 13:37:30,712 - INFO -   Tagged: ph250720d2_01_Gotta_Jibboo.flac
+2025-07-29 13:37:32,941 - INFO -   Tagged: ph250720d2_02_Fuego.flac
+2025-07-29 13:37:33,546 - INFO -   Tagged: ph250720d2_03_Sparkle.flac
+2025-07-29 13:37:34,984 - INFO -   Tagged: ph250720d2_04_Scents_and_Subtle_Sounds.flac
+2025-07-29 13:37:36,477 - INFO -   Tagged: ph250720d2_05_Twist.flac
+2025-07-29 13:37:38,106 - INFO -   Tagged: ph250720d2_06_The_Lizards.flac
+2025-07-29 13:37:40,095 - INFO -   Tagged: ph250720d3_01_Shine_A_Light.flac
+2025-07-29 13:37:41,779 - INFO -   Tagged: ph250720d3_02_Kill_Devil_Falls.flac
+2025-07-29 13:37:42,608 - INFO -   Tagged: ph250720d3_03_Fee.flac
+2025-07-29 13:37:43,350 - INFO -   Tagged: ph250720d3_04_Weekapaug_Groove.flac
+2025-07-29 13:37:50,410 - INFO -   Tagged: ph250720d3_05_Say_It_To_Me_SANTOS.flac
+2025-07-29 13:37:51,308 - INFO - Removed empty source folder: M:\Projects\Staging\Phish 2025-07-20 - United Center - Chicago, IL FLAC24
+2025-07-29 13:37:51,994 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-20 - United Center - Chicago, IL [SBD] [FLAC24]/2025-07-20 - United Center - Chicago, IL [SBD] [FLAC24]
+2025-07-29 13:37:52,012 - INFO - 
+Processing folder: M:/Projects/Staging/Phish-2025-07-19.United.Center.Chicago.IL.FLAC24-WEEKaPAuG/Phish-2025-07-19.United.Center.Chicago.IL.FLAC24-WEEKaPAuG
+2025-07-29 13:37:52,038 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': 'United Center', 'city': 'Chicago, IL', 'source': 'SBD', 'format': 'FLAC24', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2025-07-19', 'currentfoldername': 'Phish-2025-07-19.United.Center.Chicago.IL.FLAC24-WEEKaPAuG'}
+2025-07-29 13:37:52,046 - INFO - Evaluating output folder path with current schemes.
+2025-07-29 13:37:52,056 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]/2025-07-19 - United Center - Chicago, IL [SBD] [FLAC24]
+2025-07-29 13:37:52,069 - INFO - Output folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-19 - United Center - Chicago, IL [SBD] [FLAC24]/2025-07-19 - United Center - Chicago, IL [SBD] [FLAC24]
+2025-07-29 13:38:04,942 - INFO -   Tagged: ph250719d1_01_Life_Saving_Gun.flac
+2025-07-29 13:38:14,825 - INFO -   Tagged: ph250719d1_02_Steam.flac
+2025-07-29 13:38:24,441 - INFO -   Tagged: ph250719d1_03_McGrupp_and_the_Watchful_Hosemasters.flac
+2025-07-29 13:38:31,581 - INFO -   Tagged: ph250719d1_04_The_Line.flac
+2025-07-29 13:38:42,185 - INFO -   Tagged: ph250719d1_05_Seven_Below.flac
+2025-07-29 13:38:49,943 - INFO -   Tagged: ph250719d1_06_Ocelot.flac
+2025-07-29 13:39:00,039 - INFO -   Tagged: ph250719d1_07_Ya_Mar.flac
+2025-07-29 13:39:07,546 - INFO -   Tagged: ph250719d1_08_Mountains_In_The_Mist.flac
+2025-07-29 13:39:13,998 - INFO -   Tagged: ph250719d1_09_Golgi_Apparatus.flac
+2025-07-29 13:39:22,146 - INFO -   Tagged: ph250719d2_01_Most_Events_Arent_Planned.flac
+2025-07-29 13:39:31,713 - INFO -   Tagged: ph250719d2_02_Tube.flac
+2025-07-29 13:39:41,077 - INFO -   Tagged: ph250719d2_03_A_Song_I_Heard_The_Ocean_Sing.flac
+2025-07-29 13:39:50,696 - INFO -   Tagged: ph250719d2_04_Down_with_Disease.flac
+2025-07-29 13:39:57,114 - INFO -   Tagged: ph250719d2_05_Seven_Below.flac
+2025-07-29 13:40:04,045 - INFO -   Tagged: ph250719d2_06_Down_with_Disease.flac
+2025-07-29 13:40:11,610 - INFO -   Tagged: ph250719d3_01_Pillow_Jets.flac
+2025-07-29 13:40:19,483 - INFO -   Tagged: ph250719d3_02_2001.flac
+2025-07-29 13:40:28,174 - INFO -   Tagged: ph250719d3_03_Chalk_Dust_Torture.flac
+2025-07-29 13:40:35,745 - INFO -   Tagged: ph250719d3_04_While_My_Guitar_Gently_Weeps.flac
+2025-07-29 13:40:42,540 - INFO -   Tagged: ph250719d3_05_First_Tube.flac
+2025-07-29 13:40:47,287 - INFO - Removed empty source folder: M:\Projects\Staging\Phish-2025-07-19.United.Center.Chicago.IL.FLAC24-WEEKaPAuG\Phish-2025-07-19.United.Center.Chicago.IL.FLAC24-WEEKaPAuG
+2025-07-29 13:40:48,079 - INFO - Removed empty source folder: M:\Projects\Staging\Phish-2025-07-19.United.Center.Chicago.IL.FLAC24-WEEKaPAuG
+2025-07-29 13:40:49,913 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-19 - United Center - Chicago, IL [SBD] [FLAC24]/2025-07-19 - United Center - Chicago, IL [SBD] [FLAC24]
+2025-07-29 13:41:34,311 - INFO - Used cache saved.
+2025-07-29 15:52:52,550 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-07-29 15:52:52,550 - INFO - Loaded saving scheme: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]/%foldername%
+2025-07-29 15:54:16,603 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]/2025-07-15 - The Mann - Philadelphia, PA [SBD] [FLAC16]
+2025-07-29 15:54:37,535 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 15:54:37,536 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 15:54:37,537 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 15:54:41,974 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 15:54:54,478 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 15:55:05,517 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 15:55:15,888 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 15:55:20,402 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 15:55:31,694 - INFO - 
+Processing folder: M:/Soulseek/complete/Phish - 2025-07-15.TD.Pavilion.at.the.Mann.Philadelphia.PA.FLAC16-WEEKaPAuG
+2025-07-29 15:55:31,699 - INFO -   Updated venues.txt with: The Mann
+2025-07-29 15:55:31,709 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': 'The Mann', 'city': 'Philadelphia, PA', 'source': 'SBD', 'format': 'FLAC16', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2025-07-15', 'currentfoldername': 'Phish - 2025-07-15.TD.Pavilion.at.the.Mann.Philadelphia.PA.FLAC16-WEEKaPAuG'}
+2025-07-29 15:55:31,710 - INFO - Evaluating output folder path with current schemes.
+2025-07-29 15:55:31,716 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 15:55:31,721 - INFO - Output folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-15 - The Mann - Philadelphia, PA [SBD] [FLAC16]
+2025-07-29 15:55:32,162 - INFO -   Tagged: ph250715_d01_01_Punch_You_in_the_Eye.flac
+2025-07-29 15:55:32,726 - INFO -   Tagged: ph250715_d01_02_Everythings_Right.flac
+2025-07-29 15:55:32,959 - INFO -   Tagged: ph250715_d01_03_Camel_Walk.flac
+2025-07-29 15:55:33,305 - INFO -   Tagged: ph250715_d01_04_Theme_from_the_Bottom.flac
+2025-07-29 15:55:33,719 - INFO -   Tagged: ph250715_d01_05_Prince_Caspian.flac
+2025-07-29 15:55:34,047 - INFO -   Tagged: ph250715_d01_06_Its_Ice.flac
+2025-07-29 15:55:34,337 - INFO -   Tagged: ph250715_d01_07_About_to_Run.flac
+2025-07-29 15:55:34,773 - INFO -   Tagged: ph250715_d01_08_David_Bowie.flac
+2025-07-29 15:55:36,060 - INFO -   Tagged: ph250715_d02_01_Sand.flac
+2025-07-29 15:55:36,774 - INFO -   Tagged: ph250715_d02_02_My_Friend_My_Friend.flac
+2025-07-29 15:55:37,007 - INFO -   Tagged: ph250715_d02_03_Boogie_On_Reggae_Woman.flac
+2025-07-29 15:55:37,311 - INFO -   Tagged: ph250715_d02_04_Blaze_On.flac
+2025-07-29 15:55:38,095 - INFO -   Tagged: ph250715_d02_05_Carini.flac
+2025-07-29 15:55:38,310 - INFO -   Tagged: ph250715_d03_01_Shade.flac
+2025-07-29 15:55:38,516 - INFO -   Tagged: ph250715_d03_02_I_Didnt_Know.flac
+2025-07-29 15:55:38,806 - INFO -   Tagged: ph250715_d03_03_Wilson.flac
+2025-07-29 15:55:39,189 - INFO -   Tagged: ph250715_d03_04_Possum.flac
+2025-07-29 15:55:39,238 - INFO - Removed empty source folder: M:\Soulseek\complete\Phish - 2025-07-15.TD.Pavilion.at.the.Mann.Philadelphia.PA.FLAC16-WEEKaPAuG
+2025-07-29 15:55:39,250 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-15 - The Mann - Philadelphia, PA [SBD] [FLAC16]
+2025-07-29 15:55:39,294 - INFO - 
+Processing folder: M:/Soulseek/complete/Phish - 2025-07-16.flac24
+2025-07-29 15:55:39,327 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': 'The Mann', 'city': 'Philadelphia, PA', 'source': 'SBD', 'format': 'FLAC24', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2025-07-16', 'currentfoldername': 'Phish - 2025-07-16.flac24'}
+2025-07-29 15:55:39,336 - INFO - Evaluating output folder path with current schemes.
+2025-07-29 15:55:39,351 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 15:55:39,367 - INFO - Output folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-16 - The Mann - Philadelphia, PA [SBD] [FLAC24]
+2025-07-29 15:55:39,930 - INFO -   Tagged: ph250716d1_01_The_Dogs.flac
+2025-07-29 15:55:40,692 - INFO -   Tagged: ph250716d1_02_Evolve.flac
+2025-07-29 15:55:42,154 - INFO -   Tagged: ph250716d1_03_Fluffhead.flac
+2025-07-29 15:55:43,110 - INFO -   Tagged: ph250716d1_04_Gumbo.flac
+2025-07-29 15:55:44,103 - INFO -   Tagged: ph250716d1_05_Pebbles_and_Marbles.flac
+2025-07-29 15:55:45,190 - INFO -   Tagged: ph250716d1_06_Roggae.flac
+2025-07-29 15:55:45,549 - INFO -   Tagged: ph250716d1_07_Ginseng_Sullivan.flac
+2025-07-29 15:55:46,143 - INFO -   Tagged: ph250716d1_08_Guelah_Papyrus.flac
+2025-07-29 15:55:46,929 - INFO -   Tagged: ph250716d1_09_Julius.flac
+2025-07-29 15:55:48,484 - INFO -   Tagged: ph250716d2_01_Split_Open_And_Melt.flac
+2025-07-29 15:55:49,953 - INFO -   Tagged: ph250716d2_02_The_Curtain.flac
+2025-07-29 15:55:51,742 - INFO -   Tagged: ph250716d2_03_A_Wave_of_Hope.flac
+2025-07-29 15:55:52,924 - INFO -   Tagged: ph250716d2_04_mercy.flac
+2025-07-29 15:55:54,391 - INFO -   Tagged: ph250716d2_05_Simple.flac
+2025-07-29 15:55:55,272 - INFO -   Tagged: ph250716d3_01_Ether_Edge.flac
+2025-07-29 15:55:56,282 - INFO -   Tagged: ph250716d3_02_Maze.flac
+2025-07-29 15:55:57,080 - INFO -   Tagged: ph250716d3_03_Twenty_Years_Later.flac
+2025-07-29 15:55:58,226 - INFO -   Tagged: ph250716d3_04_Run_Like_an_Antelope.flac
+2025-07-29 15:56:10,748 - INFO -   Tagged: ph250716d3_05_You_Enjoy_Myself.flac
+2025-07-29 15:56:10,849 - INFO - Removed empty source folder: M:\Soulseek\complete\Phish - 2025-07-16.flac24
+2025-07-29 15:56:10,898 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-16 - The Mann - Philadelphia, PA [SBD] [FLAC24]
+2025-07-29 15:56:10,921 - INFO - 
+Processing folder: M:/Soulseek/complete/Phish - 2025-07-11 Charleston, SC [FLAC24]
+2025-07-29 15:56:10,943 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': 'North Charleston Coliseum', 'city': 'Charleston, SC', 'source': 'SBD', 'format': 'FLAC24', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2025-07-11', 'currentfoldername': 'Phish - 2025-07-11 Charleston, SC [FLAC24]'}
+2025-07-29 15:56:10,945 - INFO - Evaluating output folder path with current schemes.
+2025-07-29 15:56:10,958 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 15:56:10,967 - INFO - Output folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-11 - North Charleston Coliseum - Charleston, SC [SBD] [FLAC24]
+2025-07-29 15:56:15,172 - INFO -   Tagged: ph250711d1_01_Free.flac
+2025-07-29 15:56:18,198 - INFO -   Tagged: ph250711d1_02_Rift.flac
+2025-07-29 15:56:20,963 - INFO -   Tagged: ph250711d1_03_Spanish_Moon.flac
+2025-07-29 15:56:27,762 - INFO -   Tagged: ph250711d1_04_Reba.flac
+2025-07-29 15:56:30,554 - INFO -   Tagged: ph250711d1_05_Devotion_To_A_Dream.flac
+2025-07-29 15:56:35,810 - INFO -   Tagged: ph250711d1_06_The_Final_Hurrah.flac
+2025-07-29 15:56:37,317 - INFO -   Tagged: ph250711d1_07_My_Minds_Got_a_Mind_of_Its_Own.flac
+2025-07-29 15:56:39,701 - INFO -   Tagged: ph250711d1_08_hey_stranger.flac
+2025-07-29 15:56:44,759 - INFO -   Tagged: ph250711d1_09_Taste.flac
+2025-07-29 15:56:49,535 - INFO -   Tagged: ph250711d2_01_Walls_Of_The_Cave.flac
+2025-07-29 15:56:52,462 - INFO -   Tagged: ph250711d2_02_Llama.flac
+2025-07-29 15:57:08,089 - INFO -   Tagged: ph250711d2_03_Down_with_Disease.flac
+2025-07-29 15:57:10,100 - INFO -   Tagged: ph250711d2_04_Twist.flac
+2025-07-29 15:57:11,238 - INFO -   Tagged: ph250711d2_05_The_Well.flac
+2025-07-29 15:57:15,927 - INFO -   Tagged: ph250711d3_01_Sightless_Escape.flac
+2025-07-29 15:57:18,876 - INFO -   Tagged: ph250711d3_02_Chalk_Dust_Torture.flac
+2025-07-29 15:57:20,712 - INFO -   Tagged: ph250711d3_03_Suzy_Greenberg.flac
+2025-07-29 15:57:22,068 - INFO -   Tagged: ph250711d3_04_When_the_Circus_Comes.flac
+2025-07-29 15:57:24,691 - INFO -   Tagged: ph250711d3_05_First_Tube.flac
+2025-07-29 15:57:24,718 - INFO - Removed empty source folder: M:\Soulseek\complete\Phish - 2025-07-11 Charleston, SC [FLAC24]
+2025-07-29 15:57:24,731 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-11 - North Charleston Coliseum - Charleston, SC [SBD] [FLAC24]
+2025-07-29 15:57:24,748 - INFO - 
+Processing folder: M:/Soulseek/complete/Phish - 2025-07-12 North Charleston Coliseum, North Charleston, SC - FLAC24
+2025-07-29 15:57:24,767 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': 'North Charleston Coliseum', 'city': 'North Charleston, SC', 'source': 'SBD', 'format': 'FLAC24', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2025-07-12', 'currentfoldername': 'Phish - 2025-07-12 North Charleston Coliseum, North Charleston, SC - FLAC24'}
+2025-07-29 15:57:24,781 - INFO - Evaluating output folder path with current schemes.
+2025-07-29 15:57:24,791 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 15:57:24,804 - INFO - Output folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-12 - North Charleston Coliseum - North Charleston, SC [SBD] [FLAC24]
+2025-07-29 15:57:29,649 - INFO -   Tagged: ph250712d1_01_The_Moma_Dance.flac
+2025-07-29 15:57:30,695 - INFO -   Tagged: ph250712d1_02_NICU.flac
+2025-07-29 15:57:31,577 - INFO -   Tagged: ph250712d1_03_Jesus_Just_Left_Chicago.flac
+2025-07-29 15:57:33,165 - INFO -   Tagged: ph250712d1_04_Divided_Sky.flac
+2025-07-29 15:57:34,066 - INFO -   Tagged: ph250712d1_05_Destiny_Unbound.flac
+2025-07-29 15:57:35,080 - INFO -   Tagged: ph250712d1_06_Monsters.flac
+2025-07-29 15:57:36,497 - INFO -   Tagged: ph250712d1_07_Plasma.flac
+2025-07-29 15:57:38,058 - INFO -   Tagged: ph250712d2_01_Bathtub_Gin.flac
+2025-07-29 15:57:39,345 - INFO -   Tagged: ph250712d2_02_Mikes_Song.flac
+2025-07-29 15:57:39,746 - INFO -   Tagged: ph250712d2_03_I_Am_Hydrogen.flac
+2025-07-29 15:57:42,675 - INFO -   Tagged: ph250712d2_04_Weekapaug_Groove.flac
+2025-07-29 15:57:48,093 - INFO -   Tagged: ph250712d2_05_Mercury.flac
+2025-07-29 15:57:52,802 - INFO -   Tagged: ph250712d2_06_Soul_Planet.flac
+2025-07-29 15:57:54,094 - INFO -   Tagged: ph250712d2_07_Joy.flac
+2025-07-29 15:57:55,662 - INFO -   Tagged: ph250712d3_01_Harry_Hood.flac
+2025-07-29 15:57:56,522 - INFO -   Tagged: ph250712d3_02_I_Am_The_Walrus.flac
+2025-07-29 15:57:56,953 - INFO -   Tagged: ph250712d3_03_Carolina.flac
+2025-07-29 15:57:57,712 - INFO -   Tagged: ph250712d3_04_Say_It_To_Me_SANTOS.flac
+2025-07-29 15:57:57,771 - INFO - Removed empty source folder: M:\Soulseek\complete\Phish - 2025-07-12 North Charleston Coliseum, North Charleston, SC - FLAC24
+2025-07-29 15:57:57,785 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-12 - North Charleston Coliseum - North Charleston, SC [SBD] [FLAC24]
+2025-07-29 15:57:57,802 - INFO - 
+Processing folder: M:/Soulseek/complete/Phish - 2025-07-13 North Charleston Coliseum, North Charleston, SC - FLAC24
+2025-07-29 15:57:57,821 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': 'North Charleston Coliseum', 'city': 'North Charleston, SC', 'source': 'SBD', 'format': 'FLAC24', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2025-07-13', 'currentfoldername': 'Phish - 2025-07-13 North Charleston Coliseum, North Charleston, SC - FLAC24'}
+2025-07-29 15:57:57,823 - INFO - Evaluating output folder path with current schemes.
+2025-07-29 15:57:57,836 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 15:57:57,851 - INFO - Output folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-13 - North Charleston Coliseum - North Charleston, SC [SBD] [FLAC24]
+2025-07-29 15:57:58,863 - INFO -   Tagged: ph250713d1_01_Runaway_Jim.flac
+2025-07-29 15:57:59,537 - INFO -   Tagged: ph250713d1_02_Foam.flac
+2025-07-29 15:58:02,821 - INFO -   Tagged: ph250713d1_03_Wolfmans_Brother.flac
+2025-07-29 15:58:05,071 - INFO -   Tagged: ph250713d1_04_Thread.flac
+2025-07-29 15:58:06,403 - INFO -   Tagged: ph250713d1_05_Stash.flac
+2025-07-29 15:58:07,631 - INFO -   Tagged: ph250713d1_06_555.flac
+2025-07-29 15:58:09,667 - INFO -   Tagged: ph250713d1_07_Walk_Away.flac
+2025-07-29 15:58:13,715 - INFO -   Tagged: ph250713d2_01_Drift_While_Youre_Sleeping.flac
+2025-07-29 15:58:20,116 - INFO -   Tagged: ph250713d2_02_Set_Your_Soul_Free.flac
+2025-07-29 15:58:31,090 - INFO -   Tagged: ph250713d2_03_Tweezer.flac
+2025-07-29 15:58:36,623 - INFO -   Tagged: ph250713d2_04_Ghost.flac
+2025-07-29 15:58:40,542 - INFO -   Tagged: ph250713d3_01_Golden_Age.flac
+2025-07-29 15:58:43,306 - INFO -   Tagged: ph250713d3_02_A_Life_Beyond_The_Dream.flac
+2025-07-29 15:58:45,436 - INFO -   Tagged: ph250713d3_03_Slave_To_The_Traffic_Light.flac
+2025-07-29 15:58:46,809 - INFO -   Tagged: ph250713d3_04_Meatstick.flac
+2025-07-29 15:58:48,207 - INFO -   Tagged: ph250713d3_05_Turtle_in_the_Clouds.flac
+2025-07-29 15:58:49,354 - INFO -   Tagged: ph250713d3_06_Tweezer_Reprise.flac
+2025-07-29 15:58:49,371 - INFO - Removed empty source folder: M:\Soulseek\complete\Phish - 2025-07-13 North Charleston Coliseum, North Charleston, SC - FLAC24
+2025-07-29 15:58:49,384 - INFO - Removed empty source folder: M:\Soulseek\complete
+2025-07-29 15:58:49,451 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-13 - North Charleston Coliseum - North Charleston, SC [SBD] [FLAC24]
+2025-07-29 15:58:49,491 - INFO - Used cache saved.
+2025-07-29 15:59:25,261 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 15:59:25,262 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 15:59:49,403 - INFO - History saved.
+2025-07-29 15:59:49,404 - INFO - Used cache saved.
+2025-07-29 15:59:54,057 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-07-29 15:59:54,057 - INFO - Loaded saving scheme: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 16:00:15,579 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 16:00:31,414 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 16:00:36,209 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 16:00:40,253 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 16:00:44,463 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 16:00:49,152 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 16:00:56,489 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 16:01:05,146 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 16:01:11,080 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 16:01:11,712 - INFO - 
+Processing folder: Y:/Music-II/2025-07-18 - United Center - Chicago, IL [SBD] [FLAC24]/2025-07-18 - United Center - Chicago, IL [SBD] [FLAC24]
+2025-07-29 16:01:11,724 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': 'United Center', 'city': 'Chicago, IL', 'source': 'SBD', 'format': 'FLAC24', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2025-07-18', 'currentfoldername': '2025-07-18 - United Center - Chicago, IL [SBD] [FLAC24]'}
+2025-07-29 16:01:11,726 - INFO - Evaluating output folder path with current schemes.
+2025-07-29 16:01:11,733 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 16:01:11,736 - INFO - Output folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-18 - United Center - Chicago, IL [SBD] [FLAC24]
+2025-07-29 16:01:11,874 - INFO -   Tagged: ph250718d1_01_Harry_Hood.flac
+2025-07-29 16:01:11,993 - INFO -   Tagged: ph250718d1_02_Oblivion.flac
+2025-07-29 16:01:12,107 - INFO -   Tagged: ph250718d1_03_Heavy_Things.flac
+2025-07-29 16:01:12,215 - INFO -   Tagged: ph250718d1_04_Bathtub_Gin.flac
+2025-07-29 16:01:12,272 - INFO -   Tagged: ph250718d1_05_On_Your_Way_Down.flac
+2025-07-29 16:01:12,396 - INFO -   Tagged: ph250718d1_06_Limb_By_Limb.flac
+2025-07-29 16:01:12,517 - INFO -   Tagged: ph250718d1_07_hey_stranger.flac
+2025-07-29 16:01:12,625 - INFO -   Tagged: ph250718d1_08_Character_Zero.flac
+2025-07-29 16:01:12,749 - INFO -   Tagged: ph250718d2_01_No_Men_in_No_Mans_Land.flac
+2025-07-29 16:01:12,879 - INFO -   Tagged: ph250718d2_02_Whats_Going_Through_Your_Mind.flac
+2025-07-29 16:01:13,001 - INFO -   Tagged: ph250718d2_03_Crosseyed_and_Painless.flac
+2025-07-29 16:01:13,119 - INFO -   Tagged: ph250718d2_04_Farmhouse.flac
+2025-07-29 16:01:13,177 - INFO -   Tagged: ph250718d3_01_Light.flac
+2025-07-29 16:01:13,334 - INFO -   Tagged: ph250718d3_02_Backwards_Down_the_Number_Line.flac
+2025-07-29 16:01:13,446 - INFO -   Tagged: ph250718d3_03_Cavern.flac
+2025-07-29 16:01:13,565 - INFO -   Tagged: ph250718d3_04_The_Horse.flac
+2025-07-29 16:01:13,681 - INFO -   Tagged: ph250718d3_05_Silent_In_The_Morning.flac
+2025-07-29 16:01:13,822 - INFO -   Tagged: ph250718d3_06_46_Days.flac
+2025-07-29 16:01:13,850 - INFO - Removed empty source folder: Y:\Music-II\2025-07-18 - United Center - Chicago, IL [SBD] [FLAC24]\2025-07-18 - United Center - Chicago, IL [SBD] [FLAC24]
+2025-07-29 16:01:13,859 - INFO - Removed empty source folder: Y:\Music-II\2025-07-18 - United Center - Chicago, IL [SBD] [FLAC24]
+2025-07-29 16:01:13,871 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-18 - United Center - Chicago, IL [SBD] [FLAC24]
+2025-07-29 16:01:13,885 - INFO - 
+Processing folder: Y:/Music-II/2025-07-19 - United Center - Chicago, IL [SBD] [FLAC24]/2025-07-19 - United Center - Chicago, IL [SBD] [FLAC24]
+2025-07-29 16:01:13,899 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': 'United Center', 'city': 'Chicago, IL', 'source': 'SBD', 'format': 'FLAC24', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2025-07-19', 'currentfoldername': '2025-07-19 - United Center - Chicago, IL [SBD] [FLAC24]'}
+2025-07-29 16:01:13,905 - INFO - Evaluating output folder path with current schemes.
+2025-07-29 16:01:13,913 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 16:01:13,924 - INFO - Output folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-19 - United Center - Chicago, IL [SBD] [FLAC24]
+2025-07-29 16:01:14,067 - INFO -   Tagged: ph250719d1_01_Life_Saving_Gun.flac
+2025-07-29 16:01:14,187 - INFO -   Tagged: ph250719d1_02_Steam.flac
+2025-07-29 16:01:14,319 - INFO -   Tagged: ph250719d1_03_McGrupp_and_the_Watchful_Hosemasters.flac
+2025-07-29 16:01:14,435 - INFO -   Tagged: ph250719d1_04_The_Line.flac
+2025-07-29 16:01:14,550 - INFO -   Tagged: ph250719d1_05_Seven_Below.flac
+2025-07-29 16:01:14,676 - INFO -   Tagged: ph250719d1_06_Ocelot.flac
+2025-07-29 16:01:14,803 - INFO -   Tagged: ph250719d1_07_Ya_Mar.flac
+2025-07-29 16:01:14,935 - INFO -   Tagged: ph250719d1_08_Mountains_In_The_Mist.flac
+2025-07-29 16:01:15,057 - INFO -   Tagged: ph250719d1_09_Golgi_Apparatus.flac
+2025-07-29 16:01:15,169 - INFO -   Tagged: ph250719d2_01_Most_Events_Arent_Planned.flac
+2025-07-29 16:01:15,289 - INFO -   Tagged: ph250719d2_02_Tube.flac
+2025-07-29 16:01:15,411 - INFO -   Tagged: ph250719d2_03_A_Song_I_Heard_The_Ocean_Sing.flac
+2025-07-29 16:01:15,567 - INFO -   Tagged: ph250719d2_04_Down_with_Disease.flac
+2025-07-29 16:01:15,689 - INFO -   Tagged: ph250719d2_05_Seven_Below.flac
+2025-07-29 16:01:15,815 - INFO -   Tagged: ph250719d2_06_Down_with_Disease.flac
+2025-07-29 16:01:15,924 - INFO -   Tagged: ph250719d3_01_Pillow_Jets.flac
+2025-07-29 16:01:16,044 - INFO -   Tagged: ph250719d3_02_2001.flac
+2025-07-29 16:01:16,160 - INFO -   Tagged: ph250719d3_03_Chalk_Dust_Torture.flac
+2025-07-29 16:01:16,295 - INFO -   Tagged: ph250719d3_04_While_My_Guitar_Gently_Weeps.flac
+2025-07-29 16:01:16,420 - INFO -   Tagged: ph250719d3_05_First_Tube.flac
+2025-07-29 16:01:16,454 - INFO - Removed empty source folder: Y:\Music-II\2025-07-19 - United Center - Chicago, IL [SBD] [FLAC24]\2025-07-19 - United Center - Chicago, IL [SBD] [FLAC24]
+2025-07-29 16:01:16,467 - INFO - Removed empty source folder: Y:\Music-II\2025-07-19 - United Center - Chicago, IL [SBD] [FLAC24]
+2025-07-29 16:01:16,489 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-19 - United Center - Chicago, IL [SBD] [FLAC24]
+2025-07-29 16:01:16,506 - INFO - 
+Processing folder: Y:/Music-II/2025-07-20 - United Center - Chicago, IL [SBD] [FLAC24]/2025-07-20 - United Center - Chicago, IL [SBD] [FLAC24]
+2025-07-29 16:01:16,523 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': 'United Center', 'city': 'Chicago, IL', 'source': 'SBD', 'format': 'FLAC24', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2025-07-20', 'currentfoldername': '2025-07-20 - United Center - Chicago, IL [SBD] [FLAC24]'}
+2025-07-29 16:01:16,531 - INFO - Evaluating output folder path with current schemes.
+2025-07-29 16:01:16,547 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 16:01:16,566 - INFO - Output folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-20 - United Center - Chicago, IL [SBD] [FLAC24]
+2025-07-29 16:01:16,641 - INFO -   Tagged: ph250720d1_01_Cars_Trucks_Buses.flac
+2025-07-29 16:01:16,702 - INFO -   Tagged: ph250720d1_02_ACDC_Bag.flac
+2025-07-29 16:01:16,764 - INFO -   Tagged: ph250720d1_03_Funky_Bitch.flac
+2025-07-29 16:01:16,819 - INFO -   Tagged: ph250720d1_04_Alaska.flac
+2025-07-29 16:01:16,882 - INFO -   Tagged: ph250720d1_05_Mikes_Song.flac
+2025-07-29 16:01:16,937 - INFO -   Tagged: ph250720d1_06_Horn.flac
+2025-07-29 16:01:17,015 - INFO -   Tagged: ph250720d1_07_Reba.flac
+2025-07-29 16:01:17,059 - INFO -   Tagged: ph250720d1_08_Leaves.flac
+2025-07-29 16:01:17,110 - INFO -   Tagged: ph250720d1_09_Taste.flac
+2025-07-29 16:01:17,165 - INFO -   Tagged: ph250720d1_10_Izabella.flac
+2025-07-29 16:01:17,212 - INFO -   Tagged: ph250720d2_01_Gotta_Jibboo.flac
+2025-07-29 16:01:17,259 - INFO -   Tagged: ph250720d2_02_Fuego.flac
+2025-07-29 16:01:17,324 - INFO -   Tagged: ph250720d2_03_Sparkle.flac
+2025-07-29 16:01:17,373 - INFO -   Tagged: ph250720d2_04_Scents_and_Subtle_Sounds.flac
+2025-07-29 16:01:17,417 - INFO -   Tagged: ph250720d2_05_Twist.flac
+2025-07-29 16:01:17,462 - INFO -   Tagged: ph250720d2_06_The_Lizards.flac
+2025-07-29 16:01:17,530 - INFO -   Tagged: ph250720d3_01_Shine_A_Light.flac
+2025-07-29 16:01:17,584 - INFO -   Tagged: ph250720d3_02_Kill_Devil_Falls.flac
+2025-07-29 16:01:17,633 - INFO -   Tagged: ph250720d3_03_Fee.flac
+2025-07-29 16:01:17,675 - INFO -   Tagged: ph250720d3_04_Weekapaug_Groove.flac
+2025-07-29 16:01:17,713 - INFO -   Tagged: ph250720d3_05_Say_It_To_Me_SANTOS.flac
+2025-07-29 16:01:17,726 - INFO - Removed empty source folder: Y:\Music-II\2025-07-20 - United Center - Chicago, IL [SBD] [FLAC24]\2025-07-20 - United Center - Chicago, IL [SBD] [FLAC24]
+2025-07-29 16:01:17,744 - INFO - Removed empty source folder: Y:\Music-II\2025-07-20 - United Center - Chicago, IL [SBD] [FLAC24]
+2025-07-29 16:01:17,757 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-20 - United Center - Chicago, IL [SBD] [FLAC24]
+2025-07-29 16:01:17,776 - INFO - 
+Processing folder: Y:/Music-II/2025-07-22 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]/2025-07-22 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]
+2025-07-29 16:01:17,792 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': 'Forest Hills Stadium', 'city': 'Forest Hills, NY', 'source': 'SBD', 'format': 'FLAC24', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2025-07-22', 'currentfoldername': '2025-07-22 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]'}
+2025-07-29 16:01:17,800 - INFO - Evaluating output folder path with current schemes.
+2025-07-29 16:01:17,808 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 16:01:17,823 - INFO - Output folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-22 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]
+2025-07-29 16:01:17,925 - INFO -   Tagged: ph250722d1_01_The_Moma_Dance.flac
+2025-07-29 16:01:17,980 - INFO -   Tagged: ph250722d1_02_Rift.flac
+2025-07-29 16:01:18,043 - INFO -   Tagged: ph250722d1_03_Sigma_Oasis.flac
+2025-07-29 16:01:18,094 - INFO -   Tagged: ph250722d1_04_Possum.flac
+2025-07-29 16:01:18,170 - INFO -   Tagged: ph250722d1_05_Wolfmans_Brother.flac
+2025-07-29 16:01:18,227 - INFO -   Tagged: ph250722d1_06_Stash.flac
+2025-07-29 16:01:18,284 - INFO -   Tagged: ph250722d1_07_Blaze_On.flac
+2025-07-29 16:01:18,348 - INFO -   Tagged: ph250722d1_08_Monsters.flac
+2025-07-29 16:01:18,414 - INFO -   Tagged: ph250722d2_01_I_Am_The_Walrus.flac
+2025-07-29 16:01:18,476 - INFO -   Tagged: ph250722d2_02_Carini.flac
+2025-07-29 16:01:18,555 - INFO -   Tagged: ph250722d2_03_Tweezer.flac
+2025-07-29 16:01:18,618 - INFO -   Tagged: ph250722d2_04_Whats_Going_Through_Your_Mind.flac
+2025-07-29 16:01:18,665 - INFO -   Tagged: ph250722d2_05_A_Life_Beyond_The_Dream.flac
+2025-07-29 16:01:18,713 - INFO -   Tagged: ph250722d3_01_Harry_Hood.flac
+2025-07-29 16:01:18,771 - INFO -   Tagged: ph250722d3_02_Slave_To_The_Traffic_Light.flac
+2025-07-29 16:01:18,814 - INFO -   Tagged: ph250722d3_03_More.flac
+2025-07-29 16:01:18,872 - INFO -   Tagged: ph250722d3_04_Tweezer_Reprise.flac
+2025-07-29 16:01:18,910 - INFO - Removed empty source folder: Y:\Music-II\2025-07-22 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]\2025-07-22 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]
+2025-07-29 16:01:18,922 - INFO - Removed empty source folder: Y:\Music-II\2025-07-22 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]
+2025-07-29 16:01:18,936 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-22 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]
+2025-07-29 16:01:18,953 - INFO - 
+Processing folder: Y:/Music-II/2025-07-23 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]/2025-07-23 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]
+2025-07-29 16:01:18,969 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': 'Forest Hills Stadium', 'city': 'Forest Hills, NY', 'source': 'SBD', 'format': 'FLAC24', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2025-07-23', 'currentfoldername': '2025-07-23 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]'}
+2025-07-29 16:01:18,976 - INFO - Evaluating output folder path with current schemes.
+2025-07-29 16:01:18,991 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 16:01:19,005 - INFO - Output folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-23 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]
+2025-07-29 16:01:19,299 - INFO -   Tagged: ph250723d1_01_Free.flac
+2025-07-29 16:01:19,579 - INFO -   Tagged: ph250723d1_02_Back_on_the_Train.flac
+2025-07-29 16:01:19,829 - INFO -   Tagged: ph250723d1_03_Theme_from_the_Bottom.flac
+2025-07-29 16:01:20,068 - INFO -   Tagged: ph250723d1_04_Cities.flac
+2025-07-29 16:01:20,326 - INFO -   Tagged: ph250723d1_05_Divided_Sky.flac
+2025-07-29 16:01:20,586 - INFO -   Tagged: ph250723d1_06_Timber.flac
+2025-07-29 16:01:20,838 - INFO -   Tagged: ph250723d1_07_Ether_Edge.flac
+2025-07-29 16:01:21,223 - INFO -   Tagged: ph250723d2_01_The_Squirming_Coil.flac
+2025-07-29 16:01:21,643 - INFO -   Tagged: ph250723d2_02_Punch_You_in_the_Eye.flac
+2025-07-29 16:01:22,111 - INFO -   Tagged: ph250723d2_03_Ghost.flac
+2025-07-29 16:01:22,523 - INFO -   Tagged: ph250723d2_04_A_Wave_of_Hope.flac
+2025-07-29 16:01:23,151 - INFO -   Tagged: ph250723d2_05_Whats_the_Use.flac
+2025-07-29 16:01:23,799 - INFO -   Tagged: ph250723d3_01_Ruby_Waves.flac
+2025-07-29 16:01:24,329 - INFO -   Tagged: ph250723d3_02_Backwards_Down_the_Number_Line.flac
+2025-07-29 16:01:24,865 - INFO -   Tagged: ph250723d3_03_Character_Zero.flac
+2025-07-29 16:01:25,180 - INFO -   Tagged: ph250723d3_04_Sneakin_Sally_thru_the_Alley.flac
+2025-07-29 16:01:25,462 - INFO -   Tagged: ph250723d3_05_Wilson.flac
+2025-07-29 16:01:25,728 - INFO -   Tagged: ph250723d3_06_Rocky_Top.flac
+2025-07-29 16:01:25,749 - INFO - Removed empty source folder: Y:\Music-II\2025-07-23 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]\2025-07-23 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]
+2025-07-29 16:01:25,762 - INFO - Removed empty source folder: Y:\Music-II\2025-07-23 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]
+2025-07-29 16:01:25,775 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-23 - Forest Hills Stadium - Forest Hills, NY [SBD] [FLAC24]
+2025-07-29 16:01:25,795 - INFO - 
+Processing folder: Y:/Music-II/2025-07-25 - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]/2025-07-25 - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 16:01:25,814 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': '- Broadview Stage at SPAC', 'city': 'Saratoga Springs, NY', 'source': 'SBD', 'format': 'FLAC24', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2025-07-25', 'currentfoldername': '2025-07-25 - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]'}
+2025-07-29 16:01:25,829 - INFO - Evaluating output folder path with current schemes.
+2025-07-29 16:01:25,833 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 16:01:25,848 - INFO - Output folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-25 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 16:01:25,996 - INFO -   Tagged: 01 - First Tube.flac
+2025-07-29 16:01:26,131 - INFO -   Tagged: 02 - Bathtub Gin.flac
+2025-07-29 16:01:26,279 - INFO -   Tagged: 03 - Devotion to a Dream.flac
+2025-07-29 16:01:26,383 - INFO -   Tagged: 04 - The Well.flac
+2025-07-29 16:01:26,517 - INFO -   Tagged: 05 - Birds of a Feather.flac
+2025-07-29 16:01:26,647 - INFO -   Tagged: 06 - Strawberry Letter 23.flac
+2025-07-29 16:01:26,806 - INFO -   Tagged: 07 - Lawn Boy.flac
+2025-07-29 16:01:26,929 - INFO -   Tagged: 08 - The Old Home Place.flac
+2025-07-29 16:01:27,069 - INFO -   Tagged: 09 - Hey Stranger.flac
+2025-07-29 16:01:27,222 - INFO -   Tagged: 10 - Walls of the Cave.flac
+2025-07-29 16:01:27,366 - INFO -   Tagged: 11 - Set Your Soul Free ».flac
+2025-07-29 16:01:27,499 - INFO -   Tagged: 12 - Chalk Dust Torture ».flac
+2025-07-29 16:01:27,632 - INFO -   Tagged: 13 - Beneath a Sea of Stars Part 1 ».flac
+2025-07-29 16:01:27,769 - INFO -   Tagged: 14 - Piper ».flac
+2025-07-29 16:01:27,932 - INFO -   Tagged: 15 - Everything's Right.flac
+2025-07-29 16:01:28,070 - INFO -   Tagged: 16 - Loving Cup ».flac
+2025-07-29 16:01:28,196 - INFO -   Tagged: 17 - Run Like An Antelope.flac
+2025-07-29 16:01:28,402 - INFO - Removed empty source folder: Y:\Music-II\2025-07-25 - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]\2025-07-25 - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 16:01:28,407 - INFO - Removed empty source folder: Y:\Music-II\2025-07-25 - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 16:01:28,424 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-25 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 16:01:28,442 - INFO - 
+Processing folder: Y:/Music-II/2025-07-26 - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]/2025-07-26 - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 16:01:28,462 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': '- Broadview Stage at SPAC', 'city': 'Saratoga Springs, NY', 'source': 'SBD', 'format': 'FLAC24', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2025-07-26', 'currentfoldername': '2025-07-26 - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]'}
+2025-07-29 16:01:28,469 - INFO - Evaluating output folder path with current schemes.
+2025-07-29 16:01:28,480 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 16:01:28,495 - INFO - Output folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-26 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 16:01:28,651 - INFO -   Tagged: 01 - Martian Monster ».flac
+2025-07-29 16:01:29,068 - INFO -   Tagged: 02 - 2001 ».flac
+2025-07-29 16:01:29,233 - INFO -   Tagged: 03 - Mike's Song ».flac
+2025-07-29 16:01:29,353 - INFO -   Tagged: 04 - Wading in the Velvet Sea ».flac
+2025-07-29 16:01:29,530 - INFO -   Tagged: 05 - Weekapaug Groove.flac
+2025-07-29 16:01:29,687 - INFO -   Tagged: 06 - Sand.flac
+2025-07-29 16:01:29,827 - INFO -   Tagged: 07 - Evolve.flac
+2025-07-29 16:01:29,962 - INFO -   Tagged: 08 - My Friend, My Friend ».flac
+2025-07-29 16:01:30,095 - INFO -   Tagged: 09 - No Men in No Man’s Land.flac
+2025-07-29 16:01:30,211 - INFO -   Tagged: 10 - Oblivion ».flac
+2025-07-29 16:01:30,333 - INFO -   Tagged: 11 - Down with Disease ».flac
+2025-07-29 16:01:30,465 - INFO -   Tagged: 12 - Light ».flac
+2025-07-29 16:01:30,598 - INFO -   Tagged: 13 - Life Saving Gun ».flac
+2025-07-29 16:01:30,738 - INFO -   Tagged: 14 - Waste ».flac
+2025-07-29 16:01:30,859 - INFO -   Tagged: 15 - Fluffhead.flac
+2025-07-29 16:01:30,995 - INFO -   Tagged: 16 - Golgi Apparatus.flac
+2025-07-29 16:01:31,117 - INFO -   Tagged: 17 - Rock and Roll.flac
+2025-07-29 16:01:31,251 - INFO - Removed empty source folder: Y:\Music-II\2025-07-26 - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]\2025-07-26 - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 16:01:31,257 - INFO - Removed empty source folder: Y:\Music-II\2025-07-26 - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 16:01:31,272 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-26 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 16:01:31,291 - INFO - 
+Processing folder: Y:/Music-II/2025-07-27 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]/2025-07-27 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 16:01:31,312 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': '- Broadview Stage at SPAC', 'city': 'Saratoga Springs, NY', 'source': 'SBD', 'format': 'FLAC24', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2025-07-27', 'currentfoldername': '2025-07-27 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]'}
+2025-07-29 16:01:31,314 - INFO - Evaluating output folder path with current schemes.
+2025-07-29 16:01:31,329 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 16:01:31,345 - INFO - Output folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-27 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 16:01:31,626 - INFO -   Tagged: ph250727d1_01_Buried_Alive.flac
+2025-07-29 16:01:31,844 - INFO -   Tagged: ph250727d1_02_Tweezer_Reprise.flac
+2025-07-29 16:01:32,070 - INFO -   Tagged: ph250727d1_03_Reba.flac
+2025-07-29 16:01:32,278 - INFO -   Tagged: ph250727d1_04_Tweezer_Reprise.flac
+2025-07-29 16:01:32,479 - INFO -   Tagged: ph250727d1_05_Funky_Bitch.flac
+2025-07-29 16:01:32,685 - INFO -   Tagged: ph250727d1_06_Roses_Are_Free.flac
+2025-07-29 16:01:32,944 - INFO -   Tagged: ph250727d1_07_Tweezer_Reprise.flac
+2025-07-29 16:01:33,157 - INFO -   Tagged: ph250727d1_08_46_Days.flac
+2025-07-29 16:01:33,385 - INFO -   Tagged: ph250727d1_09_About_to_Run.flac
+2025-07-29 16:01:33,603 - INFO -   Tagged: ph250727d2_01_Split_Open_And_Melt.flac
+2025-07-29 16:01:33,808 - INFO -   Tagged: ph250727d2_02_Tweezer_Reprise.flac
+2025-07-29 16:01:34,015 - INFO -   Tagged: ph250727d2_03_Kill_Devil_Falls.flac
+2025-07-29 16:01:34,249 - INFO -   Tagged: ph250727d2_04_Twist.flac
+2025-07-29 16:01:34,457 - INFO -   Tagged: ph250727d3_01_Golden_Age.flac
+2025-07-29 16:01:34,668 - INFO -   Tagged: ph250727d3_02_Tweezer_Reprise.flac
+2025-07-29 16:01:34,891 - INFO -   Tagged: ph250727d3_03_Boogie_On_Reggae_Woman.flac
+2025-07-29 16:01:35,173 - INFO -   Tagged: ph250727d3_04_You_Enjoy_Myself.flac
+2025-07-29 16:01:35,412 - INFO -   Tagged: ph250727d3_05_Tweezer_Reprise.flac
+2025-07-29 16:01:35,633 - INFO -   Tagged: ph250727d3_06_Tweezer.flac
+2025-07-29 16:01:35,832 - INFO -   Tagged: ph250727d3_07_Harry_Hood.flac
+2025-07-29 16:01:35,849 - INFO - Removed empty source folder: Y:\Music-II\2025-07-27 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]\2025-07-27 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 16:01:35,863 - INFO - Removed empty source folder: Y:\Music-II\2025-07-27 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 16:01:35,883 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-27 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 16:01:35,939 - INFO - Used cache saved.
+2025-07-29 16:01:42,384 - INFO - History saved.
+2025-07-29 16:01:42,387 - INFO - Used cache saved.
+2025-07-29 16:02:28,895 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-07-29 16:02:28,895 - INFO - Loaded saving scheme: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 16:03:08,156 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 16:03:19,228 - INFO - 
+Processing folder: Y:/Music-II/2025-07-25 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 16:03:19,238 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': '- Broadview Stage at SPAC', 'city': 'Saratoga Springs, NY', 'source': 'SBD', 'format': 'FLAC24', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2025-07-25', 'currentfoldername': '2025-07-25 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]'}
+2025-07-29 16:03:19,241 - INFO - Evaluating output folder path with current schemes.
+2025-07-29 16:03:19,242 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 16:03:19,244 - INFO - Output folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-25 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 16:03:19,334 - INFO -   Tagged: 01 - First Tube.flac
+2025-07-29 16:03:19,409 - INFO -   Tagged: 02 - Bathtub Gin.flac
+2025-07-29 16:03:19,500 - INFO -   Tagged: 03 - Devotion to a Dream.flac
+2025-07-29 16:03:19,577 - INFO -   Tagged: 04 - The Well.flac
+2025-07-29 16:03:19,657 - INFO -   Tagged: 05 - Birds of a Feather.flac
+2025-07-29 16:03:19,733 - INFO -   Tagged: 06 - Strawberry Letter 23.flac
+2025-07-29 16:03:19,797 - INFO -   Tagged: 07 - Lawn Boy.flac
+2025-07-29 16:03:19,876 - INFO -   Tagged: 08 - The Old Home Place.flac
+2025-07-29 16:03:19,952 - INFO -   Tagged: 09 - Hey Stranger.flac
+2025-07-29 16:03:20,027 - INFO -   Tagged: 10 - Walls of the Cave.flac
+2025-07-29 16:03:20,103 - INFO -   Tagged: 11 - Set Your Soul Free ».flac
+2025-07-29 16:03:20,188 - INFO -   Tagged: 12 - Chalk Dust Torture ».flac
+2025-07-29 16:03:20,266 - INFO -   Tagged: 13 - Beneath a Sea of Stars Part 1 ».flac
+2025-07-29 16:03:20,347 - INFO -   Tagged: 14 - Piper ».flac
+2025-07-29 16:03:20,429 - INFO -   Tagged: 15 - Everything's Right.flac
+2025-07-29 16:03:20,506 - INFO -   Tagged: 16 - Loving Cup ».flac
+2025-07-29 16:03:20,584 - INFO -   Tagged: 17 - Run Like An Antelope.flac
+2025-07-29 16:03:20,773 - INFO - Removed empty source folder: Y:\Music-II\2025-07-25 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 16:03:20,781 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-25 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 16:03:20,847 - INFO - Used cache saved.
+2025-07-29 16:04:16,957 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 16:04:22,193 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 16:04:23,173 - INFO - 
+Processing folder: Y:/Music-II/2025-07-26 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 16:04:23,188 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': '- Broadview Stage at SPAC', 'city': 'Saratoga Springs, NY', 'source': 'SBD', 'format': 'FLAC24', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2025-07-26', 'currentfoldername': '2025-07-26 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]'}
+2025-07-29 16:04:23,195 - INFO - Evaluating output folder path with current schemes.
+2025-07-29 16:04:23,204 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 16:04:23,209 - INFO - Output folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-26 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 16:04:23,317 - INFO -   Tagged: 01 - Martian Monster ».flac
+2025-07-29 16:04:23,401 - INFO -   Tagged: 02 - 2001 ».flac
+2025-07-29 16:04:23,481 - INFO -   Tagged: 03 - Mike's Song ».flac
+2025-07-29 16:04:23,564 - INFO -   Tagged: 04 - Wading in the Velvet Sea ».flac
+2025-07-29 16:04:23,645 - INFO -   Tagged: 05 - Weekapaug Groove.flac
+2025-07-29 16:04:23,738 - INFO -   Tagged: 06 - Sand.flac
+2025-07-29 16:04:23,821 - INFO -   Tagged: 07 - Evolve.flac
+2025-07-29 16:04:23,906 - INFO -   Tagged: 08 - My Friend, My Friend ».flac
+2025-07-29 16:04:23,996 - INFO -   Tagged: 09 - No Men in No Man’s Land.flac
+2025-07-29 16:04:24,076 - INFO -   Tagged: 10 - Oblivion ».flac
+2025-07-29 16:04:24,155 - INFO -   Tagged: 11 - Down with Disease ».flac
+2025-07-29 16:04:24,230 - INFO -   Tagged: 12 - Light ».flac
+2025-07-29 16:04:24,314 - INFO -   Tagged: 13 - Life Saving Gun ».flac
+2025-07-29 16:04:24,397 - INFO -   Tagged: 14 - Waste ».flac
+2025-07-29 16:04:24,480 - INFO -   Tagged: 15 - Fluffhead.flac
+2025-07-29 16:04:24,567 - INFO -   Tagged: 16 - Golgi Apparatus.flac
+2025-07-29 16:04:24,649 - INFO -   Tagged: 17 - Rock and Roll.flac
+2025-07-29 16:04:24,800 - INFO - Removed empty source folder: Y:\Music-II\2025-07-26 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 16:04:24,816 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-26 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 16:04:24,826 - INFO - 
+Processing folder: Y:/Music-II/2025-07-27 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 16:04:24,846 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': '- Broadview Stage at SPAC', 'city': 'Saratoga Springs, NY', 'source': 'SBD', 'format': 'FLAC24', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2025-07-27', 'currentfoldername': '2025-07-27 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]'}
+2025-07-29 16:04:24,855 - INFO - Evaluating output folder path with current schemes.
+2025-07-29 16:04:24,863 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-07-29 16:04:24,872 - INFO - Output folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-27 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 16:04:24,998 - INFO -   Tagged: ph250727d1_01_Buried_Alive.flac
+2025-07-29 16:04:25,127 - INFO -   Tagged: ph250727d1_02_Tweezer_Reprise.flac
+2025-07-29 16:04:25,257 - INFO -   Tagged: ph250727d1_03_Reba.flac
+2025-07-29 16:04:25,381 - INFO -   Tagged: ph250727d1_04_Tweezer_Reprise.flac
+2025-07-29 16:04:25,510 - INFO -   Tagged: ph250727d1_05_Funky_Bitch.flac
+2025-07-29 16:04:25,629 - INFO -   Tagged: ph250727d1_06_Roses_Are_Free.flac
+2025-07-29 16:04:25,747 - INFO -   Tagged: ph250727d1_07_Tweezer_Reprise.flac
+2025-07-29 16:04:25,871 - INFO -   Tagged: ph250727d1_08_46_Days.flac
+2025-07-29 16:04:25,992 - INFO -   Tagged: ph250727d1_09_About_to_Run.flac
+2025-07-29 16:04:26,115 - INFO -   Tagged: ph250727d2_01_Split_Open_And_Melt.flac
+2025-07-29 16:04:26,245 - INFO -   Tagged: ph250727d2_02_Tweezer_Reprise.flac
+2025-07-29 16:04:26,371 - INFO -   Tagged: ph250727d2_03_Kill_Devil_Falls.flac
+2025-07-29 16:04:26,500 - INFO -   Tagged: ph250727d2_04_Twist.flac
+2025-07-29 16:04:26,627 - INFO -   Tagged: ph250727d3_01_Golden_Age.flac
+2025-07-29 16:04:26,759 - INFO -   Tagged: ph250727d3_02_Tweezer_Reprise.flac
+2025-07-29 16:04:26,884 - INFO -   Tagged: ph250727d3_03_Boogie_On_Reggae_Woman.flac
+2025-07-29 16:04:27,009 - INFO -   Tagged: ph250727d3_04_You_Enjoy_Myself.flac
+2025-07-29 16:04:27,132 - INFO -   Tagged: ph250727d3_05_Tweezer_Reprise.flac
+2025-07-29 16:04:27,250 - INFO -   Tagged: ph250727d3_06_Tweezer.flac
+2025-07-29 16:04:27,368 - INFO -   Tagged: ph250727d3_07_Harry_Hood.flac
+2025-07-29 16:04:27,382 - INFO - Removed empty source folder: Y:\Music-II\2025-07-27 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 16:04:27,404 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2025-07-27 - - Broadview Stage at SPAC - Saratoga Springs, NY [SBD] [FLAC24]
+2025-07-29 16:04:27,453 - INFO - Used cache saved.
+2025-08-02 08:18:07,520 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 08:18:07,520 - INFO - Loaded saving scheme: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-08-02 08:19:51,343 - INFO - => Output folder: Y:\Music-II\Live Phish\2003 [Complete]
+2025-08-02 08:19:51,344 - INFO - => Output folder: Y:\Music-II\Live Phish\2003 [Complete]
+2025-08-02 08:20:09,867 - INFO - => Output folder: Y:\Music-II\Live Phish\2003 [Complete]
+2025-08-02 08:20:23,184 - INFO - => Output folder: Y:\Music-II\Live Phish\2003 [Complete]
+2025-08-02 08:20:24,277 - INFO - 
+Processing folder: M:/Projects/Staging/2003-01-02 - Hampton Coliseum - Hampton, VA [FLAC]
+2025-08-02 08:20:24,288 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'SBD', 'format': 'FLAC', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2003-01-02', 'currentfoldername': '2003-01-02 - Hampton Coliseum - Hampton, VA [FLAC]'}
+2025-08-02 08:20:24,291 - INFO - Evaluating output folder path with current schemes.
+2025-08-02 08:20:24,295 - INFO - => Output folder: Y:\Music-II\Live Phish\2003 [Complete]
+2025-08-02 08:20:24,298 - INFO - Output folder: Y:/Music-II/Live Phish/2003 [Complete]/2003-01-02 - Hampton Coliseum - Hampton, VA [SBD] [FLAC]
+2025-08-02 08:20:25,411 - INFO -   Tagged: ph030102d1_01_Chalk_Dust_Torture.flac
+2025-08-02 08:20:26,289 - INFO -   Tagged: ph030102d1_02_Bathtub_Gin.flac
+2025-08-02 08:20:26,779 - INFO -   Tagged: ph030102d1_03_Its_Ice.flac
+2025-08-02 08:20:27,353 - INFO -   Tagged: ph030102d1_04_Back_On_The_Train.flac
+2025-08-02 08:20:27,706 - INFO -   Tagged: ph030102d1_05_Round_Room.flac
+2025-08-02 08:20:27,785 - INFO -   Tagged: ph030102d1_06_The_Horse.flac
+2025-08-02 08:20:28,102 - INFO -   Tagged: ph030102d1_07_Silent_In_The_Morning.flac
+2025-08-02 08:20:28,760 - INFO -   Tagged: ph030102d1_08_Stash.flac
+2025-08-02 08:20:29,139 - INFO -   Tagged: ph030102d2_01_Water_in_the_Sky.flac
+2025-08-02 08:20:30,010 - INFO -   Tagged: ph030102d2_02_Character_Zero.flac
+2025-08-02 08:20:31,276 - INFO -   Tagged: ph030102d2_03_46_Days.flac
+2025-08-02 08:20:31,782 - INFO -   Tagged: ph030102d2_04_Simple.flac
+2025-08-02 08:20:32,239 - INFO -   Tagged: ph030102d2_05_My_Friend_My_Friend.flac
+2025-08-02 08:20:32,776 - INFO -   Tagged: ph030102d3_01_Limb_By_Limb.flac
+2025-08-02 08:20:33,143 - INFO -   Tagged: ph030102d3_02_Thunderhead.flac
+2025-08-02 08:20:34,055 - INFO -   Tagged: ph030102d3_03_Run_Like_An_Antelope.flac
+2025-08-02 08:20:34,526 - INFO -   Tagged: ph030102d3_04_Cavern.flac
+2025-08-02 08:20:34,919 - INFO -   Tagged: ph030102d3_05_Mexican_Cousin.flac
+2025-08-02 08:20:34,940 - INFO - Removed empty source folder: M:\Projects\Staging\2003-01-02 - Hampton Coliseum - Hampton, VA [FLAC]
+2025-08-02 08:20:34,957 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2003 [Complete]/2003-01-02 - Hampton Coliseum - Hampton, VA [SBD] [FLAC]
+2025-08-02 08:20:34,969 - INFO - 
+Processing folder: M:/Projects/Staging/2003-01-03 - Hampton Colisum - Hampton, VA [FLAC]
+2025-08-02 08:20:34,980 - INFO -   Updated venues.txt with: Hampton Colisum
+2025-08-02 08:20:34,986 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': 'Hampton Colisum', 'city': 'Hampton, VA', 'source': 'SBD', 'format': 'FLAC', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2003-01-03', 'currentfoldername': '2003-01-03 - Hampton Colisum - Hampton, VA [FLAC]'}
+2025-08-02 08:20:34,994 - INFO - Evaluating output folder path with current schemes.
+2025-08-02 08:20:35,000 - INFO - => Output folder: Y:\Music-II\Live Phish\2003 [Complete]
+2025-08-02 08:20:35,011 - INFO - Output folder: Y:/Music-II/Live Phish/2003 [Complete]/2003-01-03 - Hampton Colisum - Hampton, VA [SBD] [FLAC]
+2025-08-02 08:20:38,311 - INFO -   Tagged: ph030103d1_01_Tweezer.flac
+2025-08-02 08:20:40,501 - INFO -   Tagged: ph030103d1_02_Theme_From_the_Bottom.flac
+2025-08-02 08:20:41,862 - INFO -   Tagged: ph030103d1_03_Foam.flac
+2025-08-02 08:20:45,059 - INFO -   Tagged: ph030103d1_04_Pebbles_and_Marbles.flac
+2025-08-02 08:20:51,567 - INFO -   Tagged: ph030103d1_05_You_Enjoy_Myself.flac
+2025-08-02 08:20:53,545 - INFO -   Tagged: ph030103d2_01_Birds_of_a_Feather.flac
+2025-08-02 08:20:56,455 - INFO -   Tagged: ph030103d2_02_Wolfmans_Brother.flac
+2025-08-02 08:20:57,735 - INFO -   Tagged: ph030103d2_03_Makisupa_Policeman.flac
+2025-08-02 08:20:58,230 - INFO -   Tagged: ph030103d2_04_Axilla_I.flac
+2025-08-02 08:20:59,227 - INFO -   Tagged: ph030103d2_05_Twist.flac
+2025-08-02 08:21:15,980 - INFO -   Tagged: ph030103d2_06_Free.flac
+2025-08-02 08:21:16,580 - INFO -   Tagged: ph030103d3_01_All_of_These_Dreams.flac
+2025-08-02 08:21:18,905 - INFO -   Tagged: ph030103d3_02_Possum.flac
+2025-08-02 08:21:20,323 - INFO -   Tagged: ph030103d3_03_Contact.flac
+2025-08-02 08:21:20,740 - INFO -   Tagged: ph030103d3_04_Tweezer_Reprise.flac
+2025-08-02 08:21:20,757 - INFO - Removed empty source folder: M:\Projects\Staging\2003-01-03 - Hampton Colisum - Hampton, VA [FLAC]
+2025-08-02 08:21:20,776 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2003 [Complete]/2003-01-03 - Hampton Colisum - Hampton, VA [SBD] [FLAC]
+2025-08-02 08:21:21,365 - INFO - Used cache saved.
+2025-08-02 08:24:12,499 - INFO - => Output folder: Y:\Music-II\Live Phish\2003 [Complete]
+2025-08-02 08:25:04,738 - INFO - => Output folder: Y:\Music-II\Live Phish\2003 [Complete]
+2025-08-02 08:25:25,567 - INFO - 
+Processing folder: Y:/Music-II/Live Phish/2003 [Complete]/2003-01-02 - Hampton Coliseum - Hampton, VA [SBD] [FLAC]
+2025-08-02 08:25:25,585 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'SBD', 'format': 'FLAC', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2003-01-02', 'currentfoldername': '2003-01-02 - Hampton Coliseum - Hampton, VA [SBD] [FLAC]'}
+2025-08-02 08:25:25,588 - INFO - Evaluating output folder path with current schemes.
+2025-08-02 08:25:25,602 - INFO - => Output folder: Y:\Music-II\Live Phish\2003 [Complete]
+2025-08-02 08:25:25,615 - INFO - Output folder: Y:/Music-II/Live Phish/2003 [Complete]/2003-01-02 - Hampton Coliseum - Hampton, VA [SBD] [FLAC]
+2025-08-02 08:25:25,638 - INFO -   Renaming due to collision: 030102_album_art.png → 030102_album_art(1).png
+2025-08-02 08:25:25,661 - INFO -   Renaming due to collision: 030102_pc_booklet.pdf → 030102_pc_booklet(1).pdf
+2025-08-02 08:25:25,675 - INFO -   Renaming due to collision: 030102_pc_cd.pdf → 030102_pc_cd(1).pdf
+2025-08-02 08:25:25,692 - INFO -   Renaming due to collision: 030102_pc_tray.pdf → 030102_pc_tray(1).pdf
+2025-08-02 08:25:25,709 - INFO -   Renaming due to collision: ph030102d1_01_Chalk_Dust_Torture.flac → ph030102d1_01_Chalk_Dust_Torture(1).flac
+2025-08-02 08:25:25,832 - INFO -   Tagged: ph030102d1_01_Chalk_Dust_Torture(1).flac
+2025-08-02 08:25:25,844 - INFO -   Renaming due to collision: ph030102d1_02_Bathtub_Gin.flac → ph030102d1_02_Bathtub_Gin(1).flac
+2025-08-02 08:25:26,035 - INFO -   Tagged: ph030102d1_02_Bathtub_Gin(1).flac
+2025-08-02 08:25:26,046 - INFO -   Renaming due to collision: ph030102d1_03_Its_Ice.flac → ph030102d1_03_Its_Ice(1).flac
+2025-08-02 08:25:26,154 - INFO -   Tagged: ph030102d1_03_Its_Ice(1).flac
+2025-08-02 08:25:26,165 - INFO -   Renaming due to collision: ph030102d1_04_Back_On_The_Train.flac → ph030102d1_04_Back_On_The_Train(1).flac
+2025-08-02 08:25:26,282 - INFO -   Tagged: ph030102d1_04_Back_On_The_Train(1).flac
+2025-08-02 08:25:26,294 - INFO -   Renaming due to collision: ph030102d1_05_Round_Room.flac → ph030102d1_05_Round_Room(1).flac
+2025-08-02 08:25:26,409 - INFO -   Tagged: ph030102d1_05_Round_Room(1).flac
+2025-08-02 08:25:26,421 - INFO -   Renaming due to collision: ph030102d1_06_The_Horse.flac → ph030102d1_06_The_Horse(1).flac
+2025-08-02 08:25:26,492 - INFO -   Tagged: ph030102d1_06_The_Horse(1).flac
+2025-08-02 08:25:26,496 - INFO -   Renaming due to collision: ph030102d1_07_Silent_In_The_Morning.flac → ph030102d1_07_Silent_In_The_Morning(1).flac
+2025-08-02 08:25:26,602 - INFO -   Tagged: ph030102d1_07_Silent_In_The_Morning(1).flac
+2025-08-02 08:25:26,613 - INFO -   Renaming due to collision: ph030102d1_08_Stash.flac → ph030102d1_08_Stash(1).flac
+2025-08-02 08:25:26,727 - INFO -   Tagged: ph030102d1_08_Stash(1).flac
+2025-08-02 08:25:26,739 - INFO -   Renaming due to collision: ph030102d2_01_Water_in_the_Sky.flac → ph030102d2_01_Water_in_the_Sky(1).flac
+2025-08-02 08:25:26,775 - INFO -   Tagged: ph030102d2_01_Water_in_the_Sky(1).flac
+2025-08-02 08:25:26,798 - INFO -   Renaming due to collision: ph030102d2_02_Character_Zero.flac → ph030102d2_02_Character_Zero(1).flac
+2025-08-02 08:25:26,900 - INFO -   Tagged: ph030102d2_02_Character_Zero(1).flac
+2025-08-02 08:25:26,913 - INFO -   Renaming due to collision: ph030102d2_03_46_Days.flac → ph030102d2_03_46_Days(1).flac
+2025-08-02 08:25:27,099 - INFO -   Tagged: ph030102d2_03_46_Days(1).flac
+2025-08-02 08:25:27,104 - INFO -   Renaming due to collision: ph030102d2_04_Simple.flac → ph030102d2_04_Simple(1).flac
+2025-08-02 08:25:27,259 - INFO -   Tagged: ph030102d2_04_Simple(1).flac
+2025-08-02 08:25:27,263 - INFO -   Renaming due to collision: ph030102d2_05_My_Friend_My_Friend.flac → ph030102d2_05_My_Friend_My_Friend(1).flac
+2025-08-02 08:25:27,393 - INFO -   Tagged: ph030102d2_05_My_Friend_My_Friend(1).flac
+2025-08-02 08:25:27,429 - INFO -   Renaming due to collision: ph030102d3_01_Limb_By_Limb.flac → ph030102d3_01_Limb_By_Limb(1).flac
+2025-08-02 08:25:27,643 - INFO -   Tagged: ph030102d3_01_Limb_By_Limb(1).flac
+2025-08-02 08:25:27,655 - INFO -   Renaming due to collision: ph030102d3_02_Thunderhead.flac → ph030102d3_02_Thunderhead(1).flac
+2025-08-02 08:25:27,757 - INFO -   Tagged: ph030102d3_02_Thunderhead(1).flac
+2025-08-02 08:25:27,773 - INFO -   Renaming due to collision: ph030102d3_03_Run_Like_An_Antelope.flac → ph030102d3_03_Run_Like_An_Antelope(1).flac
+2025-08-02 08:25:27,877 - INFO -   Tagged: ph030102d3_03_Run_Like_An_Antelope(1).flac
+2025-08-02 08:25:27,890 - INFO -   Renaming due to collision: ph030102d3_04_Cavern.flac → ph030102d3_04_Cavern(1).flac
+2025-08-02 08:25:28,121 - INFO -   Tagged: ph030102d3_04_Cavern(1).flac
+2025-08-02 08:25:28,126 - INFO -   Renaming due to collision: ph030102d3_05_Mexican_Cousin.flac → ph030102d3_05_Mexican_Cousin(1).flac
+2025-08-02 08:25:28,305 - INFO -   Tagged: ph030102d3_05_Mexican_Cousin(1).flac
+2025-08-02 08:25:28,311 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2003 [Complete]/2003-01-02 - Hampton Coliseum - Hampton, VA [SBD] [FLAC]
+2025-08-02 08:25:28,767 - INFO - Used cache saved.

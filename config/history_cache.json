@@ -9,6 +9,7 @@
     "Space Bacon"
   ],
   "venue": [
+    "Broadview Stage at SPAC",
     "Coastal Credit Union Music Park",
     "Greenfield Lake Amphitheater",
     "Madison Square Garden",
@@ -25,6 +26,7 @@
     "Owensboro, KY",
     "Red Bank, NJ",
     "San Francisco, CA",
+    "Saratoga Springs, NY",
     "Stanley, ID",
     "Wilmington, NC"
   ],
@@ -65,8 +67,8 @@
     "DAT"
   ],
   "format": [
-    "FLAC16",
     "FLAC24",
+    "FLAC16",
     "FLAC",
     "MP3-V0",
     "MP3-320",
