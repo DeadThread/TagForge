@@ -805,3 +805,55 @@ Processing folder: Y:/Music-II/Live Phish/2003 [Complete]/2003-01-02 - Hampton C
 2025-08-02 08:25:28,305 - INFO -   Tagged: ph030102d3_05_Mexican_Cousin(1).flac
 2025-08-02 08:25:28,311 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2003 [Complete]/2003-01-02 - Hampton Coliseum - Hampton, VA [SBD] [FLAC]
 2025-08-02 08:25:28,767 - INFO - Used cache saved.
+2025-08-02 08:35:07,412 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%source%] [%format%] [%additional%]
+2025-08-02 08:35:07,412 - INFO - Loaded saving scheme: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-08-02 08:35:26,866 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-08-02 08:35:31,076 - INFO - 
+Processing folder: Y:/Music-II/Live Phish/2003-01-03 - Hampton Colisum - Hampton, VA [SBD] [FLAC]
+2025-08-02 08:35:31,087 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': 'Hampton Colisum', 'city': 'Hampton, VA', 'source': 'SBD', 'format': 'FLAC16', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2003-01-03', 'currentfoldername': '2003-01-03 - Hampton Colisum - Hampton, VA [SBD] [FLAC]'}
+2025-08-02 08:35:31,089 - INFO - Evaluating output folder path with current schemes.
+2025-08-02 08:35:31,093 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-08-02 08:35:31,094 - INFO - Output folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2003-01-03 - Hampton Colisum - Hampton, VA [SBD] [FLAC16]
+2025-08-02 08:35:31,249 - INFO -   Tagged: ph030103d1_01_Tweezer.flac
+2025-08-02 08:35:31,287 - INFO -   Tagged: ph030103d1_02_Theme_From_the_Bottom.flac
+2025-08-02 08:35:31,337 - INFO -   Tagged: ph030103d1_03_Foam.flac
+2025-08-02 08:35:31,383 - INFO -   Tagged: ph030103d1_04_Pebbles_and_Marbles.flac
+2025-08-02 08:35:31,434 - INFO -   Tagged: ph030103d1_05_You_Enjoy_Myself.flac
+2025-08-02 08:35:31,481 - INFO -   Tagged: ph030103d2_01_Birds_of_a_Feather.flac
+2025-08-02 08:35:31,521 - INFO -   Tagged: ph030103d2_02_Wolfmans_Brother.flac
+2025-08-02 08:35:31,641 - INFO -   Tagged: ph030103d2_03_Makisupa_Policeman.flac
+2025-08-02 08:35:31,694 - INFO -   Tagged: ph030103d2_04_Axilla_I.flac
+2025-08-02 08:35:31,729 - INFO -   Tagged: ph030103d2_05_Twist.flac
+2025-08-02 08:35:31,775 - INFO -   Tagged: ph030103d2_06_Free.flac
+2025-08-02 08:35:31,818 - INFO -   Tagged: ph030103d3_01_All_of_These_Dreams.flac
+2025-08-02 08:35:31,869 - INFO -   Tagged: ph030103d3_02_Possum.flac
+2025-08-02 08:35:31,920 - INFO -   Tagged: ph030103d3_03_Contact.flac
+2025-08-02 08:35:31,967 - INFO -   Tagged: ph030103d3_04_Tweezer_Reprise.flac
+2025-08-02 08:35:31,975 - INFO - Removed empty source folder: Y:\Music-II\Live Phish\2003-01-03 - Hampton Colisum - Hampton, VA [SBD] [FLAC]
+2025-08-02 08:35:31,989 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2003-01-03 - Hampton Colisum - Hampton, VA [SBD] [FLAC16]
+2025-08-02 08:35:32,210 - INFO - Used cache saved.
+2025-08-02 08:36:15,047 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-08-02 08:36:16,301 - INFO - 
+Processing folder: Y:/Music-II/Live Phish/2003-01-03 - Hampton Colisum - Hampton, VA [SBD] [FLAC16]
+2025-08-02 08:36:16,314 - INFO - Metadata for scheme evaluation: {'artist': 'Phish', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'SBD', 'format': 'FLAC16', 'genre': 'Jam', 'additional': '', 'add': '', 'date': '2003-01-03', 'currentfoldername': '2003-01-03 - Hampton Colisum - Hampton, VA [SBD] [FLAC16]'}
+2025-08-02 08:36:16,319 - INFO - Evaluating output folder path with current schemes.
+2025-08-02 08:36:16,326 - INFO - => Output folder: Y:\Music-II\Live Phish\2025 [Current] [SBD] [FLAC]
+2025-08-02 08:36:16,330 - INFO - Output folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2003-01-03 - Hampton Coliseum - Hampton, VA [SBD] [FLAC16]
+2025-08-02 08:36:16,399 - INFO -   Tagged: ph030103d1_01_Tweezer.flac
+2025-08-02 08:36:16,425 - INFO -   Tagged: ph030103d1_02_Theme_From_the_Bottom.flac
+2025-08-02 08:36:16,460 - INFO -   Tagged: ph030103d1_03_Foam.flac
+2025-08-02 08:36:16,487 - INFO -   Tagged: ph030103d1_04_Pebbles_and_Marbles.flac
+2025-08-02 08:36:16,519 - INFO -   Tagged: ph030103d1_05_You_Enjoy_Myself.flac
+2025-08-02 08:36:16,555 - INFO -   Tagged: ph030103d2_01_Birds_of_a_Feather.flac
+2025-08-02 08:36:16,589 - INFO -   Tagged: ph030103d2_02_Wolfmans_Brother.flac
+2025-08-02 08:36:16,625 - INFO -   Tagged: ph030103d2_03_Makisupa_Policeman.flac
+2025-08-02 08:36:16,658 - INFO -   Tagged: ph030103d2_04_Axilla_I.flac
+2025-08-02 08:36:16,689 - INFO -   Tagged: ph030103d2_05_Twist.flac
+2025-08-02 08:36:16,727 - INFO -   Tagged: ph030103d2_06_Free.flac
+2025-08-02 08:36:16,766 - INFO -   Tagged: ph030103d3_01_All_of_These_Dreams.flac
+2025-08-02 08:36:16,799 - INFO -   Tagged: ph030103d3_02_Possum.flac
+2025-08-02 08:36:16,835 - INFO -   Tagged: ph030103d3_03_Contact.flac
+2025-08-02 08:36:16,866 - INFO -   Tagged: ph030103d3_04_Tweezer_Reprise.flac
+2025-08-02 08:36:16,877 - INFO - Removed empty source folder: Y:\Music-II\Live Phish\2003-01-03 - Hampton Colisum - Hampton, VA [SBD] [FLAC16]
+2025-08-02 08:36:16,889 - INFO - Finished processing folder: Y:/Music-II/Live Phish/2025 [Current] [SBD] [FLAC]/2003-01-03 - Hampton Coliseum - Hampton, VA [SBD] [FLAC16]
+2025-08-02 08:36:17,103 - INFO - Used cache saved.
