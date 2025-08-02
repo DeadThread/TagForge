@@ -7889,3 +7889,269 @@ Processing folder: Y:/TEST/2003/TEST/2003/2003-01-02 - Madison Square Garden - M
 2025-08-02 15:04:58,887 - DEBUG - QueueManager scheme evaluator updated.
 2025-08-02 15:05:01,296 - INFO - History saved.
 2025-08-02 15:05:01,297 - INFO - Used cache saved.
+2025-08-02 15:17:33,347 - DEBUG - Verified themes folder at: themes
+2025-08-02 15:17:33,353 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:17:33,353 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:17:33,353 - DEBUG - Updating processor schemes...
+2025-08-02 15:17:33,354 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:17:33,354 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:17:33,460 - DEBUG - History loaded.
+2025-08-02 15:17:33,460 - DEBUG - Used cache loaded.
+2025-08-02 15:17:33,474 - DEBUG - TagForge GUI initialization complete.
+2025-08-02 15:17:33,538 - DEBUG - Restored main window geometry: 1600x1100+549+122
+2025-08-02 15:17:33,548 - DEBUG - Saved main window size and position: 1600x1100+549+122
+2025-08-02 15:17:33,576 - DEBUG - No saved sash position for main found in config
+2025-08-02 15:17:33,576 - DEBUG - Set default outer pane sash pos: 860
+2025-08-02 15:17:33,576 - DEBUG - No saved sash position for left_paned found in config
+2025-08-02 15:17:35,177 - INFO - Loaded preset: Default
+2025-08-02 15:17:36,570 - INFO - Loaded preset: Default
+2025-08-02 15:18:21,361 - DEBUG - Verified themes folder at: themes
+2025-08-02 15:18:21,366 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:18:21,367 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:18:21,367 - DEBUG - Updating processor schemes...
+2025-08-02 15:18:21,367 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:18:21,367 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:18:21,472 - DEBUG - History loaded.
+2025-08-02 15:18:21,473 - DEBUG - Used cache loaded.
+2025-08-02 15:18:21,486 - DEBUG - TagForge GUI initialization complete.
+2025-08-02 15:18:21,547 - DEBUG - Restored main window geometry: 1600x1100+549+122
+2025-08-02 15:18:21,563 - DEBUG - Saved main window size and position: 1600x1100+549+122
+2025-08-02 15:18:21,589 - DEBUG - No saved sash position for main found in config
+2025-08-02 15:18:21,590 - DEBUG - Set default outer pane sash pos: 860
+2025-08-02 15:18:21,590 - DEBUG - No saved sash position for left_paned found in config
+2025-08-02 15:18:23,019 - INFO - Loaded preset: Default
+2025-08-02 15:18:25,033 - INFO - Loaded preset: Default
+2025-08-02 15:22:25,633 - DEBUG - Verified themes folder at: themes
+2025-08-02 15:22:25,638 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:22:25,639 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:22:25,639 - DEBUG - Updating processor schemes...
+2025-08-02 15:22:25,639 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:22:25,639 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:22:25,760 - DEBUG - History loaded.
+2025-08-02 15:22:25,760 - DEBUG - Used cache loaded.
+2025-08-02 15:22:25,775 - DEBUG - TagForge GUI initialization complete.
+2025-08-02 15:22:25,848 - DEBUG - Restored main window geometry: 1600x1100+549+122
+2025-08-02 15:22:25,858 - DEBUG - Saved main window size and position: 1600x1100+549+122
+2025-08-02 15:22:25,873 - DEBUG - No saved sash position for main found in config
+2025-08-02 15:22:25,873 - DEBUG - Set default outer pane sash pos: 860
+2025-08-02 15:22:25,873 - DEBUG - No saved sash position for left_paned found in config
+2025-08-02 15:22:27,209 - INFO - Loaded preset: Default
+2025-08-02 15:22:28,845 - INFO - Loaded preset: Default
+2025-08-02 15:22:30,659 - INFO - Loaded preset: Phish
+2025-08-02 15:22:32,450 - INFO - Loaded preset: Default
+2025-08-02 15:25:09,936 - DEBUG - Verified themes folder at: themes
+2025-08-02 15:25:09,941 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:25:09,942 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:25:09,942 - DEBUG - Updating processor schemes...
+2025-08-02 15:25:09,942 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:25:09,942 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:25:10,048 - DEBUG - History loaded.
+2025-08-02 15:25:10,048 - DEBUG - Used cache loaded.
+2025-08-02 15:25:10,062 - DEBUG - TagForge GUI initialization complete.
+2025-08-02 15:25:10,121 - DEBUG - Restored main window geometry: 1600x1100+549+122
+2025-08-02 15:25:10,139 - DEBUG - Saved main window size and position: 1600x1100+549+122
+2025-08-02 15:25:10,165 - DEBUG - No saved sash position for main found in config
+2025-08-02 15:25:10,165 - DEBUG - Set default outer pane sash pos: 860
+2025-08-02 15:25:10,165 - DEBUG - No saved sash position for left_paned found in config
+2025-08-02 15:25:11,709 - INFO - Loaded preset: Default
+2025-08-02 15:25:12,905 - INFO - Loaded preset: Default
+2025-08-02 15:28:26,119 - DEBUG - Verified themes folder at: themes
+2025-08-02 15:28:26,124 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:28:26,125 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:28:26,125 - DEBUG - Updating processor schemes...
+2025-08-02 15:28:26,125 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:28:26,125 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:28:26,237 - DEBUG - History loaded.
+2025-08-02 15:28:26,238 - DEBUG - Used cache loaded.
+2025-08-02 15:28:26,253 - DEBUG - TagForge GUI initialization complete.
+2025-08-02 15:28:26,327 - DEBUG - Restored main window geometry: 1600x1100+549+122
+2025-08-02 15:28:26,336 - DEBUG - Saved main window size and position: 1600x1100+549+122
+2025-08-02 15:28:26,354 - DEBUG - No saved sash position for main found in config
+2025-08-02 15:28:26,354 - DEBUG - Set default outer pane sash pos: 860
+2025-08-02 15:28:26,354 - DEBUG - No saved sash position for left_paned found in config
+2025-08-02 15:28:35,516 - DEBUG - Verified themes folder at: themes
+2025-08-02 15:28:35,522 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:28:35,522 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:28:35,523 - DEBUG - Updating processor schemes...
+2025-08-02 15:28:35,523 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:28:35,523 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:28:35,630 - DEBUG - History loaded.
+2025-08-02 15:28:35,630 - DEBUG - Used cache loaded.
+2025-08-02 15:28:35,644 - DEBUG - TagForge GUI initialization complete.
+2025-08-02 15:28:35,709 - DEBUG - Restored main window geometry: 1600x1100+549+122
+2025-08-02 15:28:35,725 - DEBUG - Saved main window size and position: 1600x1100+549+122
+2025-08-02 15:28:35,746 - DEBUG - No saved sash position for main found in config
+2025-08-02 15:28:35,746 - DEBUG - Set default outer pane sash pos: 860
+2025-08-02 15:28:35,746 - DEBUG - No saved sash position for left_paned found in config
+2025-08-02 15:28:37,862 - INFO - Loaded preset: Default
+2025-08-02 15:28:41,106 - INFO - History saved.
+2025-08-02 15:28:41,107 - INFO - Used cache saved.
+2025-08-02 15:33:12,288 - DEBUG - Verified themes folder at: themes
+2025-08-02 15:33:12,294 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:33:12,294 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:33:12,294 - DEBUG - Updating processor schemes...
+2025-08-02 15:33:12,294 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:33:12,295 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:33:12,399 - DEBUG - History loaded.
+2025-08-02 15:33:12,400 - DEBUG - Used cache loaded.
+2025-08-02 15:33:12,413 - DEBUG - TagForge GUI initialization complete.
+2025-08-02 15:33:12,480 - DEBUG - Restored main window geometry: 1600x1100+549+122
+2025-08-02 15:33:12,500 - DEBUG - Saved main window size and position: 1600x1100+549+122
+2025-08-02 15:33:12,516 - DEBUG - No saved sash position for main found in config
+2025-08-02 15:33:12,516 - DEBUG - Set default outer pane sash pos: 860
+2025-08-02 15:33:12,516 - DEBUG - No saved sash position for left_paned found in config
+2025-08-02 15:33:15,669 - INFO - Loaded preset: Phish
+2025-08-02 15:33:16,686 - INFO - Loaded preset: Default
+2025-08-02 15:33:17,566 - INFO - Saved schemes to config file
+2025-08-02 15:33:17,567 - INFO - Updated main config.ini with current schemes
+2025-08-02 15:33:17,568 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'Phish', 'venue': 'Madison Square Garden', 'city': 'New York, NY', 'date': '1995-12-31', 'source': 'SBD', 'format': 'FLAC24', 'additional': 'NYE95', 'formatN': ['FLAC24', 'MP3_320'], 'additionalN': ['NYE95', 'Remastered'], 'sourceN': ['SBD', 'Audience'], 'year': '1995', 'current_folder': 'ph1995-12-31 - Madison Square Garden - New York, NY', 'add': 'NYE95', 'currentfoldername': 'ph1995-12-31 - Madison Square Garden - New York, NY'}
+2025-08-02 15:33:17,568 - DEBUG - Folder scheme evaluated to: 1995-12-31 - Madison Square Garden - New York, NY [FLAC24] [NYE95]
+2025-08-02 15:33:17,568 - INFO - => Output folder: M:\Live Music\Phish\1995
+2025-08-02 15:33:17,568 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'Phish', 'venue': 'Madison Square Garden', 'city': 'New York, NY', 'date': '1995-12-31', 'source': 'SBD', 'format': 'FLAC24', 'additional': 'NYE95', 'formatN': ['FLAC24', 'MP3_320'], 'additionalN': ['NYE95', 'Remastered'], 'sourceN': ['SBD', 'Audience'], 'year': '1995', 'current_folder': 'ph1995-12-31 - Madison Square Garden - New York, NY', 'add': 'NYE95', 'currentfoldername': 'ph1995-12-31 - Madison Square Garden - New York, NY'}
+2025-08-02 15:33:17,568 - DEBUG - Folder scheme evaluated to: 1995-12-31 - Madison Square Garden - New York, NY [FLAC24] [NYE95]
+2025-08-02 15:33:17,569 - INFO - => Output folder: M:\Live Music\Phish\1995
+2025-08-02 15:33:17,569 - DEBUG - Updating processor schemes...
+2025-08-02 15:33:17,569 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:33:17,569 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:33:17,569 - DEBUG - QueueManager scheme evaluator updated.
+2025-08-02 15:33:22,871 - INFO - Loaded preset: Phish
+2025-08-02 15:33:23,734 - INFO - Saved schemes to config file
+2025-08-02 15:33:23,741 - INFO - Updated main config.ini with current schemes
+2025-08-02 15:33:23,742 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'Phish', 'venue': 'Madison Square Garden', 'city': 'New York, NY', 'date': '1995-12-31', 'source': 'SBD', 'format': 'FLAC24', 'additional': 'NYE95', 'formatN': ['FLAC24', 'MP3_320'], 'additionalN': ['NYE95', 'Remastered'], 'sourceN': ['SBD', 'Audience'], 'year': '1995', 'current_folder': 'ph1995-12-31 - Madison Square Garden - New York, NY', 'add': 'NYE95', 'currentfoldername': 'ph1995-12-31 - Madison Square Garden - New York, NY'}
+2025-08-02 15:33:23,742 - DEBUG - Folder scheme evaluated to: 1995-12-31 - Madison Square Garden - New York, NY [FLAC24] [NYE95]
+2025-08-02 15:33:23,742 - INFO - => Output folder: Y:\Music-II\Live Phish\1995
+2025-08-02 15:33:23,742 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'Phish', 'venue': 'Madison Square Garden', 'city': 'New York, NY', 'date': '1995-12-31', 'source': 'SBD', 'format': 'FLAC24', 'additional': 'NYE95', 'formatN': ['FLAC24', 'MP3_320'], 'additionalN': ['NYE95', 'Remastered'], 'sourceN': ['SBD', 'Audience'], 'year': '1995', 'current_folder': 'ph1995-12-31 - Madison Square Garden - New York, NY', 'add': 'NYE95', 'currentfoldername': 'ph1995-12-31 - Madison Square Garden - New York, NY'}
+2025-08-02 15:33:23,743 - DEBUG - Folder scheme evaluated to: 1995-12-31 - Madison Square Garden - New York, NY [FLAC24] [NYE95]
+2025-08-02 15:33:23,743 - INFO - => Output folder: Y:\Music-II\Live Phish\1995
+2025-08-02 15:33:23,743 - DEBUG - Updating processor schemes...
+2025-08-02 15:33:23,743 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:33:23,743 - DEBUG - Old saving scheme: Y:\Music-II\Live Phish\$year(%date%)
+2025-08-02 15:33:23,743 - DEBUG - QueueManager scheme evaluator updated.
+2025-08-02 15:33:29,828 - INFO - Loaded preset: Default
+2025-08-02 15:33:32,080 - INFO - Saved schemes to config file
+2025-08-02 15:33:32,083 - INFO - Updated main config.ini with current schemes
+2025-08-02 15:33:32,083 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'Phish', 'venue': 'Madison Square Garden', 'city': 'New York, NY', 'date': '1995-12-31', 'source': 'SBD', 'format': 'FLAC24', 'additional': 'NYE95', 'formatN': ['FLAC24', 'MP3_320'], 'additionalN': ['NYE95', 'Remastered'], 'sourceN': ['SBD', 'Audience'], 'year': '1995', 'current_folder': 'ph1995-12-31 - Madison Square Garden - New York, NY', 'add': 'NYE95', 'currentfoldername': 'ph1995-12-31 - Madison Square Garden - New York, NY'}
+2025-08-02 15:33:32,083 - DEBUG - Folder scheme evaluated to: 1995-12-31 - Madison Square Garden - New York, NY [FLAC24] [NYE95]
+2025-08-02 15:33:32,084 - INFO - => Output folder: M:\Live Music\Phish\1995
+2025-08-02 15:33:32,084 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'Phish', 'venue': 'Madison Square Garden', 'city': 'New York, NY', 'date': '1995-12-31', 'source': 'SBD', 'format': 'FLAC24', 'additional': 'NYE95', 'formatN': ['FLAC24', 'MP3_320'], 'additionalN': ['NYE95', 'Remastered'], 'sourceN': ['SBD', 'Audience'], 'year': '1995', 'current_folder': 'ph1995-12-31 - Madison Square Garden - New York, NY', 'add': 'NYE95', 'currentfoldername': 'ph1995-12-31 - Madison Square Garden - New York, NY'}
+2025-08-02 15:33:32,084 - DEBUG - Folder scheme evaluated to: 1995-12-31 - Madison Square Garden - New York, NY [FLAC24] [NYE95]
+2025-08-02 15:33:32,084 - INFO - => Output folder: M:\Live Music\Phish\1995
+2025-08-02 15:33:32,085 - DEBUG - Updating processor schemes...
+2025-08-02 15:33:32,085 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:33:32,085 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:33:32,085 - DEBUG - QueueManager scheme evaluator updated.
+2025-08-02 15:34:37,751 - DEBUG - Verified themes folder at: themes
+2025-08-02 15:34:37,756 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:34:37,756 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:34:37,757 - DEBUG - Updating processor schemes...
+2025-08-02 15:34:37,757 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:34:37,757 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:34:37,859 - DEBUG - History loaded.
+2025-08-02 15:34:37,859 - DEBUG - Used cache loaded.
+2025-08-02 15:34:37,872 - DEBUG - TagForge GUI initialization complete.
+2025-08-02 15:34:37,935 - DEBUG - Restored main window geometry: 1600x1100+549+122
+2025-08-02 15:34:37,944 - DEBUG - Saved main window size and position: 1600x1100+549+122
+2025-08-02 15:34:37,976 - DEBUG - No saved sash position for main found in config
+2025-08-02 15:34:37,976 - DEBUG - Set default outer pane sash pos: 860
+2025-08-02 15:34:37,976 - DEBUG - No saved sash position for left_paned found in config
+2025-08-02 15:34:44,411 - INFO - Loaded preset: Phish
+2025-08-02 15:34:45,526 - INFO - Saved schemes to config file
+2025-08-02 15:34:45,528 - INFO - Updated main config.ini with current schemes
+2025-08-02 15:34:45,528 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'Phish', 'venue': 'Madison Square Garden', 'city': 'New York, NY', 'date': '1995-12-31', 'source': 'SBD', 'format': 'FLAC24', 'additional': 'NYE95', 'formatN': ['FLAC24', 'MP3_320'], 'additionalN': ['NYE95', 'Remastered'], 'sourceN': ['SBD', 'Audience'], 'year': '1995', 'current_folder': 'ph1995-12-31 - Madison Square Garden - New York, NY', 'add': 'NYE95', 'currentfoldername': 'ph1995-12-31 - Madison Square Garden - New York, NY'}
+2025-08-02 15:34:45,529 - DEBUG - Folder scheme evaluated to: 1995-12-31 - Madison Square Garden - New York, NY [FLAC24] [NYE95]
+2025-08-02 15:34:45,529 - INFO - => Output folder: Y:\Music-II\Live Phish\1995
+2025-08-02 15:34:45,529 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'Phish', 'venue': 'Madison Square Garden', 'city': 'New York, NY', 'date': '1995-12-31', 'source': 'SBD', 'format': 'FLAC24', 'additional': 'NYE95', 'formatN': ['FLAC24', 'MP3_320'], 'additionalN': ['NYE95', 'Remastered'], 'sourceN': ['SBD', 'Audience'], 'year': '1995', 'current_folder': 'ph1995-12-31 - Madison Square Garden - New York, NY', 'add': 'NYE95', 'currentfoldername': 'ph1995-12-31 - Madison Square Garden - New York, NY'}
+2025-08-02 15:34:45,529 - DEBUG - Folder scheme evaluated to: 1995-12-31 - Madison Square Garden - New York, NY [FLAC24] [NYE95]
+2025-08-02 15:34:45,529 - INFO - => Output folder: Y:\Music-II\Live Phish\1995
+2025-08-02 15:34:45,530 - DEBUG - Updating processor schemes...
+2025-08-02 15:34:45,530 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:34:45,530 - DEBUG - Old saving scheme: Y:\Music-II\Live Phish\$year(%date%)
+2025-08-02 15:34:45,530 - DEBUG - QueueManager scheme evaluator updated.
+2025-08-02 15:34:52,371 - DEBUG - Verified themes folder at: themes
+2025-08-02 15:34:52,376 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:34:52,376 - INFO - Loaded saving scheme: Y:\Music-II\Live Phish\$year(%date%)
+2025-08-02 15:34:52,377 - DEBUG - Updating processor schemes...
+2025-08-02 15:34:52,377 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:34:52,377 - DEBUG - Old saving scheme: Y:\Music-II\Live Phish\$year(%date%)
+2025-08-02 15:34:52,479 - DEBUG - History loaded.
+2025-08-02 15:34:52,479 - DEBUG - Used cache loaded.
+2025-08-02 15:34:52,492 - DEBUG - TagForge GUI initialization complete.
+2025-08-02 15:34:52,554 - DEBUG - Restored main window geometry: 1600x1100+549+122
+2025-08-02 15:34:52,571 - DEBUG - Saved main window size and position: 1600x1100+549+122
+2025-08-02 15:34:52,597 - DEBUG - No saved sash position for main found in config
+2025-08-02 15:34:52,597 - DEBUG - Set default outer pane sash pos: 860
+2025-08-02 15:34:52,597 - DEBUG - No saved sash position for left_paned found in config
+2025-08-02 15:34:59,222 - INFO - Loaded preset: Default
+2025-08-02 15:35:00,170 - INFO - Saved schemes to config file
+2025-08-02 15:35:00,172 - INFO - Updated main config.ini with current schemes
+2025-08-02 15:35:00,172 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'Phish', 'venue': 'Madison Square Garden', 'city': 'New York, NY', 'date': '1995-12-31', 'source': 'SBD', 'format': 'FLAC24', 'additional': 'NYE95', 'formatN': ['FLAC24', 'MP3_320'], 'additionalN': ['NYE95', 'Remastered'], 'sourceN': ['SBD', 'Audience'], 'year': '1995', 'current_folder': 'ph1995-12-31 - Madison Square Garden - New York, NY', 'add': 'NYE95', 'currentfoldername': 'ph1995-12-31 - Madison Square Garden - New York, NY'}
+2025-08-02 15:35:00,172 - DEBUG - Folder scheme evaluated to: 1995-12-31 - Madison Square Garden - New York, NY [FLAC24] [NYE95]
+2025-08-02 15:35:00,172 - INFO - => Output folder: M:\Live Music\Phish\1995
+2025-08-02 15:35:00,173 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'Phish', 'venue': 'Madison Square Garden', 'city': 'New York, NY', 'date': '1995-12-31', 'source': 'SBD', 'format': 'FLAC24', 'additional': 'NYE95', 'formatN': ['FLAC24', 'MP3_320'], 'additionalN': ['NYE95', 'Remastered'], 'sourceN': ['SBD', 'Audience'], 'year': '1995', 'current_folder': 'ph1995-12-31 - Madison Square Garden - New York, NY', 'add': 'NYE95', 'currentfoldername': 'ph1995-12-31 - Madison Square Garden - New York, NY'}
+2025-08-02 15:35:00,173 - DEBUG - Folder scheme evaluated to: 1995-12-31 - Madison Square Garden - New York, NY [FLAC24] [NYE95]
+2025-08-02 15:35:00,173 - INFO - => Output folder: M:\Live Music\Phish\1995
+2025-08-02 15:35:00,173 - DEBUG - Updating processor schemes...
+2025-08-02 15:35:00,173 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:35:00,173 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:35:00,173 - DEBUG - QueueManager scheme evaluator updated.
+2025-08-02 15:35:32,224 - DEBUG - Verified themes folder at: themes
+2025-08-02 15:35:32,230 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:35:32,230 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:35:32,230 - DEBUG - Updating processor schemes...
+2025-08-02 15:35:32,231 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:35:32,231 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:35:32,341 - DEBUG - History loaded.
+2025-08-02 15:35:32,341 - DEBUG - Used cache loaded.
+2025-08-02 15:35:32,355 - DEBUG - TagForge GUI initialization complete.
+2025-08-02 15:35:32,406 - DEBUG - Restored main window geometry: 1600x1100+549+122
+2025-08-02 15:35:32,413 - DEBUG - Saved main window size and position: 1600x1100+549+122
+2025-08-02 15:35:32,454 - DEBUG - No saved sash position for main found in config
+2025-08-02 15:35:32,455 - DEBUG - Set default outer pane sash pos: 860
+2025-08-02 15:35:32,455 - DEBUG - No saved sash position for left_paned found in config
+2025-08-02 15:38:14,105 - DEBUG - Verified themes folder at: themes
+2025-08-02 15:38:14,111 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:38:14,111 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:38:14,112 - DEBUG - Updating processor schemes...
+2025-08-02 15:38:14,112 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:38:14,112 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:38:14,220 - DEBUG - History loaded.
+2025-08-02 15:38:14,220 - DEBUG - Used cache loaded.
+2025-08-02 15:38:14,234 - DEBUG - TagForge GUI initialization complete.
+2025-08-02 15:38:14,291 - DEBUG - Restored main window geometry: 1600x1100+182+182
+2025-08-02 15:38:14,308 - DEBUG - Saved main window size and position: 1600x1100+182+182
+2025-08-02 15:38:14,334 - DEBUG - No saved sash position for main found in config
+2025-08-02 15:38:14,334 - DEBUG - Set default outer pane sash pos: 860
+2025-08-02 15:38:14,334 - DEBUG - No saved sash position for left_paned found in config
+2025-08-02 15:38:16,090 - DEBUG - Saved main window size and position: 1600x1100+189+182
+2025-08-02 15:38:16,091 - DEBUG - Saved main window size and position: 1600x1100+197+184
+2025-08-02 15:38:16,098 - DEBUG - Saved main window size and position: 1600x1100+207+184
+2025-08-02 15:38:16,122 - DEBUG - Saved main window size and position: 1600x1100+213+185
+2025-08-02 15:38:16,125 - DEBUG - Saved main window size and position: 1600x1100+231+185
+2025-08-02 15:38:16,128 - DEBUG - Saved main window size and position: 1600x1100+243+185
+2025-08-02 15:38:16,136 - DEBUG - Saved main window size and position: 1600x1100+255+185
+2025-08-02 15:38:16,143 - DEBUG - Saved main window size and position: 1600x1100+268+184
+2025-08-02 15:38:16,151 - DEBUG - Saved main window size and position: 1600x1100+283+182
+2025-08-02 15:38:16,159 - DEBUG - Saved main window size and position: 1600x1100+303+181
+2025-08-02 15:38:16,166 - DEBUG - Saved main window size and position: 1600x1100+320+180
+2025-08-02 15:38:16,174 - DEBUG - Saved main window size and position: 1600x1100+335+178
+2025-08-02 15:38:16,181 - DEBUG - Saved main window size and position: 1600x1100+355+177
+2025-08-02 15:38:16,189 - DEBUG - Saved main window size and position: 1600x1100+372+177
+2025-08-02 15:38:16,197 - DEBUG - Saved main window size and position: 1600x1100+389+176
+2025-08-02 15:38:16,204 - DEBUG - Saved main window size and position: 1600x1100+406+175
+2025-08-02 15:38:16,212 - DEBUG - Saved main window size and position: 1600x1100+426+173
+2025-08-02 15:38:16,219 - DEBUG - Saved main window size and position: 1600x1100+441+173
+2025-08-02 15:38:16,227 - DEBUG - Saved main window size and position: 1600x1100+453+172
+2025-08-02 15:38:16,234 - DEBUG - Saved main window size and position: 1600x1100+463+171
+2025-08-02 15:38:16,242 - DEBUG - Saved main window size and position: 1600x1100+471+171
+2025-08-02 15:38:16,250 - DEBUG - Saved main window size and position: 1600x1100+476+171
+2025-08-02 15:38:16,257 - DEBUG - Saved main window size and position: 1600x1100+477+171
+2025-08-02 15:38:16,303 - DEBUG - Saved main window size and position: 1600x1100+478+171
+2025-08-02 15:38:16,310 - DEBUG - Saved main window size and position: 1600x1100+481+171
+2025-08-02 15:38:16,318 - DEBUG - Saved main window size and position: 1600x1100+490+171
+2025-08-02 15:38:16,326 - DEBUG - Saved main window size and position: 1600x1100+503+171
+2025-08-02 15:38:16,333 - DEBUG - Saved main window size and position: 1600x1100+516+172
+2025-08-02 15:38:16,341 - DEBUG - Saved main window size and position: 1600x1100+529+173
+2025-08-02 15:38:16,348 - DEBUG - Saved main window size and position: 1600x1100+543+173
+2025-08-02 15:38:16,356 - DEBUG - Saved main window size and position: 1600x1100+549+173
+2025-08-02 15:38:16,363 - DEBUG - Saved main window size and position: 1600x1100+554+173
+2025-08-02 15:38:16,371 - DEBUG - Saved main window size and position: 1600x1100+555+173

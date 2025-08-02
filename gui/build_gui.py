@@ -7,6 +7,7 @@ from utils.audio_player import AudioPlayer
 from utils.autocomplete import AutocompleteCombobox
 from utils.logger import log_message  # Make sure this is imported
 
+
 def build_main_gui(app):
     self = app  # Use self as alias for convenience
 
@@ -164,8 +165,8 @@ def build_main_gui(app):
     log_frame = tk.Frame(self.right)
     log_frame.pack(fill=tk.BOTH, expand=True)
     tk.Label(log_frame, text="Log:").grid(row=0, column=0, sticky="w")
-    ttk.Button(log_frame, text="Clear Logs", command=lambda: self.log.delete("1.0", "end")).grid(row=0, column=1, sticky="e", padx=10)
 
+    # Create the log Text widget BEFORE the button
     self.log = tk.Text(log_frame, wrap="none")
     self.log.grid(row=1, column=0, columnspan=2, sticky="nsew")
 
@@ -176,6 +177,14 @@ def build_main_gui(app):
     self.log.configure(yscrollcommand=vbar_log.set, xscrollcommand=hbar_log.set)
     log_frame.grid_rowconfigure(1, weight=1)
     log_frame.grid_columnconfigure(0, weight=1)
+
+    # Define clear log function that handles disabled state if needed
+    def clear_log():
+        self.log.config(state='normal')
+        self.log.delete("1.0", "end")
+        self.log.config(state='normal')  # Keep enabled; change to 'disabled' if you want read-only
+
+    ttk.Button(log_frame, text="Clear Logs", command=clear_log).grid(row=0, column=1, sticky="e", padx=10)
 
     # Configure tags for colored logging (adjust colors as you want)
     self.log.tag_config("folder_scheme", foreground="green")
@@ -189,6 +198,7 @@ def build_main_gui(app):
     # --- Tab Order ---
     self.c_art.focus_set()
     date_widgets = df.winfo_children()
+
     def set_tab_order(ws):
         for i, w in enumerate(ws):
             def handler(e, i=i):
@@ -199,6 +209,7 @@ def build_main_gui(app):
                         ws[(i + 1) % len(ws)].focus_set()
                     return "break"
             w.bind("<KeyPress>", handler)
+
     set_tab_order([self.c_art, self.c_ven, self.c_city, *date_widgets, self.c_gen, self.c_src, self.c_fmt, self.c_add])
 
     # --- Audio Player Frame ---

@@ -3268,3 +3268,64 @@ Processing folder: Y:/TEST/2003/TEST/2003/2003-01-02 - Madison Square Garden - M
 2025-08-02 15:04:58,887 - INFO - => Output folder: M:\Live Music\Phish\1995
 2025-08-02 15:05:01,296 - INFO - History saved.
 2025-08-02 15:05:01,297 - INFO - Used cache saved.
+2025-08-02 15:17:33,353 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:17:33,353 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:17:35,177 - INFO - Loaded preset: Default
+2025-08-02 15:17:36,570 - INFO - Loaded preset: Default
+2025-08-02 15:18:21,366 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:18:21,367 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:18:23,019 - INFO - Loaded preset: Default
+2025-08-02 15:18:25,033 - INFO - Loaded preset: Default
+2025-08-02 15:22:25,638 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:22:25,639 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:22:27,209 - INFO - Loaded preset: Default
+2025-08-02 15:22:28,845 - INFO - Loaded preset: Default
+2025-08-02 15:22:30,659 - INFO - Loaded preset: Phish
+2025-08-02 15:22:32,450 - INFO - Loaded preset: Default
+2025-08-02 15:25:09,941 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:25:09,942 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:25:11,709 - INFO - Loaded preset: Default
+2025-08-02 15:25:12,905 - INFO - Loaded preset: Default
+2025-08-02 15:28:26,124 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:28:26,125 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:28:35,522 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:28:35,522 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:28:37,862 - INFO - Loaded preset: Default
+2025-08-02 15:28:41,106 - INFO - History saved.
+2025-08-02 15:28:41,107 - INFO - Used cache saved.
+2025-08-02 15:33:12,294 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:33:12,294 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:33:15,669 - INFO - Loaded preset: Phish
+2025-08-02 15:33:16,686 - INFO - Loaded preset: Default
+2025-08-02 15:33:17,566 - INFO - Saved schemes to config file
+2025-08-02 15:33:17,567 - INFO - Updated main config.ini with current schemes
+2025-08-02 15:33:17,568 - INFO - => Output folder: M:\Live Music\Phish\1995
+2025-08-02 15:33:17,569 - INFO - => Output folder: M:\Live Music\Phish\1995
+2025-08-02 15:33:22,871 - INFO - Loaded preset: Phish
+2025-08-02 15:33:23,734 - INFO - Saved schemes to config file
+2025-08-02 15:33:23,741 - INFO - Updated main config.ini with current schemes
+2025-08-02 15:33:23,742 - INFO - => Output folder: Y:\Music-II\Live Phish\1995
+2025-08-02 15:33:23,743 - INFO - => Output folder: Y:\Music-II\Live Phish\1995
+2025-08-02 15:33:29,828 - INFO - Loaded preset: Default
+2025-08-02 15:33:32,080 - INFO - Saved schemes to config file
+2025-08-02 15:33:32,083 - INFO - Updated main config.ini with current schemes
+2025-08-02 15:33:32,084 - INFO - => Output folder: M:\Live Music\Phish\1995
+2025-08-02 15:33:32,084 - INFO - => Output folder: M:\Live Music\Phish\1995
+2025-08-02 15:34:37,756 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:34:37,756 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:34:44,411 - INFO - Loaded preset: Phish
+2025-08-02 15:34:45,526 - INFO - Saved schemes to config file
+2025-08-02 15:34:45,528 - INFO - Updated main config.ini with current schemes
+2025-08-02 15:34:45,529 - INFO - => Output folder: Y:\Music-II\Live Phish\1995
+2025-08-02 15:34:45,529 - INFO - => Output folder: Y:\Music-II\Live Phish\1995
+2025-08-02 15:34:52,376 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:34:52,376 - INFO - Loaded saving scheme: Y:\Music-II\Live Phish\$year(%date%)
+2025-08-02 15:34:59,222 - INFO - Loaded preset: Default
+2025-08-02 15:35:00,170 - INFO - Saved schemes to config file
+2025-08-02 15:35:00,172 - INFO - Updated main config.ini with current schemes
+2025-08-02 15:35:00,172 - INFO - => Output folder: M:\Live Music\Phish\1995
+2025-08-02 15:35:00,173 - INFO - => Output folder: M:\Live Music\Phish\1995
+2025-08-02 15:35:32,230 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:35:32,230 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 15:38:14,111 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 15:38:14,111 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
