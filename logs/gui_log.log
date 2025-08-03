@@ -3946,3 +3946,5 @@ Processing folder: M:/Projects/Staging/1 - Copy
 2025-08-03 09:37:23,805 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
 2025-08-03 09:37:33,839 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
 2025-08-03 09:37:33,839 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:38:30,873 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:38:30,873 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)

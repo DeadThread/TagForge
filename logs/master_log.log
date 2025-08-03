@@ -10643,3 +10643,43 @@ Processing folder: M:/Projects/Staging/1 - Copy
 2025-08-03 09:38:15,429 - DEBUG - Found .txt files: []
 2025-08-03 09:38:15,429 - DEBUG - No .txt files found in: M:/Projects/Staging\test
 2025-08-03 09:38:15,429 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:38:30,868 - DEBUG - Verified themes folder at: themes
+2025-08-03 09:38:30,873 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:38:30,873 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:38:30,874 - DEBUG - Updating processor schemes...
+2025-08-03 09:38:30,874 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:38:30,874 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:38:30,949 - DEBUG - History loaded.
+2025-08-03 09:38:30,949 - DEBUG - Used cache loaded.
+2025-08-03 09:38:30,996 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 09:38:31,051 - DEBUG - Restored main window geometry: 1600x1100+26+26
+2025-08-03 09:38:31,056 - DEBUG - Saved main window size and position: 1600x1100+26+26
+2025-08-03 09:38:31,103 - DEBUG - No saved sash position for main found in config
+2025-08-03 09:38:31,168 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 09:38:31,168 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 09:38:40,889 - DEBUG - Saved main window size and position: 1600x1100+30+26
+2025-08-03 09:38:40,893 - DEBUG - Saved main window size and position: 1600x1100+33+26
+2025-08-03 09:38:40,900 - DEBUG - Saved main window size and position: 1600x1100+40+26
+2025-08-03 09:38:40,921 - DEBUG - Saved main window size and position: 1600x1100+53+27
+2025-08-03 09:38:40,923 - DEBUG - Saved main window size and position: 1600x1100+74+29
+2025-08-03 09:38:40,925 - DEBUG - Saved main window size and position: 1600x1100+107+33
+2025-08-03 09:38:40,931 - DEBUG - Saved main window size and position: 1600x1100+165+39
+2025-08-03 09:38:40,938 - DEBUG - Saved main window size and position: 1600x1100+221+47
+2025-08-03 09:38:40,946 - DEBUG - Saved main window size and position: 1600x1100+279+57
+2025-08-03 09:38:40,953 - DEBUG - Saved main window size and position: 1600x1100+337+65
+2025-08-03 09:38:40,961 - DEBUG - Saved main window size and position: 1600x1100+403+73
+2025-08-03 09:38:40,969 - DEBUG - Saved main window size and position: 1600x1100+456+79
+2025-08-03 09:38:40,976 - DEBUG - Saved main window size and position: 1600x1100+506+84
+2025-08-03 09:38:40,984 - DEBUG - Saved main window size and position: 1600x1100+550+90
+2025-08-03 09:38:40,991 - DEBUG - Saved main window size and position: 1600x1100+600+96
+2025-08-03 09:38:40,999 - DEBUG - Saved main window size and position: 1600x1100+637+101
+2025-08-03 09:38:41,007 - DEBUG - Saved main window size and position: 1600x1100+669+108
+2025-08-03 09:38:41,014 - DEBUG - Saved main window size and position: 1600x1100+706+115
+2025-08-03 09:38:41,022 - DEBUG - Saved main window size and position: 1600x1100+731+123
+2025-08-03 09:38:41,029 - DEBUG - Saved main window size and position: 1600x1100+755+129
+2025-08-03 09:38:41,037 - DEBUG - Saved main window size and position: 1600x1100+779+135
+2025-08-03 09:38:41,045 - DEBUG - Saved main window size and position: 1600x1100+798+139
+2025-08-03 09:38:41,052 - DEBUG - Saved main window size and position: 1600x1100+809+142
+2025-08-03 09:38:41,060 - DEBUG - Saved main window size and position: 1600x1100+817+143
+2025-08-03 09:38:41,067 - DEBUG - Saved main window size and position: 1600x1100+819+144
+2025-08-03 09:38:41,181 - DEBUG - Saved main window size and position: 1600x1100+818+144
