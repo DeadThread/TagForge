@@ -8,7 +8,7 @@ from utils.constants import CONFIG_DIR
 DEFAULT_PRESET_SCHEMES = {
     "Default": {
         "saving_scheme": "%artist%/$year(%date%)",
-        "folder_scheme": "%date% - %venue% - %city% [%format%] [%additional%]"
+        "folder_scheme": "%date% - %venue% - %city% [%source%] [%format%] [%additional%]"
     }
 }
 

@@ -1,3 +1,4 @@
+Frederik Meijer Gardens
 TeST
 TeST2
 Hampton Coliseum
@@ -23,7 +24,6 @@ Old Town Pub
 Koka Booth Amphitheatre
 Wolf Trap National Park For The Performing Arts
 Driftless Music Gardens
-Frederik Meijer Gardens
 Peoria RiverFront Park
 Interlochen Center for the Arts
 Roman Amphitheatre

@@ -140,11 +140,13 @@ def build_main_gui(app):
     self.c_ven.grid(row=1, column=1, sticky="w", padx=4)
 
     tk.Label(meta, text="Genre(s):").grid(row=1, column=2, sticky="w")
-    self.c_gen = ttk.Combobox(meta, textvariable=self.genre, values=merge_dropdown_values("genre"), width=21, state="normal")
+    self.c_gen = AutocompleteCombobox(meta, textvariable=self.genre, width=21, state="normal")
+    self.c_gen.set_completion_list(merge_dropdown_values("genre"))
     self.c_gen.grid(row=1, column=3, sticky="w", padx=4)
 
     tk.Label(meta, text="Format:").grid(row=1, column=4, sticky="w")
-    self.c_fmt = ttk.Combobox(meta, textvariable=self.fmt, values=merge_dropdown_values("format"), width=18, state="normal")
+    self.c_fmt = AutocompleteCombobox(meta, textvariable=self.fmt, width=18, state="normal")
+    self.c_fmt.set_completion_list(merge_dropdown_values("format"))
     self.c_fmt.grid(row=1, column=5, sticky="w", padx=4)
 
     # Row 2: City, Source, Additional
@@ -154,11 +156,13 @@ def build_main_gui(app):
     self.c_city.grid(row=2, column=1, sticky="w", padx=4)
 
     tk.Label(meta, text="Source:").grid(row=2, column=2, sticky="w")
-    self.c_src = ttk.Combobox(meta, textvariable=self.source, values=merge_dropdown_values("source"), width=21, state="normal")
+    self.c_src = AutocompleteCombobox(meta, textvariable=self.source, width=21, state="normal")
+    self.c_src.set_completion_list(merge_dropdown_values("source"))
     self.c_src.grid(row=2, column=3, sticky="w", padx=4)
 
     tk.Label(meta, text="Additional:").grid(row=2, column=4, sticky="w")
-    self.c_add = ttk.Combobox(meta, textvariable=self.add, values=merge_dropdown_values("add"), width=18, state="normal")
+    self.c_add = AutocompleteCombobox(meta, textvariable=self.add, width=18, state="normal")
+    self.c_add.set_completion_list(merge_dropdown_values("add"))
     self.c_add.grid(row=2, column=5, sticky="w", padx=4)
 
     # --- Folder Tree ---
