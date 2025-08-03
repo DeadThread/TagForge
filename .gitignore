@@ -109,7 +109,9 @@ logs/
 config/*.json
 config/*.ini
 config/*.cache
-config/dropdown_cache.json
+config/*history_cache.json
+config/*scheme_preset.ini
+config/*used_cache.json
 
 # OS generated files
 .DS_Store
