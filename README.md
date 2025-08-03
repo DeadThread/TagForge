@@ -1,5 +1,7 @@
 TagForge
 
+[![TagForge Screenshots](https://i.imgur.com/O9rW0nG.jpg)](https://imgur.com/a/XOPU0n3)
+
 TagForge is a powerful desktop application for managing and tagging music folders with flexible, customizable naming schemes. It features an intuitive Tkinter-based GUI, support for multiple audio formats, persistent UI settings, live logging, and a rich queue-based processing system.
 Features:
 
