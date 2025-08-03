@@ -14,7 +14,6 @@ def update_combobox_values(
 ):
     """
     Update combobox values for artist, venue, city, add, source, format, genre.
-
     Args:
         artists_list (list): List of artists from assets.
         venues_list (list): List of venues from assets.
@@ -35,7 +34,6 @@ def update_combobox_values(
                 "format": ttk.Combobox,
                 "genre": ttk.Combobox,
             }
-
     Returns:
         None. Modifies comboboxes in place.
     """
@@ -43,7 +41,7 @@ def update_combobox_values(
         combobox = comboboxes_dict.get(key)
         seen = set()
         final_list = []
-
+        
         # Load base list from .txt file or DEFAULTS
         if key == "artist":
             base_defaults = artists_list.copy()
@@ -53,24 +51,24 @@ def update_combobox_values(
             base_defaults = cities_list.copy()
         else:
             base_defaults = DEFAULTS.get(key, []).copy()
-
+        
         # Get last used
         last_used_val = {
             "source": last_source,
             "format": last_format,
             "genre": last_genre,
         }.get(key, "")
-
+        
         if last_used_val and last_used_val not in seen:
             final_list.append(last_used_val)
             seen.add(last_used_val)
-
+        
         # Append base defaults (preserve order)
         for val in base_defaults:
             if val and val not in seen:
                 final_list.append(val)
                 seen.add(val)
-
+        
         # Append extra cached values for artist/genre
         if key == "artist":
             extra_cache = sorted(artist_cache, key=lambda x: x.lower())
@@ -78,18 +76,18 @@ def update_combobox_values(
             extra_cache = sorted(genre_cache, key=lambda x: x.lower())
         else:
             extra_cache = []
-
+        
         for val in extra_cache:
             if val and val not in seen:
                 final_list.append(val)
                 seen.add(val)
-
+        
         # Append history values (unordered)
         for val in histories.get(key, set()):
             if val and val not in seen:
                 final_list.append(val)
                 seen.add(val)
-
+        
         # Set combobox values if exists
         if combobox:
             combobox["values"] = final_list

@@ -168,13 +168,6 @@ class TkTagForge:
         self._install_left_paned_sash_persistence()
         self._install_main_window_size_persistence()
 
-        # Refresh queue UI and combobox dropdowns
-        self.queue_manager.refresh_ui()
-        self._update_combobox_values()
-
-        # Build menu
-        build_menu(self)
-
         # Cache controller for histories and used caches
         self.cache_controller = CacheController(
             histories=self.histories,
@@ -184,6 +177,13 @@ class TkTagForge:
         )
         self.cache_controller.load_history()
         self.cache_controller.load_used_cache()
+
+        # Refresh queue UI and combobox dropdowns
+        self.queue_manager.refresh_ui()
+        self._update_combobox_values()
+
+        # Build menu
+        build_menu(self)
 
         # Initialize audio player in bottom pane
         self._init_audio_player()

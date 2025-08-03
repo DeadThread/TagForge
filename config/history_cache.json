@@ -4,18 +4,22 @@
     "Billy Strings",
     "Daniel Donato",
     "Dizgo",
+    "Dogs In A Pile",
     "Grateful Dead",
     "moe.",
     "Phish",
-    "Space Bacon"
+    "Space Bacon",
+    "TEST"
   ],
   "venue": [
     "Broadview Stage at SPAC",
     "Coastal Credit Union Music Park",
     "Greenfield Lake Amphitheater",
+    "Heuser Park",
     "Madison Square Garden",
     "Meow Wolf Denver",
     "Romp Music Festival",
+    "Sante Fe Plaza",
     "Spark Arena",
     "The Enchanted Forest",
     "Warfield Theatre"
@@ -24,11 +28,14 @@
     "Auckland, NZ",
     "Denver, CO",
     "High Point, NC",
+    "King Of Prussia, PA",
+    "Miami, FL",
     "New Albany, IN",
     "New York, NY",
     "Owensboro, KY",
     "Red Bank, NJ",
     "San Francisco, CA",
+    "Sante Fe, NM",
     "Saratoga Springs, NY",
     "Stanley, ID",
     "Wilmington, NC"
@@ -64,6 +71,13 @@
     "43333",
     "43334",
     "43376",
+    "43612",
+    "43613",
+    "43614",
+    "43615",
+    "43616",
+    "43620",
+    "TEST",
     "test test 43211"
   ],
   "source": [
@@ -71,7 +85,8 @@
     "AUD",
     "MTX",
     "FM",
-    "DAT"
+    "DAT",
+    "TEST"
   ],
   "format": [
     "FLAC16",
@@ -80,15 +95,18 @@
     "MP3-V0",
     "MP3-320",
     "MP3-256",
-    "MP3-128"
+    "MP3-128",
+    "TEST"
   ],
   "genre": [
-    "Rock",
     "Jam",
     "Progressive Rock",
+    "Bluegrass",
+    "Rock",
     "Blues",
     "Bluegrass; Jam",
     "Jam, Bluegrass",
-    "Jam, Cosmic Country"
+    "Jam, Cosmic Country",
+    "TEST"
   ]
 }

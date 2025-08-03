@@ -17,7 +17,7 @@ CITIES_FILE = ASSETS_DIR / "cities.txt"
 DEFAULTS = {
     "source": ["SBD", "AUD", "MTX", "FM", "DAT"],
     "format": ["FLAC16", "FLAC24", "FLAC", "MP3-V0", "MP3-320", "MP3-256", "MP3-128"],
-    "genre": ["Jam", "Progressive Rock", "Rock", "Blues"],
+    "genre": ["Jam", "Progressive Rock", "Bluegrass", "Rock", "Blues"],
     "artist": [],
     "venue": [],
     "city": [],

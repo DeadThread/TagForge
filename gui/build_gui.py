@@ -1,7 +1,10 @@
 import tkinter as tk
+import re
 from tkinter import ttk, filedialog
 from datetime import datetime
-from utils.constants import DEFAULTS
+from pathlib import Path
+import json
+from utils.constants import DEFAULTS, HISTORY_FILE
 from gui.metadata_gui import handle_tree_selection, on_tree_open
 from utils.audio_player import AudioPlayer
 from utils.autocomplete import AutocompleteCombobox
@@ -11,6 +14,26 @@ from utils.logger import log_message  # Make sure this is imported
 def build_main_gui(app):
     self = app  # Use self as alias for convenience
 
+    # Ensure history_cache is loaded once before merging dropdown values
+    def load_history_cache():
+        path = Path(HISTORY_FILE)
+        if not path.exists():
+            print(f"[WARNING] History file not found at {path.resolve()}")
+            return {}
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                print(f"[DEBUG] Loaded history cache keys: {list(data.keys())}")
+                return data
+        except Exception as e:
+            print(f"[ERROR] Failed to load history cache: {e}")
+            return {}
+
+    if not hasattr(self, "history_cache"):
+        self.history_cache = load_history_cache()
+    else:
+        print("[DEBUG] history_cache already set, skipping load.")
+
     # Check required attributes
     if not hasattr(self, "config_file"):
         raise AttributeError("TagForge app must set self.config_file before calling build_main_gui.")
@@ -18,6 +41,37 @@ def build_main_gui(app):
         self.ini_file = self.config_file  # fallback for legacy code
     if not hasattr(self, "get_current_folder"):
         self.get_current_folder = lambda: getattr(self, "current", None)
+
+    def split_and_clean_ordered(items):
+        """Helper to split comma/semicolon separated items, strip whitespace, and keep order without duplicates."""
+        seen = set()
+        result = []
+        for item in items:
+            parts = [part.strip() for part in re.split(r'[;,]', item) if part.strip()]
+            for part in parts:
+                if part not in seen:
+                    seen.add(part)
+                    result.append(part)
+        return result
+
+    def merge_dropdown_values(field: str):
+        defaults_raw = DEFAULTS.get(field, [])
+        history_raw = self.history_cache.get(field, []) if hasattr(self, "history_cache") else []
+
+        defaults_set = set(defaults_raw)
+        history_set = set(history_raw)
+
+        # Unique history items that aren't already in defaults
+        unique_history = history_set - defaults_set
+
+        combined = list(defaults_raw) + sorted(unique_history, key=str.lower)
+
+        print(f"[DEBUG] Defaults for '{field}': {defaults_raw}")
+        print(f"[DEBUG] Raw history_cache[{field}]: {history_raw}")
+        print(f"[DEBUG] Combined '{field}' dropdown values: {combined}")
+
+        return combined
+
 
     # --- Top toolbar ---
     top = tk.Frame(self.root, pady=4)
@@ -33,7 +87,7 @@ def build_main_gui(app):
 
     # --- Main PanedWindow (horizontal) ---
     self.paned_main = ttk.PanedWindow(self.outer_pane, orient=tk.HORIZONTAL)
-    self.outer_pane.add(self.paned_main, weight=10)  # Add first to outer_pane
+    self.outer_pane.add(self.paned_main, weight=10)
 
     # Left and right frames inside paned_main
     self.left = tk.Frame(self.paned_main, padx=6, pady=6)
@@ -47,7 +101,7 @@ def build_main_gui(app):
 
     # --- Top Left Frame (Metadata + Folder Tree) ---
     top_left_frame = tk.Frame(self.left_paned)
-    self.left_paned.add(top_left_frame, weight=7)  # Add to left_paned with weight
+    self.left_paned.add(top_left_frame, weight=7)
 
     # --- Metadata Fields ---
     meta = tk.Frame(top_left_frame)
@@ -86,11 +140,11 @@ def build_main_gui(app):
     self.c_ven.grid(row=1, column=1, sticky="w", padx=4)
 
     tk.Label(meta, text="Genre(s):").grid(row=1, column=2, sticky="w")
-    self.c_gen = ttk.Combobox(meta, textvariable=self.genre, values=DEFAULTS.get("genre", []), width=21, state="normal")
+    self.c_gen = ttk.Combobox(meta, textvariable=self.genre, values=merge_dropdown_values("genre"), width=21, state="normal")
     self.c_gen.grid(row=1, column=3, sticky="w", padx=4)
 
     tk.Label(meta, text="Format:").grid(row=1, column=4, sticky="w")
-    self.c_fmt = ttk.Combobox(meta, textvariable=self.fmt, values=DEFAULTS.get("format", []), width=18, state="normal")
+    self.c_fmt = ttk.Combobox(meta, textvariable=self.fmt, values=merge_dropdown_values("format"), width=18, state="normal")
     self.c_fmt.grid(row=1, column=5, sticky="w", padx=4)
 
     # Row 2: City, Source, Additional
@@ -100,11 +154,11 @@ def build_main_gui(app):
     self.c_city.grid(row=2, column=1, sticky="w", padx=4)
 
     tk.Label(meta, text="Source:").grid(row=2, column=2, sticky="w")
-    self.c_src = ttk.Combobox(meta, textvariable=self.source, values=DEFAULTS.get("source", []), width=21, state="normal")
+    self.c_src = ttk.Combobox(meta, textvariable=self.source, values=merge_dropdown_values("source"), width=21, state="normal")
     self.c_src.grid(row=2, column=3, sticky="w", padx=4)
 
     tk.Label(meta, text="Additional:").grid(row=2, column=4, sticky="w")
-    self.c_add = ttk.Combobox(meta, textvariable=self.add, values=DEFAULTS.get("add", []), width=18, state="normal")
+    self.c_add = ttk.Combobox(meta, textvariable=self.add, values=merge_dropdown_values("add"), width=18, state="normal")
     self.c_add.grid(row=2, column=5, sticky="w", padx=4)
 
     # --- Folder Tree ---
@@ -133,7 +187,7 @@ def build_main_gui(app):
     # --- Bottom Left: Folder Queue ---
     bottom_left_frame = tk.Frame(self.left_paned)
     self.left_paned.add(bottom_left_frame, weight=3)
-    bottom_left_frame.pack_propagate(False)  # Prevent shrinking if needed
+    bottom_left_frame.pack_propagate(False)
 
     btn_fr = tk.Frame(bottom_left_frame, pady=6)
     btn_fr.pack(fill=tk.X)
@@ -166,7 +220,6 @@ def build_main_gui(app):
     log_frame.pack(fill=tk.BOTH, expand=True)
     tk.Label(log_frame, text="Log:").grid(row=0, column=0, sticky="w")
 
-    # Create the log Text widget BEFORE the button
     self.log = tk.Text(log_frame, wrap="none")
     self.log.grid(row=1, column=0, columnspan=2, sticky="nsew")
 
@@ -178,15 +231,13 @@ def build_main_gui(app):
     log_frame.grid_rowconfigure(1, weight=1)
     log_frame.grid_columnconfigure(0, weight=1)
 
-    # Define clear log function that handles disabled state if needed
     def clear_log():
         self.log.config(state='normal')
         self.log.delete("1.0", "end")
-        self.log.config(state='normal')  # Keep enabled; change to 'disabled' if you want read-only
+        self.log.config(state='normal')
 
     ttk.Button(log_frame, text="Clear Logs", command=clear_log).grid(row=0, column=1, sticky="e", padx=10)
 
-    # Configure tags for colored logging (adjust colors as you want)
     self.log.tag_config("folder_scheme", foreground="green")
     self.log.tag_config("saving_scheme", foreground="purple")
     self.log.tag_config("preview_label", foreground="orange", font=("TkDefaultFont", 10, "bold"))
@@ -214,13 +265,11 @@ def build_main_gui(app):
 
     # --- Audio Player Frame ---
     self.audio_frame = tk.Frame(self.outer_pane, height=240)
-    self.audio_frame.pack_propagate(False)  # Prevent shrinking
+    self.audio_frame.pack_propagate(False)
     self.outer_pane.add(self.audio_frame, weight=3)
 
-    # Console-only debug
     print("[DEBUG] Added audio_frame to outer_pane with fixed height.")
 
-    # --- Audio Player Initialization ---
     try:
         self.audio_player = AudioPlayer(
             self.audio_frame,
@@ -239,7 +288,6 @@ def build_main_gui(app):
         fallback = tk.Label(self.audio_frame, text="AudioPlayer failed to load")
         fallback.pack(fill=tk.BOTH, expand=True)
 
-    # --- Dropdown Refresher ---
     def _update_artist_city_venue_dropdowns():
         try:
             self.c_art.set_completion_list(getattr(self, 'artists_list', []))

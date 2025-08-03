@@ -3329,3 +3329,233 @@ Processing folder: Y:/TEST/2003/TEST/2003/2003-01-02 - Madison Square Garden - M
 2025-08-02 15:35:32,230 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
 2025-08-02 15:38:14,111 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
 2025-08-02 15:38:14,111 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:04:53,020 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:04:53,020 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:04:53,148 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:04:53,149 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:04:57,455 - INFO - History saved.
+2025-08-02 16:04:57,456 - INFO - Used cache saved.
+2025-08-02 16:05:32,852 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:05:32,852 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:06:04,018 - INFO - => Output folder: M:\Live Music\Daniel Donato\2025
+2025-08-02 16:06:09,960 - INFO - 
+Processing folder: M:/Projects/Staging/Daniel Donato - 2025-07-06 Heuser Park, King of Prussia, PA [43612]
+2025-08-02 16:06:09,968 - INFO -   Updated venues.txt with: Heuser Park
+2025-08-02 16:06:09,975 - INFO - Metadata for scheme evaluation: {'artist': 'Daniel Donato', 'venue': 'Heuser Park', 'city': 'King Of Prussia, PA', 'source': 'SBD', 'format': 'FLAC16', 'genre': 'Jam, Cosmic Country', 'additional': '43612', 'add': '43612', 'date': '2025-07-06', 'currentfoldername': 'Daniel Donato - 2025-07-06 Heuser Park, King of Prussia, PA [43612]'}
+2025-08-02 16:06:09,978 - INFO - Evaluating output folder path with current schemes.
+2025-08-02 16:06:09,982 - INFO - => Output folder: M:\Live Music\Daniel Donato\2025
+2025-08-02 16:06:09,986 - INFO - => Output folder: M:\Live Music\Daniel Donato\2025\2025-07-06 - Heuser Park - King Of Prussia, PA [FLAC16] [43612]
+2025-08-02 16:06:10,281 - INFO -   Tagged: ddonato250706d1_01_Lady_Justice.flac
+2025-08-02 16:06:10,534 - INFO -   Tagged: ddonato250706d1_02_Along_The_Trail.flac
+2025-08-02 16:06:10,657 - INFO -   Tagged: ddonato250706d1_03_Better_Deal_Blues.flac
+2025-08-02 16:06:10,783 - INFO -   Tagged: ddonato250706d1_04_Weathervane.flac
+2025-08-02 16:06:10,929 - INFO -   Tagged: ddonato250706d1_05_Honky_Tonk_Night_Time_Man.flac
+2025-08-02 16:06:11,003 - INFO -   Tagged: ddonato250706d1_06_Riding_That_Midnight_Train.flac
+2025-08-02 16:06:11,115 - INFO -   Tagged: ddonato250706d1_07_About_The_Angels.flac
+2025-08-02 16:06:11,259 - INFO -   Tagged: ddonato250706d1_08_Ghost_Riders_In_The_Sky_Instrumental.flac
+2025-08-02 16:06:11,383 - INFO -   Tagged: ddonato250706d1_09_Blame_The_Train.flac
+2025-08-02 16:06:11,386 - INFO - Removed empty source folder: M:\Projects\Staging\Daniel Donato - 2025-07-06 Heuser Park, King of Prussia, PA [43612]
+2025-08-02 16:06:11,396 - INFO - Finished processing folder: M:\Live Music\Daniel Donato\2025\2025-07-06 - Heuser Park - King Of Prussia, PA [FLAC16] [43612]
+2025-08-02 16:06:11,551 - INFO - Used cache saved.
+2025-08-02 16:06:20,262 - INFO - History saved.
+2025-08-02 16:06:20,263 - INFO - Used cache saved.
+2025-08-02 16:06:21,932 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:06:21,932 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:07:25,505 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:07:25,506 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:26:29,140 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:26:29,140 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:28:33,477 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:28:33,477 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:30:13,128 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:30:13,128 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:31:30,147 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:31:30,147 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:32:13,314 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:32:13,314 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:33:19,121 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:33:19,121 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:34:03,653 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:34:03,653 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:34:13,191 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:34:13,192 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:36:03,589 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:36:03,589 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:36:03,784 - ERROR - Failed to restore outer pane sash position: sash index 0 out of range
+2025-08-02 16:36:43,241 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:36:43,241 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:36:43,434 - ERROR - Failed to restore outer pane sash position: sash index 0 out of range
+2025-08-02 16:37:23,277 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:37:23,278 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:37:23,475 - ERROR - Failed to restore outer pane sash position: sash index 0 out of range
+2025-08-02 16:37:27,352 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:37:27,352 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:37:37,049 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:37:37,050 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:39:33,209 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:39:33,209 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:44:14,719 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:44:14,719 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:44:43,472 - INFO - => Output folder: M:\Live Music\TEST\2003
+2025-08-02 16:44:44,027 - INFO - 
+Processing folder: M:/Projects/Staging/3
+2025-08-02 16:44:44,038 - INFO - Metadata for scheme evaluation: {'artist': 'TEST', 'venue': 'Madison Square Garden', 'city': 'Miami, FL', 'source': 'TEST', 'format': 'TEST', 'genre': 'TEST', 'additional': 'TEST', 'add': 'TEST', 'date': '2003-01-02', 'currentfoldername': '3'}
+2025-08-02 16:44:44,040 - INFO - Evaluating output folder path with current schemes.
+2025-08-02 16:44:44,042 - INFO - => Output folder: M:\Live Music\TEST\2003
+2025-08-02 16:44:44,046 - INFO - => Output folder: M:\Live Music\TEST\2003\2003-01-02 - Madison Square Garden - Miami, FL [TEST] [TEST]
+2025-08-02 16:44:44,102 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-02 16:44:44,156 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-02 16:44:44,188 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-02 16:44:44,216 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-02 16:44:44,248 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-02 16:44:44,280 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-02 16:44:44,313 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-02 16:44:44,348 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-02 16:44:44,390 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-02 16:44:44,430 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-02 16:44:44,460 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-02 16:44:44,501 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-02 16:44:44,555 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-02 16:44:44,604 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-02 16:44:44,645 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-02 16:44:44,682 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-02 16:44:44,737 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-02 16:44:44,770 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-02 16:44:44,792 - INFO - Removed empty source folder: M:\Projects\Staging\3
+2025-08-02 16:44:44,806 - INFO - Finished processing folder: M:\Live Music\TEST\2003\2003-01-02 - Madison Square Garden - Miami, FL [TEST] [TEST]
+2025-08-02 16:44:44,965 - INFO - Used cache saved.
+2025-08-02 16:45:04,254 - INFO - History saved.
+2025-08-02 16:45:04,255 - INFO - Used cache saved.
+2025-08-02 16:45:10,585 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:45:10,586 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:46:55,132 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:46:55,132 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:47:06,612 - INFO - History saved.
+2025-08-02 16:47:06,613 - INFO - Used cache saved.
+2025-08-02 16:47:19,897 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:47:19,898 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:47:34,050 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:47:34,050 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:49:31,091 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:49:31,091 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:51:30,230 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:51:30,230 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:54:25,832 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:54:25,833 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 16:54:38,022 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 16:54:38,022 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-02 17:02:08,564 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-02 17:02:08,564 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:04:16,841 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:04:16,841 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:06:20,469 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:06:20,469 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:07:38,766 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:07:38,766 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:08:03,874 - INFO - => Output folder: M:\Live Music\Phish\2003
+2025-08-03 08:08:25,433 - INFO - => Output folder: M:\Live Music\Daniel Donato\2025
+2025-08-03 08:08:37,069 - INFO - => Output folder: M:\Live Music\Daniel Donato\2025
+2025-08-03 08:08:56,380 - INFO - => Output folder: M:\Live Music\Daniel Donato\2025
+2025-08-03 08:08:59,847 - INFO - => Output folder: M:\Live Music\Daniel Donato\2025
+2025-08-03 08:09:04,324 - INFO - => Output folder: M:\Live Music\Dogs In A Pile\2025
+2025-08-03 08:09:08,013 - INFO - 
+Processing folder: M:/Projects/Staging/Daniel Donato - 2025-07-08 Roanoke Island Festival Park, Manteo, NC [43613]
+2025-08-03 08:09:08,022 - INFO -   Updated venues.txt with: Roanoke Island Festival Park
+2025-08-03 08:09:08,031 - INFO - Metadata for scheme evaluation: {'artist': 'Daniel Donato', 'venue': 'Roanoke Island Festival Park', 'city': 'Manteo, NC', 'source': 'SBD', 'format': 'FLAC16', 'genre': 'Jam, Cosmic Country', 'additional': '43613', 'add': '43613', 'date': '2025-07-08', 'currentfoldername': 'Daniel Donato - 2025-07-08 Roanoke Island Festival Park, Manteo, NC [43613]'}
+2025-08-03 08:09:08,034 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 08:09:08,039 - INFO - => Output folder: M:\Live Music\Daniel Donato\2025
+2025-08-03 08:09:08,044 - INFO - => Output folder: M:\Live Music\Daniel Donato\2025\2025-07-08 - Roanoke Island Festival Park - Manteo, NC [FLAC16] [43613]
+2025-08-03 08:09:08,211 - INFO -   Tagged: ddonato250708d1_01_Faded_Lovin.flac
+2025-08-03 08:09:08,342 - INFO -   Tagged: ddonato250708d1_02_Guilty_Jubilee.flac
+2025-08-03 08:09:08,466 - INFO -   Tagged: ddonato250708d1_03_Dance_In_The_Desert.flac
+2025-08-03 08:09:08,577 - INFO -   Tagged: ddonato250708d1_04_Rose_In_A_Garden.flac
+2025-08-03 08:09:08,693 - INFO -   Tagged: ddonato250708d1_05_Cosmic_Country_Gardens.flac
+2025-08-03 08:09:08,825 - INFO -   Tagged: ddonato250708d1_06_White_Lightning.flac
+2025-08-03 08:09:08,993 - INFO -   Tagged: ddonato250708d1_07_Broadside_Ballad.flac
+2025-08-03 08:09:09,116 - INFO -   Tagged: ddonato250708d1_08_Hangmans_Reel.flac
+2025-08-03 08:09:09,258 - INFO -   Tagged: ddonato250708d2_01_You_Aint_Goin_Nowhere.flac
+2025-08-03 08:09:09,388 - INFO -   Tagged: ddonato250708d2_02_Going_Down_The_Road_Feeling_Bad.flac
+2025-08-03 08:09:09,559 - INFO -   Tagged: ddonato250708d2_03_JackARoe.flac
+2025-08-03 08:09:09,579 - INFO - Removed empty source folder: M:\Projects\Staging\Daniel Donato - 2025-07-08 Roanoke Island Festival Park, Manteo, NC [43613]
+2025-08-03 08:09:09,586 - INFO - Finished processing folder: M:\Live Music\Daniel Donato\2025\2025-07-08 - Roanoke Island Festival Park - Manteo, NC [FLAC16] [43613]
+2025-08-03 08:09:09,597 - INFO - 
+Processing folder: M:/Projects/Staging/Daniel Donato - 2025-07-10 The Tabernacle, Atlanta, GA [43614]
+2025-08-03 08:09:09,621 - INFO - Metadata for scheme evaluation: {'artist': 'Daniel Donato', 'venue': 'The Tabernacle', 'city': 'Atlanta, GA', 'source': 'SBD', 'format': 'FLAC16', 'genre': 'Jam, Cosmic Country', 'additional': '43614', 'add': '43614', 'date': '2025-07-10', 'currentfoldername': 'Daniel Donato - 2025-07-10 The Tabernacle, Atlanta, GA [43614]'}
+2025-08-03 08:09:09,625 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 08:09:09,633 - INFO - => Output folder: M:\Live Music\Daniel Donato\2025
+2025-08-03 08:09:09,637 - INFO - => Output folder: M:\Live Music\Daniel Donato\2025\2025-07-10 - The Tabernacle - Atlanta, GA [FLAC16] [43614]
+2025-08-03 08:09:09,743 - INFO -   Tagged: ddonato250710d1_01_Workin_Man_Blues.flac
+2025-08-03 08:09:09,885 - INFO -   Tagged: ddonato250710d1_02_Lay_Low_Lucy.flac
+2025-08-03 08:09:10,023 - INFO -   Tagged: ddonato250710d1_03_Darlin_Cory.flac
+2025-08-03 08:09:10,164 - INFO -   Tagged: ddonato250710d1_04_Translation.flac
+2025-08-03 08:09:10,301 - INFO -   Tagged: ddonato250710d1_05_Broadside_Ballad.flac
+2025-08-03 08:09:10,433 - INFO -   Tagged: ddonato250710d1_06_Hangmans_Reel.flac
+2025-08-03 08:09:10,592 - INFO -   Tagged: ddonato250710d1_07_Luck_Of_The_Draw.flac
+2025-08-03 08:09:10,752 - INFO -   Tagged: ddonato250710d1_08_Sugar_Leg_Rag.flac
+2025-08-03 08:09:10,761 - INFO - Removed empty source folder: M:\Projects\Staging\Daniel Donato - 2025-07-10 The Tabernacle, Atlanta, GA [43614]
+2025-08-03 08:09:10,784 - INFO - Finished processing folder: M:\Live Music\Daniel Donato\2025\2025-07-10 - The Tabernacle - Atlanta, GA [FLAC16] [43614]
+2025-08-03 08:09:10,797 - INFO - 
+Processing folder: M:/Projects/Staging/Daniel Donato - 2025-07-11 Asheville Yards, Asheville, NC [43615]
+2025-08-03 08:09:10,808 - INFO -   Updated venues.txt with: Asheville Yards
+2025-08-03 08:09:10,815 - INFO - Metadata for scheme evaluation: {'artist': 'Daniel Donato', 'venue': 'Asheville Yards', 'city': 'Asheville, NC', 'source': 'SBD', 'format': 'FLAC16', 'genre': 'Jam, Cosmic Country', 'additional': '43615', 'add': '43615', 'date': '2025-07-11', 'currentfoldername': 'Daniel Donato - 2025-07-11 Asheville Yards, Asheville, NC [43615]'}
+2025-08-03 08:09:10,823 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 08:09:10,831 - INFO - => Output folder: M:\Live Music\Daniel Donato\2025
+2025-08-03 08:09:10,838 - INFO - => Output folder: M:\Live Music\Daniel Donato\2025\2025-07-11 - Asheville Yards - Asheville, NC [FLAC16] [43615]
+2025-08-03 08:09:10,933 - INFO -   Tagged: ddonato250711d1_01_Guilty_Jubilee.flac
+2025-08-03 08:09:11,086 - INFO -   Tagged: ddonato250711d1_02_Gotta_Get_Southbound.flac
+2025-08-03 08:09:11,214 - INFO -   Tagged: ddonato250711d1_03_Cornerstone.flac
+2025-08-03 08:09:11,331 - INFO -   Tagged: ddonato250711d1_04_Lose_Your_Mind.flac
+2025-08-03 08:09:11,461 - INFO -   Tagged: ddonato250711d1_05_Waymores_Blues.flac
+2025-08-03 08:09:11,616 - INFO -   Tagged: ddonato250711d1_06_Mystery_Train.flac
+2025-08-03 08:09:11,745 - INFO -   Tagged: ddonato250711d1_07_Broadside_Ballad.flac
+2025-08-03 08:09:11,884 - INFO -   Tagged: ddonato250711d1_08_Hangmans_Reel.flac
+2025-08-03 08:09:11,889 - INFO - Removed empty source folder: M:\Projects\Staging\Daniel Donato - 2025-07-11 Asheville Yards, Asheville, NC [43615]
+2025-08-03 08:09:11,901 - INFO - Finished processing folder: M:\Live Music\Daniel Donato\2025\2025-07-11 - Asheville Yards - Asheville, NC [FLAC16] [43615]
+2025-08-03 08:09:11,917 - INFO - 
+Processing folder: M:/Projects/Staging/Daniel Donato - 2025-07-12 Brooklyn Arts Center, Wilmington, NC [43616]
+2025-08-03 08:09:11,938 - INFO -   Updated venues.txt with: Brooklyn Arts Center
+2025-08-03 08:09:11,955 - INFO - Metadata for scheme evaluation: {'artist': 'Daniel Donato', 'venue': 'Brooklyn Arts Center', 'city': 'Wilmington, NC', 'source': 'SBD', 'format': 'FLAC16', 'genre': 'Jam, Cosmic Country', 'additional': '43616', 'add': '43616', 'date': '2025-07-12', 'currentfoldername': 'Daniel Donato - 2025-07-12 Brooklyn Arts Center, Wilmington, NC [43616]'}
+2025-08-03 08:09:11,964 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 08:09:11,979 - INFO - => Output folder: M:\Live Music\Daniel Donato\2025
+2025-08-03 08:09:11,994 - INFO - => Output folder: M:\Live Music\Daniel Donato\2025\2025-07-12 - Brooklyn Arts Center - Wilmington, NC [FLAC16] [43616]
+2025-08-03 08:09:12,095 - INFO -   Tagged: ddonato250712d1_01_Lay_Low_Lucy.flac
+2025-08-03 08:09:12,268 - INFO -   Tagged: ddonato250712d1_02_Running_Gun.flac
+2025-08-03 08:09:12,417 - INFO -   Tagged: ddonato250712d1_03_Big_River.flac
+2025-08-03 08:09:12,550 - INFO -   Tagged: ddonato250712d1_04_Broadside_Ballad.flac
+2025-08-03 08:09:12,689 - INFO -   Tagged: ddonato250712d1_05_Hangmans_Reel.flac
+2025-08-03 08:09:12,841 - INFO -   Tagged: ddonato250712d1_06_Ten_Feet_Of_Rope.flac
+2025-08-03 08:09:12,986 - INFO -   Tagged: ddonato250712d1_07_Double_Exposure.flac
+2025-08-03 08:09:13,132 - INFO -   Tagged: ddonato250712d1_08_Tell_Me_Im_A_Lover.flac
+2025-08-03 08:09:13,257 - INFO -   Tagged: ddonato250712d1_09_Guilty_Jubilee.flac
+2025-08-03 08:09:13,386 - INFO -   Tagged: ddonato250712d1_10_Why_You_Been_Gone_So_Long.flac
+2025-08-03 08:09:13,392 - INFO - Removed empty source folder: M:\Projects\Staging\Daniel Donato - 2025-07-12 Brooklyn Arts Center, Wilmington, NC [43616]
+2025-08-03 08:09:13,409 - INFO - Finished processing folder: M:\Live Music\Daniel Donato\2025\2025-07-12 - Brooklyn Arts Center - Wilmington, NC [FLAC16] [43616]
+2025-08-03 08:09:13,425 - INFO - 
+Processing folder: M:/Projects/Staging/Dogs In A Pile - 2025-07-31 Sante Fe Plaza, Sante Fe, NM [43620]
+2025-08-03 08:09:13,445 - INFO -   Updated venues.txt with: Sante Fe Plaza
+2025-08-03 08:09:13,455 - INFO -   Updated cities.txt with: Sante Fe, NM
+2025-08-03 08:09:13,464 - INFO - Metadata for scheme evaluation: {'artist': 'Dogs In A Pile', 'venue': 'Sante Fe Plaza', 'city': 'Sante Fe, NM', 'source': 'SBD', 'format': 'FLAC16', 'genre': 'Jam', 'additional': '43620', 'add': '43620', 'date': '2025-07-31', 'currentfoldername': 'Dogs In A Pile - 2025-07-31 Sante Fe Plaza, Sante Fe, NM [43620]'}
+2025-08-03 08:09:13,472 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 08:09:13,487 - INFO - => Output folder: M:\Live Music\Dogs In A Pile\2025
+2025-08-03 08:09:13,504 - INFO - => Output folder: M:\Live Music\Dogs In A Pile\2025\2025-07-31 - Sante Fe Plaza - Sante Fe, NM [FLAC16] [43620]
+2025-08-03 08:09:13,580 - INFO -   Tagged: dogs250731d1_01_Didnt_Ya_Know.flac
+2025-08-03 08:09:13,655 - INFO -   Tagged: dogs250731d1_02_Four_More_Days.flac
+2025-08-03 08:09:13,732 - INFO -   Tagged: dogs250731d1_03_Thomas_Duncan_Pt_2.flac
+2025-08-03 08:09:13,802 - INFO -   Tagged: dogs250731d1_04_Samba_for_Sam.flac
+2025-08-03 08:09:13,864 - INFO -   Tagged: dogs250731d1_05_Look_Johnny_II.flac
+2025-08-03 08:09:13,994 - INFO -   Tagged: dogs250731d1_06_King_Henry.flac
+2025-08-03 08:09:14,061 - INFO -   Tagged: dogs250731d1_07_Samba_for_Sam.flac
+2025-08-03 08:09:14,123 - INFO -   Tagged: dogs250731d1_08_Bent_Strange.flac
+2025-08-03 08:09:14,195 - INFO -   Tagged: dogs250731d1_09_Look_Johnny.flac
+2025-08-03 08:09:14,267 - INFO -   Tagged: dogs250731d1_10_Riders_On_The_Storm.flac
+2025-08-03 08:09:14,328 - INFO -   Tagged: dogs250731d1_11_Rabbit.flac
+2025-08-03 08:09:14,406 - INFO -   Tagged: dogs250731d1_12_Samba_for_Sam.flac
+2025-08-03 08:09:14,513 - INFO -   Tagged: dogs250731d1_13_White_Rabbit.flac
+2025-08-03 08:09:14,601 - INFO -   Tagged: dogs250731d1_14_Bugle_on_the_Shelf.flac
+2025-08-03 08:09:14,613 - INFO - Removed empty source folder: M:\Projects\Staging\Dogs In A Pile - 2025-07-31 Sante Fe Plaza, Sante Fe, NM [43620]
+2025-08-03 08:09:14,628 - INFO - Finished processing folder: M:\Live Music\Dogs In A Pile\2025\2025-07-31 - Sante Fe Plaza - Sante Fe, NM [FLAC16] [43620]
+2025-08-03 08:09:14,768 - INFO - Used cache saved.
+2025-08-03 08:09:49,087 - INFO - History saved.
+2025-08-03 08:09:49,089 - INFO - Used cache saved.
+2025-08-03 08:09:53,091 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:09:53,091 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
