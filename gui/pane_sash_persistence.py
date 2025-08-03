@@ -11,9 +11,8 @@ def install_outer_pane_sash_persistence(self):
             self.cfg.set("Panes", "outer", str(pos))
             with open(self.config_file, "w", encoding="utf-8") as f:
                 self.cfg.write(f)
-            self.log_message(f"Saved sash position for outer pane: {pos}", level="debug")
-        except Exception as e:
-            self.log_message(f"Failed to save outer pane sash position: {e}", level="error")
+        except Exception:
+            pass
 
     def restore_sash_pos():
         try:
@@ -24,15 +23,12 @@ def install_outer_pane_sash_persistence(self):
                 self.outer_pane.update_idletasks()
                 self.outer_pane.sashpos(0, pos)
                 self.outer_pane.update()
-                self.log_message(f"Restored sash position for outer pane: {pos}", level="debug")
             else:
-                # Default: set sash pos so audio player is 240 px tall
                 total_height = self.root.winfo_height()
                 if total_height > 300:
                     self.outer_pane.sashpos(0, total_height - 240)
-                    self.log_message(f"Set default outer pane sash pos: {total_height - 240}", level="debug")
-        except Exception as e:
-            self.log_message(f"Failed to restore outer pane sash position: {e}", level="error")
+        except Exception:
+            pass
 
     self.root.after(150, restore_sash_pos)
     self.outer_pane.bind("<B1-Motion>", save_sash_pos, add="+")
@@ -52,9 +48,8 @@ def install_main_pane_sash_persistence(self):
             self.cfg.set("Panes", "main", str(pos))
             with open(self.config_file, "w", encoding="utf-8") as f:
                 self.cfg.write(f)
-            self.log_message(f"Saved sash position for main: {pos}", level="debug")
-        except Exception as e:
-            self.log_message(f"Failed to save sash position: {e}", level="error")
+        except Exception:
+            pass
 
     def restore_sash_pos():
         try:
@@ -65,11 +60,8 @@ def install_main_pane_sash_persistence(self):
                 self.paned_main.update_idletasks()
                 self.paned_main.sashpos(0, pos)
                 self.paned_main.update()
-                self.log_message(f"Restored sash position for main: {pos}", level="debug")
-            else:
-                self.log_message("No saved sash position for main found in config", level="debug")
-        except Exception as e:
-            self.log_message(f"Failed to restore sash position: {e}", level="error")
+        except Exception:
+            pass
 
     self.root.after(150, restore_sash_pos)
     self.paned_main.bind("<B1-Motion>", save_sash_pos, add="+")
@@ -89,9 +81,8 @@ def install_left_paned_sash_persistence(self):
             self.cfg.set("Panes", "left_paned", str(pos))
             with open(self.config_file, "w", encoding="utf-8") as f:
                 self.cfg.write(f)
-            self.log_message(f"Saved sash position for left_paned: {pos}", level="debug")
-        except Exception as e:
-            self.log_message(f"Failed to save sash position for left_paned: {e}", level="error")
+        except Exception:
+            pass
 
     def restore_sash_pos():
         try:
@@ -102,11 +93,8 @@ def install_left_paned_sash_persistence(self):
                 self.left_paned.update_idletasks()
                 self.left_paned.sashpos(0, pos)
                 self.left_paned.update()
-                self.log_message(f"Restored sash position for left_paned: {pos}", level="debug")
-            else:
-                self.log_message("No saved sash position for left_paned found in config", level="debug")
-        except Exception as e:
-            self.log_message(f"Failed to restore sash position for left_paned: {e}", level="error")
+        except Exception:
+            pass
 
     self.root.after(150, restore_sash_pos)
     self.left_paned.bind("<B1-Motion>", save_sash_pos, add="+")
@@ -126,7 +114,6 @@ def install_main_window_size_persistence(self):
         try:
             geometry = self.root.geometry()
             if geometry == last_geometry["value"]:
-                # Geometry hasn't changed, skip saving
                 return
 
             last_geometry["value"] = geometry
@@ -145,10 +132,8 @@ def install_main_window_size_persistence(self):
 
             with open(self.config_file, "w", encoding="utf-8") as f:
                 self.cfg.write(f)
-
-            self.log_message(f"Saved main window size and position: {geometry}", level="debug")
-        except Exception as e:
-            self.log_message(f"Failed to save window size/position: {e}", level="error")
+        except Exception:
+            pass
 
     def restore_window_geometry():
         try:
@@ -162,9 +147,8 @@ def install_main_window_size_persistence(self):
                 if x is not None and y is not None:
                     geometry += f"+{x}+{y}"
                 self.root.geometry(geometry)
-                self.log_message(f"Restored main window geometry: {geometry}", level="debug")
-        except Exception as e:
-            self.log_message(f"Failed to restore window size/position: {e}", level="error")
+        except Exception:
+            pass
         finally:
             already_restored["done"] = True
 

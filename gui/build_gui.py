@@ -66,9 +66,6 @@ def build_main_gui(app):
 
         combined = list(defaults_raw) + sorted(unique_history, key=str.lower)
 
-        print(f"[DEBUG] Defaults for '{field}': {defaults_raw}")
-        print(f"[DEBUG] Raw history_cache[{field}]: {history_raw}")
-        print(f"[DEBUG] Combined '{field}' dropdown values: {combined}")
 
         return combined
 

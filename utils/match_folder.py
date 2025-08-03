@@ -26,9 +26,9 @@ STATE_ABBR = {
 CITY_STATE_RE = re.compile(r'([A-Za-z.\s]+)[,\s]+([A-Za-z]{2,})', re.IGNORECASE)
 
 # Use proper constants from constants.py
-KNOWN_FORMATS = set(DEFAULTS["format"])  # {"FLAC16", "FLAC24", "FLAC", "MP3-V0", "MP3-320", "MP3-256", "MP3-128"}
-KNOWN_SOURCES = set(DEFAULTS["source"])  # {"SBD", "AUD", "MTX", "FM", "DAT"}
-KNOWN_ADDITIONAL = set(DEFAULTS["add"])  # {"Remastered", "Bootleg", "5.1"}
+KNOWN_FORMATS = set(DEFAULTS["format"])  # e.g. {"FLAC16", "FLAC24", "FLAC", "MP3-V0", "MP3-320", "MP3-256", "MP3-128"}
+KNOWN_SOURCES = set(DEFAULTS["source"])  # e.g. {"SBD", "AUD", "MTX", "FM", "DAT"}
+KNOWN_ADDITIONAL = set(DEFAULTS["add"])  # e.g. {"Remastered", "Bootleg", "5.1"}
 
 # --- Helper Functions ---
 
@@ -199,18 +199,19 @@ def match_folder(name, normalized_artists=None, normalized_venues=None, normaliz
     bracket_tokens = re.findall(r"\[([^\]]+)\]", name)
     logger.debug(f"  Found bracket tokens: {bracket_tokens}")
 
-    # --- Special format mapping ---
+    # --- Special format mapping: exact bracket token matches only ---
     SPECIAL_FORMAT_MAP = {
         "FLACHD": "FLAC24",
+        "FLAC24": "FLAC24",
         "FLAC": "FLAC16",
     }
     for special_token, mapped_format in SPECIAL_FORMAT_MAP.items():
-        if any(t.upper() == special_token for t in bracket_tokens) or special_token in name.upper():
+        if any(t.upper() == special_token for t in bracket_tokens):
             info["format"] = mapped_format
             logger.debug(f"  Found special format token '{special_token}', setting format to '{mapped_format}'")
             break
 
-    # --- Fixed fallback format detection (prioritize longest match first) ---
+    # --- Fallback format detection if still empty ---
     if not info["format"]:
         name_upper = name.upper()
         tokens = re.findall(r'\w+', name_upper)
@@ -221,27 +222,25 @@ def match_folder(name, normalized_artists=None, normalized_venues=None, normaliz
                 logger.debug(f"  Found format in name (fallback): {fmt}")
                 break
 
-    # Default format to 'FLAC16' if none found
+    # Default format if none found
     if not info["format"]:
         info["format"] = "FLAC16"
         logger.debug("  No format found, defaulting format to 'FLAC16'")
 
-    # Find source token
+    # Find source token from bracket tokens
     if not info["source"]:
-        source_token = None
         for src in KNOWN_SOURCES:
             if any(t.upper() == src.upper() for t in bracket_tokens):
-                source_token = src
-                info["source"] = source_token
-                logger.debug(f"  Found source token: {source_token}")
+                info["source"] = src
+                logger.debug(f"  Found source token: {src}")
                 break
 
-    # Default source to 'SBD' if none found
+    # Default source if none found
     if not info["source"]:
         info["source"] = "SBD"
         logger.debug("  No source token found, defaulting source to 'SBD'")
 
-    # Find additional tokens
+    # Find additional token from bracket tokens
     additional_token = None
     for add in KNOWN_ADDITIONAL:
         if any(t.upper() == add.upper() for t in bracket_tokens):
@@ -251,12 +250,16 @@ def match_folder(name, normalized_artists=None, normalized_venues=None, normaliz
 
     info["id"] = info["id"] or extract_id(name)
 
-    # Collect remaining bracket tokens as additional
+    # Collect remaining bracket tokens as additional, excluding format, source, and additional tokens
     remaining_tokens = []
+    exclude_set = {
+        (info["format"] or "").upper(),
+        (info["source"] or "").upper(),
+        (additional_token or "").upper()
+    }
     for t in bracket_tokens:
-        if (t.upper() != (info["format"] or "").upper() and 
-            t.upper() != (info["source"] or "").upper() and 
-            t.upper() != (additional_token or "").upper() and
+        t_upper = t.upper()
+        if (t_upper not in exclude_set and
             not (t.strip().startswith('%') and t.strip().endswith('%'))):
             remaining_tokens.append(t)
     
@@ -265,17 +268,6 @@ def match_folder(name, normalized_artists=None, normalized_venues=None, normaliz
     
     info["additional"] = info["add"] = " ".join(remaining_tokens).strip()
     logger.debug(f"  Final additional: {info['additional']}")
-
-    # --- Fixed fallback format detection (prioritize longest match first) ---
-    if not info["format"]:
-        name_upper = name.upper()
-        tokens = re.findall(r'\w+', name_upper)
-        sorted_formats = sorted(KNOWN_FORMATS, key=len, reverse=True)
-        for fmt in sorted_formats:
-            if any(token.startswith(fmt.upper()) for token in tokens):
-                info["format"] = fmt
-                logger.debug(f"  Found format in name (fallback): {fmt}")
-                break
 
     logger.debug(f"Finished parsing folder name with info: {info}")
     return info
