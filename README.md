@@ -1,136 +1,139 @@
 [![TagForge Screenshots](https://i.imgur.com/N3YbUbn.png)](https://imgur.com/a/XOPU0n3)
 
-TagForge is a powerful desktop application for managing and tagging music folders with flexible, customizable naming schemes. It features an intuitive Tkinter-based GUI, support for multiple audio formats, persistent UI settings, live logging, and a rich queue-based processing system.
-Features:
+TagForge is a desktop application designed to help users efficiently batch tag and rename audio files using customizable naming schemes. It provides a flexible GUI to manage metadata, apply schemes, and update autocomplete dropdowns based on user-maintained asset files.
+Table of Contents
 
-- Tag audio folders with custom metadata: artist, venue, city, source, format, genre, date, and more
+    Features
 
-- Flexible folder naming and saving schemes with live preview and editable scheme expressions
+    Installation
 
-- Persistent sash pane positions and window size across sessions
+    Usage
 
-- Support for FLAC, MP3 (with EasyID3), and other formats via Mutagen
-  
-- Queue system for batch tagging multiple folders
+    Configuration and Asset Files
 
-- Live GUI logging with color-coded output and filtering
+    Naming Scheme Editor
 
-- Asset management for artists, venues, cities, and history caches
+    User Interface
 
-- Integrated audio player for previewing audio files inside the app
+    Logging
 
-- Comprehensive config management via INI files
+    Known Limitations
 
-- Extensible and modular codebase with separate modules for processor, queue, cache, GUI, etc.
+    Contributing
+
+    License
+
+Features
+
+    Batch process entire folders of supported audio files (MP3, FLAC, etc.).
+
+    Apply complex, user-defined naming schemes to file names and metadata tags.
+
+    Live evaluation and preview of naming schemes using sample metadata.
+
+    Autocomplete dropdown lists for artists, venues, cities, and other common metadata fields.
+
+    Dropdown lists are automatically updated after each batch process based on updated asset files.
+
+    Persistent UI layout, including window size and sash (splitter) positions.
+
+    Support for light and dark themes.
+
+    Configurable asset lists stored as simple text files.
+
+    Detailed logging visible in the GUI and saved to file for troubleshooting.
 
 Installation
+Requirements
 
-- Clone the repository:
+    Python 3.8+
 
-  ```
-  git clone https://github.com/deadthread/tagforge.git
-  cd tagforge
-  ```
+    Mutagen (for audio metadata manipulation)
 
-Create and activate a Python virtual environment (recommended):
-```
+    Standard Python libraries including Tkinter
+
+Steps
+
+    Clone or download the repository.
+
+    Create and activate a Python virtual environment (recommended):
+
 python -m venv venv
-source venv/bin/activate       # Linux/macOS
-venv\Scripts\activate.bat      # Windows
-```
-Install required dependencies:
+source venv/bin/activate   # Linux/macOS
+venv\Scripts\activate      # Windows
 
-    pip install -r requirements.txt
+Install dependencies:
 
-- Dependencies include mutagen (for audio tagging), tkinter (should be included with Python), and other standard libraries.
+pip install -r requirements.txt
 
-- Ensure assets and themes folders exist:
+Run the application:
 
-- Assets and themes folders will be auto-created on startup, but you can verify or add custom themes in the themes/ directory.
+    python TagForge.py
 
 Usage
 
-- Run the main application:
+    Open the application.
 
-- python TagForge.py
+    Use the File → Open Folder menu to select the folder containing audio files.
 
-Main UI Overview
+    Configure the naming scheme in the Naming Scheme Editor tab, adjusting tokens and syntax to your preference.
 
-- Folder Tree: Browse and select music folders to tag
-  
-- Metadata Inputs: Enter artist, venue, city, source, format, genre, and date details
+    Use the Preview feature to see how the naming scheme will affect sample metadata.
 
-- Queue: Add folders to the processing queue for batch tagging
+    Adjust metadata fields manually or select values from autocomplete dropdowns populated from asset files.
 
-- Schemes: Edit folder and saving schemes to customize naming conventions
+    Click Process Folder to batch apply the naming scheme and update tags for all supported files in the folder.
 
-- Logging: View detailed logs with color highlighting
+    After processing, dropdowns refresh automatically to include any new entries found in the asset text files.
 
-- Audio Player: Preview audio files within the app
+Configuration and Asset Files
 
-Configuration
+    Asset lists (artists.txt, venues.txt, cities.txt, etc.) are stored in the assets/ directory as plain text files, one entry per line.
 
-- Settings are stored in config/config.ini. This includes saved theme, folder and saving naming schemes, history of recent inputs, and used cache for artists and genres.
+    These asset files populate the autocomplete dropdown menus.
 
-- You can manually edit this INI file or use the GUI scheme editor for live updates.
+    After processing files, TagForge re-reads the asset files to update dropdown lists accordingly.
 
-Customizing Naming Schemes
+    UI state (window size, splitter positions) is saved in a config file on exit and restored on startup.
 
-- TagForge uses a custom scheme language allowing placeholders like {artist}, {venue}, {date}, etc.
+    Themes are loaded from the themes/ folder, with support for light and dark modes.
 
-- Folder Scheme defines the folder name pattern
+Naming Scheme Editor
 
-- Saving Scheme defines how files are named/saved
+    Supports defining flexible naming schemes for file renaming and tagging using a token-based syntax.
 
-- Use the scheme editor in the app to create or modify schemes and preview their output live.
+    Includes live preview with sample metadata to verify the scheme before processing.
 
-Development
-Code Structure Highlights
+    Allows saving and loading presets (currently through config or internal presets).
 
-- TagForge.py - main entry point with TkTagForge app class
+User Interface
 
-- utils/ - backend utilities for processing, caching, queue management, logging, theme management, etc.
+    Main window divided by adjustable sashes with persistent sizes.
 
-- gui/ - GUI components and widgets, sash persistence, scheme editor, tree selectors
+    Dropdowns provide autocomplete for quick metadata entry.
 
-- assets/ - asset files for artists, venues, cities, and icons
-
-- themes/ - theme definitions
+    Logs window displays detailed process output and errors.
 
 Logging
 
-- GUI logs show in a text widget with color-coded tags
+    Detailed log output is displayed live in the GUI console.
 
-- Backend logs use Python’s logging module for console/file output
+    Log files are saved locally for review.
+
+    Logs include information on file processing, tagging steps, and errors.
 
 Contributing
 
-Contributions and suggestions are welcome! Please:
+Contributions to fix bugs or improve the current functionality are welcome. Please:
 
-- Fork the repo
+    Fork the repository.
 
-- Create a feature branch
+    Create a feature or bugfix branch.
 
-- Make changes with clear commit messages
+    Follow PEP8 style guidelines.
 
-- Submit a pull request
+    Submit a pull request with a clear description of changes.
 
 License
 
-- This project is licensed under the MIT License — see the LICENSE file for details.
-Contact
-
-- Created and maintained by [DeadThread]. Feel free to open issues or contact via GitHub.
-Acknowledgments
-
-- Thanks to the open source libraries used: Mutagen, Tkinter, and Python standard libraries.
-
-Troubleshooting
-
-- Ensure Python 3.7+ is installed
-
-- Make sure mutagen is installed (pip install mutagen)
-
-- Confirm assets and themes folders exist and contain required files
-
-- Report bugs on GitHub Issues with logs if possible
+TagForge is released under the MIT License. See LICENSE for details.
