@@ -10,6 +10,7 @@ def update_combobox_values(
     last_source,
     last_format,
     last_genre,
+    last_add,  # Added this parameter
     comboboxes_dict,
 ):
     """
@@ -24,12 +25,13 @@ def update_combobox_values(
         last_source (str): Last used source value.
         last_format (str): Last used format value.
         last_genre (str): Last used genre value.
+        last_add (str): Last used add value.  # Added this documentation
         comboboxes_dict (dict): Mapping of keys to combobox widgets, e.g.
             {
                 "artist": ttk.Combobox,
                 "venue": ttk.Combobox,
                 "city": ttk.Combobox,
-                "add": None,
+                "add": ttk.Combobox,  # Changed from None to ttk.Combobox
                 "source": ttk.Combobox,
                 "format": ttk.Combobox,
                 "genre": ttk.Combobox,
@@ -41,7 +43,7 @@ def update_combobox_values(
         combobox = comboboxes_dict.get(key)
         seen = set()
         final_list = []
-        
+       
         # Load base list from .txt file or DEFAULTS
         if key == "artist":
             base_defaults = artists_list.copy()
@@ -51,24 +53,25 @@ def update_combobox_values(
             base_defaults = cities_list.copy()
         else:
             base_defaults = DEFAULTS.get(key, []).copy()
-        
+       
         # Get last used
         last_used_val = {
             "source": last_source,
             "format": last_format,
             "genre": last_genre,
+            "add": last_add,  # Added this line
         }.get(key, "")
-        
+       
         if last_used_val and last_used_val not in seen:
             final_list.append(last_used_val)
             seen.add(last_used_val)
-        
+       
         # Append base defaults (preserve order)
         for val in base_defaults:
             if val and val not in seen:
                 final_list.append(val)
                 seen.add(val)
-        
+       
         # Append extra cached values for artist/genre
         if key == "artist":
             extra_cache = sorted(artist_cache, key=lambda x: x.lower())
@@ -76,18 +79,18 @@ def update_combobox_values(
             extra_cache = sorted(genre_cache, key=lambda x: x.lower())
         else:
             extra_cache = []
-        
+       
         for val in extra_cache:
             if val and val not in seen:
                 final_list.append(val)
                 seen.add(val)
-        
+       
         # Append history values (unordered)
         for val in histories.get(key, set()):
             if val and val not in seen:
                 final_list.append(val)
                 seen.add(val)
-        
+       
         # Set combobox values if exists
         if combobox:
             combobox["values"] = final_list

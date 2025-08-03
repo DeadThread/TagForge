@@ -69,6 +69,7 @@ class TkTagForge:
         self.last_source = ""
         self.last_format = ""
         self.last_genre = ""
+        self.last_add = ""
 
         self.histories = {k: set() for k in ("artist", "venue", "city", "add", "source", "format", "genre")}
         self.used_cache = {"artists": {}, "genres": {}}
@@ -268,14 +269,15 @@ class TkTagForge:
             last_source=self.last_source,
             last_format=self.last_format,
             last_genre=self.last_genre,
+            last_add=self.last_add,
             comboboxes_dict={
-                "artist": getattr(self, "c_art", None),
-                "venue": getattr(self, "c_ven", None),
-                "city": getattr(self, "c_city", None),
-                "add": None,
-                "source": getattr(self, "c_src", None),
-                "format": getattr(self, "c_fmt", None),
-                "genre": getattr(self, "c_gen", None),
+                "artist": getattr(self, "c_art", None),      # Changed from artist_combobox to c_art
+                "venue": getattr(self, "c_ven", None),       # Changed from venue_combobox to c_ven  
+                "city": getattr(self, "c_city", None),       # Changed from city_combobox to c_city
+                "add": getattr(self, "c_add", None),         # Changed from add_combobox to c_add
+                "source": getattr(self, "c_src", None),      # Changed from source_combobox to c_src
+                "format": getattr(self, "c_fmt", None),      # Changed from format_combobox to c_fmt
+                "genre": getattr(self, "c_gen", None),       # Changed from genre_combobox to c_gen
             },
         )
 
@@ -576,6 +578,22 @@ class TkTagForge:
         if root_folder and not os.path.isdir(root_folder):
             self.gui_logger.log(f"Root folder invalid or missing: {root_folder}", level="error")
             return
+
+        # Capture current form values into histories BEFORE processing
+        for key, var_name in [
+            ("artist", "artist"),
+            ("venue", "venue"), 
+            ("city", "city"),
+            ("add", "add"),
+            ("source", "source"),
+            ("format", "fmt"),
+            ("genre", "genre"),
+        ]:
+            var = getattr(self, var_name, None)
+            if var:
+                val = var.get().strip()
+                if val:
+                    self.histories[key].add(val)
 
         self.last_source = self.source.get() if hasattr(self, "source") else ""
         self.last_format = self.fmt.get() if hasattr(self, "fmt") else ""

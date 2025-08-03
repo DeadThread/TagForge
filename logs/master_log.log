@@ -9053,3 +9053,867 @@ Processing folder: M:/Projects/Staging/Dogs In A Pile - 2025-07-31 Sante Fe Plaz
 2025-08-03 08:09:53,323 - DEBUG - No saved sash position for main found in config
 2025-08-03 08:09:53,387 - DEBUG - Restored sash position for left_paned: 665
 2025-08-03 08:09:53,387 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 08:10:48,945 - DEBUG - Verified themes folder at: themes
+2025-08-03 08:10:48,952 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:10:48,953 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:10:48,953 - DEBUG - Updating processor schemes...
+2025-08-03 08:10:48,953 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:10:48,953 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:10:49,026 - DEBUG - History loaded.
+2025-08-03 08:10:49,026 - DEBUG - Used cache loaded.
+2025-08-03 08:10:49,073 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 08:10:49,137 - DEBUG - Restored main window geometry: 1600x1100+787+195
+2025-08-03 08:10:49,146 - DEBUG - Saved main window size and position: 1600x1100+787+195
+2025-08-03 08:10:49,176 - DEBUG - No saved sash position for main found in config
+2025-08-03 08:10:49,229 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 08:10:49,229 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 08:11:04,207 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Leftover Salmon', 'albumartist': 'Leftover Salmon', 'album': '2025/07/16 Huber Heights, OH', 'date': '2025', 'genre': 'Bluegrass'}
+2025-08-03 08:11:04,214 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-07-16', 'venue': '', 'city': 'Huber Heights, OH', 'source': '', 'format': ''}
+2025-08-03 08:11:04,217 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Leftover Salmon', 'date': '2025-07-16', 'venue': 'Rose Music Center', 'city': 'Huber Heights, OH', 'id': '43627', 'source': '', 'format': '', 'genre': '', 'additional': '43627', 'add': '43627'}
+2025-08-03 08:11:04,218 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Leftover Salmon - 2025-07-16 Rose Music Center at the Heights, Huber Heights, OH [43627]
+2025-08-03 08:11:04,218 - DEBUG - All files in directory: ['los250716d1_01_All_Night_Ride.flac', 'los250716d1_02_Lets_Party_About_It.flac', 'los250716d1_03_Twisted_Pine.flac', 'los250716d1_04_Boogie_Grass_Band.flac', 'los250716d1_05_Fire_and_Brimstone.flac', 'los250716d1_06_The_Hobo_Song.flac', 'los250716d1_07_Aquatic_HitchHiker.flac', 'los250716d1_08_Down_In_The_Hollow.flac', 'los250716d1_09_Better.flac', 'los250716d1_10_Sitting_On_Top_Of_The_World.flac', 'los250716d1_11_Salt_Creek.flac', 'los250716d1_12_The_Weight.flac']
+2025-08-03 08:11:04,218 - DEBUG - Found .txt files: []
+2025-08-03 08:11:04,218 - DEBUG - No .txt files found in: M:/Projects/Staging\Leftover Salmon - 2025-07-16 Rose Music Center at the Heights, Huber Heights, OH [43627]
+2025-08-03 08:11:04,218 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 08:11:20,066 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'Leftover Salmon', 'venue': 'Rose Music Center', 'city': 'Huber Heights, OH', 'source': 'SBD', 'format': 'FLAC16', 'additional': '43627', 'genre': 'Jam, Bluegrass', 'date': '2025-07-16', 'currentfoldername': 'Leftover Salmon - 2025-07-16 Rose Music Center at the Heights, Huber Heights, OH [43627]', 'add': '43627'}
+2025-08-03 08:11:20,066 - DEBUG - Folder scheme evaluated to: 2025-07-16 - Rose Music Center - Huber Heights, OH [FLAC16] [43627]
+2025-08-03 08:11:20,067 - INFO - => Output folder: M:\Live Music\Leftover Salmon\2025
+2025-08-03 08:11:22,298 - DEBUG - Starting process_thread
+2025-08-03 08:11:22,299 - DEBUG - Metadata with currentfoldername for processing: {'artist': 'Leftover Salmon', 'venue': 'Rose Music Center', 'city': 'Huber Heights, OH', 'source': 'SBD', 'format': 'FLAC16', 'add': '43627', 'genre': 'Jam, Bluegrass', 'date': '2025-07-16', 'currentfoldername': 'Leftover Salmon - 2025-07-16 Rose Music Center at the Heights, Huber Heights, OH [43627]', 'filename': 'Leftover Salmon - 2025-07-16 Rose Music Center at the Heights, Huber Heights, OH [43627]'}
+2025-08-03 08:11:22,299 - INFO - 
+Processing folder: M:/Projects/Staging/Leftover Salmon - 2025-07-16 Rose Music Center at the Heights, Huber Heights, OH [43627]
+2025-08-03 08:11:22,309 - INFO - Metadata for scheme evaluation: {'artist': 'Leftover Salmon', 'venue': 'Rose Music Center', 'city': 'Huber Heights, OH', 'source': 'SBD', 'format': 'FLAC16', 'genre': 'Jam, Bluegrass', 'additional': '43627', 'add': '43627', 'date': '2025-07-16', 'currentfoldername': 'Leftover Salmon - 2025-07-16 Rose Music Center at the Heights, Huber Heights, OH [43627]'}
+2025-08-03 08:11:22,311 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 08:11:22,314 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'Leftover Salmon', 'venue': 'Rose Music Center', 'city': 'Huber Heights, OH', 'source': 'SBD', 'format': 'FLAC16', 'genre': 'Jam, Bluegrass', 'additional': '43627', 'add': '43627', 'date': '2025-07-16', 'currentfoldername': 'Leftover Salmon - 2025-07-16 Rose Music Center at the Heights, Huber Heights, OH [43627]'}
+2025-08-03 08:11:22,314 - DEBUG - Folder scheme evaluated to: 2025-07-16 - Rose Music Center - Huber Heights, OH [FLAC16] [43627]
+2025-08-03 08:11:22,315 - INFO - => Output folder: M:\Live Music\Leftover Salmon\2025
+2025-08-03 08:11:22,319 - INFO - => Output folder: M:\Live Music\Leftover Salmon\2025\2025-07-16 - Rose Music Center - Huber Heights, OH [FLAC16] [43627]
+2025-08-03 08:11:22,530 - INFO -   Tagged: los250716d1_01_All_Night_Ride.flac
+2025-08-03 08:11:22,764 - INFO -   Tagged: los250716d1_02_Lets_Party_About_It.flac
+2025-08-03 08:11:23,033 - INFO -   Tagged: los250716d1_03_Twisted_Pine.flac
+2025-08-03 08:11:23,282 - INFO -   Tagged: los250716d1_04_Boogie_Grass_Band.flac
+2025-08-03 08:11:23,541 - INFO -   Tagged: los250716d1_05_Fire_and_Brimstone.flac
+2025-08-03 08:11:23,792 - INFO -   Tagged: los250716d1_06_The_Hobo_Song.flac
+2025-08-03 08:11:24,037 - INFO -   Tagged: los250716d1_07_Aquatic_HitchHiker.flac
+2025-08-03 08:11:24,308 - INFO -   Tagged: los250716d1_08_Down_In_The_Hollow.flac
+2025-08-03 08:11:24,543 - INFO -   Tagged: los250716d1_09_Better.flac
+2025-08-03 08:11:24,786 - INFO -   Tagged: los250716d1_10_Sitting_On_Top_Of_The_World.flac
+2025-08-03 08:11:25,038 - INFO -   Tagged: los250716d1_11_Salt_Creek.flac
+2025-08-03 08:11:25,265 - INFO -   Tagged: los250716d1_12_The_Weight.flac
+2025-08-03 08:11:25,272 - INFO - Removed empty source folder: M:\Projects\Staging\Leftover Salmon - 2025-07-16 Rose Music Center at the Heights, Huber Heights, OH [43627]
+2025-08-03 08:11:25,280 - INFO - Finished processing folder: M:\Live Music\Leftover Salmon\2025\2025-07-16 - Rose Music Center - Huber Heights, OH [FLAC16] [43627]
+2025-08-03 08:11:25,284 - DEBUG - [DEBUG] Cached artist => genre: Leftover Salmon => Jam, Bluegrass
+2025-08-03 08:11:25,420 - DEBUG - [DEBUG] Cached artist => genre: Leftover Salmon => Jam, Bluegrass
+2025-08-03 08:11:25,420 - DEBUG - Used cache updated from UI values.
+2025-08-03 08:11:25,421 - INFO - Used cache saved.
+2025-08-03 08:11:48,330 - INFO - History saved.
+2025-08-03 08:11:48,331 - INFO - Used cache saved.
+2025-08-03 08:13:50,962 - DEBUG - Verified themes folder at: themes
+2025-08-03 08:13:50,968 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:13:50,968 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:13:50,968 - DEBUG - Updating processor schemes...
+2025-08-03 08:13:50,968 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:13:50,969 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:13:51,045 - DEBUG - History loaded.
+2025-08-03 08:13:51,045 - DEBUG - Used cache loaded.
+2025-08-03 08:13:51,094 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 08:13:51,164 - DEBUG - Restored main window geometry: 1600x1100+787+195
+2025-08-03 08:13:51,174 - DEBUG - Saved main window size and position: 1600x1100+787+195
+2025-08-03 08:13:51,196 - DEBUG - No saved sash position for main found in config
+2025-08-03 08:13:51,260 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 08:13:51,260 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 08:13:58,154 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Leftover Salmon', 'albumartist': 'Leftover Salmon', 'album': '2025/07/17 Peoria, IL', 'date': '2025', 'genre': 'Bluegrass'}
+2025-08-03 08:13:58,162 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-07-17', 'venue': '', 'city': 'Peoria, IL', 'source': '', 'format': ''}
+2025-08-03 08:13:58,165 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Leftover Salmon', 'date': '2025-07-17', 'venue': 'Peoria RiverFront Park', 'city': 'Peoria, IL', 'id': '43628', 'source': '', 'format': '', 'genre': '', 'additional': '43628', 'add': '43628'}
+2025-08-03 08:13:58,165 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Leftover Salmon - 2025-07-17 Peoria RiverFront Park, Peoria, IL [43628]
+2025-08-03 08:13:58,166 - DEBUG - All files in directory: ['los250717d1_01_Gold_Hill_Line.flac', 'los250717d1_02_Zombie_Jamboree.flac', 'los250717d1_03_Whispering_Waters.flac', 'los250717d1_04_Big_Wheel.flac', 'los250717d1_05_Bend_In_The_River.flac', 'los250717d1_06_Salmon_Scales.flac', 'los250717d1_07_Redbird.flac', 'los250717d1_08_River_Takes_Me.flac', 'los250717d1_09_Black_Peter.flac', 'los250717d1_10_Pasta_on_the_Mountain.flac', 'los250717d1_11_Hotel_Rocky_Top.flac', 'los250717d1_12_Pasta_on_the_Mountain.flac', 'los250717d1_13_New_Delhi_Freight_Train.flac']
+2025-08-03 08:13:58,166 - DEBUG - Found .txt files: []
+2025-08-03 08:13:58,166 - DEBUG - No .txt files found in: M:/Projects/Staging\Leftover Salmon - 2025-07-17 Peoria RiverFront Park, Peoria, IL [43628]
+2025-08-03 08:13:58,166 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 08:14:06,398 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'Leftover Salmon', 'venue': 'Peoria RiverFront Park', 'city': 'Peoria, IL', 'source': 'SBD', 'format': 'FLAC16', 'additional': '43628', 'genre': 'Jam, Bluegrass', 'date': '2025-07-17', 'currentfoldername': 'Leftover Salmon - 2025-07-17 Peoria RiverFront Park, Peoria, IL [43628]', 'add': '43628'}
+2025-08-03 08:14:06,399 - DEBUG - Folder scheme evaluated to: 2025-07-17 - Peoria RiverFront Park - Peoria, IL [FLAC16] [43628]
+2025-08-03 08:14:06,399 - INFO - => Output folder: M:\Live Music\Leftover Salmon\2025
+2025-08-03 08:14:09,498 - DEBUG - Starting process_thread
+2025-08-03 08:14:09,499 - DEBUG - Metadata with currentfoldername for processing: {'artist': 'Leftover Salmon', 'venue': 'Peoria RiverFront Park', 'city': 'Peoria, IL', 'source': 'SBD', 'format': 'FLAC16', 'add': '43628', 'genre': 'Jam, Bluegrass', 'date': '2025-07-17', 'currentfoldername': 'Leftover Salmon - 2025-07-17 Peoria RiverFront Park, Peoria, IL [43628]', 'filename': 'Leftover Salmon - 2025-07-17 Peoria RiverFront Park, Peoria, IL [43628]'}
+2025-08-03 08:14:09,499 - INFO - 
+Processing folder: M:/Projects/Staging/Leftover Salmon - 2025-07-17 Peoria RiverFront Park, Peoria, IL [43628]
+2025-08-03 08:14:09,510 - INFO - Metadata for scheme evaluation: {'artist': 'Leftover Salmon', 'venue': 'Peoria RiverFront Park', 'city': 'Peoria, IL', 'source': 'SBD', 'format': 'FLAC16', 'genre': 'Jam, Bluegrass', 'additional': '43628', 'add': '43628', 'date': '2025-07-17', 'currentfoldername': 'Leftover Salmon - 2025-07-17 Peoria RiverFront Park, Peoria, IL [43628]'}
+2025-08-03 08:14:09,513 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 08:14:09,516 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'Leftover Salmon', 'venue': 'Peoria RiverFront Park', 'city': 'Peoria, IL', 'source': 'SBD', 'format': 'FLAC16', 'genre': 'Jam, Bluegrass', 'additional': '43628', 'add': '43628', 'date': '2025-07-17', 'currentfoldername': 'Leftover Salmon - 2025-07-17 Peoria RiverFront Park, Peoria, IL [43628]'}
+2025-08-03 08:14:09,517 - DEBUG - Folder scheme evaluated to: 2025-07-17 - Peoria RiverFront Park - Peoria, IL [FLAC16] [43628]
+2025-08-03 08:14:09,517 - INFO - => Output folder: M:\Live Music\Leftover Salmon\2025
+2025-08-03 08:14:09,521 - INFO - => Output folder: M:\Live Music\Leftover Salmon\2025\2025-07-17 - Peoria RiverFront Park - Peoria, IL [FLAC16] [43628]
+2025-08-03 08:14:09,682 - INFO -   Tagged: los250717d1_01_Gold_Hill_Line.flac
+2025-08-03 08:14:09,905 - INFO -   Tagged: los250717d1_02_Zombie_Jamboree.flac
+2025-08-03 08:14:10,149 - INFO -   Tagged: los250717d1_03_Whispering_Waters.flac
+2025-08-03 08:14:10,371 - INFO -   Tagged: los250717d1_04_Big_Wheel.flac
+2025-08-03 08:14:10,588 - INFO -   Tagged: los250717d1_05_Bend_In_The_River.flac
+2025-08-03 08:14:10,827 - INFO -   Tagged: los250717d1_06_Salmon_Scales.flac
+2025-08-03 08:14:11,037 - INFO -   Tagged: los250717d1_07_Redbird.flac
+2025-08-03 08:14:11,254 - INFO -   Tagged: los250717d1_08_River_Takes_Me.flac
+2025-08-03 08:14:11,487 - INFO -   Tagged: los250717d1_09_Black_Peter.flac
+2025-08-03 08:14:11,720 - INFO -   Tagged: los250717d1_10_Pasta_on_the_Mountain.flac
+2025-08-03 08:14:11,949 - INFO -   Tagged: los250717d1_11_Hotel_Rocky_Top.flac
+2025-08-03 08:14:12,179 - INFO -   Tagged: los250717d1_12_Pasta_on_the_Mountain.flac
+2025-08-03 08:14:12,390 - INFO -   Tagged: los250717d1_13_New_Delhi_Freight_Train.flac
+2025-08-03 08:14:12,415 - INFO - Removed empty source folder: M:\Projects\Staging\Leftover Salmon - 2025-07-17 Peoria RiverFront Park, Peoria, IL [43628]
+2025-08-03 08:14:12,425 - INFO - Finished processing folder: M:\Live Music\Leftover Salmon\2025\2025-07-17 - Peoria RiverFront Park - Peoria, IL [FLAC16] [43628]
+2025-08-03 08:14:12,429 - DEBUG - [DEBUG] Cached artist => genre: Leftover Salmon => Jam, Bluegrass
+2025-08-03 08:14:12,433 - INFO - History saved.
+2025-08-03 08:14:12,566 - DEBUG - [DEBUG] Cached artist => genre: Leftover Salmon => Jam, Bluegrass
+2025-08-03 08:14:12,566 - DEBUG - Used cache updated from UI values.
+2025-08-03 08:14:12,567 - INFO - Used cache saved.
+2025-08-03 08:14:42,820 - INFO - History saved.
+2025-08-03 08:14:42,821 - INFO - Used cache saved.
+2025-08-03 08:14:46,394 - DEBUG - Verified themes folder at: themes
+2025-08-03 08:14:46,399 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:14:46,400 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:14:46,400 - DEBUG - Updating processor schemes...
+2025-08-03 08:14:46,400 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:14:46,400 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:14:46,470 - DEBUG - History loaded.
+2025-08-03 08:14:46,471 - DEBUG - Used cache loaded.
+2025-08-03 08:14:46,518 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 08:14:46,579 - DEBUG - Restored main window geometry: 1600x1100+787+195
+2025-08-03 08:14:46,597 - DEBUG - Saved main window size and position: 1600x1100+787+195
+2025-08-03 08:14:46,620 - DEBUG - No saved sash position for main found in config
+2025-08-03 08:14:46,678 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 08:14:46,678 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 08:17:45,144 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 08:17:45,151 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 08:17:45,153 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 08:17:45,153 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 - Copy
+2025-08-03 08:17:45,154 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 08:17:45,154 - DEBUG - Found .txt files: []
+2025-08-03 08:17:45,154 - DEBUG - No .txt files found in: M:/Projects/Staging\1 - Copy
+2025-08-03 08:17:45,154 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 08:17:55,531 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TeST', 'venue': 'TeST', 'city': 'TeST', 'source': 'TEST', 'format': 'TEST', 'additional': 'TEST', 'genre': 'TEST', 'date': '2003-01-02', 'currentfoldername': '1 - Copy', 'add': 'TEST'}
+2025-08-03 08:17:55,531 - DEBUG - Folder scheme evaluated to: 2003-01-02 - TeST - TeST [TEST] [TEST]
+2025-08-03 08:17:55,531 - INFO - => Output folder: M:\Live Music\TeST\2003
+2025-08-03 08:18:01,578 - DEBUG - Starting process_thread
+2025-08-03 08:18:01,579 - DEBUG - Metadata with currentfoldername for processing: {'artist': 'TeST', 'venue': 'TeST', 'city': 'TeST', 'source': 'TEST', 'format': 'TEST', 'add': 'TEST', 'genre': 'TEST', 'date': '2003-01-02', 'currentfoldername': '1 - Copy', 'filename': '1 - Copy'}
+2025-08-03 08:18:01,580 - INFO - 
+Processing folder: M:/Projects/Staging/1 - Copy
+2025-08-03 08:18:01,586 - INFO -   Updated venues.txt with: TeST
+2025-08-03 08:18:01,597 - INFO -   Updated cities.txt with: TeST
+2025-08-03 08:18:01,600 - INFO - Metadata for scheme evaluation: {'artist': 'TeST', 'venue': 'TeST', 'city': 'TeST', 'source': 'TEST', 'format': 'TEST', 'genre': 'TEST', 'additional': 'TEST', 'add': 'TEST', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-03 08:18:01,605 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 08:18:01,607 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TeST', 'venue': 'TeST', 'city': 'TeST', 'source': 'TEST', 'format': 'TEST', 'genre': 'TEST', 'additional': 'TEST', 'add': 'TEST', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-03 08:18:01,607 - DEBUG - Folder scheme evaluated to: 2003-01-02 - TeST - TeST [TEST] [TEST]
+2025-08-03 08:18:01,607 - INFO - => Output folder: M:\Live Music\TeST\2003
+2025-08-03 08:18:01,611 - INFO - => Output folder: M:\Live Music\TeST\2003\2003-01-02 - TeST - TeST [TEST] [TEST]
+2025-08-03 08:18:01,643 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-03 08:18:01,664 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-03 08:18:01,686 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-03 08:18:01,707 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-03 08:18:01,729 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-03 08:18:01,747 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-03 08:18:01,768 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-03 08:18:01,789 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-03 08:18:01,808 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-03 08:18:01,830 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-03 08:18:01,872 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-03 08:18:01,893 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-03 08:18:01,919 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-03 08:18:01,940 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-03 08:18:01,962 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-03 08:18:01,986 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-03 08:18:02,010 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-03 08:18:02,033 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-03 08:18:02,043 - INFO - Removed empty source folder: M:\Projects\Staging\1 - Copy
+2025-08-03 08:18:02,050 - INFO - Finished processing folder: M:\Live Music\TeST\2003\2003-01-02 - TeST - TeST [TEST] [TEST]
+2025-08-03 08:18:02,056 - DEBUG - [DEBUG] Cached artist => genre: TeST => TEST
+2025-08-03 08:18:02,061 - INFO - History saved.
+2025-08-03 08:18:02,199 - DEBUG - [DEBUG] Cached artist => genre: TeST => TEST
+2025-08-03 08:18:02,199 - DEBUG - Used cache updated from UI values.
+2025-08-03 08:18:02,199 - INFO - Used cache saved.
+2025-08-03 08:18:29,287 - INFO - History saved.
+2025-08-03 08:18:29,288 - INFO - Used cache saved.
+2025-08-03 08:18:33,365 - DEBUG - Verified themes folder at: themes
+2025-08-03 08:18:33,372 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:18:33,372 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:18:33,372 - DEBUG - Updating processor schemes...
+2025-08-03 08:18:33,372 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:18:33,372 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:18:33,447 - DEBUG - History loaded.
+2025-08-03 08:18:33,454 - DEBUG - Used cache loaded.
+2025-08-03 08:18:33,500 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 08:18:33,562 - DEBUG - Restored main window geometry: 1600x1100+787+195
+2025-08-03 08:18:33,581 - DEBUG - Saved main window size and position: 1600x1100+787+195
+2025-08-03 08:18:33,599 - DEBUG - No saved sash position for main found in config
+2025-08-03 08:18:33,659 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 08:18:33,659 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 08:19:33,858 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 08:19:33,864 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 08:19:33,866 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 08:19:33,867 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 - Copy
+2025-08-03 08:19:33,877 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 08:19:33,877 - DEBUG - Found .txt files: []
+2025-08-03 08:19:33,877 - DEBUG - No .txt files found in: M:/Projects/Staging\1 - Copy
+2025-08-03 08:19:33,877 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 08:19:52,072 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TeST2', 'venue': 'TeST', 'city': 'TeST', 'source': 'TEST2', 'format': 'TEST2', 'additional': 'TEST2', 'genre': 'TEST2', 'date': '2003-01-02', 'currentfoldername': '1 - Copy', 'add': 'TEST2'}
+2025-08-03 08:19:52,072 - DEBUG - Folder scheme evaluated to: 2003-01-02 - TeST - TeST [TEST2] [TEST2]
+2025-08-03 08:19:52,073 - INFO - => Output folder: M:\Live Music\TeST2\2003
+2025-08-03 08:19:57,445 - DEBUG - Starting process_thread
+2025-08-03 08:19:57,446 - DEBUG - Metadata with currentfoldername for processing: {'artist': 'TeST2', 'venue': 'TeST', 'city': 'TeST', 'source': 'TEST2', 'format': 'TEST2', 'add': 'TEST2', 'genre': 'TEST2', 'date': '2003-01-02', 'currentfoldername': '1 - Copy', 'filename': '1 - Copy'}
+2025-08-03 08:19:57,446 - INFO - 
+Processing folder: M:/Projects/Staging/1 - Copy
+2025-08-03 08:19:57,450 - INFO -   Updated artists.txt with: TeST2
+2025-08-03 08:19:57,456 - INFO - Metadata for scheme evaluation: {'artist': 'TeST2', 'venue': 'TeST', 'city': 'TeST', 'source': 'TEST2', 'format': 'TEST2', 'genre': 'TEST2', 'additional': 'TEST2', 'add': 'TEST2', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-03 08:19:57,457 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 08:19:57,459 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TeST2', 'venue': 'TeST', 'city': 'TeST', 'source': 'TEST2', 'format': 'TEST2', 'genre': 'TEST2', 'additional': 'TEST2', 'add': 'TEST2', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-03 08:19:57,459 - DEBUG - Folder scheme evaluated to: 2003-01-02 - TeST - TeST [TEST2] [TEST2]
+2025-08-03 08:19:57,459 - INFO - => Output folder: M:\Live Music\TeST2\2003
+2025-08-03 08:19:57,461 - INFO - => Output folder: M:\Live Music\TeST2\2003\2003-01-02 - TeST - TeST [TEST2] [TEST2]
+2025-08-03 08:19:57,501 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-03 08:19:57,523 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-03 08:19:57,543 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-03 08:19:57,561 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-03 08:19:57,582 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-03 08:19:57,603 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-03 08:19:57,627 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-03 08:19:57,647 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-03 08:19:57,664 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-03 08:19:57,683 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-03 08:19:57,705 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-03 08:19:57,726 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-03 08:19:57,747 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-03 08:19:57,763 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-03 08:19:57,786 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-03 08:19:57,810 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-03 08:19:57,831 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-03 08:19:57,849 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-03 08:19:57,856 - INFO - Removed empty source folder: M:\Projects\Staging\1 - Copy
+2025-08-03 08:19:57,868 - INFO - Finished processing folder: M:\Live Music\TeST2\2003\2003-01-02 - TeST - TeST [TEST2] [TEST2]
+2025-08-03 08:19:57,869 - DEBUG - [DEBUG] Cached artist => genre: TeST2 => TEST2
+2025-08-03 08:19:57,873 - INFO - History saved.
+2025-08-03 08:19:58,009 - DEBUG - [DEBUG] Cached artist => genre: TeST2 => TEST2
+2025-08-03 08:19:58,009 - DEBUG - Used cache updated from UI values.
+2025-08-03 08:19:58,009 - INFO - Used cache saved.
+2025-08-03 08:20:46,369 - DEBUG - Verified themes folder at: themes
+2025-08-03 08:20:46,375 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:20:46,375 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:20:46,375 - DEBUG - Updating processor schemes...
+2025-08-03 08:20:46,375 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:20:46,375 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:20:46,449 - DEBUG - History loaded.
+2025-08-03 08:20:46,457 - DEBUG - Used cache loaded.
+2025-08-03 08:20:46,503 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 08:20:46,562 - DEBUG - Restored main window geometry: 1600x1100+787+195
+2025-08-03 08:20:46,581 - DEBUG - Saved main window size and position: 1600x1100+787+195
+2025-08-03 08:20:46,601 - DEBUG - No saved sash position for main found in config
+2025-08-03 08:20:46,670 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 08:20:46,670 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 08:20:54,128 - DEBUG - Saved main window size and position: 1600x1100+726+180
+2025-08-03 08:20:55,321 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 08:20:55,328 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 08:20:55,330 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 08:20:55,330 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 - Copy
+2025-08-03 08:20:55,330 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 08:20:55,330 - DEBUG - Found .txt files: []
+2025-08-03 08:20:55,331 - DEBUG - No .txt files found in: M:/Projects/Staging\1 - Copy
+2025-08-03 08:20:55,331 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 08:21:07,996 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TeST3', 'venue': 'TeST', 'city': 'Test', 'source': 'TEST3', 'format': 'TEST3', 'additional': 'TEST3', 'genre': 'TEST3', 'date': '2003-01-02', 'currentfoldername': '1 - Copy', 'add': 'TEST3'}
+2025-08-03 08:21:07,996 - DEBUG - Folder scheme evaluated to: 2003-01-02 - TeST - Test [TEST3] [TEST3]
+2025-08-03 08:21:07,996 - INFO - => Output folder: M:\Live Music\TeST3\2003
+2025-08-03 08:21:08,390 - DEBUG - Starting process_thread
+2025-08-03 08:21:08,391 - DEBUG - Metadata with currentfoldername for processing: {'artist': 'TeST3', 'venue': 'TeST', 'city': 'Test', 'source': 'TEST3', 'format': 'TEST3', 'add': 'TEST3', 'genre': 'TEST3', 'date': '2003-01-02', 'currentfoldername': '1 - Copy', 'filename': '1 - Copy'}
+2025-08-03 08:21:08,391 - INFO - 
+Processing folder: M:/Projects/Staging/1 - Copy
+2025-08-03 08:21:08,396 - INFO -   Updated artists.txt with: TeST3
+2025-08-03 08:21:08,402 - INFO - Metadata for scheme evaluation: {'artist': 'TeST3', 'venue': 'TeST', 'city': 'Test', 'source': 'TEST3', 'format': 'TEST3', 'genre': 'TEST3', 'additional': 'TEST3', 'add': 'TEST3', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-03 08:21:08,405 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 08:21:08,407 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TeST3', 'venue': 'TeST', 'city': 'Test', 'source': 'TEST3', 'format': 'TEST3', 'genre': 'TEST3', 'additional': 'TEST3', 'add': 'TEST3', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-03 08:21:08,407 - DEBUG - Folder scheme evaluated to: 2003-01-02 - TeST - Test [TEST3] [TEST3]
+2025-08-03 08:21:08,408 - INFO - => Output folder: M:\Live Music\TeST3\2003
+2025-08-03 08:21:08,413 - INFO - => Output folder: M:\Live Music\TeST3\2003\2003-01-02 - TeST - Test [TEST3] [TEST3]
+2025-08-03 08:21:08,447 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-03 08:21:08,481 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-03 08:21:08,499 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-03 08:21:08,519 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-03 08:21:08,541 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-03 08:21:08,570 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-03 08:21:08,591 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-03 08:21:08,611 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-03 08:21:08,631 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-03 08:21:08,649 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-03 08:21:08,670 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-03 08:21:08,692 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-03 08:21:08,714 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-03 08:21:08,736 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-03 08:21:08,757 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-03 08:21:08,777 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-03 08:21:08,798 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-03 08:21:08,822 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-03 08:21:08,825 - INFO - Removed empty source folder: M:\Projects\Staging\1 - Copy
+2025-08-03 08:21:08,836 - INFO - Finished processing folder: M:\Live Music\TeST3\2003\2003-01-02 - TeST - Test [TEST3] [TEST3]
+2025-08-03 08:21:08,842 - DEBUG - [DEBUG] Cached artist => genre: TeST3 => TEST3
+2025-08-03 08:21:08,843 - INFO - History saved.
+2025-08-03 08:21:08,968 - DEBUG - [DEBUG] Cached artist => genre: TeST3 => TEST3
+2025-08-03 08:21:08,969 - DEBUG - Used cache updated from UI values.
+2025-08-03 08:21:08,969 - INFO - Used cache saved.
+2025-08-03 08:22:00,834 - DEBUG - Verified themes folder at: themes
+2025-08-03 08:22:00,839 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:22:00,840 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:22:00,840 - DEBUG - Updating processor schemes...
+2025-08-03 08:22:00,840 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:22:00,840 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:22:00,918 - DEBUG - History loaded.
+2025-08-03 08:22:00,924 - DEBUG - Used cache loaded.
+2025-08-03 08:22:00,972 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 08:22:01,032 - DEBUG - Restored main window geometry: 1600x1100+726+180
+2025-08-03 08:22:01,050 - DEBUG - Saved main window size and position: 1600x1100+726+180
+2025-08-03 08:22:01,067 - DEBUG - No saved sash position for main found in config
+2025-08-03 08:22:01,128 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 08:22:01,128 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 08:22:11,248 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 08:22:11,255 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 08:22:11,257 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 08:22:11,257 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1
+2025-08-03 08:22:11,258 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 08:22:11,258 - DEBUG - Found .txt files: []
+2025-08-03 08:22:11,258 - DEBUG - No .txt files found in: M:/Projects/Staging\1
+2025-08-03 08:22:11,258 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 08:23:32,628 - DEBUG - Verified themes folder at: themes
+2025-08-03 08:23:32,634 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:23:32,634 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:23:32,634 - DEBUG - Updating processor schemes...
+2025-08-03 08:23:32,634 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:23:32,634 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:23:32,716 - DEBUG - History loaded.
+2025-08-03 08:23:32,717 - DEBUG - Used cache loaded.
+2025-08-03 08:23:32,768 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 08:23:32,830 - DEBUG - Restored main window geometry: 1600x1100+726+180
+2025-08-03 08:23:32,849 - DEBUG - Saved main window size and position: 1600x1100+726+180
+2025-08-03 08:23:32,867 - DEBUG - No saved sash position for main found in config
+2025-08-03 08:23:32,931 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 08:23:32,931 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 08:23:36,563 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 08:23:36,570 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 08:23:36,572 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 08:23:36,572 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 - Copy
+2025-08-03 08:23:36,572 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 08:23:36,572 - DEBUG - Found .txt files: []
+2025-08-03 08:23:36,572 - DEBUG - No .txt files found in: M:/Projects/Staging\1 - Copy
+2025-08-03 08:23:36,573 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 08:23:48,768 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TeST', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST4', 'format': 'TEST4', 'additional': 'TEST4', 'genre': 'TEST4', 'date': '2003-01-02', 'currentfoldername': '1 - Copy', 'add': 'TEST4'}
+2025-08-03 08:23:48,768 - DEBUG - Folder scheme evaluated to: 2003-01-02 - Hampton Coliseum - Hampton, VA [TEST4] [TEST4]
+2025-08-03 08:23:48,768 - INFO - => Output folder: M:\Live Music\TeST\2003
+2025-08-03 08:23:49,332 - DEBUG - Starting process_thread
+2025-08-03 08:23:49,333 - DEBUG - Metadata with currentfoldername for processing: {'artist': 'TeST', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST4', 'format': 'TEST4', 'add': 'TEST4', 'genre': 'TEST4', 'date': '2003-01-02', 'currentfoldername': '1 - Copy', 'filename': '1 - Copy'}
+2025-08-03 08:23:49,333 - INFO - 
+Processing folder: M:/Projects/Staging/1 - Copy
+2025-08-03 08:23:49,343 - INFO - Metadata for scheme evaluation: {'artist': 'TeST', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST4', 'format': 'TEST4', 'genre': 'TEST4', 'additional': 'TEST4', 'add': 'TEST4', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-03 08:23:49,347 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 08:23:49,350 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TeST', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST4', 'format': 'TEST4', 'genre': 'TEST4', 'additional': 'TEST4', 'add': 'TEST4', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-03 08:23:49,350 - DEBUG - Folder scheme evaluated to: 2003-01-02 - Hampton Coliseum - Hampton, VA [TEST4] [TEST4]
+2025-08-03 08:23:49,350 - INFO - => Output folder: M:\Live Music\TeST\2003
+2025-08-03 08:23:49,354 - INFO - => Output folder: M:\Live Music\TeST\2003\2003-01-02 - Hampton Coliseum - Hampton, VA [TEST4] [TEST4]
+2025-08-03 08:23:49,393 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-03 08:23:49,426 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-03 08:23:49,487 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-03 08:23:49,518 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-03 08:23:49,542 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-03 08:23:49,570 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-03 08:23:49,590 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-03 08:23:49,613 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-03 08:23:49,635 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-03 08:23:49,658 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-03 08:23:49,680 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-03 08:23:49,703 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-03 08:23:49,723 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-03 08:23:49,745 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-03 08:23:49,765 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-03 08:23:49,786 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-03 08:23:49,807 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-03 08:23:49,830 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-03 08:23:49,840 - INFO - Removed empty source folder: M:\Projects\Staging\1 - Copy
+2025-08-03 08:23:49,852 - INFO - Finished processing folder: M:\Live Music\TeST\2003\2003-01-02 - Hampton Coliseum - Hampton, VA [TEST4] [TEST4]
+2025-08-03 08:23:49,857 - DEBUG - [DEBUG] Cached artist => genre: TeST => TEST4
+2025-08-03 08:23:49,860 - INFO - History saved.
+2025-08-03 08:23:49,986 - DEBUG - [DEBUG] Cached artist => genre: TeST => TEST4
+2025-08-03 08:23:49,986 - DEBUG - Used cache updated from UI values.
+2025-08-03 08:23:49,986 - INFO - Used cache saved.
+2025-08-03 08:24:05,512 - INFO - History saved.
+2025-08-03 08:24:05,513 - INFO - Used cache saved.
+2025-08-03 08:24:07,482 - DEBUG - Verified themes folder at: themes
+2025-08-03 08:24:07,487 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:24:07,487 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:24:07,487 - DEBUG - Updating processor schemes...
+2025-08-03 08:24:07,487 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:24:07,488 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:24:07,567 - DEBUG - History loaded.
+2025-08-03 08:24:07,573 - DEBUG - Used cache loaded.
+2025-08-03 08:24:07,620 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 08:24:07,681 - DEBUG - Restored main window geometry: 1600x1100+726+180
+2025-08-03 08:24:07,698 - DEBUG - Saved main window size and position: 1600x1100+726+180
+2025-08-03 08:24:07,718 - DEBUG - No saved sash position for main found in config
+2025-08-03 08:24:07,776 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 08:24:07,776 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 08:24:53,663 - DEBUG - Verified themes folder at: themes
+2025-08-03 08:24:53,668 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:24:53,669 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:24:53,669 - DEBUG - Updating processor schemes...
+2025-08-03 08:24:53,669 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:24:53,669 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:24:53,742 - DEBUG - History loaded.
+2025-08-03 08:24:53,742 - DEBUG - Used cache loaded.
+2025-08-03 08:24:53,789 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 08:24:53,852 - DEBUG - Restored main window geometry: 1600x1100+726+180
+2025-08-03 08:24:53,869 - DEBUG - Saved main window size and position: 1600x1100+726+180
+2025-08-03 08:24:53,892 - DEBUG - No saved sash position for main found in config
+2025-08-03 08:24:53,954 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 08:24:53,954 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 08:25:14,070 - DEBUG - Verified themes folder at: themes
+2025-08-03 08:25:14,075 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:25:14,075 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:25:14,076 - DEBUG - Updating processor schemes...
+2025-08-03 08:25:14,076 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:25:14,076 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:25:14,149 - DEBUG - History loaded.
+2025-08-03 08:25:14,149 - DEBUG - Used cache loaded.
+2025-08-03 08:25:14,196 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 08:25:14,262 - DEBUG - Restored main window geometry: 1600x1100+726+180
+2025-08-03 08:25:14,271 - DEBUG - Saved main window size and position: 1600x1100+726+180
+2025-08-03 08:25:14,299 - DEBUG - No saved sash position for main found in config
+2025-08-03 08:25:14,355 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 08:25:14,355 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 08:25:18,770 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 08:25:18,776 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 08:25:18,778 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 08:25:18,778 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 - Copy
+2025-08-03 08:25:18,781 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 08:25:18,781 - DEBUG - Found .txt files: []
+2025-08-03 08:25:18,781 - DEBUG - No .txt files found in: M:/Projects/Staging\1 - Copy
+2025-08-03 08:25:18,782 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 08:25:28,364 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TeST', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST', 'format': 'TEST', 'additional': 'TEST', 'genre': 'TEST', 'date': '2003-01-02', 'currentfoldername': '1 - Copy', 'add': 'TEST'}
+2025-08-03 08:25:28,364 - DEBUG - Folder scheme evaluated to: 2003-01-02 - Hampton Coliseum - Hampton, VA [TEST] [TEST]
+2025-08-03 08:25:28,365 - INFO - => Output folder: M:\Live Music\TeST\2003
+2025-08-03 08:25:29,145 - DEBUG - Starting process_thread
+2025-08-03 08:25:29,147 - DEBUG - Metadata with currentfoldername for processing: {'artist': 'TeST', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST', 'format': 'TEST', 'add': 'TEST', 'genre': 'TEST', 'date': '2003-01-02', 'currentfoldername': '1 - Copy', 'filename': '1 - Copy'}
+2025-08-03 08:25:29,155 - INFO - 
+Processing folder: M:/Projects/Staging/1 - Copy
+2025-08-03 08:25:29,166 - INFO - Metadata for scheme evaluation: {'artist': 'TeST', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST', 'format': 'TEST', 'genre': 'TEST', 'additional': 'TEST', 'add': 'TEST', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-03 08:25:29,168 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 08:25:29,170 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TeST', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST', 'format': 'TEST', 'genre': 'TEST', 'additional': 'TEST', 'add': 'TEST', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-03 08:25:29,170 - DEBUG - Folder scheme evaluated to: 2003-01-02 - Hampton Coliseum - Hampton, VA [TEST] [TEST]
+2025-08-03 08:25:29,171 - INFO - => Output folder: M:\Live Music\TeST\2003
+2025-08-03 08:25:29,173 - INFO - => Output folder: M:\Live Music\TeST\2003\2003-01-02 - Hampton Coliseum - Hampton, VA [TEST] [TEST]
+2025-08-03 08:25:29,201 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-03 08:25:29,241 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-03 08:25:29,271 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-03 08:25:29,291 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-03 08:25:29,311 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-03 08:25:29,331 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-03 08:25:29,355 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-03 08:25:29,377 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-03 08:25:29,396 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-03 08:25:29,413 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-03 08:25:29,429 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-03 08:25:29,448 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-03 08:25:29,468 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-03 08:25:29,487 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-03 08:25:29,503 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-03 08:25:29,525 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-03 08:25:29,544 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-03 08:25:29,565 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-03 08:25:29,575 - INFO - Removed empty source folder: M:\Projects\Staging\1 - Copy
+2025-08-03 08:25:29,586 - INFO - Finished processing folder: M:\Live Music\TeST\2003\2003-01-02 - Hampton Coliseum - Hampton, VA [TEST] [TEST]
+2025-08-03 08:25:29,591 - DEBUG - [DEBUG] Cached artist => genre: TeST => TEST
+2025-08-03 08:25:29,596 - INFO - History saved.
+2025-08-03 08:25:29,727 - DEBUG - [DEBUG] Cached artist => genre: TeST => TEST
+2025-08-03 08:25:29,727 - DEBUG - Used cache updated from UI values.
+2025-08-03 08:25:29,728 - INFO - Used cache saved.
+2025-08-03 08:25:40,009 - INFO - History saved.
+2025-08-03 08:25:40,010 - INFO - Used cache saved.
+2025-08-03 08:25:43,439 - DEBUG - Verified themes folder at: themes
+2025-08-03 08:25:43,445 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:25:43,445 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:25:43,445 - DEBUG - Updating processor schemes...
+2025-08-03 08:25:43,445 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:25:43,445 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:25:43,520 - DEBUG - History loaded.
+2025-08-03 08:25:43,521 - DEBUG - Used cache loaded.
+2025-08-03 08:25:43,569 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 08:25:43,641 - DEBUG - Restored main window geometry: 1600x1100+726+180
+2025-08-03 08:25:43,654 - DEBUG - Saved main window size and position: 1600x1100+726+180
+2025-08-03 08:25:43,670 - DEBUG - No saved sash position for main found in config
+2025-08-03 08:25:43,730 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 08:25:43,731 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 08:26:36,766 - DEBUG - Verified themes folder at: themes
+2025-08-03 08:26:36,771 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:26:36,772 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:26:36,772 - DEBUG - Updating processor schemes...
+2025-08-03 08:26:36,772 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:26:36,772 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:26:36,842 - DEBUG - History loaded.
+2025-08-03 08:26:36,842 - DEBUG - Used cache loaded.
+2025-08-03 08:26:36,889 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 08:26:36,951 - DEBUG - Restored main window geometry: 1600x1100+726+180
+2025-08-03 08:26:36,958 - DEBUG - Saved main window size and position: 1600x1100+726+180
+2025-08-03 08:26:36,992 - DEBUG - No saved sash position for main found in config
+2025-08-03 08:26:37,046 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 08:26:37,046 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 08:26:52,261 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 08:26:52,267 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 08:26:52,269 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 08:26:52,269 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 - Copy
+2025-08-03 08:26:52,272 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 08:26:52,273 - DEBUG - Found .txt files: []
+2025-08-03 08:26:52,273 - DEBUG - No .txt files found in: M:/Projects/Staging\1 - Copy
+2025-08-03 08:26:52,273 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 08:27:06,971 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TESt2', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST2', 'format': 'TEST2', 'additional': 'TEST2', 'genre': 'TEST2', 'date': '2003-01-02', 'currentfoldername': '1 - Copy', 'add': 'TEST2'}
+2025-08-03 08:27:06,972 - DEBUG - Folder scheme evaluated to: 2003-01-02 - Hampton Coliseum - Hampton, VA [TEST2] [TEST2]
+2025-08-03 08:27:06,972 - INFO - => Output folder: M:\Live Music\TESt2\2003
+2025-08-03 08:27:07,950 - DEBUG - Starting process_thread
+2025-08-03 08:27:07,950 - DEBUG - Metadata with currentfoldername for processing: {'artist': 'TESt2', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST2', 'format': 'TEST2', 'add': 'TEST2', 'genre': 'TEST2', 'date': '2003-01-02', 'currentfoldername': '1 - Copy', 'filename': '1 - Copy'}
+2025-08-03 08:27:07,951 - INFO - 
+Processing folder: M:/Projects/Staging/1 - Copy
+2025-08-03 08:27:07,960 - INFO - Metadata for scheme evaluation: {'artist': 'TESt2', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST2', 'format': 'TEST2', 'genre': 'TEST2', 'additional': 'TEST2', 'add': 'TEST2', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-03 08:27:07,961 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 08:27:07,964 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TESt2', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST2', 'format': 'TEST2', 'genre': 'TEST2', 'additional': 'TEST2', 'add': 'TEST2', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-03 08:27:07,964 - DEBUG - Folder scheme evaluated to: 2003-01-02 - Hampton Coliseum - Hampton, VA [TEST2] [TEST2]
+2025-08-03 08:27:07,964 - INFO - => Output folder: M:\Live Music\TESt2\2003
+2025-08-03 08:27:07,967 - INFO - => Output folder: M:\Live Music\TESt2\2003\2003-01-02 - Hampton Coliseum - Hampton, VA [TEST2] [TEST2]
+2025-08-03 08:27:08,012 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-03 08:27:08,037 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-03 08:27:08,071 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-03 08:27:08,099 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-03 08:27:08,119 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-03 08:27:08,138 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-03 08:27:08,158 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-03 08:27:08,180 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-03 08:27:08,209 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-03 08:27:08,227 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-03 08:27:08,251 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-03 08:27:08,272 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-03 08:27:08,290 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-03 08:27:08,309 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-03 08:27:08,338 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-03 08:27:08,360 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-03 08:27:08,380 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-03 08:27:08,403 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-03 08:27:08,410 - INFO - Removed empty source folder: M:\Projects\Staging\1 - Copy
+2025-08-03 08:27:08,418 - INFO - Finished processing folder: M:\Live Music\TESt2\2003\2003-01-02 - Hampton Coliseum - Hampton, VA [TEST2] [TEST2]
+2025-08-03 08:27:08,423 - DEBUG - [DEBUG] Cached artist => genre: TESt2 => TEST2
+2025-08-03 08:27:08,428 - INFO - History saved.
+2025-08-03 08:27:08,553 - DEBUG - [DEBUG] Cached artist => genre: TESt2 => TEST2
+2025-08-03 08:27:08,554 - DEBUG - Used cache updated from UI values.
+2025-08-03 08:27:08,554 - INFO - Used cache saved.
+2025-08-03 08:28:31,821 - DEBUG - Verified themes folder at: themes
+2025-08-03 08:28:31,826 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:28:31,827 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:28:31,827 - DEBUG - Updating processor schemes...
+2025-08-03 08:28:31,827 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:28:31,827 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:28:31,913 - DEBUG - History loaded.
+2025-08-03 08:28:31,921 - DEBUG - Used cache loaded.
+2025-08-03 08:29:29,459 - DEBUG - Verified themes folder at: themes
+2025-08-03 08:29:29,465 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:29:29,465 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:29:29,465 - DEBUG - Updating processor schemes...
+2025-08-03 08:29:29,465 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:29:29,465 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:29:29,543 - DEBUG - History loaded.
+2025-08-03 08:29:29,543 - DEBUG - Used cache loaded.
+2025-08-03 08:29:43,106 - DEBUG - Verified themes folder at: themes
+2025-08-03 08:29:43,111 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:29:43,111 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:29:43,111 - DEBUG - Updating processor schemes...
+2025-08-03 08:29:43,111 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:29:43,112 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:29:43,179 - DEBUG - History loaded.
+2025-08-03 08:29:43,179 - DEBUG - Used cache loaded.
+2025-08-03 08:30:21,948 - DEBUG - Verified themes folder at: themes
+2025-08-03 08:30:21,954 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:30:21,954 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:30:21,954 - DEBUG - Updating processor schemes...
+2025-08-03 08:30:21,954 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:30:21,954 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:30:22,027 - DEBUG - History loaded.
+2025-08-03 08:30:22,028 - DEBUG - Used cache loaded.
+2025-08-03 08:30:54,332 - DEBUG - Verified themes folder at: themes
+2025-08-03 08:30:54,337 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:30:54,337 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:30:54,337 - DEBUG - Updating processor schemes...
+2025-08-03 08:30:54,338 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:30:54,338 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:30:54,409 - DEBUG - History loaded.
+2025-08-03 08:30:54,409 - DEBUG - Used cache loaded.
+2025-08-03 08:31:53,058 - DEBUG - Verified themes folder at: themes
+2025-08-03 08:31:53,063 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:31:53,064 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:31:53,064 - DEBUG - Updating processor schemes...
+2025-08-03 08:31:53,064 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:31:53,064 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:31:53,136 - DEBUG - History loaded.
+2025-08-03 08:31:53,136 - DEBUG - Used cache loaded.
+2025-08-03 08:31:53,189 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 08:31:53,238 - DEBUG - Restored main window geometry: 1600x1100+726+180
+2025-08-03 08:31:53,243 - DEBUG - Saved main window size and position: 1600x1100+726+180
+2025-08-03 08:31:53,286 - DEBUG - No saved sash position for main found in config
+2025-08-03 08:31:53,355 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 08:31:53,356 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 08:32:02,588 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 08:32:02,594 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 08:32:02,596 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 08:32:02,597 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 - Copy
+2025-08-03 08:32:02,597 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 08:32:02,597 - DEBUG - Found .txt files: []
+2025-08-03 08:32:02,597 - DEBUG - No .txt files found in: M:/Projects/Staging\1 - Copy
+2025-08-03 08:32:02,597 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 08:32:11,826 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TeST5', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST5', 'format': 'TEST5', 'additional': 'TEST5', 'genre': 'TEST56', 'date': '2003-01-02', 'currentfoldername': '1 - Copy', 'add': 'TEST5'}
+2025-08-03 08:32:11,826 - DEBUG - Folder scheme evaluated to: 2003-01-02 - Hampton Coliseum - Hampton, VA [TEST5] [TEST5]
+2025-08-03 08:32:11,826 - INFO - => Output folder: M:\Live Music\TeST5\2003
+2025-08-03 08:32:12,312 - DEBUG - Starting process_thread
+2025-08-03 08:32:12,313 - DEBUG - Metadata with currentfoldername for processing: {'artist': 'TeST5', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST5', 'format': 'TEST5', 'add': 'TEST5', 'genre': 'TEST56', 'date': '2003-01-02', 'currentfoldername': '1 - Copy', 'filename': '1 - Copy'}
+2025-08-03 08:32:12,313 - INFO - 
+Processing folder: M:/Projects/Staging/1 - Copy
+2025-08-03 08:32:12,319 - INFO -   Updated artists.txt with: TeST5
+2025-08-03 08:32:12,326 - INFO - Metadata for scheme evaluation: {'artist': 'TeST5', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST5', 'format': 'TEST5', 'genre': 'TEST56', 'additional': 'TEST5', 'add': 'TEST5', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-03 08:32:12,330 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 08:32:12,333 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TeST5', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST5', 'format': 'TEST5', 'genre': 'TEST56', 'additional': 'TEST5', 'add': 'TEST5', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-03 08:32:12,333 - DEBUG - Folder scheme evaluated to: 2003-01-02 - Hampton Coliseum - Hampton, VA [TEST5] [TEST5]
+2025-08-03 08:32:12,333 - INFO - => Output folder: M:\Live Music\TeST5\2003
+2025-08-03 08:32:12,338 - INFO - => Output folder: M:\Live Music\TeST5\2003\2003-01-02 - Hampton Coliseum - Hampton, VA [TEST5] [TEST5]
+2025-08-03 08:32:12,384 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-03 08:32:12,415 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-03 08:32:12,458 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-03 08:32:12,488 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-03 08:32:12,522 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-03 08:32:12,547 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-03 08:32:12,583 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-03 08:32:12,609 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-03 08:32:12,638 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-03 08:32:12,675 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-03 08:32:12,704 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-03 08:32:12,735 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-03 08:32:12,761 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-03 08:32:12,806 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-03 08:32:12,838 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-03 08:32:12,868 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-03 08:32:12,902 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-03 08:32:12,944 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-03 08:32:12,951 - INFO - Removed empty source folder: M:\Projects\Staging\1 - Copy
+2025-08-03 08:32:12,960 - INFO - Finished processing folder: M:\Live Music\TeST5\2003\2003-01-02 - Hampton Coliseum - Hampton, VA [TEST5] [TEST5]
+2025-08-03 08:32:12,964 - DEBUG - [DEBUG] Cached artist => genre: TeST5 => TEST56
+2025-08-03 08:33:52,199 - DEBUG - Verified themes folder at: themes
+2025-08-03 08:33:52,205 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:33:52,205 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:33:52,205 - DEBUG - Updating processor schemes...
+2025-08-03 08:33:52,205 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:33:52,205 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:33:52,285 - DEBUG - History loaded.
+2025-08-03 08:33:52,286 - DEBUG - Used cache loaded.
+2025-08-03 08:33:52,339 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 08:33:52,401 - DEBUG - Restored main window geometry: 1600x1100+286+286
+2025-08-03 08:33:52,421 - DEBUG - Saved main window size and position: 1600x1100+286+286
+2025-08-03 08:33:52,438 - DEBUG - No saved sash position for main found in config
+2025-08-03 08:33:52,502 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 08:33:52,502 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 08:33:53,029 - DEBUG - Saved main window size and position: 1600x1100+300+281
+2025-08-03 08:33:53,036 - DEBUG - Saved main window size and position: 1600x1100+315+278
+2025-08-03 08:33:53,057 - DEBUG - Saved main window size and position: 1600x1100+345+267
+2025-08-03 08:33:53,059 - DEBUG - Saved main window size and position: 1600x1100+381+257
+2025-08-03 08:33:53,061 - DEBUG - Saved main window size and position: 1600x1100+421+246
+2025-08-03 08:33:53,066 - DEBUG - Saved main window size and position: 1600x1100+459+233
+2025-08-03 08:33:53,074 - DEBUG - Saved main window size and position: 1600x1100+501+218
+2025-08-03 08:33:53,083 - DEBUG - Saved main window size and position: 1600x1100+531+206
+2025-08-03 08:33:53,089 - DEBUG - Saved main window size and position: 1600x1100+557+193
+2025-08-03 08:33:53,096 - DEBUG - Saved main window size and position: 1600x1100+589+177
+2025-08-03 08:33:53,105 - DEBUG - Saved main window size and position: 1600x1100+628+159
+2025-08-03 08:33:53,113 - DEBUG - Saved main window size and position: 1600x1100+664+144
+2025-08-03 08:33:53,120 - DEBUG - Saved main window size and position: 1600x1100+703+131
+2025-08-03 08:33:53,127 - DEBUG - Saved main window size and position: 1600x1100+745+122
+2025-08-03 08:33:53,134 - DEBUG - Saved main window size and position: 1600x1100+777+115
+2025-08-03 08:33:53,142 - DEBUG - Saved main window size and position: 1600x1100+801+112
+2025-08-03 08:33:53,150 - DEBUG - Saved main window size and position: 1600x1100+814+110
+2025-08-03 08:33:53,157 - DEBUG - Saved main window size and position: 1600x1100+822+109
+2025-08-03 08:33:53,166 - DEBUG - Saved main window size and position: 1600x1100+825+108
+2025-08-03 08:33:53,173 - DEBUG - Saved main window size and position: 1600x1100+826+108
+2025-08-03 08:33:53,234 - DEBUG - Saved main window size and position: 1600x1100+827+108
+2025-08-03 08:33:53,242 - DEBUG - Saved main window size and position: 1600x1100+828+108
+2025-08-03 08:33:53,249 - DEBUG - Saved main window size and position: 1600x1100+829+108
+2025-08-03 08:33:53,386 - DEBUG - Saved main window size and position: 1600x1100+829+109
+2025-08-03 08:34:10,766 - DEBUG - Verified themes folder at: themes
+2025-08-03 08:34:10,772 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:34:10,772 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:34:10,772 - DEBUG - Updating processor schemes...
+2025-08-03 08:34:10,773 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:34:10,773 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:34:10,851 - DEBUG - History loaded.
+2025-08-03 08:34:10,851 - DEBUG - Used cache loaded.
+2025-08-03 08:34:10,905 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 08:34:10,971 - DEBUG - Restored main window geometry: 1600x1100+829+109
+2025-08-03 08:34:10,989 - DEBUG - Saved main window size and position: 1600x1100+829+109
+2025-08-03 08:34:11,003 - DEBUG - No saved sash position for main found in config
+2025-08-03 08:34:11,073 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 08:34:11,073 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 08:34:24,908 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 08:34:24,915 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 08:34:24,917 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 08:34:24,917 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 - Copy
+2025-08-03 08:34:24,917 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 08:34:24,918 - DEBUG - Found .txt files: []
+2025-08-03 08:34:24,918 - DEBUG - No .txt files found in: M:/Projects/Staging\1 - Copy
+2025-08-03 08:34:24,918 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 08:34:34,239 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TeST', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST6', 'format': 'TEST6', 'additional': 'TEST6', 'genre': 'TEST65', 'date': '2003-01-02', 'currentfoldername': '1 - Copy', 'add': 'TEST6'}
+2025-08-03 08:34:34,239 - DEBUG - Folder scheme evaluated to: 2003-01-02 - Hampton Coliseum - Hampton, VA [TEST6] [TEST6]
+2025-08-03 08:34:34,240 - INFO - => Output folder: M:\Live Music\TeST\2003
+2025-08-03 08:34:34,674 - DEBUG - Starting process_thread
+2025-08-03 08:34:34,674 - DEBUG - Metadata with currentfoldername for processing: {'artist': 'TeST', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST6', 'format': 'TEST6', 'add': 'TEST6', 'genre': 'TEST65', 'date': '2003-01-02', 'currentfoldername': '1 - Copy', 'filename': '1 - Copy'}
+2025-08-03 08:34:34,675 - INFO - 
+Processing folder: M:/Projects/Staging/1 - Copy
+2025-08-03 08:34:34,685 - INFO - Metadata for scheme evaluation: {'artist': 'TeST', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST6', 'format': 'TEST6', 'genre': 'TEST65', 'additional': 'TEST6', 'add': 'TEST6', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-03 08:34:34,688 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 08:34:34,691 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TeST', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST6', 'format': 'TEST6', 'genre': 'TEST65', 'additional': 'TEST6', 'add': 'TEST6', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-03 08:34:34,691 - DEBUG - Folder scheme evaluated to: 2003-01-02 - Hampton Coliseum - Hampton, VA [TEST6] [TEST6]
+2025-08-03 08:34:34,691 - INFO - => Output folder: M:\Live Music\TeST\2003
+2025-08-03 08:34:34,694 - INFO - => Output folder: M:\Live Music\TeST\2003\2003-01-02 - Hampton Coliseum - Hampton, VA [TEST6] [TEST6]
+2025-08-03 08:34:34,754 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-03 08:34:34,774 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-03 08:34:34,811 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-03 08:34:34,841 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-03 08:34:34,862 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-03 08:34:34,887 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-03 08:34:34,906 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-03 08:34:34,922 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-03 08:34:34,944 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-03 08:34:34,972 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-03 08:34:34,993 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-03 08:34:35,009 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-03 08:34:35,025 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-03 08:34:35,046 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-03 08:34:35,067 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-03 08:34:35,087 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-03 08:34:35,103 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-03 08:34:35,124 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-03 08:34:35,132 - INFO - Removed empty source folder: M:\Projects\Staging\1 - Copy
+2025-08-03 08:34:35,140 - INFO - Finished processing folder: M:\Live Music\TeST\2003\2003-01-02 - Hampton Coliseum - Hampton, VA [TEST6] [TEST6]
+2025-08-03 08:34:35,145 - DEBUG - [DEBUG] Cached artist => genre: TeST => TEST65
+2025-08-03 08:34:35,150 - INFO - History saved.
+2025-08-03 08:34:35,280 - DEBUG - [DEBUG] Cached artist => genre: TeST => TEST65
+2025-08-03 08:34:35,280 - DEBUG - Used cache updated from UI values.
+2025-08-03 08:34:35,281 - INFO - Used cache saved.
+2025-08-03 08:34:46,188 - INFO - History saved.
+2025-08-03 08:34:46,189 - INFO - Used cache saved.
+2025-08-03 08:34:48,992 - DEBUG - Verified themes folder at: themes
+2025-08-03 08:34:48,998 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:34:48,998 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:34:48,998 - DEBUG - Updating processor schemes...
+2025-08-03 08:34:48,998 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:34:48,998 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:34:49,077 - DEBUG - History loaded.
+2025-08-03 08:34:49,084 - DEBUG - Used cache loaded.
+2025-08-03 08:34:49,131 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 08:34:49,197 - DEBUG - Restored main window geometry: 1600x1100+829+109
+2025-08-03 08:34:49,211 - DEBUG - Saved main window size and position: 1600x1100+829+109
+2025-08-03 08:34:49,229 - DEBUG - No saved sash position for main found in config
+2025-08-03 08:34:49,288 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 08:34:49,288 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 08:35:15,327 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 08:35:15,333 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 08:35:15,335 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 08:35:15,335 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 - Copy
+2025-08-03 08:35:15,336 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 08:35:15,336 - DEBUG - Found .txt files: []
+2025-08-03 08:35:15,336 - DEBUG - No .txt files found in: M:/Projects/Staging\1 - Copy
+2025-08-03 08:35:15,336 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 08:35:26,153 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'Test12', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST12', 'format': 'TEST12', 'additional': 'TEST12', 'genre': 'TEST12', 'date': '2003-01-02', 'currentfoldername': '1 - Copy', 'add': 'TEST12'}
+2025-08-03 08:35:26,153 - DEBUG - Folder scheme evaluated to: 2003-01-02 - Hampton Coliseum - Hampton, VA [TEST12] [TEST12]
+2025-08-03 08:35:26,154 - INFO - => Output folder: M:\Live Music\Test12\2003
+2025-08-03 08:35:26,601 - DEBUG - Starting process_thread
+2025-08-03 08:35:26,602 - DEBUG - Metadata with currentfoldername for processing: {'artist': 'Test12', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST12', 'format': 'TEST12', 'add': 'TEST12', 'genre': 'TEST12', 'date': '2003-01-02', 'currentfoldername': '1 - Copy', 'filename': '1 - Copy'}
+2025-08-03 08:35:26,602 - INFO - 
+Processing folder: M:/Projects/Staging/1 - Copy
+2025-08-03 08:35:26,607 - INFO -   Updated artists.txt with: Test12
+2025-08-03 08:35:26,615 - INFO - Metadata for scheme evaluation: {'artist': 'Test12', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST12', 'format': 'TEST12', 'genre': 'TEST12', 'additional': 'TEST12', 'add': 'TEST12', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-03 08:35:26,616 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 08:35:26,620 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'Test12', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST12', 'format': 'TEST12', 'genre': 'TEST12', 'additional': 'TEST12', 'add': 'TEST12', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-03 08:35:26,620 - DEBUG - Folder scheme evaluated to: 2003-01-02 - Hampton Coliseum - Hampton, VA [TEST12] [TEST12]
+2025-08-03 08:35:26,621 - INFO - => Output folder: M:\Live Music\Test12\2003
+2025-08-03 08:35:26,624 - INFO - => Output folder: M:\Live Music\Test12\2003\2003-01-02 - Hampton Coliseum - Hampton, VA [TEST12] [TEST12]
+2025-08-03 08:35:26,668 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-03 08:35:26,690 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-03 08:35:26,709 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-03 08:35:26,729 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-03 08:35:26,746 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-03 08:35:26,762 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-03 08:35:26,781 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-03 08:35:26,802 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-03 08:35:26,822 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-03 08:35:26,843 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-03 08:35:26,863 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-03 08:35:26,886 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-03 08:35:26,907 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-03 08:35:26,930 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-03 08:35:26,952 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-03 08:35:26,974 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-03 08:35:26,999 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-03 08:35:27,022 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-03 08:35:27,029 - INFO - Removed empty source folder: M:\Projects\Staging\1 - Copy
+2025-08-03 08:35:27,038 - INFO - Finished processing folder: M:\Live Music\Test12\2003\2003-01-02 - Hampton Coliseum - Hampton, VA [TEST12] [TEST12]
+2025-08-03 08:35:27,044 - DEBUG - [DEBUG] Cached artist => genre: Test12 => TEST12
+2025-08-03 08:35:27,048 - INFO - History saved.
+2025-08-03 08:35:27,176 - DEBUG - [DEBUG] Cached artist => genre: Test12 => TEST12
+2025-08-03 08:35:27,177 - DEBUG - Used cache updated from UI values.
+2025-08-03 08:35:27,177 - INFO - Used cache saved.
+2025-08-03 08:35:37,040 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Herbie Hancock', 'album': 'HH1973-11-01', 'comment': 'Ultrasonic Studios'}
+2025-08-03 08:35:37,045 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 08:35:37,048 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '1973-11-01', 'venue': 'Ultrasonic Studios', 'city': 'Hampstead, NY', 'id': '', 'source': '', 'format': 'FLAC', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 08:35:37,048 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)
+2025-08-03 08:35:37,049 - DEBUG - All files in directory: ['01. Actual Proof.flac', '02. Butterfly.flac', '03. Sly.flac', '04. Chameleon.flac', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY-EACLog.log', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.ffp', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 08:35:37,049 - DEBUG - Found .txt files: ['Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 08:35:37,066 - DEBUG - Trying to read metadata from: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)\Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt
+2025-08-03 08:35:37,108 - DEBUG - Extracted metadata: {'source': 'FM'}
+2025-08-03 08:35:37,108 - DEBUG - [DEBUG] TXT metadata parsed: {'source': 'FM'}
+2025-08-03 08:35:39,558 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Béla Fleck & The Flecktones', 'album': 'Live At The Quick', 'date': '2002', 'genre': 'Country & Folk'}
+2025-08-03 08:35:39,562 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 08:35:39,566 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 08:35:39,566 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Béla Fleck & The Flecktones - Live At The Quick
+2025-08-03 08:35:39,569 - DEBUG - All files in directory: ['01 Béla Fleck & The Flecktones - That Old Thing (Intro)／Earth Jam.flac', '02 Béla Fleck & The Flecktones - Zona Mona.flac', '03 Béla Fleck & The Flecktones - Ovombo Summit.flac', '04 Béla Fleck & The Flecktones - Hall Of Mirrors.flac', '05 Béla Fleck & The Flecktones - Scratch & Sniff.flac', '06 Béla Fleck & The Flecktones - Improv／Amazing Grace.flac', '07 Béla Fleck & The Flecktones - Big Country.flac', '08 Béla Fleck & The Flecktones - Interlude.flac', "09 Béla Fleck & The Flecktones - Lover's Leap.flac", '10 Béla Fleck & The Flecktones - Alash Khem (Alash River Song).flac', '11 Béla Fleck & The Flecktones - A Moment So Close.flac', '12 Béla Fleck & The Flecktones - Improv／Prelude From Bach Violin Partitia #3.flac', '13 Béla Fleck & The Flecktones - Intro.flac', '14 Béla Fleck & The Flecktones - Hoedown.flac', 'Live At The Quick.log']
+2025-08-03 08:35:39,569 - DEBUG - Found .txt files: []
+2025-08-03 08:35:39,569 - DEBUG - No .txt files found in: M:/Projects/Staging\Béla Fleck & The Flecktones - Live At The Quick
+2025-08-03 08:35:39,569 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 08:35:42,699 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'From The Archives 17 Part 2', 'date': '2015-08-21'}
+2025-08-03 08:35:42,699 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 08:35:42,701 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '2015-08-21', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 08:35:42,702 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\fta2015-08-21.fta17.pt2.134057.flac16
+2025-08-03 08:35:42,702 - DEBUG - All files in directory: ['ffp.ffp', 'fta2015-08-21s1t01.flac', 'fta2015-08-21s1t02.flac', 'fta2015-08-21s1t03.flac', 'fta2015-08-21s1t04.flac', 'fta2015-08-21s1t05.flac', 'fta2015-08-21s1t06.flac', 'fta2015-08-21s1t07.flac', 'fta2015-08-21s1t08.flac', 'fta2015-08-21s1t09.flac', 'fta2015-08-21s1t10.flac', 'phish-archive-radio2015-08-21.134057.txt']
+2025-08-03 08:35:42,702 - DEBUG - Found .txt files: ['phish-archive-radio2015-08-21.134057.txt']
+2025-08-03 08:35:42,709 - DEBUG - Trying to read metadata from: M:/Projects/Staging\fta2015-08-21.fta17.pt2.134057.flac16\phish-archive-radio2015-08-21.134057.txt
+2025-08-03 08:35:42,726 - DEBUG - Extracted metadata: {'city': 'Watkins Glen, NY', 'format': 'FLAC16'}
+2025-08-03 08:35:42,726 - DEBUG - [DEBUG] TXT metadata parsed: {'city': 'Watkins Glen, NY', 'format': 'FLAC16'}
+2025-08-03 08:35:44,420 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Herbie Hancock', 'album': 'HH1973-11-01', 'comment': 'Ultrasonic Studios'}
+2025-08-03 08:35:44,425 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 08:35:44,427 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '1973-11-01', 'venue': 'Ultrasonic Studios', 'city': 'Hampstead, NY', 'id': '', 'source': '', 'format': 'FLAC', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 08:35:44,427 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)
+2025-08-03 08:35:44,428 - DEBUG - All files in directory: ['01. Actual Proof.flac', '02. Butterfly.flac', '03. Sly.flac', '04. Chameleon.flac', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY-EACLog.log', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.ffp', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 08:35:44,428 - DEBUG - Found .txt files: ['Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 08:35:44,429 - DEBUG - Trying to read metadata from: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)\Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt
+2025-08-03 08:35:44,471 - DEBUG - Extracted metadata: {'source': 'FM'}
+2025-08-03 08:35:44,471 - DEBUG - [DEBUG] TXT metadata parsed: {'source': 'FM'}
+2025-08-03 08:35:44,892 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 08:35:44,896 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 08:35:44,898 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 08:35:44,898 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1
+2025-08-03 08:35:44,899 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 08:35:44,899 - DEBUG - Found .txt files: []
+2025-08-03 08:35:44,899 - DEBUG - No .txt files found in: M:/Projects/Staging\1
+2025-08-03 08:35:44,899 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 08:35:47,679 - INFO - History saved.
+2025-08-03 08:35:47,680 - INFO - Used cache saved.
+2025-08-03 08:36:12,221 - DEBUG - Verified themes folder at: themes
+2025-08-03 08:36:12,227 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:36:12,227 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:36:12,227 - DEBUG - Updating processor schemes...
+2025-08-03 08:36:12,227 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:36:12,227 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:36:12,304 - DEBUG - History loaded.
+2025-08-03 08:36:12,311 - DEBUG - Used cache loaded.
+2025-08-03 08:36:12,360 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 08:36:12,408 - DEBUG - Restored main window geometry: 1600x1100+829+109
+2025-08-03 08:36:12,414 - DEBUG - Saved main window size and position: 1600x1100+829+109
+2025-08-03 08:36:12,453 - DEBUG - No saved sash position for main found in config
+2025-08-03 08:36:12,519 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 08:36:12,519 - DEBUG - Restored sash position for outer pane: 921

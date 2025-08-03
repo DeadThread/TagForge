@@ -26,6 +26,7 @@ class Processor:
         last_source="",
         last_format="",
         last_genre="",
+        last_add="",  # Added this parameter
     ):
         self._evaluate_schemes = evaluate_schemes_func
         self._match_folder = match_folder_func
@@ -43,6 +44,7 @@ class Processor:
         self.last_source = last_source
         self.last_format = last_format
         self.last_genre = last_genre
+        self.last_add = last_add  # Added this attribute
 
         # Store current folder and saving schemes and evaluator instance
         self.folder_scheme = None
@@ -150,6 +152,7 @@ class Processor:
             self.last_source = source
             self.last_format = fmt
             self.last_genre = genre
+            self.last_add = add  # Added this line
 
             # Update .txt asset lists
             self._update_txt_file(ARTISTS_FILE, artist)

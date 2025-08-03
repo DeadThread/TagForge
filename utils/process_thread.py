@@ -70,6 +70,22 @@ def process_thread(gui_instance):
 
     base_input_folder = "M:/Test-Folder"  # Adjust as needed
 
+    # Capture current form values into histories BEFORE processing
+    for key, var_name in [
+        ("artist", "artist"),
+        ("venue", "venue"), 
+        ("city", "city"),
+        ("add", "add"),
+        ("source", "source"),
+        ("format", "fmt"),
+        ("genre", "genre"),
+    ]:
+        var = getattr(gui_instance, var_name, None)
+        if var:
+            val = var.get().strip()
+            if val:
+                gui_instance.histories[key].add(val)
+
     for folder in saved[:]:
         meta = saved_meta.get(folder, {})
 
@@ -98,7 +114,7 @@ def process_thread(gui_instance):
             "city": get_fallback_value(meta.get("city"), gui_instance.city.get()),
             "source": get_fallback_value(meta.get("source"), gui_instance.source.get(), getattr(gui_instance, "last_source", "")),
             "format": get_fallback_value(meta.get("format"), gui_instance.fmt.get(), getattr(gui_instance, "last_format", "")),
-            "add": get_fallback_value(meta.get("additional") or meta.get("add"), gui_instance.add.get()),
+            "add": get_fallback_value(meta.get("additional") or meta.get("add"), gui_instance.add.get(), getattr(gui_instance, "last_add", "")),
             "genre": get_fallback_value(meta.get("genre"), gui_instance.genre.get(), getattr(gui_instance, "last_genre", "")),
             "date": fallback_date,
             "currentfoldername": os.path.basename(os.path.normpath(folder)),
@@ -106,6 +122,12 @@ def process_thread(gui_instance):
         }
 
         log_message(gui_instance.log, f"Metadata with currentfoldername for processing: {fallback}", level="debug")
+
+        # Add processed values to histories as well
+        for key in ["artist", "venue", "city", "source", "format", "add", "genre"]:
+            value = fallback.get(key)
+            if value and value.strip():
+                gui_instance.histories[key].add(value.strip())
 
         try:
             result = gui_instance.processor.process_folders([folder], fallback)
@@ -132,12 +154,16 @@ def process_thread(gui_instance):
     gui_instance.last_source = gui_instance.processor.last_source
     gui_instance.last_format = gui_instance.processor.last_format
     gui_instance.last_genre = gui_instance.processor.last_genre
+    gui_instance.last_add = gui_instance.processor.last_add  # Added this line
+
+    # Save history cache after processing
+    gui_instance._save_history()
 
     # All GUI updates should be done safely on main thread:
     def gui_updates():
         gui_instance.refresh_queue_ui()
         gui_instance._refresh()
-        gui_instance._update_artist_city_venue_dropdowns()
+        gui_instance._update_combobox_values()  # Update with fresh history data
         gui_instance._update_used_cache()
         try:
             save_used_cache(

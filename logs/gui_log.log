@@ -3559,3 +3559,372 @@ Processing folder: M:/Projects/Staging/Dogs In A Pile - 2025-07-31 Sante Fe Plaz
 2025-08-03 08:09:49,089 - INFO - Used cache saved.
 2025-08-03 08:09:53,091 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
 2025-08-03 08:09:53,091 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:10:48,952 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:10:48,953 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:11:20,067 - INFO - => Output folder: M:\Live Music\Leftover Salmon\2025
+2025-08-03 08:11:22,299 - INFO - 
+Processing folder: M:/Projects/Staging/Leftover Salmon - 2025-07-16 Rose Music Center at the Heights, Huber Heights, OH [43627]
+2025-08-03 08:11:22,309 - INFO - Metadata for scheme evaluation: {'artist': 'Leftover Salmon', 'venue': 'Rose Music Center', 'city': 'Huber Heights, OH', 'source': 'SBD', 'format': 'FLAC16', 'genre': 'Jam, Bluegrass', 'additional': '43627', 'add': '43627', 'date': '2025-07-16', 'currentfoldername': 'Leftover Salmon - 2025-07-16 Rose Music Center at the Heights, Huber Heights, OH [43627]'}
+2025-08-03 08:11:22,311 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 08:11:22,315 - INFO - => Output folder: M:\Live Music\Leftover Salmon\2025
+2025-08-03 08:11:22,319 - INFO - => Output folder: M:\Live Music\Leftover Salmon\2025\2025-07-16 - Rose Music Center - Huber Heights, OH [FLAC16] [43627]
+2025-08-03 08:11:22,530 - INFO -   Tagged: los250716d1_01_All_Night_Ride.flac
+2025-08-03 08:11:22,764 - INFO -   Tagged: los250716d1_02_Lets_Party_About_It.flac
+2025-08-03 08:11:23,033 - INFO -   Tagged: los250716d1_03_Twisted_Pine.flac
+2025-08-03 08:11:23,282 - INFO -   Tagged: los250716d1_04_Boogie_Grass_Band.flac
+2025-08-03 08:11:23,541 - INFO -   Tagged: los250716d1_05_Fire_and_Brimstone.flac
+2025-08-03 08:11:23,792 - INFO -   Tagged: los250716d1_06_The_Hobo_Song.flac
+2025-08-03 08:11:24,037 - INFO -   Tagged: los250716d1_07_Aquatic_HitchHiker.flac
+2025-08-03 08:11:24,308 - INFO -   Tagged: los250716d1_08_Down_In_The_Hollow.flac
+2025-08-03 08:11:24,543 - INFO -   Tagged: los250716d1_09_Better.flac
+2025-08-03 08:11:24,786 - INFO -   Tagged: los250716d1_10_Sitting_On_Top_Of_The_World.flac
+2025-08-03 08:11:25,038 - INFO -   Tagged: los250716d1_11_Salt_Creek.flac
+2025-08-03 08:11:25,265 - INFO -   Tagged: los250716d1_12_The_Weight.flac
+2025-08-03 08:11:25,272 - INFO - Removed empty source folder: M:\Projects\Staging\Leftover Salmon - 2025-07-16 Rose Music Center at the Heights, Huber Heights, OH [43627]
+2025-08-03 08:11:25,280 - INFO - Finished processing folder: M:\Live Music\Leftover Salmon\2025\2025-07-16 - Rose Music Center - Huber Heights, OH [FLAC16] [43627]
+2025-08-03 08:11:25,421 - INFO - Used cache saved.
+2025-08-03 08:11:48,330 - INFO - History saved.
+2025-08-03 08:11:48,331 - INFO - Used cache saved.
+2025-08-03 08:13:50,968 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:13:50,968 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:14:06,399 - INFO - => Output folder: M:\Live Music\Leftover Salmon\2025
+2025-08-03 08:14:09,499 - INFO - 
+Processing folder: M:/Projects/Staging/Leftover Salmon - 2025-07-17 Peoria RiverFront Park, Peoria, IL [43628]
+2025-08-03 08:14:09,510 - INFO - Metadata for scheme evaluation: {'artist': 'Leftover Salmon', 'venue': 'Peoria RiverFront Park', 'city': 'Peoria, IL', 'source': 'SBD', 'format': 'FLAC16', 'genre': 'Jam, Bluegrass', 'additional': '43628', 'add': '43628', 'date': '2025-07-17', 'currentfoldername': 'Leftover Salmon - 2025-07-17 Peoria RiverFront Park, Peoria, IL [43628]'}
+2025-08-03 08:14:09,513 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 08:14:09,517 - INFO - => Output folder: M:\Live Music\Leftover Salmon\2025
+2025-08-03 08:14:09,521 - INFO - => Output folder: M:\Live Music\Leftover Salmon\2025\2025-07-17 - Peoria RiverFront Park - Peoria, IL [FLAC16] [43628]
+2025-08-03 08:14:09,682 - INFO -   Tagged: los250717d1_01_Gold_Hill_Line.flac
+2025-08-03 08:14:09,905 - INFO -   Tagged: los250717d1_02_Zombie_Jamboree.flac
+2025-08-03 08:14:10,149 - INFO -   Tagged: los250717d1_03_Whispering_Waters.flac
+2025-08-03 08:14:10,371 - INFO -   Tagged: los250717d1_04_Big_Wheel.flac
+2025-08-03 08:14:10,588 - INFO -   Tagged: los250717d1_05_Bend_In_The_River.flac
+2025-08-03 08:14:10,827 - INFO -   Tagged: los250717d1_06_Salmon_Scales.flac
+2025-08-03 08:14:11,037 - INFO -   Tagged: los250717d1_07_Redbird.flac
+2025-08-03 08:14:11,254 - INFO -   Tagged: los250717d1_08_River_Takes_Me.flac
+2025-08-03 08:14:11,487 - INFO -   Tagged: los250717d1_09_Black_Peter.flac
+2025-08-03 08:14:11,720 - INFO -   Tagged: los250717d1_10_Pasta_on_the_Mountain.flac
+2025-08-03 08:14:11,949 - INFO -   Tagged: los250717d1_11_Hotel_Rocky_Top.flac
+2025-08-03 08:14:12,179 - INFO -   Tagged: los250717d1_12_Pasta_on_the_Mountain.flac
+2025-08-03 08:14:12,390 - INFO -   Tagged: los250717d1_13_New_Delhi_Freight_Train.flac
+2025-08-03 08:14:12,415 - INFO - Removed empty source folder: M:\Projects\Staging\Leftover Salmon - 2025-07-17 Peoria RiverFront Park, Peoria, IL [43628]
+2025-08-03 08:14:12,425 - INFO - Finished processing folder: M:\Live Music\Leftover Salmon\2025\2025-07-17 - Peoria RiverFront Park - Peoria, IL [FLAC16] [43628]
+2025-08-03 08:14:12,433 - INFO - History saved.
+2025-08-03 08:14:12,567 - INFO - Used cache saved.
+2025-08-03 08:14:42,820 - INFO - History saved.
+2025-08-03 08:14:42,821 - INFO - Used cache saved.
+2025-08-03 08:14:46,399 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:14:46,400 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:17:55,531 - INFO - => Output folder: M:\Live Music\TeST\2003
+2025-08-03 08:18:01,580 - INFO - 
+Processing folder: M:/Projects/Staging/1 - Copy
+2025-08-03 08:18:01,586 - INFO -   Updated venues.txt with: TeST
+2025-08-03 08:18:01,597 - INFO -   Updated cities.txt with: TeST
+2025-08-03 08:18:01,600 - INFO - Metadata for scheme evaluation: {'artist': 'TeST', 'venue': 'TeST', 'city': 'TeST', 'source': 'TEST', 'format': 'TEST', 'genre': 'TEST', 'additional': 'TEST', 'add': 'TEST', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-03 08:18:01,605 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 08:18:01,607 - INFO - => Output folder: M:\Live Music\TeST\2003
+2025-08-03 08:18:01,611 - INFO - => Output folder: M:\Live Music\TeST\2003\2003-01-02 - TeST - TeST [TEST] [TEST]
+2025-08-03 08:18:01,643 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-03 08:18:01,664 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-03 08:18:01,686 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-03 08:18:01,707 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-03 08:18:01,729 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-03 08:18:01,747 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-03 08:18:01,768 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-03 08:18:01,789 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-03 08:18:01,808 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-03 08:18:01,830 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-03 08:18:01,872 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-03 08:18:01,893 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-03 08:18:01,919 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-03 08:18:01,940 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-03 08:18:01,962 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-03 08:18:01,986 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-03 08:18:02,010 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-03 08:18:02,033 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-03 08:18:02,043 - INFO - Removed empty source folder: M:\Projects\Staging\1 - Copy
+2025-08-03 08:18:02,050 - INFO - Finished processing folder: M:\Live Music\TeST\2003\2003-01-02 - TeST - TeST [TEST] [TEST]
+2025-08-03 08:18:02,061 - INFO - History saved.
+2025-08-03 08:18:02,199 - INFO - Used cache saved.
+2025-08-03 08:18:29,287 - INFO - History saved.
+2025-08-03 08:18:29,288 - INFO - Used cache saved.
+2025-08-03 08:18:33,372 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:18:33,372 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:19:52,073 - INFO - => Output folder: M:\Live Music\TeST2\2003
+2025-08-03 08:19:57,446 - INFO - 
+Processing folder: M:/Projects/Staging/1 - Copy
+2025-08-03 08:19:57,450 - INFO -   Updated artists.txt with: TeST2
+2025-08-03 08:19:57,456 - INFO - Metadata for scheme evaluation: {'artist': 'TeST2', 'venue': 'TeST', 'city': 'TeST', 'source': 'TEST2', 'format': 'TEST2', 'genre': 'TEST2', 'additional': 'TEST2', 'add': 'TEST2', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-03 08:19:57,457 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 08:19:57,459 - INFO - => Output folder: M:\Live Music\TeST2\2003
+2025-08-03 08:19:57,461 - INFO - => Output folder: M:\Live Music\TeST2\2003\2003-01-02 - TeST - TeST [TEST2] [TEST2]
+2025-08-03 08:19:57,501 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-03 08:19:57,523 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-03 08:19:57,543 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-03 08:19:57,561 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-03 08:19:57,582 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-03 08:19:57,603 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-03 08:19:57,627 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-03 08:19:57,647 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-03 08:19:57,664 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-03 08:19:57,683 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-03 08:19:57,705 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-03 08:19:57,726 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-03 08:19:57,747 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-03 08:19:57,763 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-03 08:19:57,786 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-03 08:19:57,810 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-03 08:19:57,831 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-03 08:19:57,849 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-03 08:19:57,856 - INFO - Removed empty source folder: M:\Projects\Staging\1 - Copy
+2025-08-03 08:19:57,868 - INFO - Finished processing folder: M:\Live Music\TeST2\2003\2003-01-02 - TeST - TeST [TEST2] [TEST2]
+2025-08-03 08:19:57,873 - INFO - History saved.
+2025-08-03 08:19:58,009 - INFO - Used cache saved.
+2025-08-03 08:20:46,375 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:20:46,375 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:21:07,996 - INFO - => Output folder: M:\Live Music\TeST3\2003
+2025-08-03 08:21:08,391 - INFO - 
+Processing folder: M:/Projects/Staging/1 - Copy
+2025-08-03 08:21:08,396 - INFO -   Updated artists.txt with: TeST3
+2025-08-03 08:21:08,402 - INFO - Metadata for scheme evaluation: {'artist': 'TeST3', 'venue': 'TeST', 'city': 'Test', 'source': 'TEST3', 'format': 'TEST3', 'genre': 'TEST3', 'additional': 'TEST3', 'add': 'TEST3', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-03 08:21:08,405 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 08:21:08,408 - INFO - => Output folder: M:\Live Music\TeST3\2003
+2025-08-03 08:21:08,413 - INFO - => Output folder: M:\Live Music\TeST3\2003\2003-01-02 - TeST - Test [TEST3] [TEST3]
+2025-08-03 08:21:08,447 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-03 08:21:08,481 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-03 08:21:08,499 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-03 08:21:08,519 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-03 08:21:08,541 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-03 08:21:08,570 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-03 08:21:08,591 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-03 08:21:08,611 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-03 08:21:08,631 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-03 08:21:08,649 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-03 08:21:08,670 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-03 08:21:08,692 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-03 08:21:08,714 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-03 08:21:08,736 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-03 08:21:08,757 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-03 08:21:08,777 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-03 08:21:08,798 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-03 08:21:08,822 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-03 08:21:08,825 - INFO - Removed empty source folder: M:\Projects\Staging\1 - Copy
+2025-08-03 08:21:08,836 - INFO - Finished processing folder: M:\Live Music\TeST3\2003\2003-01-02 - TeST - Test [TEST3] [TEST3]
+2025-08-03 08:21:08,843 - INFO - History saved.
+2025-08-03 08:21:08,969 - INFO - Used cache saved.
+2025-08-03 08:22:00,839 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:22:00,840 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:23:32,634 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:23:32,634 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:23:48,768 - INFO - => Output folder: M:\Live Music\TeST\2003
+2025-08-03 08:23:49,333 - INFO - 
+Processing folder: M:/Projects/Staging/1 - Copy
+2025-08-03 08:23:49,343 - INFO - Metadata for scheme evaluation: {'artist': 'TeST', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST4', 'format': 'TEST4', 'genre': 'TEST4', 'additional': 'TEST4', 'add': 'TEST4', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-03 08:23:49,347 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 08:23:49,350 - INFO - => Output folder: M:\Live Music\TeST\2003
+2025-08-03 08:23:49,354 - INFO - => Output folder: M:\Live Music\TeST\2003\2003-01-02 - Hampton Coliseum - Hampton, VA [TEST4] [TEST4]
+2025-08-03 08:23:49,393 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-03 08:23:49,426 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-03 08:23:49,487 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-03 08:23:49,518 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-03 08:23:49,542 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-03 08:23:49,570 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-03 08:23:49,590 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-03 08:23:49,613 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-03 08:23:49,635 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-03 08:23:49,658 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-03 08:23:49,680 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-03 08:23:49,703 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-03 08:23:49,723 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-03 08:23:49,745 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-03 08:23:49,765 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-03 08:23:49,786 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-03 08:23:49,807 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-03 08:23:49,830 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-03 08:23:49,840 - INFO - Removed empty source folder: M:\Projects\Staging\1 - Copy
+2025-08-03 08:23:49,852 - INFO - Finished processing folder: M:\Live Music\TeST\2003\2003-01-02 - Hampton Coliseum - Hampton, VA [TEST4] [TEST4]
+2025-08-03 08:23:49,860 - INFO - History saved.
+2025-08-03 08:23:49,986 - INFO - Used cache saved.
+2025-08-03 08:24:05,512 - INFO - History saved.
+2025-08-03 08:24:05,513 - INFO - Used cache saved.
+2025-08-03 08:24:07,487 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:24:07,487 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:24:53,668 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:24:53,669 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:25:14,075 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:25:14,075 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:25:28,365 - INFO - => Output folder: M:\Live Music\TeST\2003
+2025-08-03 08:25:29,155 - INFO - 
+Processing folder: M:/Projects/Staging/1 - Copy
+2025-08-03 08:25:29,166 - INFO - Metadata for scheme evaluation: {'artist': 'TeST', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST', 'format': 'TEST', 'genre': 'TEST', 'additional': 'TEST', 'add': 'TEST', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-03 08:25:29,168 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 08:25:29,171 - INFO - => Output folder: M:\Live Music\TeST\2003
+2025-08-03 08:25:29,173 - INFO - => Output folder: M:\Live Music\TeST\2003\2003-01-02 - Hampton Coliseum - Hampton, VA [TEST] [TEST]
+2025-08-03 08:25:29,201 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-03 08:25:29,241 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-03 08:25:29,271 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-03 08:25:29,291 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-03 08:25:29,311 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-03 08:25:29,331 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-03 08:25:29,355 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-03 08:25:29,377 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-03 08:25:29,396 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-03 08:25:29,413 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-03 08:25:29,429 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-03 08:25:29,448 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-03 08:25:29,468 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-03 08:25:29,487 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-03 08:25:29,503 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-03 08:25:29,525 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-03 08:25:29,544 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-03 08:25:29,565 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-03 08:25:29,575 - INFO - Removed empty source folder: M:\Projects\Staging\1 - Copy
+2025-08-03 08:25:29,586 - INFO - Finished processing folder: M:\Live Music\TeST\2003\2003-01-02 - Hampton Coliseum - Hampton, VA [TEST] [TEST]
+2025-08-03 08:25:29,596 - INFO - History saved.
+2025-08-03 08:25:29,728 - INFO - Used cache saved.
+2025-08-03 08:25:40,009 - INFO - History saved.
+2025-08-03 08:25:40,010 - INFO - Used cache saved.
+2025-08-03 08:25:43,445 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:25:43,445 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:26:36,771 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:26:36,772 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:27:06,972 - INFO - => Output folder: M:\Live Music\TESt2\2003
+2025-08-03 08:27:07,951 - INFO - 
+Processing folder: M:/Projects/Staging/1 - Copy
+2025-08-03 08:27:07,960 - INFO - Metadata for scheme evaluation: {'artist': 'TESt2', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST2', 'format': 'TEST2', 'genre': 'TEST2', 'additional': 'TEST2', 'add': 'TEST2', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-03 08:27:07,961 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 08:27:07,964 - INFO - => Output folder: M:\Live Music\TESt2\2003
+2025-08-03 08:27:07,967 - INFO - => Output folder: M:\Live Music\TESt2\2003\2003-01-02 - Hampton Coliseum - Hampton, VA [TEST2] [TEST2]
+2025-08-03 08:27:08,012 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-03 08:27:08,037 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-03 08:27:08,071 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-03 08:27:08,099 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-03 08:27:08,119 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-03 08:27:08,138 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-03 08:27:08,158 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-03 08:27:08,180 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-03 08:27:08,209 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-03 08:27:08,227 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-03 08:27:08,251 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-03 08:27:08,272 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-03 08:27:08,290 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-03 08:27:08,309 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-03 08:27:08,338 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-03 08:27:08,360 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-03 08:27:08,380 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-03 08:27:08,403 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-03 08:27:08,410 - INFO - Removed empty source folder: M:\Projects\Staging\1 - Copy
+2025-08-03 08:27:08,418 - INFO - Finished processing folder: M:\Live Music\TESt2\2003\2003-01-02 - Hampton Coliseum - Hampton, VA [TEST2] [TEST2]
+2025-08-03 08:27:08,428 - INFO - History saved.
+2025-08-03 08:27:08,554 - INFO - Used cache saved.
+2025-08-03 08:28:31,826 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:28:31,827 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:29:29,465 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:29:29,465 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:29:43,111 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:29:43,111 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:30:21,954 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:30:21,954 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:30:54,337 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:30:54,337 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:31:53,063 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:31:53,064 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:32:11,826 - INFO - => Output folder: M:\Live Music\TeST5\2003
+2025-08-03 08:32:12,313 - INFO - 
+Processing folder: M:/Projects/Staging/1 - Copy
+2025-08-03 08:32:12,319 - INFO -   Updated artists.txt with: TeST5
+2025-08-03 08:32:12,326 - INFO - Metadata for scheme evaluation: {'artist': 'TeST5', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST5', 'format': 'TEST5', 'genre': 'TEST56', 'additional': 'TEST5', 'add': 'TEST5', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-03 08:32:12,330 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 08:32:12,333 - INFO - => Output folder: M:\Live Music\TeST5\2003
+2025-08-03 08:32:12,338 - INFO - => Output folder: M:\Live Music\TeST5\2003\2003-01-02 - Hampton Coliseum - Hampton, VA [TEST5] [TEST5]
+2025-08-03 08:32:12,384 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-03 08:32:12,415 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-03 08:32:12,458 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-03 08:32:12,488 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-03 08:32:12,522 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-03 08:32:12,547 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-03 08:32:12,583 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-03 08:32:12,609 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-03 08:32:12,638 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-03 08:32:12,675 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-03 08:32:12,704 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-03 08:32:12,735 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-03 08:32:12,761 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-03 08:32:12,806 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-03 08:32:12,838 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-03 08:32:12,868 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-03 08:32:12,902 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-03 08:32:12,944 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-03 08:32:12,951 - INFO - Removed empty source folder: M:\Projects\Staging\1 - Copy
+2025-08-03 08:32:12,960 - INFO - Finished processing folder: M:\Live Music\TeST5\2003\2003-01-02 - Hampton Coliseum - Hampton, VA [TEST5] [TEST5]
+2025-08-03 08:33:52,205 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:33:52,205 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:34:10,772 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:34:10,772 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:34:34,240 - INFO - => Output folder: M:\Live Music\TeST\2003
+2025-08-03 08:34:34,675 - INFO - 
+Processing folder: M:/Projects/Staging/1 - Copy
+2025-08-03 08:34:34,685 - INFO - Metadata for scheme evaluation: {'artist': 'TeST', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST6', 'format': 'TEST6', 'genre': 'TEST65', 'additional': 'TEST6', 'add': 'TEST6', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-03 08:34:34,688 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 08:34:34,691 - INFO - => Output folder: M:\Live Music\TeST\2003
+2025-08-03 08:34:34,694 - INFO - => Output folder: M:\Live Music\TeST\2003\2003-01-02 - Hampton Coliseum - Hampton, VA [TEST6] [TEST6]
+2025-08-03 08:34:34,754 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-03 08:34:34,774 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-03 08:34:34,811 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-03 08:34:34,841 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-03 08:34:34,862 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-03 08:34:34,887 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-03 08:34:34,906 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-03 08:34:34,922 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-03 08:34:34,944 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-03 08:34:34,972 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-03 08:34:34,993 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-03 08:34:35,009 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-03 08:34:35,025 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-03 08:34:35,046 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-03 08:34:35,067 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-03 08:34:35,087 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-03 08:34:35,103 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-03 08:34:35,124 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-03 08:34:35,132 - INFO - Removed empty source folder: M:\Projects\Staging\1 - Copy
+2025-08-03 08:34:35,140 - INFO - Finished processing folder: M:\Live Music\TeST\2003\2003-01-02 - Hampton Coliseum - Hampton, VA [TEST6] [TEST6]
+2025-08-03 08:34:35,150 - INFO - History saved.
+2025-08-03 08:34:35,281 - INFO - Used cache saved.
+2025-08-03 08:34:46,188 - INFO - History saved.
+2025-08-03 08:34:46,189 - INFO - Used cache saved.
+2025-08-03 08:34:48,998 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:34:48,998 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 08:35:26,154 - INFO - => Output folder: M:\Live Music\Test12\2003
+2025-08-03 08:35:26,602 - INFO - 
+Processing folder: M:/Projects/Staging/1 - Copy
+2025-08-03 08:35:26,607 - INFO -   Updated artists.txt with: Test12
+2025-08-03 08:35:26,615 - INFO - Metadata for scheme evaluation: {'artist': 'Test12', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': 'TEST12', 'format': 'TEST12', 'genre': 'TEST12', 'additional': 'TEST12', 'add': 'TEST12', 'date': '2003-01-02', 'currentfoldername': '1 - Copy'}
+2025-08-03 08:35:26,616 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 08:35:26,621 - INFO - => Output folder: M:\Live Music\Test12\2003
+2025-08-03 08:35:26,624 - INFO - => Output folder: M:\Live Music\Test12\2003\2003-01-02 - Hampton Coliseum - Hampton, VA [TEST12] [TEST12]
+2025-08-03 08:35:26,668 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-03 08:35:26,690 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-03 08:35:26,709 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-03 08:35:26,729 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-03 08:35:26,746 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-03 08:35:26,762 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-03 08:35:26,781 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-03 08:35:26,802 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-03 08:35:26,822 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-03 08:35:26,843 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-03 08:35:26,863 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-03 08:35:26,886 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-03 08:35:26,907 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-03 08:35:26,930 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-03 08:35:26,952 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-03 08:35:26,974 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-03 08:35:26,999 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-03 08:35:27,022 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-03 08:35:27,029 - INFO - Removed empty source folder: M:\Projects\Staging\1 - Copy
+2025-08-03 08:35:27,038 - INFO - Finished processing folder: M:\Live Music\Test12\2003\2003-01-02 - Hampton Coliseum - Hampton, VA [TEST12] [TEST12]
+2025-08-03 08:35:27,048 - INFO - History saved.
+2025-08-03 08:35:27,177 - INFO - Used cache saved.
+2025-08-03 08:35:47,679 - INFO - History saved.
+2025-08-03 08:35:47,680 - INFO - Used cache saved.
+2025-08-03 08:36:12,227 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 08:36:12,227 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
