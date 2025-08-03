@@ -50,6 +50,12 @@ def load_history(histories, set_last_used_callback=None, log_func=None):
             with open(HISTORY_FILE, "r", encoding="utf-8") as f:
                 data = json.load(f)
             for key, vals in data.items():
+                # Skip loading artist, city, venue from history file
+                if key in {"artist", "city", "venue"}:
+                    if log_func:
+                        log_func(f"Skipping loading '{key}' from history file.", level="debug")
+                    continue
+                
                 cleaned = [v for v in vals if v]
                 histories[key] = set(cleaned)
                 if cleaned and set_last_used_callback:

@@ -7,7 +7,6 @@ CACHE_DIR = Path("cache")
 
 HISTORY_FILE = CONFIG_DIR / "history_cache.json"
 USED_CACHE_FILE = CONFIG_DIR / "used_cache.json"
-CACHE_FILE = CACHE_DIR / "asset_lists.json"
 
 ARTISTS_FILE = ASSETS_DIR / "artists.txt"
 VENUES_FILE = ASSETS_DIR / "venues.txt"

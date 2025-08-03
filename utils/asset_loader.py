@@ -16,7 +16,6 @@ DEFAULTS = {
     "cities.txt": ["Boulder, CO", "New York, NY", "San Francisco, CA"],
 }
 
-
 def ensure_asset_files_exist(log_callback=None):
     """Create default asset files if missing."""
     ASSETS_DIR.mkdir(exist_ok=True)
@@ -32,7 +31,6 @@ def ensure_asset_files_exist(log_callback=None):
 
     return created
 
-
 def load_list(path: Path) -> List[str]:
     """Load a list of non-empty lines from a text file."""
     try:
@@ -41,29 +39,15 @@ def load_list(path: Path) -> List[str]:
     except Exception:
         return []
 
-
-def load_asset_lists(use_cache=True, log_callback=None):
-    """Load artist, venue, and city lists with optional cache support."""
-    if use_cache and CACHE_FILE.exists():
-        try:
-            with CACHE_FILE.open("r", encoding="utf-8") as f:
-                data = json.load(f)
-            return (
-                data.get("artists", []),
-                data.get("venues", []),
-                data.get("cities", []),
-            )
-        except Exception as e:
-            if log_callback:
-                log_callback(f"[WARN] Failed to load asset cache: {e}")
-
-    # Fallback to reading directly from .txt files
+def load_asset_lists(log_callback=None):
     artists = load_list(ARTISTS_FILE)
     venues = load_list(VENUES_FILE)
     cities = load_list(CITIES_FILE)
 
-    return artists, venues, cities
+    if log_callback:
+        log_callback(f"Loaded {len(artists)} artists, {len(venues)} venues, {len(cities)} cities from TXT files.")
 
+    return artists, venues, cities
 
 def save_asset_cache(artists, venues, cities):
     """Save asset lists to cache for faster future loads."""

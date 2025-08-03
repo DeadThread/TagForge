@@ -48,7 +48,7 @@ def process_thread(gui_instance):
             md, current_folder_scheme, current_saving_scheme,
             log_func=lambda m, level="debug": log_message(gui_instance.log, m, level=level)
         ).strip()
-        md["filename"] = folder_name  # for $filename() in schemes
+        md["filename"] = folder_name
         log_message(gui_instance.log, f"=> Output folder:\n{folder_name}", level="info")
         return folder_name
 
@@ -68,7 +68,7 @@ def process_thread(gui_instance):
 
     processed_folders = []
 
-    base_input_folder = "M:/Test-Folder"  # Adjust as needed
+    base_input_folder = gui_instance.root_var.get() or "M:/Test-Folder"
 
     # Capture current form values into histories BEFORE processing
     for key, var_name in [
@@ -123,7 +123,7 @@ def process_thread(gui_instance):
 
         log_message(gui_instance.log, f"Metadata with currentfoldername for processing: {fallback}", level="debug")
 
-        # Add processed values to histories as well
+        # Add processed values to histories
         for key in ["artist", "venue", "city", "source", "format", "add", "genre"]:
             value = fallback.get(key)
             if value and value.strip():
@@ -151,19 +151,23 @@ def process_thread(gui_instance):
         if folder in saved_meta:
             del saved_meta[folder]
 
+    # Update last_* attributes for fallback use in UI
+    gui_instance.last_artist = fallback.get("artist", "")  # <-- added to keep last_artist updated
     gui_instance.last_source = gui_instance.processor.last_source
     gui_instance.last_format = gui_instance.processor.last_format
     gui_instance.last_genre = gui_instance.processor.last_genre
-    gui_instance.last_add = gui_instance.processor.last_add  # Added this line
+    gui_instance.last_add = gui_instance.processor.last_add
 
-    # Save history cache after processing
     gui_instance._save_history()
 
-    # All GUI updates should be done safely on main thread:
     def gui_updates():
-        gui_instance.refresh_queue_ui()
-        gui_instance._refresh()
-        gui_instance._update_combobox_values()  # Update with fresh history data
+        # Assuming these methods exist, else replace or remove:
+        if hasattr(gui_instance, "refresh_queue_ui"):
+            gui_instance.refresh_queue_ui()
+        # Remove _refresh() if not defined
+        if hasattr(gui_instance, "_refresh"):
+            gui_instance._refresh()
+        gui_instance._update_combobox_values()
         gui_instance._update_used_cache()
         try:
             save_used_cache(

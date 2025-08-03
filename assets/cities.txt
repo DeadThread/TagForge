@@ -1,6 +1,6 @@
 TeST2
-TeST45
-TeST3
+Test
+Hampton, VA
 Sante Fe, NM
 Weert, NLD
 Winterbach, DEU
@@ -11359,7 +11359,6 @@ Hampton, NJ
 Hampton, NY
 Hampton, SC
 Hampton, TN
-Hampton, VA
 Hamptonville, NC
 Hamshire, TX
 Hamtramck, MI

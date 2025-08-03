@@ -11,7 +11,7 @@ from mutagen.mp3 import MP3
 from mutagen.easyid3 import EasyID3
 
 # --- internal modules ---
-from utils.constants import HISTORY_FILE, USED_CACHE_FILE, ASSETS_DIR, CACHE_FILE, ARTISTS_FILE, VENUES_FILE, CITIES_FILE
+from utils.constants import HISTORY_FILE, USED_CACHE_FILE, ASSETS_DIR, ARTISTS_FILE, VENUES_FILE, CITIES_FILE
 from utils.asset_loader import ensure_asset_files_exist, load_asset_lists
 from utils import theme_manager
 from utils.logger import logger, log_message
@@ -259,6 +259,9 @@ class TkTagForge:
 
     # --- Combobox update ---
     def _update_combobox_values(self):
+        # Reload fresh asset lists from .txt files
+        self.artists_list, self.venues_list, self.cities_list = load_asset_lists()
+
         update_combobox_values(
             artists_list=self.artists_list,
             venues_list=self.venues_list,
@@ -271,13 +274,13 @@ class TkTagForge:
             last_genre=self.last_genre,
             last_add=self.last_add,
             comboboxes_dict={
-                "artist": getattr(self, "c_art", None),      # Changed from artist_combobox to c_art
-                "venue": getattr(self, "c_ven", None),       # Changed from venue_combobox to c_ven  
-                "city": getattr(self, "c_city", None),       # Changed from city_combobox to c_city
-                "add": getattr(self, "c_add", None),         # Changed from add_combobox to c_add
-                "source": getattr(self, "c_src", None),      # Changed from source_combobox to c_src
-                "format": getattr(self, "c_fmt", None),      # Changed from format_combobox to c_fmt
-                "genre": getattr(self, "c_gen", None),       # Changed from genre_combobox to c_gen
+                "artist": getattr(self, "c_art", None),
+                "venue": getattr(self, "c_ven", None),
+                "city": getattr(self, "c_city", None),
+                "add": getattr(self, "c_add", None),
+                "source": getattr(self, "c_src", None),
+                "format": getattr(self, "c_fmt", None),
+                "genre": getattr(self, "c_gen", None),
             },
         )
 

@@ -1,6 +1,7 @@
 TeST2
-TeST3
-Sante Fe Plaza
+Test
+Hampton Coliseum
+e Plaza
 Brooklyn Arts Center
 Asheville Yards
 Roanoke Island Festival Park
@@ -926,7 +927,6 @@ Hammerstein Ballroom
 Hammond Civic Center
 Hammons Hall for the Performing Arts
 Hampton Beach Casino Ballroom
-Hampton Coliseum
 Hampton Convocation Center
 Hancher Auditorium
 Hanover Insurance Park at Fitton Field
