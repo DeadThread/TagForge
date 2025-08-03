@@ -123,8 +123,3 @@ Thumbs.db
 # Ignore compiled python cache in utils/ and gui/ explicitly
 utils/__pycache__/
 gui/__pycache__/
-
-# Photoshop Templates: Ignore all folders except Generic and its contents
-assets/Photoshop Templates/*
-!assets/Photoshop Templates/Generic/
-!assets/Photoshop Templates/Generic/**
