@@ -10683,3 +10683,1249 @@ Processing folder: M:/Projects/Staging/1 - Copy
 2025-08-03 09:38:41,060 - DEBUG - Saved main window size and position: 1600x1100+817+143
 2025-08-03 09:38:41,067 - DEBUG - Saved main window size and position: 1600x1100+819+144
 2025-08-03 09:38:41,181 - DEBUG - Saved main window size and position: 1600x1100+818+144
+2025-08-03 09:46:27,659 - DEBUG - Verified themes folder at: themes
+2025-08-03 09:46:27,664 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:46:27,664 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:46:27,664 - DEBUG - Updating processor schemes...
+2025-08-03 09:46:27,665 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:46:27,665 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:46:27,735 - DEBUG - History loaded.
+2025-08-03 09:46:27,736 - DEBUG - Used cache loaded.
+2025-08-03 09:46:27,780 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 09:46:27,849 - DEBUG - Restored main window geometry: 1600x1100+312+301
+2025-08-03 09:46:27,856 - DEBUG - Saved main window size and position: 1600x1100+312+301
+2025-08-03 09:46:27,885 - DEBUG - No saved sash position for main found in config
+2025-08-03 09:46:27,954 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 09:46:27,954 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 09:46:51,863 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 09:46:51,869 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 09:46:51,872 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': 'FLAC', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:46:51,872 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 09:46:51,872 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 09:46:51,872 - DEBUG - Found .txt files: []
+2025-08-03 09:46:51,872 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 09:46:51,873 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:47:07,576 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 09:47:07,580 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 09:47:07,582 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': 'FLAC', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:47:07,582 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 09:47:07,585 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 09:47:07,585 - DEBUG - Found .txt files: []
+2025-08-03 09:47:07,585 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 09:47:07,586 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:47:09,009 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 09:47:09,013 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 09:47:09,015 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': 'FLAC', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:47:09,015 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD
+2025-08-03 09:47:09,015 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 09:47:09,015 - DEBUG - Found .txt files: []
+2025-08-03 09:47:09,015 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD
+2025-08-03 09:47:09,015 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:47:09,507 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 09:47:09,511 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 09:47:09,513 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': 'FLAC', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:47:09,513 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 09:47:09,516 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 09:47:09,516 - DEBUG - Found .txt files: []
+2025-08-03 09:47:09,516 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 09:47:09,517 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:47:09,918 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'The Jazz Mandolin Project', 'albumartist': 'The Jazz Mandolin Project', 'album': 'The Jazz Mandolin Project', 'date': '1996', 'genre': 'Jazz'}
+2025-08-03 09:47:09,923 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:47:09,926 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:47:09,926 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1996 - The Jazz Mandolin Project - The Jazz Mandolin Project (Accurate)
+2025-08-03 09:47:09,927 - DEBUG - All files in directory: ['01 - The Country Open.flac', '02 - Monkey Blake.flac', '03 - Mandoneon.flac', '04 - Ballad for Trio.flac', '05 - The Opera.flac', '06 - Nozani Na.flac', '07 - The Gourd.flac', '08 - Milestones in the Sunshine.flac', '09 - Contois.flac', '10 - Lithograph.flac', 'Artwork', 'folder.jpg', 'The Jazz Mandolin Project - The Jazz Mandolin Project.log', 'The Jazz Mandolin Project - The Jazz Mandolin Project.m3u', 'The Jazz Mandolin Project.accurip', 'The Jazz Mandolin Project.cue']
+2025-08-03 09:47:09,927 - DEBUG - Found .txt files: []
+2025-08-03 09:47:09,927 - DEBUG - No .txt files found in: M:/Projects/Staging\1996 - The Jazz Mandolin Project - The Jazz Mandolin Project (Accurate)
+2025-08-03 09:47:09,927 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:47:10,479 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Herbie Hancock', 'album': 'HH1973-11-01', 'comment': 'Ultrasonic Studios'}
+2025-08-03 09:47:10,483 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:47:10,486 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '1973-11-01', 'venue': 'Ultrasonic Studios', 'city': 'Hampstead, NY', 'id': '', 'source': '', 'format': 'FLAC', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:47:10,487 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)
+2025-08-03 09:47:10,487 - DEBUG - All files in directory: ['01. Actual Proof.flac', '02. Butterfly.flac', '03. Sly.flac', '04. Chameleon.flac', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY-EACLog.log', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.ffp', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 09:47:10,487 - DEBUG - Found .txt files: ['Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 09:47:10,494 - DEBUG - Trying to read metadata from: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)\Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt
+2025-08-03 09:47:10,536 - DEBUG - Extracted metadata: {'source': 'FM'}
+2025-08-03 09:47:10,537 - DEBUG - [DEBUG] TXT metadata parsed: {'source': 'FM'}
+2025-08-03 09:47:10,923 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Béla Fleck & The Flecktones', 'album': 'Live At The Quick', 'date': '2002', 'genre': 'Country & Folk'}
+2025-08-03 09:47:10,928 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:47:10,932 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:47:10,932 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Béla Fleck & The Flecktones - Live At The Quick
+2025-08-03 09:47:10,932 - DEBUG - All files in directory: ['01 Béla Fleck & The Flecktones - That Old Thing (Intro)／Earth Jam.flac', '02 Béla Fleck & The Flecktones - Zona Mona.flac', '03 Béla Fleck & The Flecktones - Ovombo Summit.flac', '04 Béla Fleck & The Flecktones - Hall Of Mirrors.flac', '05 Béla Fleck & The Flecktones - Scratch & Sniff.flac', '06 Béla Fleck & The Flecktones - Improv／Amazing Grace.flac', '07 Béla Fleck & The Flecktones - Big Country.flac', '08 Béla Fleck & The Flecktones - Interlude.flac', "09 Béla Fleck & The Flecktones - Lover's Leap.flac", '10 Béla Fleck & The Flecktones - Alash Khem (Alash River Song).flac', '11 Béla Fleck & The Flecktones - A Moment So Close.flac', '12 Béla Fleck & The Flecktones - Improv／Prelude From Bach Violin Partitia #3.flac', '13 Béla Fleck & The Flecktones - Intro.flac', '14 Béla Fleck & The Flecktones - Hoedown.flac', 'Live At The Quick.log']
+2025-08-03 09:47:10,932 - DEBUG - Found .txt files: []
+2025-08-03 09:47:10,932 - DEBUG - No .txt files found in: M:/Projects/Staging\Béla Fleck & The Flecktones - Live At The Quick
+2025-08-03 09:47:10,932 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:47:11,284 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Papadosio', 'albumartist': 'Papadosio', 'album': '2025/07/17 Thornville, OH', 'date': '2025', 'genre': 'Rock'}
+2025-08-03 09:47:11,288 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-07-17', 'venue': '', 'city': 'Thornville, OH', 'source': '', 'format': ''}
+2025-08-03 09:47:11,292 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Papadosio', 'date': '2025-07-17', 'venue': 'Secret Dreams Music and Arts Festival', 'city': 'Thornville, OH', 'id': '43609', 'source': '', 'format': '', 'genre': '', 'additional': '43609', 'add': '43609'}
+2025-08-03 09:47:11,292 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Papadosio - 2025-07-17 Secret Dreams Music and Arts Festival, Thornville, OH [43609]
+2025-08-03 09:47:11,293 - DEBUG - All files in directory: ['pado250717d1_01_Threes.flac', 'pado250717d1_02_Epiphany.flac', 'pado250717d1_03_Lions_Mane.flac', 'pado250717d1_04_Threes.flac', 'pado250717d1_05_Glimpse_Of_Light.flac', 'pado250717d1_06_Cordyceps.flac', 'pado250717d1_07_Puddles_For_Oceans.flac', 'pado250717d2_01_Not_Just_A_Word.flac', 'pado250717d2_02_New_Love.flac']
+2025-08-03 09:47:11,293 - DEBUG - Found .txt files: []
+2025-08-03 09:47:11,293 - DEBUG - No .txt files found in: M:/Projects/Staging\Papadosio - 2025-07-17 Secret Dreams Music and Arts Festival, Thornville, OH [43609]
+2025-08-03 09:47:11,293 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:47:41,155 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Herbie Hancock', 'album': 'HH1973-11-01', 'comment': 'Ultrasonic Studios'}
+2025-08-03 09:47:41,159 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:47:41,162 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '1973-11-01', 'venue': 'Ultrasonic Studios', 'city': 'Hampstead, NY', 'id': '', 'source': '', 'format': 'FLAC', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:47:41,162 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)
+2025-08-03 09:47:41,164 - DEBUG - All files in directory: ['01. Actual Proof.flac', '02. Butterfly.flac', '03. Sly.flac', '04. Chameleon.flac', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY-EACLog.log', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.ffp', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 09:47:41,165 - DEBUG - Found .txt files: ['Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 09:47:41,167 - DEBUG - Trying to read metadata from: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)\Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt
+2025-08-03 09:47:41,209 - DEBUG - Extracted metadata: {'source': 'FM'}
+2025-08-03 09:47:41,209 - DEBUG - [DEBUG] TXT metadata parsed: {'source': 'FM'}
+2025-08-03 09:47:41,698 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 09:47:41,702 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 09:47:41,704 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:47:41,704 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging
+2025-08-03 09:47:41,704 - DEBUG - All files in directory: ['1 FLACHD', '1 FLACHD - Copy', '1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)', '1996 - The Jazz Mandolin Project - The Jazz Mandolin Project (Accurate)', '2025 - STS9 - MP3', 'Béla Fleck & The Flecktones - Live At The Quick', 'fta2015-08-21.fta17.pt2.134057.flac16', 'Leftover Salmon - 2025-07-18 Frederik Meijer Gardens, Grand Rapids, MI [43629]', 'Leftover Salmon - 2025-07-19 Driftless Music Gardens, Hillsboro, WI [43630]', 'Neil Young', 'Papadosio - 2025-07-17 Secret Dreams Music and Arts Festival, Thornville, OH [43609]', "Peter Gabriel - Live '77", 'PF_1974-11-09', 'Phil Lesh & Friends 2015 Soundboards - Part 2', 'PJ Pitt 2', 'remove parent folder.bat', 'Remove Sub-Folders Delete Empty Folder.bat', 'script.py', 'Spafford - 2025-07-17 Bowstring Brewyard, Raleigh, NC [43449]', 'Spafford - 2025-08-01 Woodlands Tavern, Columbus, OH [43625]', 'TAB - 8.1.25']
+2025-08-03 09:47:41,704 - DEBUG - Found .txt files: []
+2025-08-03 09:47:41,704 - DEBUG - No .txt files found in: M:/Projects/Staging
+2025-08-03 09:47:41,704 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:47:42,163 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'The Jazz Mandolin Project', 'albumartist': 'The Jazz Mandolin Project', 'album': 'The Jazz Mandolin Project', 'date': '1996', 'genre': 'Jazz'}
+2025-08-03 09:47:42,168 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:47:42,172 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:47:42,172 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1996 - The Jazz Mandolin Project - The Jazz Mandolin Project (Accurate)
+2025-08-03 09:47:42,172 - DEBUG - All files in directory: ['01 - The Country Open.flac', '02 - Monkey Blake.flac', '03 - Mandoneon.flac', '04 - Ballad for Trio.flac', '05 - The Opera.flac', '06 - Nozani Na.flac', '07 - The Gourd.flac', '08 - Milestones in the Sunshine.flac', '09 - Contois.flac', '10 - Lithograph.flac', 'Artwork', 'folder.jpg', 'The Jazz Mandolin Project - The Jazz Mandolin Project.log', 'The Jazz Mandolin Project - The Jazz Mandolin Project.m3u', 'The Jazz Mandolin Project.accurip', 'The Jazz Mandolin Project.cue']
+2025-08-03 09:47:42,172 - DEBUG - Found .txt files: []
+2025-08-03 09:47:42,172 - DEBUG - No .txt files found in: M:/Projects/Staging\1996 - The Jazz Mandolin Project - The Jazz Mandolin Project (Accurate)
+2025-08-03 09:47:42,172 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:47:42,512 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'From The Archives 17 Part 2', 'date': '2015-08-21'}
+2025-08-03 09:47:42,512 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:47:42,514 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '2015-08-21', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:47:42,514 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\fta2015-08-21.fta17.pt2.134057.flac16
+2025-08-03 09:47:42,514 - DEBUG - All files in directory: ['ffp.ffp', 'fta2015-08-21s1t01.flac', 'fta2015-08-21s1t02.flac', 'fta2015-08-21s1t03.flac', 'fta2015-08-21s1t04.flac', 'fta2015-08-21s1t05.flac', 'fta2015-08-21s1t06.flac', 'fta2015-08-21s1t07.flac', 'fta2015-08-21s1t08.flac', 'fta2015-08-21s1t09.flac', 'fta2015-08-21s1t10.flac', 'phish-archive-radio2015-08-21.134057.txt']
+2025-08-03 09:47:42,515 - DEBUG - Found .txt files: ['phish-archive-radio2015-08-21.134057.txt']
+2025-08-03 09:47:42,517 - DEBUG - Trying to read metadata from: M:/Projects/Staging\fta2015-08-21.fta17.pt2.134057.flac16\phish-archive-radio2015-08-21.134057.txt
+2025-08-03 09:47:42,535 - DEBUG - Extracted metadata: {'city': 'Watkins Glen, NY', 'format': 'FLAC16'}
+2025-08-03 09:47:42,535 - DEBUG - [DEBUG] TXT metadata parsed: {'city': 'Watkins Glen, NY', 'format': 'FLAC16'}
+2025-08-03 09:47:42,879 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Peter Gabriel', 'album': "Live '77", 'date': '2021', 'genre': 'Rock', 'comment': 'https://avxhm.se/blogs/Rtax'}
+2025-08-03 09:47:42,884 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:47:42,886 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:47:42,886 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Peter Gabriel - Live '77
+2025-08-03 09:47:42,887 - DEBUG - All files in directory: ["Peter Gabriel - Live '77 (2021)"]
+2025-08-03 09:47:42,887 - DEBUG - Found .txt files: []
+2025-08-03 09:47:42,887 - DEBUG - No .txt files found in: M:/Projects/Staging\Peter Gabriel - Live '77
+2025-08-03 09:47:42,887 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:47:43,259 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Spafford', 'albumartist': 'Spafford', 'album': '2025/08/01 Columbus, OH', 'date': '2025', 'genre': 'Rock'}
+2025-08-03 09:47:43,262 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-08-01', 'venue': '', 'city': 'Columbus, OH', 'source': '', 'format': ''}
+2025-08-03 09:47:43,265 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Spafford', 'date': '2025-08-01', 'venue': 'Woodlands Tavern', 'city': 'Columbus, OH', 'id': '43625', 'source': '', 'format': '', 'genre': '', 'additional': '43625', 'add': '43625'}
+2025-08-03 09:47:43,265 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Spafford - 2025-08-01 Woodlands Tavern, Columbus, OH [43625]
+2025-08-03 09:47:43,265 - DEBUG - All files in directory: ['spaff250801d1_01_Take_Your_Mama.flac', 'spaff250801d1_02_All_My_Friends.flac', 'spaff250801d1_03_Bee_Jam.flac', 'spaff250801d1_04_Minds_Unchained.flac', 'spaff250801d1_05_Ice_Cream.flac', 'spaff250801d1_06_Chucks_Dream.flac', 'spaff250801d2_01_Gold_Glittered_Hat.flac', 'spaff250801d2_02_Walls.flac', 'spaff250801d2_03_Hollywood.flac', 'spaff250801d2_04_Broken_Wing.flac', 'spaff250801d2_05_High_Beams.flac', 'spaff250801d2_06_Crowd.flac', 'spaff250801d3_01_Banter.flac', 'spaff250801d3_02_Weasel.flac']
+2025-08-03 09:47:43,266 - DEBUG - Found .txt files: []
+2025-08-03 09:47:43,266 - DEBUG - No .txt files found in: M:/Projects/Staging\Spafford - 2025-08-01 Woodlands Tavern, Columbus, OH [43625]
+2025-08-03 09:47:43,266 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:47:43,978 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Trey Anastasio', 'albumartist': 'Trey Anastasio', 'album': '2025/08/01 Los Angeles, CA', 'date': '2025', 'genre': 'Rock'}
+2025-08-03 09:47:43,982 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-08-01', 'venue': '', 'city': 'Los Angeles, CA', 'source': '', 'format': ''}
+2025-08-03 09:47:43,984 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:47:43,984 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\TAB - 8.1.25
+2025-08-03 09:47:43,984 - DEBUG - All files in directory: ['trey250801d1_01_Set_Your_Soul_Free.flac', 'trey250801d1_02_Mozambique.flac', 'trey250801d1_03_Cayman_Review.flac', 'trey250801d1_04_A_Wave_of_Hope.flac', 'trey250801d1_05_Dark_And_Down.flac', 'trey250801d1_06_Magilla.flac', 'trey250801d1_07_Alive_Again.flac', 'trey250801d1_08_Love_Is_What_We_Are.flac', 'trey250801d1_09_Shine.flac', 'trey250801d1_10_Everythings_Right.flac', 'trey250801d2_01_Wolfmans_Brother.flac', 'trey250801d2_02_The_Moma_Dance.flac', 'trey250801d2_03_Camel_Walk.flac', 'trey250801d2_04_Sand.flac', 'trey250801d2_05_Valentine.flac', 'trey250801d2_06_Whats_Going_Through_Your_Mind.flac', 'trey250801d2_07_Simple_Twist_Up_Dave.flac', 'trey250801d2_08_RiseCome_Together.flac', 'trey250801d3_01_Monsters.flac', 'trey250801d3_02_The_Devil_Went_Down_To_Georgia.flac', 'trey250801d3_03_Ghost.flac', 'trey250801d3_04_Push_On_Til_The_Day.flac', 'trey250801d3_05_A_Life_Beyond_The_Dream.flac', 'trey250801d3_06_Ooh_Child.flac', 'trey250801d3_07_First_Tube.flac']
+2025-08-03 09:47:43,984 - DEBUG - Found .txt files: []
+2025-08-03 09:47:43,984 - DEBUG - No .txt files found in: M:/Projects/Staging\TAB - 8.1.25
+2025-08-03 09:47:43,984 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:47:44,940 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 09:47:44,944 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 09:47:44,946 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': 'FLAC', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:47:44,946 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 09:47:44,946 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 09:47:44,946 - DEBUG - Found .txt files: []
+2025-08-03 09:47:44,946 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 09:47:44,947 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:47:45,619 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 09:47:45,623 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 09:47:45,625 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': 'FLAC', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:47:45,625 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD
+2025-08-03 09:47:45,626 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 09:47:45,626 - DEBUG - Found .txt files: []
+2025-08-03 09:47:45,626 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD
+2025-08-03 09:47:45,626 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:47:46,190 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Herbie Hancock', 'album': 'HH1973-11-01', 'comment': 'Ultrasonic Studios'}
+2025-08-03 09:47:46,195 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:47:46,198 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '1973-11-01', 'venue': 'Ultrasonic Studios', 'city': 'Hampstead, NY', 'id': '', 'source': '', 'format': 'FLAC', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:47:46,198 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)
+2025-08-03 09:47:46,200 - DEBUG - All files in directory: ['01. Actual Proof.flac', '02. Butterfly.flac', '03. Sly.flac', '04. Chameleon.flac', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY-EACLog.log', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.ffp', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 09:47:46,200 - DEBUG - Found .txt files: ['Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 09:47:46,201 - DEBUG - Trying to read metadata from: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)\Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt
+2025-08-03 09:47:46,243 - DEBUG - Extracted metadata: {'source': 'FM'}
+2025-08-03 09:47:46,243 - DEBUG - [DEBUG] TXT metadata parsed: {'source': 'FM'}
+2025-08-03 09:47:46,560 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'STS9', 'albumartist': 'STS9', 'album': '2025.02.14 :: Pool Deck :: Jam Cruise', 'date': '2025'}
+2025-08-03 09:47:46,565 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-02-14', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:47:46,568 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'STS9', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:47:46,568 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\2025 - STS9 - MP3
+2025-08-03 09:47:46,568 - DEBUG - All files in directory: ['2025.02.14 __ Pool Deck __ Jam Cruise', '2025.02.15 __ Pantheon Theater __ Jam Cruise', '2025.02.22 __ Sweetwater Fest __ Atlanta,GA', '2025.04.18 __ Skydeck __ Nashville, TN', '2025.04.19 __ Skydeck __ Nashville,TN', '2025.05.15 __ Resonate Music Festival __ Suwanee, FL', '2025.05.16 __ Resonate Music Festival __ Suwanee, FL', '2025.06.13 __ The Anthem __ Washington, DC', '2025.07.10 __ Crystal Ballroom __ Portland, OR', '2025.07.11 __ Northwest Tune-Up Festival __ Bellingham, WA', '2025.07.12 __ The Crocodile __ Seattle, WA', '2025.07.13 __ The Crocodile __ Seattle, WA']
+2025-08-03 09:47:46,568 - DEBUG - Found .txt files: []
+2025-08-03 09:47:46,568 - DEBUG - No .txt files found in: M:/Projects/Staging\2025 - STS9 - MP3
+2025-08-03 09:47:46,568 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:47:46,930 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Leftover Salmon', 'albumartist': 'Leftover Salmon', 'album': '2025/07/19 Hillsboro, WI', 'date': '2025', 'genre': 'Bluegrass'}
+2025-08-03 09:47:46,934 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-07-19', 'venue': '', 'city': 'Hillsboro, WI', 'source': '', 'format': ''}
+2025-08-03 09:47:46,937 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Leftover Salmon', 'date': '2025-07-19', 'venue': 'Driftless Music Gardens', 'city': 'Hillsboro, WI', 'id': '43630', 'source': '', 'format': '', 'genre': '', 'additional': '43630', 'add': '43630'}
+2025-08-03 09:47:46,937 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Leftover Salmon - 2025-07-19 Driftless Music Gardens, Hillsboro, WI [43630]
+2025-08-03 09:47:46,938 - DEBUG - All files in directory: ['los250719d1_01_Are_You_Ready_For_The_Country.flac', 'los250719d1_02_Get_Me_Outta_This_City.flac', 'los250719d1_03_Brand_New_Good_Old_Days.flac', 'los250719d1_04_Mississippi_Sawyer.flac', 'los250719d1_05_Shine_On.flac', 'los250719d1_06_Danger_Man.flac', 'los250719d1_07_Salmon_Scales.flac', 'los250719d1_08_California_Cottonfields.flac', 'los250719d1_09_Doin_My_Time.flac', 'los250719d1_10_Ask_The_Fish.flac', 'los250719d1_11_I_Dont_Owe_You_A_Thing.flac', 'los250719d1_12_Light_Behind_The_Rain.flac', 'los250719d1_13_You_Dont_Love_Me.flac']
+2025-08-03 09:47:46,938 - DEBUG - Found .txt files: []
+2025-08-03 09:47:46,938 - DEBUG - No .txt files found in: M:/Projects/Staging\Leftover Salmon - 2025-07-19 Driftless Music Gardens, Hillsboro, WI [43630]
+2025-08-03 09:47:46,938 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:47:47,415 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phil Lesh And Friends', 'albumartist': 'Phil Lesh And Friends', 'album': '2015/05/04 Terrapin Crossroads, San Rafael, CA', 'date': '2015', 'genre': 'Rock', 'comment': 'Official TXR Thumbdrive 24/48 '}
+2025-08-03 09:47:47,421 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2015-05-04', 'venue': '', 'city': 'San Rafael, CA', 'source': '', 'format': ''}
+2025-08-03 09:47:47,423 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:47:47,423 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Phil Lesh & Friends 2015 Soundboards - Part 2
+2025-08-03 09:47:47,423 - DEBUG - All files in directory: ['DS_Store', 'PLF 2015-05-04 TXR, San Rafael, CA - GD 1975 (Bruno Rev Thumpdrive) [FLAC 24-48]', 'PLF 2015-05-27 TXR, San Rafael, CA - GD 1976 (Bruno Rev Thumpdrive) [FLAC 24-48]', 'PLF 2015-06-12 TXR, San Rafael, CA - GD 1977 Part 1 (Thumbdrive) [FLAC 24-48]', 'PLF 2015-06-13 TXR, San Rafael, CA - GD 1977 Part 2 (Bruno Rev Thumpdrive) [FLAC 24-48]', 'PLF 2015-07-16 TXR, San Rafael, CA (Thumbdrive) [FLAC 24-48]', 'PLF 2015-07-19 TXR, San Rafael, CA - GD 1979 (Bruno Rev Thumpdrive) [FLAC 24-48]', 'PLF 2015-08-27 TXR, San Rafael, CA - GD 1980-06-21 (Thumbdrive) [FLAC 24-48]', 'PLF 2015-08-30 TXR, San Rafael, CA - GD 1981 (Thumbdrive) [FLAC 24-48]', 'PLF 2015-09-01 TXR, San Rafael, CA (Thumbdrive) [FLAC 24-48]', "PLF 2015-09-11 Lockn' Festival, Arrington, VA (Nugs) [FLAC]", "PLF 2015-09-12 Lockn' Festival, Arrington, VA with Carlos Santana (134472 Alex Leary DPA 4023)[FLAC]", "PLF 2015-09-12 Lockn' Festival, Arrington, VA with Carlos Santana (Perks MK41's)[FLAC]", "PLF 2015-09-12 Lockn' Festival, Arrington, VA with Carlos Santana (Webcast Audio)[MP3]", 'PLF 2015-10-27 TXR, San Rafael, CA (Thumbdrive) [FLAC 24-48]', 'PLF 2015-10-30 Capitol Theatre, Port Chester, NY (Livedownloads SBD) [FLAC 24-48]', 'PLF 2015-10-31 Capitol Theatre, Port Chester, NY (SBD) [FLAC 24-48]', 'PLF 2015-11-01 Capitol Theatre, Port Chester, NY (Livedownloads SBD) [FLAC 24-48]', 'PLF 2015-11-05 Capitol Theatre, Port Chester, NY (SBD) [FLAC 24-48]', 'PLF 2015-11-06 Capitol Theatre, Port Chester, NY (SBD) [FLAC 24-48]', 'PLF 2015-11-07 Capitol Theater, Port Chester, NY (Livedownloads SBD) [FLAC]', 'PLF 2015-11-23 TXR, San Rafael, CA (171532 SBD) [FLAC 24-48]', 'PLF 2015.rtf', '__MACOSX']
+2025-08-03 09:47:47,424 - DEBUG - Found .txt files: []
+2025-08-03 09:47:47,424 - DEBUG - No .txt files found in: M:/Projects/Staging\Phil Lesh & Friends 2015 Soundboards - Part 2
+2025-08-03 09:47:47,424 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:49:05,389 - DEBUG - Verified themes folder at: themes
+2025-08-03 09:49:05,395 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:49:05,395 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:49:05,395 - DEBUG - Updating processor schemes...
+2025-08-03 09:49:05,396 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:49:05,396 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:49:05,469 - DEBUG - History loaded.
+2025-08-03 09:49:05,469 - DEBUG - Used cache loaded.
+2025-08-03 09:49:05,520 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 09:49:05,569 - DEBUG - Restored main window geometry: 1600x1100+312+301
+2025-08-03 09:49:05,573 - DEBUG - Saved main window size and position: 1600x1100+312+301
+2025-08-03 09:49:05,621 - DEBUG - No saved sash position for main found in config
+2025-08-03 09:49:05,682 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 09:49:05,682 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 09:49:09,040 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 09:49:09,047 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 09:49:09,049 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC24', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:49:09,049 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 09:49:09,050 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 09:49:09,050 - DEBUG - Found .txt files: []
+2025-08-03 09:49:09,050 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 09:49:09,050 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:49:09,997 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 09:49:10,001 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 09:49:10,003 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC24', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:49:10,003 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD
+2025-08-03 09:49:10,004 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 09:49:10,004 - DEBUG - Found .txt files: []
+2025-08-03 09:49:10,004 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD
+2025-08-03 09:49:10,004 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:49:11,053 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Herbie Hancock', 'album': 'HH1973-11-01', 'comment': 'Ultrasonic Studios'}
+2025-08-03 09:49:11,058 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:49:11,061 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '1973-11-01', 'venue': 'Ultrasonic Studios', 'city': 'Hampstead, NY', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:49:11,061 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)
+2025-08-03 09:49:11,061 - DEBUG - All files in directory: ['01. Actual Proof.flac', '02. Butterfly.flac', '03. Sly.flac', '04. Chameleon.flac', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY-EACLog.log', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.ffp', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 09:49:11,061 - DEBUG - Found .txt files: ['Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 09:49:11,064 - DEBUG - Trying to read metadata from: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)\Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt
+2025-08-03 09:49:11,106 - DEBUG - Extracted metadata: {'source': 'FM'}
+2025-08-03 09:49:11,107 - DEBUG - [DEBUG] TXT metadata parsed: {'source': 'FM'}
+2025-08-03 09:49:12,274 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'The Jazz Mandolin Project', 'albumartist': 'The Jazz Mandolin Project', 'album': 'The Jazz Mandolin Project', 'date': '1996', 'genre': 'Jazz'}
+2025-08-03 09:49:12,279 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:49:12,282 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:49:12,282 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1996 - The Jazz Mandolin Project - The Jazz Mandolin Project (Accurate)
+2025-08-03 09:49:12,283 - DEBUG - All files in directory: ['01 - The Country Open.flac', '02 - Monkey Blake.flac', '03 - Mandoneon.flac', '04 - Ballad for Trio.flac', '05 - The Opera.flac', '06 - Nozani Na.flac', '07 - The Gourd.flac', '08 - Milestones in the Sunshine.flac', '09 - Contois.flac', '10 - Lithograph.flac', 'Artwork', 'folder.jpg', 'The Jazz Mandolin Project - The Jazz Mandolin Project.log', 'The Jazz Mandolin Project - The Jazz Mandolin Project.m3u', 'The Jazz Mandolin Project.accurip', 'The Jazz Mandolin Project.cue']
+2025-08-03 09:49:12,283 - DEBUG - Found .txt files: []
+2025-08-03 09:49:12,283 - DEBUG - No .txt files found in: M:/Projects/Staging\1996 - The Jazz Mandolin Project - The Jazz Mandolin Project (Accurate)
+2025-08-03 09:49:12,283 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:49:12,822 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'STS9', 'albumartist': 'STS9', 'album': '2025.02.14 :: Pool Deck :: Jam Cruise', 'date': '2025'}
+2025-08-03 09:49:12,827 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-02-14', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:49:12,830 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'STS9', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:49:12,830 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\2025 - STS9 - MP3
+2025-08-03 09:49:12,830 - DEBUG - All files in directory: ['2025.02.14 __ Pool Deck __ Jam Cruise', '2025.02.15 __ Pantheon Theater __ Jam Cruise', '2025.02.22 __ Sweetwater Fest __ Atlanta,GA', '2025.04.18 __ Skydeck __ Nashville, TN', '2025.04.19 __ Skydeck __ Nashville,TN', '2025.05.15 __ Resonate Music Festival __ Suwanee, FL', '2025.05.16 __ Resonate Music Festival __ Suwanee, FL', '2025.06.13 __ The Anthem __ Washington, DC', '2025.07.10 __ Crystal Ballroom __ Portland, OR', '2025.07.11 __ Northwest Tune-Up Festival __ Bellingham, WA', '2025.07.12 __ The Crocodile __ Seattle, WA', '2025.07.13 __ The Crocodile __ Seattle, WA']
+2025-08-03 09:49:12,830 - DEBUG - Found .txt files: []
+2025-08-03 09:49:12,830 - DEBUG - No .txt files found in: M:/Projects/Staging\2025 - STS9 - MP3
+2025-08-03 09:49:12,831 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:49:13,254 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Béla Fleck & The Flecktones', 'album': 'Live At The Quick', 'date': '2002', 'genre': 'Country & Folk'}
+2025-08-03 09:49:13,259 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:49:13,262 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:49:13,262 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Béla Fleck & The Flecktones - Live At The Quick
+2025-08-03 09:49:13,263 - DEBUG - All files in directory: ['01 Béla Fleck & The Flecktones - That Old Thing (Intro)／Earth Jam.flac', '02 Béla Fleck & The Flecktones - Zona Mona.flac', '03 Béla Fleck & The Flecktones - Ovombo Summit.flac', '04 Béla Fleck & The Flecktones - Hall Of Mirrors.flac', '05 Béla Fleck & The Flecktones - Scratch & Sniff.flac', '06 Béla Fleck & The Flecktones - Improv／Amazing Grace.flac', '07 Béla Fleck & The Flecktones - Big Country.flac', '08 Béla Fleck & The Flecktones - Interlude.flac', "09 Béla Fleck & The Flecktones - Lover's Leap.flac", '10 Béla Fleck & The Flecktones - Alash Khem (Alash River Song).flac', '11 Béla Fleck & The Flecktones - A Moment So Close.flac', '12 Béla Fleck & The Flecktones - Improv／Prelude From Bach Violin Partitia #3.flac', '13 Béla Fleck & The Flecktones - Intro.flac', '14 Béla Fleck & The Flecktones - Hoedown.flac', 'Live At The Quick.log']
+2025-08-03 09:49:13,263 - DEBUG - Found .txt files: []
+2025-08-03 09:49:13,263 - DEBUG - No .txt files found in: M:/Projects/Staging\Béla Fleck & The Flecktones - Live At The Quick
+2025-08-03 09:49:13,263 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:49:13,674 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Leftover Salmon', 'albumartist': 'Leftover Salmon', 'album': '2025/07/18 Grand Rapids, MI', 'date': '2025', 'genre': 'Bluegrass'}
+2025-08-03 09:49:13,678 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-07-18', 'venue': '', 'city': 'Grand Rapids, MI', 'source': '', 'format': ''}
+2025-08-03 09:49:13,682 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Leftover Salmon', 'date': '2025-07-18', 'venue': 'Frederik Meijer Gardens', 'city': 'Grand Rapids, MI', 'id': '43629', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '43629', 'add': '43629'}
+2025-08-03 09:49:13,682 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Leftover Salmon - 2025-07-18 Frederik Meijer Gardens, Grand Rapids, MI [43629]
+2025-08-03 09:49:13,682 - DEBUG - All files in directory: ['los250718d1_01_Sing_up_to_the_Moon.flac', 'los250718d1_02_Just_Before_The_Evening.flac', 'los250718d1_03_Liza.flac', 'los250718d1_04_Troubled_Times.flac', 'los250718d1_05_Lets_Party_About_It.flac', 'los250718d1_06_Tangled_Up_In_Blue.flac', 'los250718d1_07_Evermore.flac', 'los250718d1_08_Storms.flac', 'los250718d1_09_Rivers_Rising.flac', 'los250718d1_10_High_Country.flac', 'los250718d1_11_99_Years.flac']
+2025-08-03 09:49:13,682 - DEBUG - Found .txt files: []
+2025-08-03 09:49:13,682 - DEBUG - No .txt files found in: M:/Projects/Staging\Leftover Salmon - 2025-07-18 Frederik Meijer Gardens, Grand Rapids, MI [43629]
+2025-08-03 09:49:13,682 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:49:14,007 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Leftover Salmon', 'albumartist': 'Leftover Salmon', 'album': '2025/07/19 Hillsboro, WI', 'date': '2025', 'genre': 'Bluegrass'}
+2025-08-03 09:49:14,011 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-07-19', 'venue': '', 'city': 'Hillsboro, WI', 'source': '', 'format': ''}
+2025-08-03 09:49:14,015 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Leftover Salmon', 'date': '2025-07-19', 'venue': 'Driftless Music Gardens', 'city': 'Hillsboro, WI', 'id': '43630', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '43630', 'add': '43630'}
+2025-08-03 09:49:14,015 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Leftover Salmon - 2025-07-19 Driftless Music Gardens, Hillsboro, WI [43630]
+2025-08-03 09:49:14,015 - DEBUG - All files in directory: ['los250719d1_01_Are_You_Ready_For_The_Country.flac', 'los250719d1_02_Get_Me_Outta_This_City.flac', 'los250719d1_03_Brand_New_Good_Old_Days.flac', 'los250719d1_04_Mississippi_Sawyer.flac', 'los250719d1_05_Shine_On.flac', 'los250719d1_06_Danger_Man.flac', 'los250719d1_07_Salmon_Scales.flac', 'los250719d1_08_California_Cottonfields.flac', 'los250719d1_09_Doin_My_Time.flac', 'los250719d1_10_Ask_The_Fish.flac', 'los250719d1_11_I_Dont_Owe_You_A_Thing.flac', 'los250719d1_12_Light_Behind_The_Rain.flac', 'los250719d1_13_You_Dont_Love_Me.flac']
+2025-08-03 09:49:14,016 - DEBUG - Found .txt files: []
+2025-08-03 09:49:14,016 - DEBUG - No .txt files found in: M:/Projects/Staging\Leftover Salmon - 2025-07-19 Driftless Music Gardens, Hillsboro, WI [43630]
+2025-08-03 09:49:14,016 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:49:14,314 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Peter Gabriel', 'album': "Live '77", 'date': '2021', 'genre': 'Rock', 'comment': 'https://avxhm.se/blogs/Rtax'}
+2025-08-03 09:49:14,318 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:49:14,321 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:49:14,321 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Peter Gabriel - Live '77
+2025-08-03 09:49:14,321 - DEBUG - All files in directory: ["Peter Gabriel - Live '77 (2021)"]
+2025-08-03 09:49:14,322 - DEBUG - Found .txt files: []
+2025-08-03 09:49:14,322 - DEBUG - No .txt files found in: M:/Projects/Staging\Peter Gabriel - Live '77
+2025-08-03 09:49:14,322 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:49:14,641 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phil Lesh And Friends', 'albumartist': 'Phil Lesh And Friends', 'album': '2015/05/04 Terrapin Crossroads, San Rafael, CA', 'date': '2015', 'genre': 'Rock', 'comment': 'Official TXR Thumbdrive 24/48 '}
+2025-08-03 09:49:14,646 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2015-05-04', 'venue': '', 'city': 'San Rafael, CA', 'source': '', 'format': ''}
+2025-08-03 09:49:14,649 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:49:14,649 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Phil Lesh & Friends 2015 Soundboards - Part 2
+2025-08-03 09:49:14,649 - DEBUG - All files in directory: ['DS_Store', 'PLF 2015-05-04 TXR, San Rafael, CA - GD 1975 (Bruno Rev Thumpdrive) [FLAC 24-48]', 'PLF 2015-05-27 TXR, San Rafael, CA - GD 1976 (Bruno Rev Thumpdrive) [FLAC 24-48]', 'PLF 2015-06-12 TXR, San Rafael, CA - GD 1977 Part 1 (Thumbdrive) [FLAC 24-48]', 'PLF 2015-06-13 TXR, San Rafael, CA - GD 1977 Part 2 (Bruno Rev Thumpdrive) [FLAC 24-48]', 'PLF 2015-07-16 TXR, San Rafael, CA (Thumbdrive) [FLAC 24-48]', 'PLF 2015-07-19 TXR, San Rafael, CA - GD 1979 (Bruno Rev Thumpdrive) [FLAC 24-48]', 'PLF 2015-08-27 TXR, San Rafael, CA - GD 1980-06-21 (Thumbdrive) [FLAC 24-48]', 'PLF 2015-08-30 TXR, San Rafael, CA - GD 1981 (Thumbdrive) [FLAC 24-48]', 'PLF 2015-09-01 TXR, San Rafael, CA (Thumbdrive) [FLAC 24-48]', "PLF 2015-09-11 Lockn' Festival, Arrington, VA (Nugs) [FLAC]", "PLF 2015-09-12 Lockn' Festival, Arrington, VA with Carlos Santana (134472 Alex Leary DPA 4023)[FLAC]", "PLF 2015-09-12 Lockn' Festival, Arrington, VA with Carlos Santana (Perks MK41's)[FLAC]", "PLF 2015-09-12 Lockn' Festival, Arrington, VA with Carlos Santana (Webcast Audio)[MP3]", 'PLF 2015-10-27 TXR, San Rafael, CA (Thumbdrive) [FLAC 24-48]', 'PLF 2015-10-30 Capitol Theatre, Port Chester, NY (Livedownloads SBD) [FLAC 24-48]', 'PLF 2015-10-31 Capitol Theatre, Port Chester, NY (SBD) [FLAC 24-48]', 'PLF 2015-11-01 Capitol Theatre, Port Chester, NY (Livedownloads SBD) [FLAC 24-48]', 'PLF 2015-11-05 Capitol Theatre, Port Chester, NY (SBD) [FLAC 24-48]', 'PLF 2015-11-06 Capitol Theatre, Port Chester, NY (SBD) [FLAC 24-48]', 'PLF 2015-11-07 Capitol Theater, Port Chester, NY (Livedownloads SBD) [FLAC]', 'PLF 2015-11-23 TXR, San Rafael, CA (171532 SBD) [FLAC 24-48]', 'PLF 2015.rtf', '__MACOSX']
+2025-08-03 09:49:14,649 - DEBUG - Found .txt files: []
+2025-08-03 09:49:14,649 - DEBUG - No .txt files found in: M:/Projects/Staging\Phil Lesh & Friends 2015 Soundboards - Part 2
+2025-08-03 09:49:14,649 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:49:15,089 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Spafford', 'albumartist': 'Spafford', 'album': '2025/07/17 Raleigh, NC', 'date': '2025', 'genre': 'Rock'}
+2025-08-03 09:49:15,094 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-07-17', 'venue': '', 'city': 'Raleigh, NC', 'source': '', 'format': ''}
+2025-08-03 09:49:15,097 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Spafford', 'date': '2025-07-17', 'venue': 'Bowstring Brewyard', 'city': 'Raleigh, NC', 'id': '43449', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '43449', 'add': '43449'}
+2025-08-03 09:49:15,097 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Spafford - 2025-07-17 Bowstring Brewyard, Raleigh, NC [43449]
+2025-08-03 09:49:15,097 - DEBUG - All files in directory: ['spaff250717d1_01_All_My_Friends.flac', 'spaff250717d1_02_Bee_Jam.flac', 'spaff250717d1_03_Windmill.flac', 'spaff250717d1_04_Neutrino.flac', 'spaff250717d1_05_Fake_The_Fate.flac', 'spaff250717d2_01_Plush.flac', 'spaff250717d2_02_Double_Time.flac', 'spaff250717d2_03_Crowd.flac', 'spaff250717d2_04_Banter.flac', 'spaff250717d2_05_Aint_That_Wrong.flac']
+2025-08-03 09:49:15,098 - DEBUG - Found .txt files: []
+2025-08-03 09:49:15,098 - DEBUG - No .txt files found in: M:/Projects/Staging\Spafford - 2025-07-17 Bowstring Brewyard, Raleigh, NC [43449]
+2025-08-03 09:49:15,098 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:49:15,609 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Trey Anastasio', 'albumartist': 'Trey Anastasio', 'album': '2025/08/01 Los Angeles, CA', 'date': '2025', 'genre': 'Rock'}
+2025-08-03 09:49:15,613 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-08-01', 'venue': '', 'city': 'Los Angeles, CA', 'source': '', 'format': ''}
+2025-08-03 09:49:15,615 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:49:15,615 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\TAB - 8.1.25
+2025-08-03 09:49:15,616 - DEBUG - All files in directory: ['trey250801d1_01_Set_Your_Soul_Free.flac', 'trey250801d1_02_Mozambique.flac', 'trey250801d1_03_Cayman_Review.flac', 'trey250801d1_04_A_Wave_of_Hope.flac', 'trey250801d1_05_Dark_And_Down.flac', 'trey250801d1_06_Magilla.flac', 'trey250801d1_07_Alive_Again.flac', 'trey250801d1_08_Love_Is_What_We_Are.flac', 'trey250801d1_09_Shine.flac', 'trey250801d1_10_Everythings_Right.flac', 'trey250801d2_01_Wolfmans_Brother.flac', 'trey250801d2_02_The_Moma_Dance.flac', 'trey250801d2_03_Camel_Walk.flac', 'trey250801d2_04_Sand.flac', 'trey250801d2_05_Valentine.flac', 'trey250801d2_06_Whats_Going_Through_Your_Mind.flac', 'trey250801d2_07_Simple_Twist_Up_Dave.flac', 'trey250801d2_08_RiseCome_Together.flac', 'trey250801d3_01_Monsters.flac', 'trey250801d3_02_The_Devil_Went_Down_To_Georgia.flac', 'trey250801d3_03_Ghost.flac', 'trey250801d3_04_Push_On_Til_The_Day.flac', 'trey250801d3_05_A_Life_Beyond_The_Dream.flac', 'trey250801d3_06_Ooh_Child.flac', 'trey250801d3_07_First_Tube.flac']
+2025-08-03 09:49:15,616 - DEBUG - Found .txt files: []
+2025-08-03 09:49:15,616 - DEBUG - No .txt files found in: M:/Projects/Staging\TAB - 8.1.25
+2025-08-03 09:49:15,616 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:49:16,331 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Spafford', 'albumartist': 'Spafford', 'album': '2025/08/01 Columbus, OH', 'date': '2025', 'genre': 'Rock'}
+2025-08-03 09:49:16,334 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-08-01', 'venue': '', 'city': 'Columbus, OH', 'source': '', 'format': ''}
+2025-08-03 09:49:16,337 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Spafford', 'date': '2025-08-01', 'venue': 'Woodlands Tavern', 'city': 'Columbus, OH', 'id': '43625', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '43625', 'add': '43625'}
+2025-08-03 09:49:16,338 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Spafford - 2025-08-01 Woodlands Tavern, Columbus, OH [43625]
+2025-08-03 09:49:16,338 - DEBUG - All files in directory: ['spaff250801d1_01_Take_Your_Mama.flac', 'spaff250801d1_02_All_My_Friends.flac', 'spaff250801d1_03_Bee_Jam.flac', 'spaff250801d1_04_Minds_Unchained.flac', 'spaff250801d1_05_Ice_Cream.flac', 'spaff250801d1_06_Chucks_Dream.flac', 'spaff250801d2_01_Gold_Glittered_Hat.flac', 'spaff250801d2_02_Walls.flac', 'spaff250801d2_03_Hollywood.flac', 'spaff250801d2_04_Broken_Wing.flac', 'spaff250801d2_05_High_Beams.flac', 'spaff250801d2_06_Crowd.flac', 'spaff250801d3_01_Banter.flac', 'spaff250801d3_02_Weasel.flac']
+2025-08-03 09:49:16,338 - DEBUG - Found .txt files: []
+2025-08-03 09:49:16,338 - DEBUG - No .txt files found in: M:/Projects/Staging\Spafford - 2025-08-01 Woodlands Tavern, Columbus, OH [43625]
+2025-08-03 09:49:16,338 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:49:17,325 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Herbie Hancock', 'album': 'HH1973-11-01', 'comment': 'Ultrasonic Studios'}
+2025-08-03 09:49:17,330 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:49:17,333 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '1973-11-01', 'venue': 'Ultrasonic Studios', 'city': 'Hampstead, NY', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:49:17,333 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)
+2025-08-03 09:49:17,333 - DEBUG - All files in directory: ['01. Actual Proof.flac', '02. Butterfly.flac', '03. Sly.flac', '04. Chameleon.flac', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY-EACLog.log', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.ffp', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 09:49:17,333 - DEBUG - Found .txt files: ['Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 09:49:17,334 - DEBUG - Trying to read metadata from: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)\Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt
+2025-08-03 09:49:17,377 - DEBUG - Extracted metadata: {'source': 'FM'}
+2025-08-03 09:49:17,378 - DEBUG - [DEBUG] TXT metadata parsed: {'source': 'FM'}
+2025-08-03 09:49:17,932 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 09:49:17,936 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 09:49:17,938 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC24', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:49:17,938 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 09:49:17,938 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 09:49:17,938 - DEBUG - Found .txt files: []
+2025-08-03 09:49:17,938 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 09:49:17,938 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:49:21,393 - DEBUG - Verified themes folder at: themes
+2025-08-03 09:49:21,399 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:49:21,399 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:49:21,399 - DEBUG - Updating processor schemes...
+2025-08-03 09:49:21,399 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:49:21,400 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:49:21,474 - DEBUG - History loaded.
+2025-08-03 09:49:21,474 - DEBUG - Used cache loaded.
+2025-08-03 09:49:21,522 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 09:49:21,582 - DEBUG - Restored main window geometry: 1600x1100+286+286
+2025-08-03 09:49:21,600 - DEBUG - Saved main window size and position: 1600x1100+286+286
+2025-08-03 09:49:21,624 - DEBUG - No saved sash position for main found in config
+2025-08-03 09:49:21,679 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 09:49:21,679 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 09:49:25,286 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Herbie Hancock', 'album': 'HH1973-11-01', 'comment': 'Ultrasonic Studios'}
+2025-08-03 09:49:25,291 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:49:25,294 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '1973-11-01', 'venue': 'Ultrasonic Studios', 'city': 'Hampstead, NY', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:49:25,295 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)
+2025-08-03 09:49:25,295 - DEBUG - All files in directory: ['01. Actual Proof.flac', '02. Butterfly.flac', '03. Sly.flac', '04. Chameleon.flac', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY-EACLog.log', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.ffp', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 09:49:25,295 - DEBUG - Found .txt files: ['Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 09:49:25,297 - DEBUG - Trying to read metadata from: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)\Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt
+2025-08-03 09:49:25,339 - DEBUG - Extracted metadata: {'source': 'FM'}
+2025-08-03 09:49:25,339 - DEBUG - [DEBUG] TXT metadata parsed: {'source': 'FM'}
+2025-08-03 09:49:26,635 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 09:49:26,639 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 09:49:26,641 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC24', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:49:26,641 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 09:49:26,641 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 09:49:26,641 - DEBUG - Found .txt files: []
+2025-08-03 09:49:26,641 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 09:49:26,641 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:49:27,669 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 09:49:27,673 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 09:49:27,675 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC24', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:49:27,675 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD
+2025-08-03 09:49:27,675 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 09:49:27,675 - DEBUG - Found .txt files: []
+2025-08-03 09:49:27,675 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD
+2025-08-03 09:49:27,675 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:49:28,933 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Herbie Hancock', 'album': 'HH1973-11-01', 'comment': 'Ultrasonic Studios'}
+2025-08-03 09:49:28,938 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:49:28,940 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '1973-11-01', 'venue': 'Ultrasonic Studios', 'city': 'Hampstead, NY', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:49:28,940 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)
+2025-08-03 09:49:28,941 - DEBUG - All files in directory: ['01. Actual Proof.flac', '02. Butterfly.flac', '03. Sly.flac', '04. Chameleon.flac', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY-EACLog.log', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.ffp', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 09:49:28,941 - DEBUG - Found .txt files: ['Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 09:49:28,942 - DEBUG - Trying to read metadata from: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)\Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt
+2025-08-03 09:49:28,984 - DEBUG - Extracted metadata: {'source': 'FM'}
+2025-08-03 09:49:28,984 - DEBUG - [DEBUG] TXT metadata parsed: {'source': 'FM'}
+2025-08-03 09:49:29,889 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 09:49:29,893 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 09:49:29,895 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC24', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:49:29,895 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD
+2025-08-03 09:49:29,896 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 09:49:29,896 - DEBUG - Found .txt files: []
+2025-08-03 09:49:29,896 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD
+2025-08-03 09:49:29,896 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:49:31,009 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Leftover Salmon', 'albumartist': 'Leftover Salmon', 'album': '2025/07/18 Grand Rapids, MI', 'date': '2025', 'genre': 'Bluegrass'}
+2025-08-03 09:49:31,013 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-07-18', 'venue': '', 'city': 'Grand Rapids, MI', 'source': '', 'format': ''}
+2025-08-03 09:49:31,016 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Leftover Salmon', 'date': '2025-07-18', 'venue': 'Frederik Meijer Gardens', 'city': 'Grand Rapids, MI', 'id': '43629', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '43629', 'add': '43629'}
+2025-08-03 09:49:31,016 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Leftover Salmon - 2025-07-18 Frederik Meijer Gardens, Grand Rapids, MI [43629]
+2025-08-03 09:49:31,017 - DEBUG - All files in directory: ['los250718d1_01_Sing_up_to_the_Moon.flac', 'los250718d1_02_Just_Before_The_Evening.flac', 'los250718d1_03_Liza.flac', 'los250718d1_04_Troubled_Times.flac', 'los250718d1_05_Lets_Party_About_It.flac', 'los250718d1_06_Tangled_Up_In_Blue.flac', 'los250718d1_07_Evermore.flac', 'los250718d1_08_Storms.flac', 'los250718d1_09_Rivers_Rising.flac', 'los250718d1_10_High_Country.flac', 'los250718d1_11_99_Years.flac']
+2025-08-03 09:49:31,017 - DEBUG - Found .txt files: []
+2025-08-03 09:49:31,017 - DEBUG - No .txt files found in: M:/Projects/Staging\Leftover Salmon - 2025-07-18 Frederik Meijer Gardens, Grand Rapids, MI [43629]
+2025-08-03 09:49:31,017 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:49:31,407 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'From The Archives 17 Part 2', 'date': '2015-08-21'}
+2025-08-03 09:49:31,407 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:49:31,410 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '2015-08-21', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:49:31,410 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\fta2015-08-21.fta17.pt2.134057.flac16
+2025-08-03 09:49:31,410 - DEBUG - All files in directory: ['ffp.ffp', 'fta2015-08-21s1t01.flac', 'fta2015-08-21s1t02.flac', 'fta2015-08-21s1t03.flac', 'fta2015-08-21s1t04.flac', 'fta2015-08-21s1t05.flac', 'fta2015-08-21s1t06.flac', 'fta2015-08-21s1t07.flac', 'fta2015-08-21s1t08.flac', 'fta2015-08-21s1t09.flac', 'fta2015-08-21s1t10.flac', 'phish-archive-radio2015-08-21.134057.txt']
+2025-08-03 09:49:31,410 - DEBUG - Found .txt files: ['phish-archive-radio2015-08-21.134057.txt']
+2025-08-03 09:49:31,412 - DEBUG - Trying to read metadata from: M:/Projects/Staging\fta2015-08-21.fta17.pt2.134057.flac16\phish-archive-radio2015-08-21.134057.txt
+2025-08-03 09:49:31,430 - DEBUG - Extracted metadata: {'city': 'Watkins Glen, NY', 'format': 'FLAC16'}
+2025-08-03 09:49:31,430 - DEBUG - [DEBUG] TXT metadata parsed: {'city': 'Watkins Glen, NY', 'format': 'FLAC16'}
+2025-08-03 09:49:31,750 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Béla Fleck & The Flecktones', 'album': 'Live At The Quick', 'date': '2002', 'genre': 'Country & Folk'}
+2025-08-03 09:49:31,755 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:49:31,758 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:49:31,758 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Béla Fleck & The Flecktones - Live At The Quick
+2025-08-03 09:49:31,759 - DEBUG - All files in directory: ['01 Béla Fleck & The Flecktones - That Old Thing (Intro)／Earth Jam.flac', '02 Béla Fleck & The Flecktones - Zona Mona.flac', '03 Béla Fleck & The Flecktones - Ovombo Summit.flac', '04 Béla Fleck & The Flecktones - Hall Of Mirrors.flac', '05 Béla Fleck & The Flecktones - Scratch & Sniff.flac', '06 Béla Fleck & The Flecktones - Improv／Amazing Grace.flac', '07 Béla Fleck & The Flecktones - Big Country.flac', '08 Béla Fleck & The Flecktones - Interlude.flac', "09 Béla Fleck & The Flecktones - Lover's Leap.flac", '10 Béla Fleck & The Flecktones - Alash Khem (Alash River Song).flac', '11 Béla Fleck & The Flecktones - A Moment So Close.flac', '12 Béla Fleck & The Flecktones - Improv／Prelude From Bach Violin Partitia #3.flac', '13 Béla Fleck & The Flecktones - Intro.flac', '14 Béla Fleck & The Flecktones - Hoedown.flac', 'Live At The Quick.log']
+2025-08-03 09:49:31,759 - DEBUG - Found .txt files: []
+2025-08-03 09:49:31,759 - DEBUG - No .txt files found in: M:/Projects/Staging\Béla Fleck & The Flecktones - Live At The Quick
+2025-08-03 09:49:31,759 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:49:32,060 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Leftover Salmon', 'albumartist': 'Leftover Salmon', 'album': '2025/07/18 Grand Rapids, MI', 'date': '2025', 'genre': 'Bluegrass'}
+2025-08-03 09:49:32,064 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-07-18', 'venue': '', 'city': 'Grand Rapids, MI', 'source': '', 'format': ''}
+2025-08-03 09:49:32,068 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Leftover Salmon', 'date': '2025-07-18', 'venue': 'Frederik Meijer Gardens', 'city': 'Grand Rapids, MI', 'id': '43629', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '43629', 'add': '43629'}
+2025-08-03 09:49:32,068 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Leftover Salmon - 2025-07-18 Frederik Meijer Gardens, Grand Rapids, MI [43629]
+2025-08-03 09:49:32,068 - DEBUG - All files in directory: ['los250718d1_01_Sing_up_to_the_Moon.flac', 'los250718d1_02_Just_Before_The_Evening.flac', 'los250718d1_03_Liza.flac', 'los250718d1_04_Troubled_Times.flac', 'los250718d1_05_Lets_Party_About_It.flac', 'los250718d1_06_Tangled_Up_In_Blue.flac', 'los250718d1_07_Evermore.flac', 'los250718d1_08_Storms.flac', 'los250718d1_09_Rivers_Rising.flac', 'los250718d1_10_High_Country.flac', 'los250718d1_11_99_Years.flac']
+2025-08-03 09:49:32,068 - DEBUG - Found .txt files: []
+2025-08-03 09:49:32,068 - DEBUG - No .txt files found in: M:/Projects/Staging\Leftover Salmon - 2025-07-18 Frederik Meijer Gardens, Grand Rapids, MI [43629]
+2025-08-03 09:49:32,068 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:49:32,399 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Peter Gabriel', 'album': "Live '77", 'date': '2021', 'genre': 'Rock', 'comment': 'https://avxhm.se/blogs/Rtax'}
+2025-08-03 09:49:32,404 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:49:32,406 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:49:32,406 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Peter Gabriel - Live '77
+2025-08-03 09:49:32,406 - DEBUG - All files in directory: ["Peter Gabriel - Live '77 (2021)"]
+2025-08-03 09:49:32,406 - DEBUG - Found .txt files: []
+2025-08-03 09:49:32,406 - DEBUG - No .txt files found in: M:/Projects/Staging\Peter Gabriel - Live '77
+2025-08-03 09:49:32,407 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:49:32,685 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Spafford', 'albumartist': 'Spafford', 'album': '2025/07/17 Raleigh, NC', 'date': '2025', 'genre': 'Rock'}
+2025-08-03 09:49:32,690 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-07-17', 'venue': '', 'city': 'Raleigh, NC', 'source': '', 'format': ''}
+2025-08-03 09:49:32,693 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Spafford', 'date': '2025-07-17', 'venue': 'Bowstring Brewyard', 'city': 'Raleigh, NC', 'id': '43449', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '43449', 'add': '43449'}
+2025-08-03 09:49:32,693 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Spafford - 2025-07-17 Bowstring Brewyard, Raleigh, NC [43449]
+2025-08-03 09:49:32,694 - DEBUG - All files in directory: ['spaff250717d1_01_All_My_Friends.flac', 'spaff250717d1_02_Bee_Jam.flac', 'spaff250717d1_03_Windmill.flac', 'spaff250717d1_04_Neutrino.flac', 'spaff250717d1_05_Fake_The_Fate.flac', 'spaff250717d2_01_Plush.flac', 'spaff250717d2_02_Double_Time.flac', 'spaff250717d2_03_Crowd.flac', 'spaff250717d2_04_Banter.flac', 'spaff250717d2_05_Aint_That_Wrong.flac']
+2025-08-03 09:49:32,694 - DEBUG - Found .txt files: []
+2025-08-03 09:49:32,694 - DEBUG - No .txt files found in: M:/Projects/Staging\Spafford - 2025-07-17 Bowstring Brewyard, Raleigh, NC [43449]
+2025-08-03 09:49:32,694 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:49:33,401 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Trey Anastasio', 'albumartist': 'Trey Anastasio', 'album': '2025/08/01 Los Angeles, CA', 'date': '2025', 'genre': 'Rock'}
+2025-08-03 09:49:33,406 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-08-01', 'venue': '', 'city': 'Los Angeles, CA', 'source': '', 'format': ''}
+2025-08-03 09:49:33,408 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:49:33,408 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\TAB - 8.1.25
+2025-08-03 09:49:33,408 - DEBUG - All files in directory: ['trey250801d1_01_Set_Your_Soul_Free.flac', 'trey250801d1_02_Mozambique.flac', 'trey250801d1_03_Cayman_Review.flac', 'trey250801d1_04_A_Wave_of_Hope.flac', 'trey250801d1_05_Dark_And_Down.flac', 'trey250801d1_06_Magilla.flac', 'trey250801d1_07_Alive_Again.flac', 'trey250801d1_08_Love_Is_What_We_Are.flac', 'trey250801d1_09_Shine.flac', 'trey250801d1_10_Everythings_Right.flac', 'trey250801d2_01_Wolfmans_Brother.flac', 'trey250801d2_02_The_Moma_Dance.flac', 'trey250801d2_03_Camel_Walk.flac', 'trey250801d2_04_Sand.flac', 'trey250801d2_05_Valentine.flac', 'trey250801d2_06_Whats_Going_Through_Your_Mind.flac', 'trey250801d2_07_Simple_Twist_Up_Dave.flac', 'trey250801d2_08_RiseCome_Together.flac', 'trey250801d3_01_Monsters.flac', 'trey250801d3_02_The_Devil_Went_Down_To_Georgia.flac', 'trey250801d3_03_Ghost.flac', 'trey250801d3_04_Push_On_Til_The_Day.flac', 'trey250801d3_05_A_Life_Beyond_The_Dream.flac', 'trey250801d3_06_Ooh_Child.flac', 'trey250801d3_07_First_Tube.flac']
+2025-08-03 09:49:33,408 - DEBUG - Found .txt files: []
+2025-08-03 09:49:33,408 - DEBUG - No .txt files found in: M:/Projects/Staging\TAB - 8.1.25
+2025-08-03 09:49:33,408 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:49:43,219 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 09:49:43,223 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 09:49:43,225 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC24', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:49:43,225 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 09:49:43,225 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 09:49:43,225 - DEBUG - Found .txt files: []
+2025-08-03 09:49:43,225 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 09:49:43,225 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:49:55,127 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TeST', 'venue': 'TeST', 'city': 'TeST', 'source': 'TEST', 'format': 'TEST', 'additional': 'TEST', 'genre': 'TEST', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy', 'add': 'TEST'}
+2025-08-03 09:49:55,128 - DEBUG - Folder scheme evaluated to: 2003-01-02 - TeST - TeST [TEST] [TEST]
+2025-08-03 09:49:55,128 - INFO - => Output folder: M:\Live Music\TeST\2003
+2025-08-03 09:49:56,653 - DEBUG - Starting process_thread
+2025-08-03 09:49:56,654 - DEBUG - Metadata with currentfoldername for processing: {'artist': 'TeST', 'venue': 'TeST', 'city': 'TeST', 'source': 'TEST', 'format': 'TEST', 'add': 'TEST', 'genre': 'TEST', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy', 'filename': '1 FLACHD - Copy'}
+2025-08-03 09:49:56,654 - INFO - 
+Processing folder: M:/Projects/Staging/1 FLACHD - Copy
+2025-08-03 09:49:56,664 - INFO - Metadata for scheme evaluation: {'artist': 'TeST', 'venue': 'TeST', 'city': 'TeST', 'source': 'TEST', 'format': 'TEST', 'genre': 'TEST', 'additional': 'TEST', 'add': 'TEST', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy'}
+2025-08-03 09:49:56,666 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 09:49:56,669 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TeST', 'venue': 'TeST', 'city': 'TeST', 'source': 'TEST', 'format': 'TEST', 'genre': 'TEST', 'additional': 'TEST', 'add': 'TEST', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy'}
+2025-08-03 09:49:56,669 - DEBUG - Folder scheme evaluated to: 2003-01-02 - TeST - TeST [TEST] [TEST]
+2025-08-03 09:49:56,669 - INFO - => Output folder: M:\Live Music\TeST\2003
+2025-08-03 09:49:56,674 - INFO - => Output folder: M:\Live Music\TeST\2003\2003-01-02 - TeST - TeST [TEST] [TEST]
+2025-08-03 09:49:56,704 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-03 09:49:56,720 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-03 09:49:56,739 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-03 09:49:56,760 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-03 09:49:56,781 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-03 09:49:56,800 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-03 09:49:56,820 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-03 09:49:56,840 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-03 09:49:56,863 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-03 09:49:56,885 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-03 09:49:56,905 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-03 09:49:56,929 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-03 09:49:56,954 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-03 09:49:56,978 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-03 09:49:56,997 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-03 09:49:57,018 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-03 09:49:57,033 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-03 09:49:57,056 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-03 09:49:57,062 - INFO - Removed empty source folder: M:\Projects\Staging\1 FLACHD - Copy
+2025-08-03 09:49:57,072 - INFO - Finished processing folder: M:\Live Music\TeST\2003\2003-01-02 - TeST - TeST [TEST] [TEST]
+2025-08-03 09:49:57,078 - DEBUG - [DEBUG] Cached artist => genre: TeST => TEST
+2025-08-03 09:49:57,083 - INFO - History saved.
+2025-08-03 09:49:57,208 - DEBUG - [DEBUG] Cached artist => genre: TeST => TEST
+2025-08-03 09:49:57,208 - DEBUG - Used cache updated from UI values.
+2025-08-03 09:49:57,209 - INFO - Used cache saved.
+2025-08-03 09:50:14,164 - INFO - History saved.
+2025-08-03 09:50:14,165 - INFO - Used cache saved.
+2025-08-03 09:50:16,826 - DEBUG - Verified themes folder at: themes
+2025-08-03 09:50:16,832 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:50:16,832 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:50:16,832 - DEBUG - Updating processor schemes...
+2025-08-03 09:50:16,832 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:50:16,832 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:50:16,915 - DEBUG - History loaded.
+2025-08-03 09:50:16,922 - DEBUG - Used cache loaded.
+2025-08-03 09:50:16,970 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 09:50:17,033 - DEBUG - Restored main window geometry: 1600x1100+286+286
+2025-08-03 09:50:17,043 - DEBUG - Saved main window size and position: 1600x1100+286+286
+2025-08-03 09:50:17,066 - DEBUG - No saved sash position for main found in config
+2025-08-03 09:50:17,126 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 09:50:17,126 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 09:50:25,163 - INFO - History saved.
+2025-08-03 09:50:25,164 - INFO - Used cache saved.
+2025-08-03 09:50:44,682 - DEBUG - Verified themes folder at: themes
+2025-08-03 09:50:44,688 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:50:44,688 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:50:44,688 - DEBUG - Updating processor schemes...
+2025-08-03 09:50:44,688 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:50:44,688 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:50:44,765 - DEBUG - History loaded.
+2025-08-03 09:50:44,766 - DEBUG - Used cache loaded.
+2025-08-03 09:50:44,814 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 09:50:44,884 - DEBUG - Restored main window geometry: 1600x1100+286+286
+2025-08-03 09:50:44,889 - DEBUG - Saved main window size and position: 1600x1100+286+286
+2025-08-03 09:50:44,916 - DEBUG - No saved sash position for main found in config
+2025-08-03 09:50:44,983 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 09:50:44,983 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 09:50:58,376 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 09:50:58,382 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 09:50:58,385 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC24', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:50:58,385 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 09:50:58,385 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 09:50:58,385 - DEBUG - Found .txt files: []
+2025-08-03 09:50:58,385 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 09:50:58,385 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:51:11,051 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TeST2', 'venue': 'TeST2', 'city': 'TeST2', 'source': 'TEST', 'format': 'TEST', 'additional': 'tEST', 'genre': 'TEST2', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy', 'add': 'tEST'}
+2025-08-03 09:51:11,051 - DEBUG - Folder scheme evaluated to: 2003-01-02 - TeST2 - TeST2 [TEST] [tEST]
+2025-08-03 09:51:11,051 - INFO - => Output folder: M:\Live Music\TeST2\2003
+2025-08-03 09:51:11,688 - DEBUG - Starting process_thread
+2025-08-03 09:51:11,689 - DEBUG - Metadata with currentfoldername for processing: {'artist': 'TeST2', 'venue': 'TeST2', 'city': 'TeST2', 'source': 'TEST', 'format': 'TEST', 'add': 'tEST', 'genre': 'TEST2', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy', 'filename': '1 FLACHD - Copy'}
+2025-08-03 09:51:11,690 - INFO - 
+Processing folder: M:/Projects/Staging/1 FLACHD - Copy
+2025-08-03 09:51:11,696 - INFO -   Updated artists.txt with: TeST2
+2025-08-03 09:51:11,700 - INFO -   Updated venues.txt with: TeST2
+2025-08-03 09:51:11,709 - INFO -   Updated cities.txt with: TeST2
+2025-08-03 09:51:11,712 - INFO - Metadata for scheme evaluation: {'artist': 'TeST2', 'venue': 'TeST2', 'city': 'TeST2', 'source': 'TEST', 'format': 'TEST', 'genre': 'TEST2', 'additional': 'tEST', 'add': 'tEST', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy'}
+2025-08-03 09:51:11,715 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 09:51:11,718 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TeST2', 'venue': 'TeST2', 'city': 'TeST2', 'source': 'TEST', 'format': 'TEST', 'genre': 'TEST2', 'additional': 'tEST', 'add': 'tEST', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy'}
+2025-08-03 09:51:11,719 - DEBUG - Folder scheme evaluated to: 2003-01-02 - TeST2 - TeST2 [TEST] [tEST]
+2025-08-03 09:51:11,719 - INFO - => Output folder: M:\Live Music\TeST2\2003
+2025-08-03 09:51:11,723 - INFO - => Output folder: M:\Live Music\TeST2\2003\2003-01-02 - TeST2 - TeST2 [TEST] [tEST]
+2025-08-03 09:51:11,767 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-03 09:51:11,788 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-03 09:51:11,810 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-03 09:51:11,834 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-03 09:51:11,859 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-03 09:51:11,881 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-03 09:51:11,905 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-03 09:51:11,930 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-03 09:51:11,950 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-03 09:51:11,969 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-03 09:51:11,991 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-03 09:51:12,011 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-03 09:51:12,032 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-03 09:51:12,054 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-03 09:51:12,077 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-03 09:51:12,101 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-03 09:51:12,121 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-03 09:51:12,141 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-03 09:51:12,153 - INFO - Removed empty source folder: M:\Projects\Staging\1 FLACHD - Copy
+2025-08-03 09:51:12,165 - INFO - Finished processing folder: M:\Live Music\TeST2\2003\2003-01-02 - TeST2 - TeST2 [TEST] [tEST]
+2025-08-03 09:51:12,171 - DEBUG - [DEBUG] Cached artist => genre: TeST2 => TEST2
+2025-08-03 09:51:12,172 - INFO - History saved.
+2025-08-03 09:51:12,295 - DEBUG - [DEBUG] Cached artist => genre: TeST2 => TEST2
+2025-08-03 09:51:12,295 - DEBUG - Used cache updated from UI values.
+2025-08-03 09:51:12,295 - INFO - Used cache saved.
+2025-08-03 09:54:01,401 - DEBUG - Verified themes folder at: themes
+2025-08-03 09:54:01,406 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:54:01,406 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:54:01,407 - DEBUG - Updating processor schemes...
+2025-08-03 09:54:01,407 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:54:01,407 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:54:01,487 - DEBUG - History loaded.
+2025-08-03 09:54:01,488 - DEBUG - Used cache loaded.
+2025-08-03 09:54:01,537 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 09:54:01,598 - DEBUG - Restored main window geometry: 1600x1100+286+286
+2025-08-03 09:54:01,617 - DEBUG - Saved main window size and position: 1600x1100+286+286
+2025-08-03 09:54:01,639 - DEBUG - No saved sash position for main found in config
+2025-08-03 09:54:01,701 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 09:54:01,702 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 09:54:14,864 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 09:54:14,870 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 09:54:14,872 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC24', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:54:14,873 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD
+2025-08-03 09:54:14,873 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 09:54:14,873 - DEBUG - Found .txt files: []
+2025-08-03 09:54:14,873 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD
+2025-08-03 09:54:14,873 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:54:15,203 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 09:54:15,207 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 09:54:15,209 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC24', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:54:15,209 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 09:54:15,209 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 09:54:15,209 - DEBUG - Found .txt files: []
+2025-08-03 09:54:15,209 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 09:54:15,210 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:54:27,870 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TeST3', 'venue': 'TeST3', 'city': 'TeST3', 'source': 'TEST3', 'format': 'TEST3', 'additional': 'TEST3', 'genre': 'TEST3', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy', 'add': 'TEST3'}
+2025-08-03 09:54:27,871 - DEBUG - Folder scheme evaluated to: 2003-01-02 - TeST3 - TeST3 [TEST3] [TEST3]
+2025-08-03 09:54:27,871 - INFO - => Output folder: M:\Live Music\TeST3\2003
+2025-08-03 09:54:28,880 - DEBUG - Starting process_thread
+2025-08-03 09:54:28,881 - DEBUG - Metadata with currentfoldername for processing: {'artist': 'TeST3', 'venue': 'TeST3', 'city': 'TeST3', 'source': 'TEST3', 'format': 'TEST3', 'add': 'TEST3', 'genre': 'TEST3', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy', 'filename': '1 FLACHD - Copy'}
+2025-08-03 09:54:28,881 - INFO - 
+Processing folder: M:/Projects/Staging/1 FLACHD - Copy
+2025-08-03 09:54:28,885 - INFO -   Updated artists.txt with: TeST3
+2025-08-03 09:54:28,889 - INFO -   Updated venues.txt with: TeST3
+2025-08-03 09:54:28,899 - INFO -   Updated cities.txt with: TeST3
+2025-08-03 09:54:28,901 - INFO - Metadata for scheme evaluation: {'artist': 'TeST3', 'venue': 'TeST3', 'city': 'TeST3', 'source': 'TEST3', 'format': 'TEST3', 'genre': 'TEST3', 'additional': 'TEST3', 'add': 'TEST3', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy'}
+2025-08-03 09:54:28,903 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 09:54:28,907 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TeST3', 'venue': 'TeST3', 'city': 'TeST3', 'source': 'TEST3', 'format': 'TEST3', 'genre': 'TEST3', 'additional': 'TEST3', 'add': 'TEST3', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy'}
+2025-08-03 09:54:28,907 - DEBUG - Folder scheme evaluated to: 2003-01-02 - TeST3 - TeST3 [TEST3] [TEST3]
+2025-08-03 09:54:28,907 - INFO - => Output folder: M:\Live Music\TeST3\2003
+2025-08-03 09:54:28,911 - INFO - => Output folder: M:\Live Music\TeST3\2003\2003-01-02 - TeST3 - TeST3 [TEST3] [TEST3]
+2025-08-03 09:54:28,954 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-03 09:54:28,971 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-03 09:54:28,989 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-03 09:54:29,008 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-03 09:54:29,027 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-03 09:54:29,043 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-03 09:54:29,060 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-03 09:54:29,079 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-03 09:54:29,100 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-03 09:54:29,119 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-03 09:54:29,139 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-03 09:54:29,160 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-03 09:54:29,181 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-03 09:54:29,204 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-03 09:54:29,230 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-03 09:54:29,247 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-03 09:54:29,270 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-03 09:54:29,291 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-03 09:54:29,295 - INFO - Removed empty source folder: M:\Projects\Staging\1 FLACHD - Copy
+2025-08-03 09:54:29,306 - INFO - Finished processing folder: M:\Live Music\TeST3\2003\2003-01-02 - TeST3 - TeST3 [TEST3] [TEST3]
+2025-08-03 09:54:29,307 - DEBUG - [DEBUG] Cached artist => genre: TeST3 => TEST3
+2025-08-03 09:59:02,095 - DEBUG - Verified themes folder at: themes
+2025-08-03 09:59:02,101 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:59:02,102 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:59:02,102 - DEBUG - Updating processor schemes...
+2025-08-03 09:59:02,102 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:59:02,102 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:59:02,176 - DEBUG - History loaded.
+2025-08-03 09:59:02,177 - DEBUG - Used cache loaded.
+2025-08-03 09:59:02,225 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 09:59:02,306 - DEBUG - Restored main window geometry: 1600x1100+286+286
+2025-08-03 09:59:02,316 - DEBUG - Saved main window size and position: 1600x1100+286+286
+2025-08-03 09:59:02,330 - DEBUG - No saved sash position for main found in config
+2025-08-03 09:59:02,403 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 09:59:02,403 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 09:59:06,854 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 09:59:06,860 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 09:59:06,863 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC24', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:59:06,863 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 09:59:06,864 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 09:59:06,864 - DEBUG - Found .txt files: []
+2025-08-03 09:59:06,864 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 09:59:06,864 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:59:23,223 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TeST23', 'venue': 'TeST3', 'city': 'TeST45', 'source': 'TEST32', 'format': 'TEST3', 'additional': 'TEST3', 'genre': 'TEST32', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy', 'add': 'TEST3'}
+2025-08-03 09:59:23,224 - DEBUG - Folder scheme evaluated to: 2003-01-02 - TeST3 - TeST45 [TEST3] [TEST3]
+2025-08-03 09:59:23,224 - INFO - => Output folder: M:\Live Music\TeST23\2003
+2025-08-03 09:59:23,929 - DEBUG - Starting process_thread
+2025-08-03 09:59:23,930 - DEBUG - Metadata with currentfoldername for processing: {'artist': 'TeST23', 'venue': 'TeST3', 'city': 'TeST45', 'source': 'TEST32', 'format': 'TEST3', 'add': 'TEST3', 'genre': 'TEST32', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy', 'filename': '1 FLACHD - Copy'}
+2025-08-03 09:59:23,930 - INFO - 
+Processing folder: M:/Projects/Staging/1 FLACHD - Copy
+2025-08-03 09:59:23,936 - INFO -   Updated artists.txt with: TeST23
+2025-08-03 09:59:23,947 - INFO -   Updated cities.txt with: TeST45
+2025-08-03 09:59:23,948 - INFO - Metadata for scheme evaluation: {'artist': 'TeST23', 'venue': 'TeST3', 'city': 'TeST45', 'source': 'TEST32', 'format': 'TEST3', 'genre': 'TEST32', 'additional': 'TEST3', 'add': 'TEST3', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy'}
+2025-08-03 09:59:23,950 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 09:59:23,953 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TeST23', 'venue': 'TeST3', 'city': 'TeST45', 'source': 'TEST32', 'format': 'TEST3', 'genre': 'TEST32', 'additional': 'TEST3', 'add': 'TEST3', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy'}
+2025-08-03 09:59:23,953 - DEBUG - Folder scheme evaluated to: 2003-01-02 - TeST3 - TeST45 [TEST3] [TEST3]
+2025-08-03 09:59:23,954 - INFO - => Output folder: M:\Live Music\TeST23\2003
+2025-08-03 09:59:23,955 - INFO - => Output folder: M:\Live Music\TeST23\2003\2003-01-02 - TeST3 - TeST45 [TEST3] [TEST3]
+2025-08-03 09:59:23,996 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-03 09:59:24,014 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-03 09:59:24,048 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-03 09:59:24,077 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-03 09:59:24,097 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-03 09:59:24,119 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-03 09:59:24,138 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-03 09:59:24,159 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-03 09:59:24,180 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-03 09:59:24,201 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-03 09:59:24,222 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-03 09:59:24,242 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-03 09:59:24,264 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-03 09:59:24,287 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-03 09:59:24,309 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-03 09:59:24,332 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-03 09:59:24,357 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-03 09:59:24,377 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-03 09:59:24,385 - INFO - Removed empty source folder: M:\Projects\Staging\1 FLACHD - Copy
+2025-08-03 09:59:24,394 - INFO - Finished processing folder: M:\Live Music\TeST23\2003\2003-01-02 - TeST3 - TeST45 [TEST3] [TEST3]
+2025-08-03 09:59:24,398 - DEBUG - [DEBUG] Cached artist => genre: TeST23 => TEST32
+2025-08-03 09:59:24,404 - INFO - Saved history with last used values prioritized on top.
+2025-08-03 09:59:24,528 - DEBUG - [DEBUG] Cached artist => genre: TeST23 => TEST32
+2025-08-03 09:59:24,528 - DEBUG - Used cache updated from UI values.
+2025-08-03 09:59:24,528 - INFO - Used cache saved.
+2025-08-03 10:00:36,921 - DEBUG - Verified themes folder at: themes
+2025-08-03 10:00:36,926 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 10:00:36,926 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 10:00:36,927 - DEBUG - Updating processor schemes...
+2025-08-03 10:00:36,927 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 10:00:36,927 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 10:00:37,002 - DEBUG - History loaded.
+2025-08-03 10:00:37,009 - ERROR - [ERROR] Failed to load used cache: Illegal trailing comma before end of object: line 33 column 44 (char 1009)
+2025-08-03 10:00:37,010 - DEBUG - Used cache loaded.
+2025-08-03 10:00:37,094 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 10:00:37,127 - DEBUG - Restored main window geometry: 1600x1100+286+286
+2025-08-03 10:00:37,133 - DEBUG - Saved main window size and position: 1600x1100+286+286
+2025-08-03 10:00:37,155 - DEBUG - No saved sash position for main found in config
+2025-08-03 10:00:37,263 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 10:00:37,263 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 10:01:05,530 - DEBUG - Verified themes folder at: themes
+2025-08-03 10:01:05,536 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 10:01:05,536 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 10:01:05,536 - DEBUG - Updating processor schemes...
+2025-08-03 10:01:05,536 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 10:01:05,536 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 10:01:05,613 - DEBUG - History loaded.
+2025-08-03 10:01:05,621 - DEBUG - Used cache loaded.
+2025-08-03 10:01:05,668 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 10:01:05,734 - DEBUG - Restored main window geometry: 1600x1100+286+286
+2025-08-03 10:01:05,753 - DEBUG - Saved main window size and position: 1600x1100+286+286
+2025-08-03 10:01:05,764 - DEBUG - No saved sash position for main found in config
+2025-08-03 10:01:05,829 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 10:01:05,829 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 10:01:07,146 - DEBUG - Saved main window size and position: 1600x1100+291+286
+2025-08-03 10:01:07,149 - DEBUG - Saved main window size and position: 1600x1100+294+286
+2025-08-03 10:01:07,157 - DEBUG - Saved main window size and position: 1600x1100+296+286
+2025-08-03 10:01:07,177 - DEBUG - Saved main window size and position: 1600x1100+299+286
+2025-08-03 10:01:07,179 - DEBUG - Saved main window size and position: 1600x1100+303+286
+2025-08-03 10:01:07,181 - DEBUG - Saved main window size and position: 1600x1100+306+286
+2025-08-03 10:01:07,187 - DEBUG - Saved main window size and position: 1600x1100+310+286
+2025-08-03 10:01:07,195 - DEBUG - Saved main window size and position: 1600x1100+314+286
+2025-08-03 10:01:07,202 - DEBUG - Saved main window size and position: 1600x1100+320+286
+2025-08-03 10:01:07,210 - DEBUG - Saved main window size and position: 1600x1100+323+285
+2025-08-03 10:01:07,217 - DEBUG - Saved main window size and position: 1600x1100+325+285
+2025-08-03 10:01:07,225 - DEBUG - Saved main window size and position: 1600x1100+327+285
+2025-08-03 10:01:07,233 - DEBUG - Saved main window size and position: 1600x1100+329+284
+2025-08-03 10:01:07,240 - DEBUG - Saved main window size and position: 1600x1100+331+284
+2025-08-03 10:01:07,248 - DEBUG - Saved main window size and position: 1600x1100+334+283
+2025-08-03 10:01:07,255 - DEBUG - Saved main window size and position: 1600x1100+337+282
+2025-08-03 10:01:07,263 - DEBUG - Saved main window size and position: 1600x1100+340+282
+2025-08-03 10:01:07,270 - DEBUG - Saved main window size and position: 1600x1100+344+280
+2025-08-03 10:01:07,278 - DEBUG - Saved main window size and position: 1600x1100+350+278
+2025-08-03 10:01:07,286 - DEBUG - Saved main window size and position: 1600x1100+361+276
+2025-08-03 10:01:07,293 - DEBUG - Saved main window size and position: 1600x1100+372+272
+2025-08-03 10:01:07,301 - DEBUG - Saved main window size and position: 1600x1100+388+268
+2025-08-03 10:01:07,308 - DEBUG - Saved main window size and position: 1600x1100+415+259
+2025-08-03 10:01:07,318 - DEBUG - Saved main window size and position: 1600x1100+437+252
+2025-08-03 10:01:07,324 - DEBUG - Saved main window size and position: 1600x1100+461+246
+2025-08-03 10:01:07,331 - DEBUG - Saved main window size and position: 1600x1100+483+239
+2025-08-03 10:01:07,339 - DEBUG - Saved main window size and position: 1600x1100+509+229
+2025-08-03 10:01:07,346 - DEBUG - Saved main window size and position: 1600x1100+524+222
+2025-08-03 10:01:07,354 - DEBUG - Saved main window size and position: 1600x1100+539+215
+2025-08-03 10:01:07,361 - DEBUG - Saved main window size and position: 1600x1100+551+211
+2025-08-03 10:01:07,369 - DEBUG - Saved main window size and position: 1600x1100+562+205
+2025-08-03 10:01:07,377 - DEBUG - Saved main window size and position: 1600x1100+569+202
+2025-08-03 10:01:07,384 - DEBUG - Saved main window size and position: 1600x1100+572+202
+2025-08-03 10:01:07,392 - DEBUG - Saved main window size and position: 1600x1100+575+200
+2025-08-03 10:01:07,407 - DEBUG - Saved main window size and position: 1600x1100+576+199
+2025-08-03 10:01:07,445 - DEBUG - Saved main window size and position: 1600x1100+578+199
+2025-08-03 10:01:07,453 - DEBUG - Saved main window size and position: 1600x1100+579+199
+2025-08-03 10:01:07,460 - DEBUG - Saved main window size and position: 1600x1100+580+199
+2025-08-03 10:01:07,468 - DEBUG - Saved main window size and position: 1600x1100+582+199
+2025-08-03 10:01:07,475 - DEBUG - Saved main window size and position: 1600x1100+584+199
+2025-08-03 10:01:07,483 - DEBUG - Saved main window size and position: 1600x1100+586+199
+2025-08-03 10:01:07,513 - DEBUG - Saved main window size and position: 1600x1100+587+199
+2025-08-03 10:01:07,538 - DEBUG - Saved main window size and position: 1600x1100+588+199
+2025-08-03 10:01:07,544 - DEBUG - Saved main window size and position: 1600x1100+589+199
+2025-08-03 10:01:07,566 - DEBUG - Saved main window size and position: 1600x1100+590+199
+2025-08-03 10:01:07,582 - DEBUG - Saved main window size and position: 1600x1100+591+199
+2025-08-03 10:01:07,589 - DEBUG - Saved main window size and position: 1600x1100+592+199
+2025-08-03 10:01:07,597 - DEBUG - Saved main window size and position: 1600x1100+594+199
+2025-08-03 10:01:07,604 - DEBUG - Saved main window size and position: 1600x1100+597+198
+2025-08-03 10:01:07,612 - DEBUG - Saved main window size and position: 1600x1100+602+197
+2025-08-03 10:01:07,619 - DEBUG - Saved main window size and position: 1600x1100+607+196
+2025-08-03 10:01:07,627 - DEBUG - Saved main window size and position: 1600x1100+615+195
+2025-08-03 10:01:07,635 - DEBUG - Saved main window size and position: 1600x1100+625+193
+2025-08-03 10:01:07,642 - DEBUG - Saved main window size and position: 1600x1100+634+192
+2025-08-03 10:01:07,650 - DEBUG - Saved main window size and position: 1600x1100+645+190
+2025-08-03 10:01:07,657 - DEBUG - Saved main window size and position: 1600x1100+652+189
+2025-08-03 10:01:07,668 - DEBUG - Saved main window size and position: 1600x1100+656+189
+2025-08-03 10:01:07,673 - DEBUG - Saved main window size and position: 1600x1100+658+188
+2025-08-03 10:01:07,680 - DEBUG - Saved main window size and position: 1600x1100+660+188
+2025-08-03 10:01:07,695 - DEBUG - Saved main window size and position: 1600x1100+661+188
+2025-08-03 10:01:07,794 - DEBUG - Saved main window size and position: 1600x1100+662+188
+2025-08-03 10:01:11,904 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 10:01:11,910 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 10:01:11,913 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC24', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 10:01:11,913 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 10:01:11,913 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 10:01:11,914 - DEBUG - Found .txt files: []
+2025-08-03 10:01:11,914 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 10:01:11,914 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 10:01:36,525 - DEBUG - Verified themes folder at: themes
+2025-08-03 10:01:36,541 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 10:01:36,542 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 10:01:36,542 - DEBUG - Updating processor schemes...
+2025-08-03 10:01:36,542 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 10:01:36,542 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 10:01:36,750 - DEBUG - History loaded.
+2025-08-03 10:01:36,751 - DEBUG - Used cache loaded.
+2025-08-03 10:01:36,769 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 10:01:36,852 - DEBUG - Restored main window geometry: 1600x1100+662+188
+2025-08-03 10:01:36,858 - DEBUG - Saved main window size and position: 1600x1100+662+188
+2025-08-03 10:01:36,900 - DEBUG - No saved sash position for main found in config
+2025-08-03 10:01:36,958 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 10:01:36,959 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 10:01:39,882 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 10:01:39,885 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 10:01:39,885 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC24', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 10:01:39,885 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD
+2025-08-03 10:01:39,886 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 10:01:39,886 - DEBUG - Found .txt files: []
+2025-08-03 10:01:39,886 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD
+2025-08-03 10:01:39,886 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 10:01:40,203 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 10:01:40,203 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 10:01:40,203 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC24', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 10:01:40,204 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 10:01:40,204 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 10:01:40,204 - DEBUG - Found .txt files: []
+2025-08-03 10:01:40,204 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 10:01:40,204 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 10:01:49,760 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TEST', 'venue': 'TEST', 'city': 'TEST', 'source': 'TEST', 'format': 'TEST', 'additional': '', 'genre': 'TEST', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy', 'add': ''}
+2025-08-03 10:01:49,761 - DEBUG - Folder scheme evaluated to: 2003-01-02 - TEST - TEST [TEST]
+2025-08-03 10:01:49,761 - INFO - => Output folder: M:\Live Music\TEST\2003
+2025-08-03 10:01:50,209 - DEBUG - Starting process_thread
+2025-08-03 10:01:50,212 - DEBUG - Metadata with currentfoldername for processing: {'artist': 'TEST', 'venue': 'TEST', 'city': 'TEST', 'source': 'TEST', 'format': 'TEST', 'add': '', 'genre': 'TEST', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy', 'filename': '1 FLACHD - Copy'}
+2025-08-03 10:01:50,213 - INFO - 
+Processing folder: M:/Projects/Staging/1 FLACHD - Copy
+2025-08-03 10:01:50,218 - INFO -   Updated artists.txt with: TEST
+2025-08-03 10:01:50,229 - INFO -   Updated venues.txt with: TEST
+2025-08-03 10:01:50,233 - INFO -   Updated cities.txt with: TEST
+2025-08-03 10:01:50,236 - INFO - Metadata for scheme evaluation: {'artist': 'TEST', 'venue': 'TEST', 'city': 'TEST', 'source': 'TEST', 'format': 'TEST', 'genre': 'TEST', 'additional': '', 'add': '', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy'}
+2025-08-03 10:01:50,242 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 10:01:50,247 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TEST', 'venue': 'TEST', 'city': 'TEST', 'source': 'TEST', 'format': 'TEST', 'genre': 'TEST', 'additional': '', 'add': '', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy'}
+2025-08-03 10:01:50,247 - DEBUG - Folder scheme evaluated to: 2003-01-02 - TEST - TEST [TEST]
+2025-08-03 10:01:50,247 - INFO - => Output folder: M:\Live Music\TEST\2003
+2025-08-03 10:01:50,268 - INFO - => Output folder: M:\Live Music\TEST\2003\2003-01-02 - TEST - TEST [TEST]
+2025-08-03 10:01:50,317 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-03 10:01:50,362 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-03 10:01:50,422 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-03 10:01:50,462 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-03 10:01:50,515 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-03 10:01:50,546 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-03 10:01:50,602 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-03 10:01:50,637 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-03 10:01:50,671 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-03 10:01:50,699 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-03 10:01:50,726 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-03 10:01:50,751 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-03 10:01:50,773 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-03 10:01:50,794 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-03 10:01:50,815 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-03 10:01:50,840 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-03 10:01:50,863 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-03 10:01:50,889 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-03 10:01:50,897 - INFO - Removed empty source folder: M:\Projects\Staging\1 FLACHD - Copy
+2025-08-03 10:01:50,907 - INFO - Finished processing folder: M:\Live Music\TEST\2003\2003-01-02 - TEST - TEST [TEST]
+2025-08-03 10:01:50,912 - DEBUG - [DEBUG] Cached artist => genre: TEST => TEST
+2025-08-03 10:01:50,918 - INFO - Saved history with last used values prioritized on top.
+2025-08-03 10:01:51,017 - DEBUG - [DEBUG] Cached artist => genre: TEST => TEST
+2025-08-03 10:01:51,017 - DEBUG - Used cache updated from UI values.
+2025-08-03 10:01:51,018 - INFO - Used cache saved.
+2025-08-03 10:02:07,676 - INFO - Saved history with last used values prioritized on top.
+2025-08-03 10:02:07,677 - INFO - Used cache saved.
+2025-08-03 10:02:10,658 - DEBUG - Verified themes folder at: themes
+2025-08-03 10:02:10,659 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 10:02:10,659 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 10:02:10,660 - DEBUG - Updating processor schemes...
+2025-08-03 10:02:10,660 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 10:02:10,660 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 10:02:10,715 - DEBUG - History loaded.
+2025-08-03 10:02:10,716 - DEBUG - Used cache loaded.
+2025-08-03 10:02:10,734 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 10:02:10,815 - DEBUG - Restored main window geometry: 1600x1100+662+188
+2025-08-03 10:02:10,824 - DEBUG - Saved main window size and position: 1600x1100+662+188
+2025-08-03 10:02:10,865 - DEBUG - No saved sash position for main found in config
+2025-08-03 10:02:10,922 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 10:02:10,922 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 10:02:44,726 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 10:02:44,729 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 10:02:44,729 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC24', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 10:02:44,729 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 10:02:44,733 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 10:02:44,733 - DEBUG - Found .txt files: []
+2025-08-03 10:02:44,734 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 10:02:44,734 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 10:02:57,200 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TEST2', 'venue': 'TEST2', 'city': 'TEST2', 'source': 'TEST2', 'format': 'TEST2', 'additional': 'TEST2', 'genre': 'TEST2', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy', 'add': 'TEST2'}
+2025-08-03 10:02:57,201 - DEBUG - Folder scheme evaluated to: 2003-01-02 - TEST2 - TEST2 [TEST2] [TEST2]
+2025-08-03 10:02:57,201 - INFO - => Output folder: M:\Live Music\TEST2\2003
+2025-08-03 10:02:57,756 - DEBUG - Starting process_thread
+2025-08-03 10:02:57,757 - DEBUG - Metadata with currentfoldername for processing: {'artist': 'TEST2', 'venue': 'TEST2', 'city': 'TEST2', 'source': 'TEST2', 'format': 'TEST2', 'add': 'TEST2', 'genre': 'TEST2', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy', 'filename': '1 FLACHD - Copy'}
+2025-08-03 10:02:57,757 - INFO - 
+Processing folder: M:/Projects/Staging/1 FLACHD - Copy
+2025-08-03 10:02:57,761 - INFO -   Updated artists.txt with: TEST2
+2025-08-03 10:02:57,764 - INFO -   Updated venues.txt with: TEST2
+2025-08-03 10:02:57,768 - INFO -   Updated cities.txt with: TEST2
+2025-08-03 10:02:57,773 - INFO - Metadata for scheme evaluation: {'artist': 'TEST2', 'venue': 'TEST2', 'city': 'TEST2', 'source': 'TEST2', 'format': 'TEST2', 'genre': 'TEST2', 'additional': 'TEST2', 'add': 'TEST2', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy'}
+2025-08-03 10:02:57,776 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 10:02:57,781 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TEST2', 'venue': 'TEST2', 'city': 'TEST2', 'source': 'TEST2', 'format': 'TEST2', 'genre': 'TEST2', 'additional': 'TEST2', 'add': 'TEST2', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy'}
+2025-08-03 10:02:57,781 - DEBUG - Folder scheme evaluated to: 2003-01-02 - TEST2 - TEST2 [TEST2] [TEST2]
+2025-08-03 10:02:57,781 - INFO - => Output folder: M:\Live Music\TEST2\2003
+2025-08-03 10:02:57,784 - INFO - => Output folder: M:\Live Music\TEST2\2003\2003-01-02 - TEST2 - TEST2 [TEST2] [TEST2]
+2025-08-03 10:02:57,823 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-03 10:02:57,859 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-03 10:02:57,881 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-03 10:02:57,900 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-03 10:02:57,919 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-03 10:02:57,939 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-03 10:02:57,958 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-03 10:02:57,979 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-03 10:02:57,999 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-03 10:02:58,020 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-03 10:02:58,037 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-03 10:02:58,059 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-03 10:02:58,084 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-03 10:02:58,102 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-03 10:02:58,123 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-03 10:02:58,144 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-03 10:02:58,166 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-03 10:02:58,187 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-03 10:02:58,195 - INFO - Removed empty source folder: M:\Projects\Staging\1 FLACHD - Copy
+2025-08-03 10:02:58,203 - INFO - Finished processing folder: M:\Live Music\TEST2\2003\2003-01-02 - TEST2 - TEST2 [TEST2] [TEST2]
+2025-08-03 10:02:58,208 - DEBUG - [DEBUG] Cached artist => genre: TEST2 => TEST2
+2025-08-03 10:02:58,213 - INFO - Saved history with last used values prioritized on top.
+2025-08-03 10:02:58,336 - DEBUG - [DEBUG] Cached artist => genre: TEST2 => TEST2
+2025-08-03 10:02:58,336 - DEBUG - Used cache updated from UI values.
+2025-08-03 10:02:58,336 - INFO - Used cache saved.
+2025-08-03 10:03:10,639 - INFO - Saved history with last used values prioritized on top.
+2025-08-03 10:03:10,640 - INFO - Used cache saved.
+2025-08-03 10:03:14,894 - DEBUG - Verified themes folder at: themes
+2025-08-03 10:03:14,895 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 10:03:14,895 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 10:03:14,895 - DEBUG - Updating processor schemes...
+2025-08-03 10:03:14,895 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 10:03:14,896 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 10:03:14,945 - DEBUG - History loaded.
+2025-08-03 10:03:14,953 - DEBUG - Used cache loaded.
+2025-08-03 10:03:14,972 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 10:03:15,045 - DEBUG - Restored main window geometry: 1600x1100+662+188
+2025-08-03 10:03:15,051 - DEBUG - Saved main window size and position: 1600x1100+662+188
+2025-08-03 10:03:15,095 - DEBUG - No saved sash position for main found in config
+2025-08-03 10:03:15,153 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 10:03:15,154 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 10:04:48,585 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 10:04:48,587 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 10:04:48,588 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC24', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 10:04:48,588 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 10:04:48,588 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 10:04:48,588 - DEBUG - Found .txt files: []
+2025-08-03 10:04:48,588 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 10:04:48,588 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 10:05:01,123 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TEST3', 'venue': 'TEST3', 'city': 'TEST3', 'source': 'TEST3', 'format': 'TEST3', 'additional': 'TEST3', 'genre': 'TEST3', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy', 'add': 'TEST3'}
+2025-08-03 10:05:01,124 - DEBUG - Folder scheme evaluated to: 2003-01-02 - TEST3 - TEST3 [TEST3] [TEST3]
+2025-08-03 10:05:01,124 - INFO - => Output folder: M:\Live Music\TEST3\2003
+2025-08-03 10:05:01,829 - DEBUG - Starting process_thread
+2025-08-03 10:05:01,830 - DEBUG - Metadata with currentfoldername for processing: {'artist': 'TEST3', 'venue': 'TEST3', 'city': 'TEST3', 'source': 'TEST3', 'format': 'TEST3', 'add': 'TEST3', 'genre': 'TEST3', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy', 'filename': '1 FLACHD - Copy'}
+2025-08-03 10:05:01,830 - INFO - 
+Processing folder: M:/Projects/Staging/1 FLACHD - Copy
+2025-08-03 10:05:01,834 - INFO -   Updated artists.txt with: TEST3
+2025-08-03 10:05:01,835 - INFO -   Updated venues.txt with: TEST3
+2025-08-03 10:05:01,839 - INFO -   Updated cities.txt with: TEST3
+2025-08-03 10:05:01,845 - INFO - Metadata for scheme evaluation: {'artist': 'TEST3', 'venue': 'TEST3', 'city': 'TEST3', 'source': 'TEST3', 'format': 'TEST3', 'genre': 'TEST3', 'additional': 'TEST3', 'add': 'TEST3', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy'}
+2025-08-03 10:05:01,846 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 10:05:01,851 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TEST3', 'venue': 'TEST3', 'city': 'TEST3', 'source': 'TEST3', 'format': 'TEST3', 'genre': 'TEST3', 'additional': 'TEST3', 'add': 'TEST3', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy'}
+2025-08-03 10:05:01,851 - DEBUG - Folder scheme evaluated to: 2003-01-02 - TEST3 - TEST3 [TEST3] [TEST3]
+2025-08-03 10:05:01,851 - INFO - => Output folder: M:\Live Music\TEST3\2003
+2025-08-03 10:05:01,854 - INFO - => Output folder: M:\Live Music\TEST3\2003\2003-01-02 - TEST3 - TEST3 [TEST3] [TEST3]
+2025-08-03 10:05:02,023 - INFO -   Renaming due to collision: 01-01 - Phish - Chalk Dust Torture.flac → 01-01 - Phish - Chalk Dust Torture(1).flac
+2025-08-03 10:05:02,052 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture(1).flac
+2025-08-03 10:05:02,057 - INFO -   Renaming due to collision: 01-02 - Phish - Bathtub Gin.flac → 01-02 - Phish - Bathtub Gin(1).flac
+2025-08-03 10:05:02,079 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin(1).flac
+2025-08-03 10:05:02,085 - INFO -   Renaming due to collision: 01-03 - Phish - It's Ice.flac → 01-03 - Phish - It's Ice(1).flac
+2025-08-03 10:05:02,103 - INFO -   Tagged: 01-03 - Phish - It's Ice(1).flac
+2025-08-03 10:05:02,109 - INFO -   Renaming due to collision: 01-04 - Phish - Back on the Train.flac → 01-04 - Phish - Back on the Train(1).flac
+2025-08-03 10:05:02,130 - INFO -   Tagged: 01-04 - Phish - Back on the Train(1).flac
+2025-08-03 10:05:02,136 - INFO -   Renaming due to collision: 01-05 - Phish - Round Room.flac → 01-05 - Phish - Round Room(1).flac
+2025-08-03 10:05:02,157 - INFO -   Tagged: 01-05 - Phish - Round Room(1).flac
+2025-08-03 10:05:02,164 - INFO -   Renaming due to collision: 01-06 - Phish - The Horse.flac → 01-06 - Phish - The Horse(1).flac
+2025-08-03 10:05:02,188 - INFO -   Tagged: 01-06 - Phish - The Horse(1).flac
+2025-08-03 10:05:02,196 - INFO -   Renaming due to collision: 01-07 - Phish - Silent in the Morning.flac → 01-07 - Phish - Silent in the Morning(1).flac
+2025-08-03 10:05:02,216 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning(1).flac
+2025-08-03 10:05:02,290 - INFO -   Renaming due to collision: 01-08 - Phish - Stash.flac → 01-08 - Phish - Stash(1).flac
+2025-08-03 10:05:02,313 - INFO -   Tagged: 01-08 - Phish - Stash(1).flac
+2025-08-03 10:05:02,322 - INFO -   Renaming due to collision: 01-09 - Phish - Water in the Sky.flac → 01-09 - Phish - Water in the Sky(1).flac
+2025-08-03 10:05:02,352 - INFO -   Tagged: 01-09 - Phish - Water in the Sky(1).flac
+2025-08-03 10:05:02,360 - INFO -   Renaming due to collision: 01-10 - Phish - Character Zero.flac → 01-10 - Phish - Character Zero(1).flac
+2025-08-03 10:05:02,382 - INFO -   Tagged: 01-10 - Phish - Character Zero(1).flac
+2025-08-03 10:05:02,396 - INFO -   Renaming due to collision: 02-01 - Phish - 46 Days.flac → 02-01 - Phish - 46 Days(1).flac
+2025-08-03 10:05:02,417 - INFO -   Tagged: 02-01 - Phish - 46 Days(1).flac
+2025-08-03 10:05:02,426 - INFO -   Renaming due to collision: 02-02 - Phish - Simple.flac → 02-02 - Phish - Simple(1).flac
+2025-08-03 10:05:02,452 - INFO -   Tagged: 02-02 - Phish - Simple(1).flac
+2025-08-03 10:05:02,455 - INFO -   Renaming due to collision: 02-03 - Phish - My Friend, My Friend.flac → 02-03 - Phish - My Friend, My Friend(1).flac
+2025-08-03 10:05:02,483 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend(1).flac
+2025-08-03 10:05:02,493 - INFO -   Renaming due to collision: 02-04 - Phish - Limb By Limb.flac → 02-04 - Phish - Limb By Limb(1).flac
+2025-08-03 10:05:02,519 - INFO -   Tagged: 02-04 - Phish - Limb By Limb(1).flac
+2025-08-03 10:05:02,527 - INFO -   Renaming due to collision: 02-05 - Phish - Thunderhead.flac → 02-05 - Phish - Thunderhead(1).flac
+2025-08-03 10:05:02,552 - INFO -   Tagged: 02-05 - Phish - Thunderhead(1).flac
+2025-08-03 10:05:02,560 - INFO -   Renaming due to collision: 02-06 - Phish - Run Like an Antelope.flac → 02-06 - Phish - Run Like an Antelope(1).flac
+2025-08-03 10:05:02,580 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope(1).flac
+2025-08-03 10:05:02,591 - INFO -   Renaming due to collision: 02-07 - Phish - Cavern.flac → 02-07 - Phish - Cavern(1).flac
+2025-08-03 10:05:02,613 - INFO -   Tagged: 02-07 - Phish - Cavern(1).flac
+2025-08-03 10:05:02,624 - INFO -   Renaming due to collision: 02-08 - Phish - Mexican Cousin.flac → 02-08 - Phish - Mexican Cousin(1).flac
+2025-08-03 10:05:02,655 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin(1).flac
+2025-08-03 10:05:02,659 - INFO - Removed empty source folder: M:\Projects\Staging\1 FLACHD - Copy
+2025-08-03 10:05:02,677 - INFO - Finished processing folder: M:\Live Music\TEST3\2003\2003-01-02 - TEST3 - TEST3 [TEST3] [TEST3]
+2025-08-03 10:05:02,680 - DEBUG - [DEBUG] Cached artist => genre: TEST3 => TEST3
+2025-08-03 10:05:02,680 - INFO - Saved history with last used values prioritized on top.
+2025-08-03 10:05:02,789 - DEBUG - [DEBUG] Cached artist => genre: TEST3 => TEST3
+2025-08-03 10:05:02,790 - DEBUG - Used cache updated from UI values.
+2025-08-03 10:05:02,790 - INFO - Used cache saved.
+2025-08-03 10:11:20,242 - DEBUG - Verified themes folder at: themes
+2025-08-03 10:11:20,243 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 10:11:20,244 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 10:11:20,244 - DEBUG - Updating processor schemes...
+2025-08-03 10:11:20,244 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 10:11:20,244 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 10:11:20,490 - DEBUG - History loaded.
+2025-08-03 10:11:20,497 - DEBUG - Used cache loaded.
+2025-08-03 10:11:20,577 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 10:11:20,613 - DEBUG - Restored main window geometry: 1600x1100+662+188
+2025-08-03 10:11:20,620 - DEBUG - Saved main window size and position: 1600x1100+662+188
+2025-08-03 10:11:20,652 - DEBUG - No saved sash position for main found in config
+2025-08-03 10:11:20,727 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 10:11:20,727 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 10:12:04,208 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 10:12:04,210 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 10:12:04,211 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC24', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 10:12:04,211 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 10:12:04,214 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 10:12:04,214 - DEBUG - Found .txt files: []
+2025-08-03 10:12:04,214 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD - Copy
+2025-08-03 10:12:04,214 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 10:12:14,289 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TEST4', 'venue': 'TEST4', 'city': 'TEST4', 'source': 'TEST4', 'format': 'TEST4', 'additional': 'TEST4', 'genre': 'TEST4', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy', 'add': 'TEST4'}
+2025-08-03 10:12:14,290 - DEBUG - Folder scheme evaluated to: 2003-01-02 - TEST4 - TEST4 [TEST4] [TEST4]
+2025-08-03 10:12:14,290 - INFO - => Output folder: M:\Live Music\TEST4\2003
+2025-08-03 10:12:15,019 - DEBUG - Starting process_thread
+2025-08-03 10:12:15,020 - DEBUG - Metadata with currentfoldername for processing: {'artist': 'TEST4', 'venue': 'TEST4', 'city': 'TEST4', 'source': 'TEST4', 'format': 'TEST4', 'add': 'TEST4', 'genre': 'TEST4', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy', 'filename': '1 FLACHD - Copy'}
+2025-08-03 10:12:15,020 - INFO - 
+Processing folder: M:/Projects/Staging/1 FLACHD - Copy
+2025-08-03 10:12:15,022 - INFO -   Updated artists.txt with: TEST4
+2025-08-03 10:12:15,025 - INFO -   Updated venues.txt with: TEST4
+2025-08-03 10:12:15,027 - INFO -   Updated cities.txt with: TEST4
+2025-08-03 10:12:15,032 - INFO - Metadata for scheme evaluation: {'artist': 'TEST4', 'venue': 'TEST4', 'city': 'TEST4', 'source': 'TEST4', 'format': 'TEST4', 'genre': 'TEST4', 'additional': 'TEST4', 'add': 'TEST4', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy'}
+2025-08-03 10:12:15,035 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 10:12:15,040 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TEST4', 'venue': 'TEST4', 'city': 'TEST4', 'source': 'TEST4', 'format': 'TEST4', 'genre': 'TEST4', 'additional': 'TEST4', 'add': 'TEST4', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy'}
+2025-08-03 10:12:15,040 - DEBUG - Folder scheme evaluated to: 2003-01-02 - TEST4 - TEST4 [TEST4] [TEST4]
+2025-08-03 10:12:15,040 - INFO - => Output folder: M:\Live Music\TEST4\2003
+2025-08-03 10:12:15,046 - INFO - => Output folder: M:\Live Music\TEST4\2003\2003-01-02 - TEST4 - TEST4 [TEST4] [TEST4]
+2025-08-03 10:12:15,081 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-03 10:12:15,101 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-03 10:12:15,117 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-03 10:12:15,139 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-03 10:12:15,159 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-03 10:12:15,181 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-03 10:12:15,200 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-03 10:12:15,228 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-03 10:12:15,250 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-03 10:12:15,274 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-03 10:12:15,298 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-03 10:12:15,329 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-03 10:12:15,352 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-03 10:12:15,375 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-03 10:12:15,398 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-03 10:12:15,420 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-03 10:12:15,440 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-03 10:12:15,462 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-03 10:12:15,466 - INFO - Removed empty source folder: M:\Projects\Staging\1 FLACHD - Copy
+2025-08-03 10:12:15,474 - INFO - Finished processing folder: M:\Live Music\TEST4\2003\2003-01-02 - TEST4 - TEST4 [TEST4] [TEST4]
+2025-08-03 10:12:15,475 - DEBUG - [DEBUG] Cached artist => genre: TEST4 => TEST4
+2025-08-03 10:12:15,479 - INFO - Saved history with last used values prioritized on top.
+2025-08-03 10:12:15,588 - DEBUG - [DEBUG] Cached artist => genre: TEST4 => TEST4
+2025-08-03 10:12:15,588 - DEBUG - Used cache updated from UI values.
+2025-08-03 10:12:15,589 - INFO - Used cache saved.
+2025-08-03 10:12:54,813 - INFO - Saved history with last used values prioritized on top.
+2025-08-03 10:12:54,814 - INFO - Used cache saved.
+2025-08-03 10:12:56,965 - DEBUG - Verified themes folder at: themes
+2025-08-03 10:12:56,966 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 10:12:56,966 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 10:12:56,966 - DEBUG - Updating processor schemes...
+2025-08-03 10:12:56,966 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 10:12:56,966 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 10:12:57,013 - DEBUG - History loaded.
+2025-08-03 10:12:57,022 - DEBUG - Used cache loaded.
+2025-08-03 10:12:57,041 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 10:12:57,113 - DEBUG - Restored main window geometry: 1600x1100+662+188
+2025-08-03 10:12:57,118 - DEBUG - Saved main window size and position: 1600x1100+662+188
+2025-08-03 10:12:57,163 - DEBUG - No saved sash position for main found in config
+2025-08-03 10:12:57,218 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 10:12:57,218 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 10:13:56,774 - DEBUG - Verified themes folder at: themes
+2025-08-03 10:13:56,779 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 10:13:56,779 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 10:13:56,780 - DEBUG - Updating processor schemes...
+2025-08-03 10:13:56,780 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 10:13:56,780 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 10:13:56,855 - DEBUG - History loaded.
+2025-08-03 10:13:56,862 - DEBUG - Used cache loaded.
+2025-08-03 10:13:56,909 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 10:13:56,977 - DEBUG - Restored main window geometry: 1600x1100+662+188
+2025-08-03 10:13:56,999 - DEBUG - Saved main window size and position: 1600x1100+662+188
+2025-08-03 10:13:57,005 - DEBUG - No saved sash position for main found in config
+2025-08-03 10:13:57,073 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 10:13:57,073 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 10:14:36,018 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 10:14:36,025 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 10:14:36,027 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC24', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 10:14:36,027 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD
+2025-08-03 10:14:36,027 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 10:14:36,027 - DEBUG - Found .txt files: []
+2025-08-03 10:14:36,027 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD
+2025-08-03 10:14:36,027 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 10:14:51,768 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TeST2', 'venue': 'TeST2', 'city': 'TeST2', 'source': 'TEST2', 'format': 'TEST2', 'additional': 'TEST2', 'genre': 'TEST2', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD', 'add': 'TEST2'}
+2025-08-03 10:14:51,768 - DEBUG - Folder scheme evaluated to: 2003-01-02 - TeST2 - TeST2 [TEST2] [TEST2]
+2025-08-03 10:14:51,768 - INFO - => Output folder: M:\Live Music\TeST2\2003
+2025-08-03 10:14:58,800 - DEBUG - Starting process_thread
+2025-08-03 10:14:58,801 - DEBUG - Metadata with currentfoldername for processing: {'artist': 'TeST2', 'venue': 'TeST2', 'city': 'TeST2', 'source': 'TEST2', 'format': 'TEST2', 'add': 'TEST2', 'genre': 'TEST2', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD', 'filename': '1 FLACHD'}
+2025-08-03 10:14:58,801 - INFO - 
+Processing folder: M:/Projects/Staging/1 FLACHD
+2025-08-03 10:14:58,809 - INFO - Metadata for scheme evaluation: {'artist': 'TeST2', 'venue': 'TeST2', 'city': 'TeST2', 'source': 'TEST2', 'format': 'TEST2', 'genre': 'TEST2', 'additional': 'TEST2', 'add': 'TEST2', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD'}
+2025-08-03 10:14:58,812 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 10:14:58,814 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TeST2', 'venue': 'TeST2', 'city': 'TeST2', 'source': 'TEST2', 'format': 'TEST2', 'genre': 'TEST2', 'additional': 'TEST2', 'add': 'TEST2', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD'}
+2025-08-03 10:14:58,815 - DEBUG - Folder scheme evaluated to: 2003-01-02 - TeST2 - TeST2 [TEST2] [TEST2]
+2025-08-03 10:14:58,815 - INFO - => Output folder: M:\Live Music\TeST2\2003
+2025-08-03 10:14:58,817 - INFO - => Output folder: M:\Live Music\TeST2\2003\2003-01-02 - TeST2 - TeST2 [TEST2] [TEST2]
+2025-08-03 10:14:58,854 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture.flac
+2025-08-03 10:14:58,871 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin.flac
+2025-08-03 10:14:58,970 - INFO -   Tagged: 01-03 - Phish - It's Ice.flac
+2025-08-03 10:14:58,993 - INFO -   Tagged: 01-04 - Phish - Back on the Train.flac
+2025-08-03 10:14:59,011 - INFO -   Tagged: 01-05 - Phish - Round Room.flac
+2025-08-03 10:14:59,029 - INFO -   Tagged: 01-06 - Phish - The Horse.flac
+2025-08-03 10:14:59,050 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning.flac
+2025-08-03 10:14:59,071 - INFO -   Tagged: 01-08 - Phish - Stash.flac
+2025-08-03 10:14:59,089 - INFO -   Tagged: 01-09 - Phish - Water in the Sky.flac
+2025-08-03 10:14:59,118 - INFO -   Tagged: 01-10 - Phish - Character Zero.flac
+2025-08-03 10:14:59,140 - INFO -   Tagged: 02-01 - Phish - 46 Days.flac
+2025-08-03 10:14:59,159 - INFO -   Tagged: 02-02 - Phish - Simple.flac
+2025-08-03 10:14:59,183 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend.flac
+2025-08-03 10:14:59,205 - INFO -   Tagged: 02-04 - Phish - Limb By Limb.flac
+2025-08-03 10:14:59,226 - INFO -   Tagged: 02-05 - Phish - Thunderhead.flac
+2025-08-03 10:14:59,247 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope.flac
+2025-08-03 10:14:59,269 - INFO -   Tagged: 02-07 - Phish - Cavern.flac
+2025-08-03 10:14:59,291 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin.flac
+2025-08-03 10:14:59,375 - INFO - Removed empty source folder: M:\Projects\Staging\1 FLACHD
+2025-08-03 10:14:59,387 - INFO - Finished processing folder: M:\Live Music\TeST2\2003\2003-01-02 - TeST2 - TeST2 [TEST2] [TEST2]
+2025-08-03 10:14:59,393 - DEBUG - [DEBUG] Cached artist => genre: TeST2 => TEST2
+2025-08-03 10:14:59,397 - INFO - Saved history with last used values prioritized on top.
+2025-08-03 10:14:59,526 - DEBUG - [DEBUG] Cached artist => genre: TeST2 => TEST2
+2025-08-03 10:14:59,526 - DEBUG - Used cache updated from UI values.
+2025-08-03 10:14:59,526 - INFO - Used cache saved.
+2025-08-03 10:15:05,469 - INFO - Saved history with last used values prioritized on top.
+2025-08-03 10:15:05,470 - INFO - Used cache saved.
+2025-08-03 10:15:11,624 - DEBUG - Verified themes folder at: themes
+2025-08-03 10:15:11,630 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 10:15:11,630 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 10:15:11,630 - DEBUG - Updating processor schemes...
+2025-08-03 10:15:11,630 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 10:15:11,630 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 10:15:11,715 - DEBUG - History loaded.
+2025-08-03 10:15:11,722 - DEBUG - Used cache loaded.
+2025-08-03 10:15:11,768 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 10:15:11,837 - DEBUG - Restored main window geometry: 1600x1100+662+188
+2025-08-03 10:15:11,854 - DEBUG - Saved main window size and position: 1600x1100+662+188
+2025-08-03 10:15:11,868 - DEBUG - No saved sash position for main found in config
+2025-08-03 10:15:11,928 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 10:15:11,929 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 10:18:44,118 - DEBUG - Verified themes folder at: themes
+2025-08-03 10:18:44,124 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 10:18:44,124 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 10:18:44,124 - DEBUG - Updating processor schemes...
+2025-08-03 10:18:44,124 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 10:18:44,125 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 10:18:44,201 - DEBUG - History loaded.
+2025-08-03 10:18:44,201 - DEBUG - Used cache loaded.
+2025-08-03 10:18:44,256 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 10:18:44,324 - DEBUG - Restored main window geometry: 1600x1100+662+188
+2025-08-03 10:18:44,333 - DEBUG - Saved main window size and position: 1600x1100+662+188
+2025-08-03 10:18:44,354 - DEBUG - No saved sash position for main found in config
+2025-08-03 10:18:44,423 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 10:18:44,423 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 10:19:11,719 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 10:19:11,726 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 10:19:11,728 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC24', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 10:19:11,728 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD - Copy - Copy
+2025-08-03 10:19:11,731 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 10:19:11,732 - DEBUG - Found .txt files: []
+2025-08-03 10:19:11,732 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD - Copy - Copy
+2025-08-03 10:19:11,732 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 10:19:23,798 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TeST2', 'venue': 'TeST2', 'city': 'TeST2', 'source': 'TEST2', 'format': 'TEST2', 'additional': 'TEST2', 'genre': 'TEST2', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy - Copy', 'add': 'TEST2'}
+2025-08-03 10:19:23,798 - DEBUG - Folder scheme evaluated to: 2003-01-02 - TeST2 - TeST2 [TEST2] [TEST2]
+2025-08-03 10:19:23,798 - INFO - => Output folder: M:\Live Music\TeST2\2003
+2025-08-03 10:19:24,231 - DEBUG - Starting process_thread
+2025-08-03 10:19:24,232 - DEBUG - Metadata with currentfoldername for processing: {'artist': 'TeST2', 'venue': 'TeST2', 'city': 'TeST2', 'source': 'TEST2', 'format': 'TEST2', 'add': 'TEST2', 'genre': 'TEST2', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy - Copy', 'filename': '1 FLACHD - Copy - Copy'}
+2025-08-03 10:19:24,232 - INFO - 
+Processing folder: M:/Projects/Staging/1 FLACHD - Copy - Copy
+2025-08-03 10:19:24,239 - INFO -   Updated artists.txt with: TeST2
+2025-08-03 10:19:24,242 - INFO -   Updated venues.txt with: TeST2
+2025-08-03 10:19:24,252 - INFO -   Updated cities.txt with: TeST2
+2025-08-03 10:19:24,256 - INFO - Metadata for scheme evaluation: {'artist': 'TeST2', 'venue': 'TeST2', 'city': 'TeST2', 'source': 'TEST2', 'format': 'TEST2', 'genre': 'TEST2', 'additional': 'TEST2', 'add': 'TEST2', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy - Copy'}
+2025-08-03 10:19:24,260 - INFO - Evaluating output folder path with current schemes.
+2025-08-03 10:19:24,264 - DEBUG - Evaluating folder scheme with metadata: {'artist': 'TeST2', 'venue': 'TeST2', 'city': 'TeST2', 'source': 'TEST2', 'format': 'TEST2', 'genre': 'TEST2', 'additional': 'TEST2', 'add': 'TEST2', 'date': '2003-01-02', 'currentfoldername': '1 FLACHD - Copy - Copy'}
+2025-08-03 10:19:24,264 - DEBUG - Folder scheme evaluated to: 2003-01-02 - TeST2 - TeST2 [TEST2] [TEST2]
+2025-08-03 10:19:24,265 - INFO - => Output folder: M:\Live Music\TeST2\2003
+2025-08-03 10:19:24,269 - INFO - => Output folder: M:\Live Music\TeST2\2003\2003-01-02 - TeST2 - TeST2 [TEST2] [TEST2]
+2025-08-03 10:19:24,282 - INFO -   Renaming due to collision: 01-01 - Phish - Chalk Dust Torture.flac → 01-01 - Phish - Chalk Dust Torture(1).flac
+2025-08-03 10:19:24,304 - INFO -   Tagged: 01-01 - Phish - Chalk Dust Torture(1).flac
+2025-08-03 10:19:24,309 - INFO -   Renaming due to collision: 01-02 - Phish - Bathtub Gin.flac → 01-02 - Phish - Bathtub Gin(1).flac
+2025-08-03 10:19:24,362 - INFO -   Tagged: 01-02 - Phish - Bathtub Gin(1).flac
+2025-08-03 10:19:24,368 - INFO -   Renaming due to collision: 01-03 - Phish - It's Ice.flac → 01-03 - Phish - It's Ice(1).flac
+2025-08-03 10:19:24,398 - INFO -   Tagged: 01-03 - Phish - It's Ice(1).flac
+2025-08-03 10:19:24,403 - INFO -   Renaming due to collision: 01-04 - Phish - Back on the Train.flac → 01-04 - Phish - Back on the Train(1).flac
+2025-08-03 10:19:24,423 - INFO -   Tagged: 01-04 - Phish - Back on the Train(1).flac
+2025-08-03 10:19:24,428 - INFO -   Renaming due to collision: 01-05 - Phish - Round Room.flac → 01-05 - Phish - Round Room(1).flac
+2025-08-03 10:19:24,451 - INFO -   Tagged: 01-05 - Phish - Round Room(1).flac
+2025-08-03 10:19:24,454 - INFO -   Renaming due to collision: 01-06 - Phish - The Horse.flac → 01-06 - Phish - The Horse(1).flac
+2025-08-03 10:19:24,476 - INFO -   Tagged: 01-06 - Phish - The Horse(1).flac
+2025-08-03 10:19:24,482 - INFO -   Renaming due to collision: 01-07 - Phish - Silent in the Morning.flac → 01-07 - Phish - Silent in the Morning(1).flac
+2025-08-03 10:19:24,502 - INFO -   Tagged: 01-07 - Phish - Silent in the Morning(1).flac
+2025-08-03 10:19:24,508 - INFO -   Renaming due to collision: 01-08 - Phish - Stash.flac → 01-08 - Phish - Stash(1).flac
+2025-08-03 10:19:24,529 - INFO -   Tagged: 01-08 - Phish - Stash(1).flac
+2025-08-03 10:19:24,536 - INFO -   Renaming due to collision: 01-09 - Phish - Water in the Sky.flac → 01-09 - Phish - Water in the Sky(1).flac
+2025-08-03 10:19:24,565 - INFO -   Tagged: 01-09 - Phish - Water in the Sky(1).flac
+2025-08-03 10:19:24,573 - INFO -   Renaming due to collision: 01-10 - Phish - Character Zero.flac → 01-10 - Phish - Character Zero(1).flac
+2025-08-03 10:19:24,594 - INFO -   Tagged: 01-10 - Phish - Character Zero(1).flac
+2025-08-03 10:19:24,601 - INFO -   Renaming due to collision: 02-01 - Phish - 46 Days.flac → 02-01 - Phish - 46 Days(1).flac
+2025-08-03 10:19:24,628 - INFO -   Tagged: 02-01 - Phish - 46 Days(1).flac
+2025-08-03 10:19:24,637 - INFO -   Renaming due to collision: 02-02 - Phish - Simple.flac → 02-02 - Phish - Simple(1).flac
+2025-08-03 10:19:24,660 - INFO -   Tagged: 02-02 - Phish - Simple(1).flac
+2025-08-03 10:19:24,670 - INFO -   Renaming due to collision: 02-03 - Phish - My Friend, My Friend.flac → 02-03 - Phish - My Friend, My Friend(1).flac
+2025-08-03 10:19:24,692 - INFO -   Tagged: 02-03 - Phish - My Friend, My Friend(1).flac
+2025-08-03 10:19:24,700 - INFO -   Renaming due to collision: 02-04 - Phish - Limb By Limb.flac → 02-04 - Phish - Limb By Limb(1).flac
+2025-08-03 10:19:24,722 - INFO -   Tagged: 02-04 - Phish - Limb By Limb(1).flac
+2025-08-03 10:19:24,732 - INFO -   Renaming due to collision: 02-05 - Phish - Thunderhead.flac → 02-05 - Phish - Thunderhead(1).flac
+2025-08-03 10:19:24,755 - INFO -   Tagged: 02-05 - Phish - Thunderhead(1).flac
+2025-08-03 10:19:24,763 - INFO -   Renaming due to collision: 02-06 - Phish - Run Like an Antelope.flac → 02-06 - Phish - Run Like an Antelope(1).flac
+2025-08-03 10:19:24,788 - INFO -   Tagged: 02-06 - Phish - Run Like an Antelope(1).flac
+2025-08-03 10:19:24,799 - INFO -   Renaming due to collision: 02-07 - Phish - Cavern.flac → 02-07 - Phish - Cavern(1).flac
+2025-08-03 10:19:24,824 - INFO -   Tagged: 02-07 - Phish - Cavern(1).flac
+2025-08-03 10:19:24,833 - INFO -   Renaming due to collision: 02-08 - Phish - Mexican Cousin.flac → 02-08 - Phish - Mexican Cousin(1).flac
+2025-08-03 10:19:24,857 - INFO -   Tagged: 02-08 - Phish - Mexican Cousin(1).flac
+2025-08-03 10:19:24,868 - INFO - Removed empty source folder: M:\Projects\Staging\1 FLACHD - Copy - Copy
+2025-08-03 10:19:24,884 - INFO - Finished processing folder: M:\Live Music\TeST2\2003\2003-01-02 - TeST2 - TeST2 [TEST2] [TEST2]
+2025-08-03 10:19:24,892 - DEBUG - [DEBUG] Cached artist => genre: TeST2 => TEST2
+2025-08-03 10:19:24,901 - INFO - Saved history with last used values prioritized on top.
+2025-08-03 10:19:25,108 - DEBUG - [DEBUG] Cached artist => genre: TeST2 => TEST2
+2025-08-03 10:19:25,108 - DEBUG - Used cache updated from UI values.
+2025-08-03 10:19:25,108 - INFO - Used cache saved.
+2025-08-03 10:20:02,467 - INFO - Saved history with last used values prioritized on top.
+2025-08-03 10:20:02,469 - INFO - Used cache saved.

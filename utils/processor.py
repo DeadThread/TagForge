@@ -90,11 +90,12 @@ class Processor:
             self.log(f"  Failed reading {file_path}: {e}")
             return
 
-        # Avoid duplicate (case-insensitive)
-        if any(line.lower() == new_value.lower() for line in lines):
-            return
+        # Remove all existing occurrences of new_value (case-insensitive)
+        lines = [line for line in lines if line.lower() != new_value.lower()]
 
+        # Insert new_value at the top
         lines.insert(0, new_value)
+
         try:
             os.makedirs(os.path.dirname(file_path), exist_ok=True)
             with open(file_path, "w", encoding="utf-8") as f:
@@ -102,6 +103,7 @@ class Processor:
             self.log(f"  Updated {os.path.basename(file_path)} with: {new_value}")
         except Exception as e:
             self.log(f"  Failed writing {file_path}: {e}")
+
 
     def process_folders(self, folders, gui_fallbacks):
         """Process a list of source folders, move & tag files accordingly."""

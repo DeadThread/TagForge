@@ -1,6 +1,9 @@
 import os
 import json
+from pathlib import Path
 from utils.constants import DEFAULTS, HISTORY_FILE, USED_CACHE_FILE
+from utils.logger import log_message
+
 
 def load_used_cache(log_func=None):
     try:
@@ -17,6 +20,7 @@ def load_used_cache(log_func=None):
             log_func(f"[ERROR] Failed to load used cache: {e}", level="error")
         return {"artists": {}}
 
+
 def save_used_cache(used_cache, log_func=None):
     try:
         os.makedirs(os.path.dirname(USED_CACHE_FILE), exist_ok=True)
@@ -28,6 +32,7 @@ def save_used_cache(used_cache, log_func=None):
         if log_func:
             log_func(f"[ERROR] Failed to save used cache: {e}", level="error")
 
+
 def update_used_cache(used_cache, artist_val, genre_val, log_func=None):
     try:
         if artist_val and genre_val:
@@ -37,6 +42,7 @@ def update_used_cache(used_cache, artist_val, genre_val, log_func=None):
     except Exception as e:
         if log_func:
             log_func(f"[ERROR] Failed to update used cache: {e}", level="error")
+
 
 def load_history(histories, set_last_used_callback=None, log_func=None):
     try:
@@ -54,6 +60,7 @@ def load_history(histories, set_last_used_callback=None, log_func=None):
     except Exception as e:
         if log_func:
             log_func(f"[ERROR] Failed to load history cache: {e}", level="error")
+
 
 def save_history(histories, last_source="", last_format="", last_genre="", log_func=None):
     data = {}
@@ -96,6 +103,7 @@ def save_history(histories, last_source="", last_format="", last_genre="", log_f
         if log_func:
             log_func(f"[ERROR] Failed to save history: {e}", level="error")
 
+
 class CacheController:
     def __init__(self, histories, used_cache, log_func=None, gui_instance=None):
         """
@@ -109,6 +117,14 @@ class CacheController:
         self.log = log_func or (lambda msg, level="info": None)
         self.gui = gui_instance
 
+        # We set config file path to find history file relative to config
+        # If gui_instance is provided, try to get config_file from it
+        if gui_instance and hasattr(gui_instance, "config_file"):
+            self.config_file = Path(gui_instance.config_file)
+        else:
+            # fallback to a sensible default or HISTORY_FILE parent folder
+            self.config_file = Path(HISTORY_FILE).parent / "config.ini"
+
     def load_history(self):
         def set_last_used(key, value):
             if self.gui:
@@ -118,16 +134,58 @@ class CacheController:
                     self.gui.last_format = value
                 elif key == "genre":
                     self.gui.last_genre = value
+                elif key == "artist":
+                    self.gui.last_artist = value
+                elif key == "venue":
+                    self.gui.last_venue = value
+                elif key == "city":
+                    self.gui.last_city = value
+                elif key == "add":
+                    self.gui.last_add = value
 
         load_history(self.histories, set_last_used_callback=set_last_used, log_func=self.log)
         self.log("History loaded.", level="debug")
 
     def save_history(self):
-        last_source = getattr(self.gui, "last_source", "")
-        last_format = getattr(self.gui, "last_format", "")
-        last_genre = getattr(self.gui, "last_genre", "")
+        """
+        Save the history cache to disk with last used values prioritized at the top.
+        """
+        history_to_save = {}
 
-        save_history(self.histories, last_source, last_format, last_genre, log_func=self.log)
+        last_used_map = {
+            "artist": getattr(self.gui, "last_artist", None) if self.gui else None,
+            "venue": getattr(self.gui, "last_venue", None) if self.gui else None,
+            "city": getattr(self.gui, "last_city", None) if self.gui else None,
+            "add": getattr(self.gui, "last_add", None) if self.gui else None,
+            "source": getattr(self.gui, "last_source", None) if self.gui else None,
+            "format": getattr(self.gui, "last_format", None) if self.gui else None,
+            "genre": getattr(self.gui, "last_genre", None) if self.gui else None,
+        }
+
+        for key, last_used_value in last_used_map.items():
+            values = list(self.histories.get(key, []))
+
+            if last_used_value and last_used_value.strip():
+                last_used_value = last_used_value.strip()
+            else:
+                last_used_value = None
+
+            if last_used_value and last_used_value in values:
+                values.remove(last_used_value)
+                ordered_values = [last_used_value] + sorted(values, key=str.lower)
+            else:
+                ordered_values = sorted(values, key=str.lower)
+
+            history_to_save[key] = ordered_values
+
+        try:
+            history_file_path = Path(HISTORY_FILE)
+            os.makedirs(history_file_path.parent, exist_ok=True)
+            with open(history_file_path, "w", encoding="utf-8") as f:
+                json.dump(history_to_save, f, indent=2, ensure_ascii=False)
+            self.log("Saved history with last used values prioritized on top.", level="info")
+        except Exception as e:
+            self.log(f"Failed to save history: {e}", level="error")
 
     def load_used_cache(self):
         loaded_cache = load_used_cache(log_func=self.log)
@@ -153,6 +211,7 @@ class CacheController:
                 self.log("Used cache updated from UI values.", level="debug")
         except Exception as e:
             self.log(f"[ERROR] Failed to update used cache from UI: {e}", level="error")
+
 
 # Aliases for backward compatibility or expected import names
 load_dropdown_cache = load_history
