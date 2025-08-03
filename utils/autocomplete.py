@@ -21,32 +21,37 @@ class AutocompleteCombobox(ttk.Combobox):
     def _on_keyrelease(self, event):
         if self._ignore_autocomplete:
             return
-        if event.keysym in ("BackSpace", "Left", "Right", "Delete", "Escape", "Return", "Tab", "Up", "Down"):
+
+        if event.keysym in ("Left", "Right", "Escape", "Return", "Tab", "Up", "Down"):
             # Don't autocomplete on these keys
             return
 
         text = self.get()
+
         if text == "":
             self._hit_index = 0
             self['values'] = self._completion_list
             return
 
-        # Find matching hits (case-insensitive startswith)
         self._hits = [item for item in self._completion_list if item.lower().startswith(text.lower())]
 
         if self._hits:
-            # Inline autocomplete first match
             first_hit = self._hits[0]
-            if first_hit.lower() != text.lower():
+
+            # Only do inline autocomplete insertion if key is not BackSpace or Delete
+            if event.keysym not in ("BackSpace", "Delete") and first_hit.lower() != text.lower():
                 self._ignore_autocomplete = True
                 self.delete(0, tk.END)
                 self.insert(0, first_hit)
                 self.select_range(len(text), tk.END)
                 self.icursor(len(text))
                 self._ignore_autocomplete = False
+
             self['values'] = self._hits
         else:
             self['values'] = ()
+
+
 
     def _reset_state(self, event=None):
         self._hit_index = 0
