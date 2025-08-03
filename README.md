@@ -1,27 +1,6 @@
 [![TagForge Screenshots](https://i.imgur.com/N3YbUbn.png)](https://imgur.com/a/XOPU0n3)
 
 TagForge is a desktop application designed to help users efficiently batch tag and rename audio files using customizable naming schemes. It provides a flexible GUI to manage metadata, apply schemes, and update autocomplete dropdowns based on user-maintained asset files.
-Table of Contents
-
-    Features
-
-    Installation
-
-    Usage
-
-    Configuration and Asset Files
-
-    Naming Scheme Editor
-
-    User Interface
-
-    Logging
-
-    Known Limitations
-
-    Contributing
-
-    License
 
 Features
 
