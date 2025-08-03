@@ -9917,3 +9917,729 @@ Processing folder: M:/Projects/Staging/1 - Copy
 2025-08-03 08:36:12,453 - DEBUG - No saved sash position for main found in config
 2025-08-03 08:36:12,519 - DEBUG - Restored sash position for left_paned: 665
 2025-08-03 08:36:12,519 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 09:20:15,643 - DEBUG - Verified themes folder at: themes
+2025-08-03 09:20:15,648 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:20:15,649 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:20:15,649 - DEBUG - Updating processor schemes...
+2025-08-03 09:20:15,649 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:20:15,649 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:20:15,724 - DEBUG - History loaded.
+2025-08-03 09:20:15,724 - DEBUG - Used cache loaded.
+2025-08-03 09:20:15,771 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 09:20:15,847 - DEBUG - Restored main window geometry: 1600x1100+312+301
+2025-08-03 09:20:15,856 - DEBUG - Saved main window size and position: 1600x1100+312+301
+2025-08-03 09:20:15,876 - DEBUG - No saved sash position for main found in config
+2025-08-03 09:20:15,947 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 09:20:15,947 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 09:20:41,098 - DEBUG - Verified themes folder at: themes
+2025-08-03 09:20:41,103 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:20:41,103 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:20:41,104 - DEBUG - Updating processor schemes...
+2025-08-03 09:20:41,104 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:20:41,104 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:20:41,185 - DEBUG - History loaded.
+2025-08-03 09:20:41,185 - DEBUG - Used cache loaded.
+2025-08-03 09:20:41,234 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 09:20:41,302 - DEBUG - Restored main window geometry: 1600x1100+312+301
+2025-08-03 09:20:41,320 - DEBUG - Saved main window size and position: 1600x1100+312+301
+2025-08-03 09:20:41,334 - DEBUG - No saved sash position for main found in config
+2025-08-03 09:20:41,401 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 09:20:41,401 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 09:20:44,922 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 09:20:44,931 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 09:20:44,934 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': 'FLAC24', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:20:44,934 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD
+2025-08-03 09:20:44,935 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 09:20:44,935 - DEBUG - Found .txt files: []
+2025-08-03 09:20:44,935 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD
+2025-08-03 09:20:44,935 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:20:46,562 - DEBUG - Saved main window size and position: 1600x1100+316+301
+2025-08-03 09:20:46,568 - DEBUG - Saved main window size and position: 1600x1100+319+301
+2025-08-03 09:20:46,577 - DEBUG - Saved main window size and position: 1600x1100+323+301
+2025-08-03 09:20:46,594 - DEBUG - Saved main window size and position: 1600x1100+331+301
+2025-08-03 09:20:46,599 - DEBUG - Saved main window size and position: 1600x1100+344+300
+2025-08-03 09:20:46,603 - DEBUG - Saved main window size and position: 1600x1100+363+297
+2025-08-03 09:20:46,607 - DEBUG - Saved main window size and position: 1600x1100+384+294
+2025-08-03 09:20:46,614 - DEBUG - Saved main window size and position: 1600x1100+410+291
+2025-08-03 09:20:46,622 - DEBUG - Saved main window size and position: 1600x1100+433+286
+2025-08-03 09:20:46,629 - DEBUG - Saved main window size and position: 1600x1100+452+282
+2025-08-03 09:20:46,636 - DEBUG - Saved main window size and position: 1600x1100+471+277
+2025-08-03 09:20:46,644 - DEBUG - Saved main window size and position: 1600x1100+489+273
+2025-08-03 09:20:46,651 - DEBUG - Saved main window size and position: 1600x1100+503+270
+2025-08-03 09:20:46,659 - DEBUG - Saved main window size and position: 1600x1100+514+267
+2025-08-03 09:20:46,667 - DEBUG - Saved main window size and position: 1600x1100+523+266
+2025-08-03 09:20:46,674 - DEBUG - Saved main window size and position: 1600x1100+531+265
+2025-08-03 09:20:46,682 - DEBUG - Saved main window size and position: 1600x1100+536+265
+2025-08-03 09:20:46,689 - DEBUG - Saved main window size and position: 1600x1100+539+265
+2025-08-03 09:20:46,697 - DEBUG - Saved main window size and position: 1600x1100+540+264
+2025-08-03 09:20:46,705 - DEBUG - Saved main window size and position: 1600x1100+542+264
+2025-08-03 09:20:46,712 - DEBUG - Saved main window size and position: 1600x1100+545+263
+2025-08-03 09:20:46,721 - DEBUG - Saved main window size and position: 1600x1100+548+263
+2025-08-03 09:20:46,727 - DEBUG - Saved main window size and position: 1600x1100+553+263
+2025-08-03 09:20:46,735 - DEBUG - Saved main window size and position: 1600x1100+557+263
+2025-08-03 09:20:46,742 - DEBUG - Saved main window size and position: 1600x1100+564+263
+2025-08-03 09:20:46,750 - DEBUG - Saved main window size and position: 1600x1100+572+263
+2025-08-03 09:20:46,758 - DEBUG - Saved main window size and position: 1600x1100+579+263
+2025-08-03 09:20:46,765 - DEBUG - Saved main window size and position: 1600x1100+583+263
+2025-08-03 09:20:46,773 - DEBUG - Saved main window size and position: 1600x1100+585+263
+2025-08-03 09:20:46,780 - DEBUG - Saved main window size and position: 1600x1100+586+263
+2025-08-03 09:20:46,788 - DEBUG - Saved main window size and position: 1600x1100+588+263
+2025-08-03 09:20:46,818 - DEBUG - Saved main window size and position: 1600x1100+589+263
+2025-08-03 09:20:46,826 - DEBUG - Saved main window size and position: 1600x1100+590+263
+2025-08-03 09:20:46,834 - DEBUG - Saved main window size and position: 1600x1100+591+263
+2025-08-03 09:20:46,841 - DEBUG - Saved main window size and position: 1600x1100+592+263
+2025-08-03 09:20:46,856 - DEBUG - Saved main window size and position: 1600x1100+594+263
+2025-08-03 09:20:46,864 - DEBUG - Saved main window size and position: 1600x1100+595+263
+2025-08-03 09:20:46,871 - DEBUG - Saved main window size and position: 1600x1100+596+263
+2025-08-03 09:20:46,879 - DEBUG - Saved main window size and position: 1600x1100+597+263
+2025-08-03 09:20:46,887 - DEBUG - Saved main window size and position: 1600x1100+599+263
+2025-08-03 09:20:46,894 - DEBUG - Saved main window size and position: 1600x1100+600+263
+2025-08-03 09:20:46,902 - DEBUG - Saved main window size and position: 1600x1100+602+262
+2025-08-03 09:20:46,909 - DEBUG - Saved main window size and position: 1600x1100+604+262
+2025-08-03 09:20:46,917 - DEBUG - Saved main window size and position: 1600x1100+605+262
+2025-08-03 09:20:46,925 - DEBUG - Saved main window size and position: 1600x1100+607+261
+2025-08-03 09:20:46,932 - DEBUG - Saved main window size and position: 1600x1100+609+261
+2025-08-03 09:20:46,940 - DEBUG - Saved main window size and position: 1600x1100+612+261
+2025-08-03 09:20:46,947 - DEBUG - Saved main window size and position: 1600x1100+617+260
+2025-08-03 09:20:46,955 - DEBUG - Saved main window size and position: 1600x1100+625+260
+2025-08-03 09:20:46,963 - DEBUG - Saved main window size and position: 1600x1100+635+260
+2025-08-03 09:20:46,970 - DEBUG - Saved main window size and position: 1600x1100+644+259
+2025-08-03 09:20:46,978 - DEBUG - Saved main window size and position: 1600x1100+655+259
+2025-08-03 09:20:46,985 - DEBUG - Saved main window size and position: 1600x1100+665+259
+2025-08-03 09:20:46,993 - DEBUG - Saved main window size and position: 1600x1100+675+258
+2025-08-03 09:20:47,000 - DEBUG - Saved main window size and position: 1600x1100+683+258
+2025-08-03 09:20:47,008 - DEBUG - Saved main window size and position: 1600x1100+692+258
+2025-08-03 09:20:47,016 - DEBUG - Saved main window size and position: 1600x1100+699+258
+2025-08-03 09:20:47,023 - DEBUG - Saved main window size and position: 1600x1100+703+257
+2025-08-03 09:20:47,031 - DEBUG - Saved main window size and position: 1600x1100+706+257
+2025-08-03 09:20:47,038 - DEBUG - Saved main window size and position: 1600x1100+708+257
+2025-08-03 09:20:47,054 - DEBUG - Saved main window size and position: 1600x1100+709+257
+2025-08-03 09:20:47,183 - DEBUG - Saved main window size and position: 1600x1100+710+257
+2025-08-03 09:20:50,092 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'From The Archives 17 Part 2', 'date': '2015-08-21'}
+2025-08-03 09:20:50,092 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:20:50,094 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '2015-08-21', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:20:50,095 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\fta2015-08-21.fta17.pt2.134057.flac16
+2025-08-03 09:20:50,095 - DEBUG - All files in directory: ['ffp.ffp', 'fta2015-08-21s1t01.flac', 'fta2015-08-21s1t02.flac', 'fta2015-08-21s1t03.flac', 'fta2015-08-21s1t04.flac', 'fta2015-08-21s1t05.flac', 'fta2015-08-21s1t06.flac', 'fta2015-08-21s1t07.flac', 'fta2015-08-21s1t08.flac', 'fta2015-08-21s1t09.flac', 'fta2015-08-21s1t10.flac', 'phish-archive-radio2015-08-21.134057.txt']
+2025-08-03 09:20:50,095 - DEBUG - Found .txt files: ['phish-archive-radio2015-08-21.134057.txt']
+2025-08-03 09:20:50,098 - DEBUG - Trying to read metadata from: M:/Projects/Staging\fta2015-08-21.fta17.pt2.134057.flac16\phish-archive-radio2015-08-21.134057.txt
+2025-08-03 09:20:50,116 - DEBUG - Extracted metadata: {'city': 'Watkins Glen, NY', 'format': 'FLAC16'}
+2025-08-03 09:20:50,116 - DEBUG - [DEBUG] TXT metadata parsed: {'city': 'Watkins Glen, NY', 'format': 'FLAC16'}
+2025-08-03 09:20:54,083 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Spafford', 'albumartist': 'Spafford', 'album': '2025/08/01 Columbus, OH', 'date': '2025', 'genre': 'Rock'}
+2025-08-03 09:20:54,087 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-08-01', 'venue': '', 'city': 'Columbus, OH', 'source': '', 'format': ''}
+2025-08-03 09:20:54,093 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Spafford', 'date': '2025-08-01', 'venue': 'Woodlands Tavern', 'city': 'Columbus, OH', 'id': '43625', 'source': '', 'format': '', 'genre': '', 'additional': '43625', 'add': '43625'}
+2025-08-03 09:20:54,093 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Spafford - 2025-08-01 Woodlands Tavern, Columbus, OH [43625]
+2025-08-03 09:20:54,096 - DEBUG - All files in directory: ['spaff250801d1_01_Take_Your_Mama.flac', 'spaff250801d1_02_All_My_Friends.flac', 'spaff250801d1_03_Bee_Jam.flac', 'spaff250801d1_04_Minds_Unchained.flac', 'spaff250801d1_05_Ice_Cream.flac', 'spaff250801d1_06_Chucks_Dream.flac', 'spaff250801d2_01_Gold_Glittered_Hat.flac', 'spaff250801d2_02_Walls.flac', 'spaff250801d2_03_Hollywood.flac', 'spaff250801d2_04_Broken_Wing.flac', 'spaff250801d2_05_High_Beams.flac', 'spaff250801d2_06_Crowd.flac', 'spaff250801d3_01_Banter.flac', 'spaff250801d3_02_Weasel.flac']
+2025-08-03 09:20:54,096 - DEBUG - Found .txt files: []
+2025-08-03 09:20:54,097 - DEBUG - No .txt files found in: M:/Projects/Staging\Spafford - 2025-08-01 Woodlands Tavern, Columbus, OH [43625]
+2025-08-03 09:20:54,097 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:20:54,930 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Spafford', 'albumartist': 'Spafford', 'album': '2025/07/17 Raleigh, NC', 'date': '2025', 'genre': 'Rock'}
+2025-08-03 09:20:54,935 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-07-17', 'venue': '', 'city': 'Raleigh, NC', 'source': '', 'format': ''}
+2025-08-03 09:20:54,938 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Spafford', 'date': '2025-07-17', 'venue': 'Bowstring Brewyard', 'city': 'Raleigh, NC', 'id': '43449', 'source': '', 'format': '', 'genre': '', 'additional': '43449', 'add': '43449'}
+2025-08-03 09:20:54,938 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Spafford - 2025-07-17 Bowstring Brewyard, Raleigh, NC [43449]
+2025-08-03 09:20:54,938 - DEBUG - All files in directory: ['spaff250717d1_01_All_My_Friends.flac', 'spaff250717d1_02_Bee_Jam.flac', 'spaff250717d1_03_Windmill.flac', 'spaff250717d1_04_Neutrino.flac', 'spaff250717d1_05_Fake_The_Fate.flac', 'spaff250717d2_01_Plush.flac', 'spaff250717d2_02_Double_Time.flac', 'spaff250717d2_03_Crowd.flac', 'spaff250717d2_04_Banter.flac', 'spaff250717d2_05_Aint_That_Wrong.flac']
+2025-08-03 09:20:54,938 - DEBUG - Found .txt files: []
+2025-08-03 09:20:54,938 - DEBUG - No .txt files found in: M:/Projects/Staging\Spafford - 2025-07-17 Bowstring Brewyard, Raleigh, NC [43449]
+2025-08-03 09:20:54,939 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:20:56,634 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Spafford', 'albumartist': 'Spafford', 'album': '2025/08/01 Columbus, OH', 'date': '2025', 'genre': 'Rock'}
+2025-08-03 09:20:56,637 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-08-01', 'venue': '', 'city': 'Columbus, OH', 'source': '', 'format': ''}
+2025-08-03 09:20:56,640 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Spafford', 'date': '2025-08-01', 'venue': 'Woodlands Tavern', 'city': 'Columbus, OH', 'id': '43625', 'source': '', 'format': '', 'genre': '', 'additional': '43625', 'add': '43625'}
+2025-08-03 09:20:56,640 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Spafford - 2025-08-01 Woodlands Tavern, Columbus, OH [43625]
+2025-08-03 09:20:56,643 - DEBUG - All files in directory: ['spaff250801d1_01_Take_Your_Mama.flac', 'spaff250801d1_02_All_My_Friends.flac', 'spaff250801d1_03_Bee_Jam.flac', 'spaff250801d1_04_Minds_Unchained.flac', 'spaff250801d1_05_Ice_Cream.flac', 'spaff250801d1_06_Chucks_Dream.flac', 'spaff250801d2_01_Gold_Glittered_Hat.flac', 'spaff250801d2_02_Walls.flac', 'spaff250801d2_03_Hollywood.flac', 'spaff250801d2_04_Broken_Wing.flac', 'spaff250801d2_05_High_Beams.flac', 'spaff250801d2_06_Crowd.flac', 'spaff250801d3_01_Banter.flac', 'spaff250801d3_02_Weasel.flac']
+2025-08-03 09:20:56,643 - DEBUG - Found .txt files: []
+2025-08-03 09:20:56,643 - DEBUG - No .txt files found in: M:/Projects/Staging\Spafford - 2025-08-01 Woodlands Tavern, Columbus, OH [43625]
+2025-08-03 09:20:56,643 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:20:58,373 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Trey Anastasio', 'albumartist': 'Trey Anastasio', 'album': '2025/08/01 Los Angeles, CA', 'date': '2025', 'genre': 'Rock'}
+2025-08-03 09:20:58,378 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-08-01', 'venue': '', 'city': 'Los Angeles, CA', 'source': '', 'format': ''}
+2025-08-03 09:20:58,379 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:20:58,380 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\TAB - 8.1.25
+2025-08-03 09:20:58,380 - DEBUG - All files in directory: ['trey250801d1_01_Set_Your_Soul_Free.flac', 'trey250801d1_02_Mozambique.flac', 'trey250801d1_03_Cayman_Review.flac', 'trey250801d1_04_A_Wave_of_Hope.flac', 'trey250801d1_05_Dark_And_Down.flac', 'trey250801d1_06_Magilla.flac', 'trey250801d1_07_Alive_Again.flac', 'trey250801d1_08_Love_Is_What_We_Are.flac', 'trey250801d1_09_Shine.flac', 'trey250801d1_10_Everythings_Right.flac', 'trey250801d2_01_Wolfmans_Brother.flac', 'trey250801d2_02_The_Moma_Dance.flac', 'trey250801d2_03_Camel_Walk.flac', 'trey250801d2_04_Sand.flac', 'trey250801d2_05_Valentine.flac', 'trey250801d2_06_Whats_Going_Through_Your_Mind.flac', 'trey250801d2_07_Simple_Twist_Up_Dave.flac', 'trey250801d2_08_RiseCome_Together.flac', 'trey250801d3_01_Monsters.flac', 'trey250801d3_02_The_Devil_Went_Down_To_Georgia.flac', 'trey250801d3_03_Ghost.flac', 'trey250801d3_04_Push_On_Til_The_Day.flac', 'trey250801d3_05_A_Life_Beyond_The_Dream.flac', 'trey250801d3_06_Ooh_Child.flac', 'trey250801d3_07_First_Tube.flac']
+2025-08-03 09:20:58,380 - DEBUG - Found .txt files: []
+2025-08-03 09:20:58,380 - DEBUG - No .txt files found in: M:/Projects/Staging\TAB - 8.1.25
+2025-08-03 09:20:58,380 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:20:59,514 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Spafford', 'albumartist': 'Spafford', 'album': '2025/07/17 Raleigh, NC', 'date': '2025', 'genre': 'Rock'}
+2025-08-03 09:20:59,519 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-07-17', 'venue': '', 'city': 'Raleigh, NC', 'source': '', 'format': ''}
+2025-08-03 09:20:59,522 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Spafford', 'date': '2025-07-17', 'venue': 'Bowstring Brewyard', 'city': 'Raleigh, NC', 'id': '43449', 'source': '', 'format': '', 'genre': '', 'additional': '43449', 'add': '43449'}
+2025-08-03 09:20:59,522 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Spafford - 2025-07-17 Bowstring Brewyard, Raleigh, NC [43449]
+2025-08-03 09:20:59,522 - DEBUG - All files in directory: ['spaff250717d1_01_All_My_Friends.flac', 'spaff250717d1_02_Bee_Jam.flac', 'spaff250717d1_03_Windmill.flac', 'spaff250717d1_04_Neutrino.flac', 'spaff250717d1_05_Fake_The_Fate.flac', 'spaff250717d2_01_Plush.flac', 'spaff250717d2_02_Double_Time.flac', 'spaff250717d2_03_Crowd.flac', 'spaff250717d2_04_Banter.flac', 'spaff250717d2_05_Aint_That_Wrong.flac']
+2025-08-03 09:20:59,522 - DEBUG - Found .txt files: []
+2025-08-03 09:20:59,522 - DEBUG - No .txt files found in: M:/Projects/Staging\Spafford - 2025-07-17 Bowstring Brewyard, Raleigh, NC [43449]
+2025-08-03 09:20:59,522 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:21:00,334 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Leftover Salmon', 'albumartist': 'Leftover Salmon', 'album': '2025/07/19 Hillsboro, WI', 'date': '2025', 'genre': 'Bluegrass'}
+2025-08-03 09:21:00,338 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-07-19', 'venue': '', 'city': 'Hillsboro, WI', 'source': '', 'format': ''}
+2025-08-03 09:21:00,341 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Leftover Salmon', 'date': '2025-07-19', 'venue': 'Driftless Music Gardens', 'city': 'Hillsboro, WI', 'id': '43630', 'source': '', 'format': '', 'genre': '', 'additional': '43630', 'add': '43630'}
+2025-08-03 09:21:00,341 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Leftover Salmon - 2025-07-19 Driftless Music Gardens, Hillsboro, WI [43630]
+2025-08-03 09:21:00,342 - DEBUG - All files in directory: ['los250719d1_01_Are_You_Ready_For_The_Country.flac', 'los250719d1_02_Get_Me_Outta_This_City.flac', 'los250719d1_03_Brand_New_Good_Old_Days.flac', 'los250719d1_04_Mississippi_Sawyer.flac', 'los250719d1_05_Shine_On.flac', 'los250719d1_06_Danger_Man.flac', 'los250719d1_07_Salmon_Scales.flac', 'los250719d1_08_California_Cottonfields.flac', 'los250719d1_09_Doin_My_Time.flac', 'los250719d1_10_Ask_The_Fish.flac', 'los250719d1_11_I_Dont_Owe_You_A_Thing.flac', 'los250719d1_12_Light_Behind_The_Rain.flac', 'los250719d1_13_You_Dont_Love_Me.flac']
+2025-08-03 09:21:00,342 - DEBUG - Found .txt files: []
+2025-08-03 09:21:00,342 - DEBUG - No .txt files found in: M:/Projects/Staging\Leftover Salmon - 2025-07-19 Driftless Music Gardens, Hillsboro, WI [43630]
+2025-08-03 09:21:00,342 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:21:01,341 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Leftover Salmon', 'albumartist': 'Leftover Salmon', 'album': '2025/07/18 Grand Rapids, MI', 'date': '2025', 'genre': 'Bluegrass'}
+2025-08-03 09:21:01,345 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-07-18', 'venue': '', 'city': 'Grand Rapids, MI', 'source': '', 'format': ''}
+2025-08-03 09:21:01,348 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Leftover Salmon', 'date': '2025-07-18', 'venue': 'Frederik Meijer Gardens', 'city': 'Grand Rapids, MI', 'id': '43629', 'source': '', 'format': '', 'genre': '', 'additional': '43629', 'add': '43629'}
+2025-08-03 09:21:01,349 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Leftover Salmon - 2025-07-18 Frederik Meijer Gardens, Grand Rapids, MI [43629]
+2025-08-03 09:21:01,349 - DEBUG - All files in directory: ['los250718d1_01_Sing_up_to_the_Moon.flac', 'los250718d1_02_Just_Before_The_Evening.flac', 'los250718d1_03_Liza.flac', 'los250718d1_04_Troubled_Times.flac', 'los250718d1_05_Lets_Party_About_It.flac', 'los250718d1_06_Tangled_Up_In_Blue.flac', 'los250718d1_07_Evermore.flac', 'los250718d1_08_Storms.flac', 'los250718d1_09_Rivers_Rising.flac', 'los250718d1_10_High_Country.flac', 'los250718d1_11_99_Years.flac']
+2025-08-03 09:21:01,349 - DEBUG - Found .txt files: []
+2025-08-03 09:21:01,349 - DEBUG - No .txt files found in: M:/Projects/Staging\Leftover Salmon - 2025-07-18 Frederik Meijer Gardens, Grand Rapids, MI [43629]
+2025-08-03 09:21:01,349 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:21:02,538 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'The Jazz Mandolin Project', 'albumartist': 'The Jazz Mandolin Project', 'album': 'The Jazz Mandolin Project', 'date': '1996', 'genre': 'Jazz'}
+2025-08-03 09:21:02,543 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:21:02,546 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:21:02,546 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1996 - The Jazz Mandolin Project - The Jazz Mandolin Project (Accurate)
+2025-08-03 09:21:02,546 - DEBUG - All files in directory: ['01 - The Country Open.flac', '02 - Monkey Blake.flac', '03 - Mandoneon.flac', '04 - Ballad for Trio.flac', '05 - The Opera.flac', '06 - Nozani Na.flac', '07 - The Gourd.flac', '08 - Milestones in the Sunshine.flac', '09 - Contois.flac', '10 - Lithograph.flac', 'Artwork', 'folder.jpg', 'The Jazz Mandolin Project - The Jazz Mandolin Project.log', 'The Jazz Mandolin Project - The Jazz Mandolin Project.m3u', 'The Jazz Mandolin Project.accurip', 'The Jazz Mandolin Project.cue']
+2025-08-03 09:21:02,546 - DEBUG - Found .txt files: []
+2025-08-03 09:21:02,546 - DEBUG - No .txt files found in: M:/Projects/Staging\1996 - The Jazz Mandolin Project - The Jazz Mandolin Project (Accurate)
+2025-08-03 09:21:02,546 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:21:03,280 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Herbie Hancock', 'album': 'HH1973-11-01', 'comment': 'Ultrasonic Studios'}
+2025-08-03 09:21:03,285 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:21:03,288 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '1973-11-01', 'venue': 'Ultrasonic Studios', 'city': 'Hampstead, NY', 'id': '', 'source': '', 'format': 'FLAC', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:21:03,288 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)
+2025-08-03 09:21:03,288 - DEBUG - All files in directory: ['01. Actual Proof.flac', '02. Butterfly.flac', '03. Sly.flac', '04. Chameleon.flac', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY-EACLog.log', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.ffp', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 09:21:03,288 - DEBUG - Found .txt files: ['Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 09:21:03,295 - DEBUG - Trying to read metadata from: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)\Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt
+2025-08-03 09:21:03,338 - DEBUG - Extracted metadata: {'source': 'FM'}
+2025-08-03 09:21:03,338 - DEBUG - [DEBUG] TXT metadata parsed: {'source': 'FM'}
+2025-08-03 09:21:56,143 - DEBUG - Verified themes folder at: themes
+2025-08-03 09:21:56,149 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:21:56,149 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:21:56,149 - DEBUG - Updating processor schemes...
+2025-08-03 09:21:56,150 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:21:56,150 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:21:56,231 - DEBUG - History loaded.
+2025-08-03 09:21:56,231 - DEBUG - Used cache loaded.
+2025-08-03 09:21:56,281 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 09:21:56,344 - DEBUG - Restored main window geometry: 1600x1100+710+257
+2025-08-03 09:21:56,361 - DEBUG - Saved main window size and position: 1600x1100+710+257
+2025-08-03 09:21:56,385 - DEBUG - No saved sash position for main found in config
+2025-08-03 09:21:56,445 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 09:21:56,445 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 09:22:00,110 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Herbie Hancock', 'album': 'HH1973-11-01', 'comment': 'Ultrasonic Studios'}
+2025-08-03 09:22:00,115 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:22:00,119 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '1973-11-01', 'venue': 'Ultrasonic Studios', 'city': 'Hampstead, NY', 'id': '', 'source': '', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:22:00,119 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)
+2025-08-03 09:22:00,119 - DEBUG - All files in directory: ['01. Actual Proof.flac', '02. Butterfly.flac', '03. Sly.flac', '04. Chameleon.flac', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY-EACLog.log', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.ffp', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 09:22:00,119 - DEBUG - Found .txt files: ['Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 09:22:00,122 - DEBUG - Trying to read metadata from: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)\Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt
+2025-08-03 09:22:00,165 - DEBUG - Extracted metadata: {'source': 'FM'}
+2025-08-03 09:22:00,165 - DEBUG - [DEBUG] TXT metadata parsed: {'source': 'FM'}
+2025-08-03 09:22:06,106 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 09:22:06,111 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 09:22:06,113 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': 'FLAC24', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:22:06,113 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD
+2025-08-03 09:22:06,113 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 09:22:06,113 - DEBUG - Found .txt files: []
+2025-08-03 09:22:06,113 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD
+2025-08-03 09:22:06,113 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:22:14,515 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'From The Archives 17 Part 2', 'date': '2015-08-21'}
+2025-08-03 09:22:14,515 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:22:14,518 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '2015-08-21', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:22:14,518 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\fta2015-08-21.fta17.pt2.134057.flac16
+2025-08-03 09:22:14,520 - DEBUG - All files in directory: ['ffp.ffp', 'fta2015-08-21s1t01.flac', 'fta2015-08-21s1t02.flac', 'fta2015-08-21s1t03.flac', 'fta2015-08-21s1t04.flac', 'fta2015-08-21s1t05.flac', 'fta2015-08-21s1t06.flac', 'fta2015-08-21s1t07.flac', 'fta2015-08-21s1t08.flac', 'fta2015-08-21s1t09.flac', 'fta2015-08-21s1t10.flac', 'phish-archive-radio2015-08-21.134057.txt']
+2025-08-03 09:22:14,521 - DEBUG - Found .txt files: ['phish-archive-radio2015-08-21.134057.txt']
+2025-08-03 09:22:14,523 - DEBUG - Trying to read metadata from: M:/Projects/Staging\fta2015-08-21.fta17.pt2.134057.flac16\phish-archive-radio2015-08-21.134057.txt
+2025-08-03 09:22:14,540 - DEBUG - Extracted metadata: {'city': 'Watkins Glen, NY', 'format': 'FLAC16'}
+2025-08-03 09:22:14,541 - DEBUG - [DEBUG] TXT metadata parsed: {'city': 'Watkins Glen, NY', 'format': 'FLAC16'}
+2025-08-03 09:22:15,336 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Leftover Salmon', 'albumartist': 'Leftover Salmon', 'album': '2025/07/18 Grand Rapids, MI', 'date': '2025', 'genre': 'Bluegrass'}
+2025-08-03 09:22:15,340 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-07-18', 'venue': '', 'city': 'Grand Rapids, MI', 'source': '', 'format': ''}
+2025-08-03 09:22:15,343 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Leftover Salmon', 'date': '2025-07-18', 'venue': 'Frederik Meijer Gardens', 'city': 'Grand Rapids, MI', 'id': '43629', 'source': '', 'format': '', 'genre': '', 'additional': '43629', 'add': '43629'}
+2025-08-03 09:22:15,343 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Leftover Salmon - 2025-07-18 Frederik Meijer Gardens, Grand Rapids, MI [43629]
+2025-08-03 09:22:15,344 - DEBUG - All files in directory: ['los250718d1_01_Sing_up_to_the_Moon.flac', 'los250718d1_02_Just_Before_The_Evening.flac', 'los250718d1_03_Liza.flac', 'los250718d1_04_Troubled_Times.flac', 'los250718d1_05_Lets_Party_About_It.flac', 'los250718d1_06_Tangled_Up_In_Blue.flac', 'los250718d1_07_Evermore.flac', 'los250718d1_08_Storms.flac', 'los250718d1_09_Rivers_Rising.flac', 'los250718d1_10_High_Country.flac', 'los250718d1_11_99_Years.flac']
+2025-08-03 09:22:15,344 - DEBUG - Found .txt files: []
+2025-08-03 09:22:15,344 - DEBUG - No .txt files found in: M:/Projects/Staging\Leftover Salmon - 2025-07-18 Frederik Meijer Gardens, Grand Rapids, MI [43629]
+2025-08-03 09:22:15,344 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:22:34,979 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Spafford', 'albumartist': 'Spafford', 'album': '2025/07/17 Raleigh, NC', 'date': '2025', 'genre': 'Rock'}
+2025-08-03 09:22:34,983 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-07-17', 'venue': '', 'city': 'Raleigh, NC', 'source': '', 'format': ''}
+2025-08-03 09:22:34,987 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Spafford', 'date': '2025-07-17', 'venue': 'Bowstring Brewyard', 'city': 'Raleigh, NC', 'id': '43449', 'source': '', 'format': '', 'genre': '', 'additional': '43449', 'add': '43449'}
+2025-08-03 09:22:34,987 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Spafford - 2025-07-17 Bowstring Brewyard, Raleigh, NC [43449]
+2025-08-03 09:22:34,989 - DEBUG - All files in directory: ['spaff250717d1_01_All_My_Friends.flac', 'spaff250717d1_02_Bee_Jam.flac', 'spaff250717d1_03_Windmill.flac', 'spaff250717d1_04_Neutrino.flac', 'spaff250717d1_05_Fake_The_Fate.flac', 'spaff250717d2_01_Plush.flac', 'spaff250717d2_02_Double_Time.flac', 'spaff250717d2_03_Crowd.flac', 'spaff250717d2_04_Banter.flac', 'spaff250717d2_05_Aint_That_Wrong.flac']
+2025-08-03 09:22:34,989 - DEBUG - Found .txt files: []
+2025-08-03 09:22:34,989 - DEBUG - No .txt files found in: M:/Projects/Staging\Spafford - 2025-07-17 Bowstring Brewyard, Raleigh, NC [43449]
+2025-08-03 09:22:34,989 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:22:36,318 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Spafford', 'albumartist': 'Spafford', 'album': '2025/08/01 Columbus, OH', 'date': '2025', 'genre': 'Rock'}
+2025-08-03 09:22:36,322 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-08-01', 'venue': '', 'city': 'Columbus, OH', 'source': '', 'format': ''}
+2025-08-03 09:22:36,325 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Spafford', 'date': '2025-08-01', 'venue': 'Woodlands Tavern', 'city': 'Columbus, OH', 'id': '43625', 'source': '', 'format': '', 'genre': '', 'additional': '43625', 'add': '43625'}
+2025-08-03 09:22:36,325 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Spafford - 2025-08-01 Woodlands Tavern, Columbus, OH [43625]
+2025-08-03 09:22:36,326 - DEBUG - All files in directory: ['spaff250801d1_01_Take_Your_Mama.flac', 'spaff250801d1_02_All_My_Friends.flac', 'spaff250801d1_03_Bee_Jam.flac', 'spaff250801d1_04_Minds_Unchained.flac', 'spaff250801d1_05_Ice_Cream.flac', 'spaff250801d1_06_Chucks_Dream.flac', 'spaff250801d2_01_Gold_Glittered_Hat.flac', 'spaff250801d2_02_Walls.flac', 'spaff250801d2_03_Hollywood.flac', 'spaff250801d2_04_Broken_Wing.flac', 'spaff250801d2_05_High_Beams.flac', 'spaff250801d2_06_Crowd.flac', 'spaff250801d3_01_Banter.flac', 'spaff250801d3_02_Weasel.flac']
+2025-08-03 09:22:36,326 - DEBUG - Found .txt files: []
+2025-08-03 09:22:36,326 - DEBUG - No .txt files found in: M:/Projects/Staging\Spafford - 2025-08-01 Woodlands Tavern, Columbus, OH [43625]
+2025-08-03 09:22:36,326 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:22:38,655 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Trey Anastasio', 'albumartist': 'Trey Anastasio', 'album': '2025/08/01 Los Angeles, CA', 'date': '2025', 'genre': 'Rock'}
+2025-08-03 09:22:38,660 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-08-01', 'venue': '', 'city': 'Los Angeles, CA', 'source': '', 'format': ''}
+2025-08-03 09:22:38,662 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': '', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:22:38,662 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\TAB - 8.1.25
+2025-08-03 09:22:38,662 - DEBUG - All files in directory: ['trey250801d1_01_Set_Your_Soul_Free.flac', 'trey250801d1_02_Mozambique.flac', 'trey250801d1_03_Cayman_Review.flac', 'trey250801d1_04_A_Wave_of_Hope.flac', 'trey250801d1_05_Dark_And_Down.flac', 'trey250801d1_06_Magilla.flac', 'trey250801d1_07_Alive_Again.flac', 'trey250801d1_08_Love_Is_What_We_Are.flac', 'trey250801d1_09_Shine.flac', 'trey250801d1_10_Everythings_Right.flac', 'trey250801d2_01_Wolfmans_Brother.flac', 'trey250801d2_02_The_Moma_Dance.flac', 'trey250801d2_03_Camel_Walk.flac', 'trey250801d2_04_Sand.flac', 'trey250801d2_05_Valentine.flac', 'trey250801d2_06_Whats_Going_Through_Your_Mind.flac', 'trey250801d2_07_Simple_Twist_Up_Dave.flac', 'trey250801d2_08_RiseCome_Together.flac', 'trey250801d3_01_Monsters.flac', 'trey250801d3_02_The_Devil_Went_Down_To_Georgia.flac', 'trey250801d3_03_Ghost.flac', 'trey250801d3_04_Push_On_Til_The_Day.flac', 'trey250801d3_05_A_Life_Beyond_The_Dream.flac', 'trey250801d3_06_Ooh_Child.flac', 'trey250801d3_07_First_Tube.flac']
+2025-08-03 09:22:38,662 - DEBUG - Found .txt files: []
+2025-08-03 09:22:38,662 - DEBUG - No .txt files found in: M:/Projects/Staging\TAB - 8.1.25
+2025-08-03 09:22:38,662 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:23:25,082 - DEBUG - Verified themes folder at: themes
+2025-08-03 09:23:25,088 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:23:25,088 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:23:25,088 - DEBUG - Updating processor schemes...
+2025-08-03 09:23:25,088 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:23:25,088 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:23:25,165 - DEBUG - History loaded.
+2025-08-03 09:23:25,166 - DEBUG - Used cache loaded.
+2025-08-03 09:23:25,216 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 09:23:25,276 - DEBUG - Restored main window geometry: 1600x1100+710+257
+2025-08-03 09:23:25,294 - DEBUG - Saved main window size and position: 1600x1100+710+257
+2025-08-03 09:23:25,315 - DEBUG - No saved sash position for main found in config
+2025-08-03 09:23:25,376 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 09:23:25,376 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 09:23:30,019 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Herbie Hancock', 'album': 'HH1973-11-01', 'comment': 'Ultrasonic Studios'}
+2025-08-03 09:23:30,025 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:23:30,028 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '1973-11-01', 'venue': 'Ultrasonic Studios', 'city': 'Hampstead, NY', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:23:30,028 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)
+2025-08-03 09:23:30,028 - DEBUG - All files in directory: ['01. Actual Proof.flac', '02. Butterfly.flac', '03. Sly.flac', '04. Chameleon.flac', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY-EACLog.log', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.ffp', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 09:23:30,028 - DEBUG - Found .txt files: ['Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 09:23:30,031 - DEBUG - Trying to read metadata from: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)\Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt
+2025-08-03 09:23:30,073 - DEBUG - Extracted metadata: {'source': 'FM'}
+2025-08-03 09:23:30,074 - DEBUG - [DEBUG] TXT metadata parsed: {'source': 'FM'}
+2025-08-03 09:23:31,098 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 09:23:31,102 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 09:23:31,104 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC24', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:23:31,104 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD
+2025-08-03 09:23:31,104 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 09:23:31,104 - DEBUG - Found .txt files: []
+2025-08-03 09:23:31,105 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD
+2025-08-03 09:23:31,105 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:23:33,279 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Trey Anastasio', 'albumartist': 'Trey Anastasio', 'album': '2025/08/01 Los Angeles, CA', 'date': '2025', 'genre': 'Rock'}
+2025-08-03 09:23:33,283 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-08-01', 'venue': '', 'city': 'Los Angeles, CA', 'source': '', 'format': ''}
+2025-08-03 09:23:33,285 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:23:33,285 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\TAB - 8.1.25
+2025-08-03 09:23:33,286 - DEBUG - All files in directory: ['trey250801d1_01_Set_Your_Soul_Free.flac', 'trey250801d1_02_Mozambique.flac', 'trey250801d1_03_Cayman_Review.flac', 'trey250801d1_04_A_Wave_of_Hope.flac', 'trey250801d1_05_Dark_And_Down.flac', 'trey250801d1_06_Magilla.flac', 'trey250801d1_07_Alive_Again.flac', 'trey250801d1_08_Love_Is_What_We_Are.flac', 'trey250801d1_09_Shine.flac', 'trey250801d1_10_Everythings_Right.flac', 'trey250801d2_01_Wolfmans_Brother.flac', 'trey250801d2_02_The_Moma_Dance.flac', 'trey250801d2_03_Camel_Walk.flac', 'trey250801d2_04_Sand.flac', 'trey250801d2_05_Valentine.flac', 'trey250801d2_06_Whats_Going_Through_Your_Mind.flac', 'trey250801d2_07_Simple_Twist_Up_Dave.flac', 'trey250801d2_08_RiseCome_Together.flac', 'trey250801d3_01_Monsters.flac', 'trey250801d3_02_The_Devil_Went_Down_To_Georgia.flac', 'trey250801d3_03_Ghost.flac', 'trey250801d3_04_Push_On_Til_The_Day.flac', 'trey250801d3_05_A_Life_Beyond_The_Dream.flac', 'trey250801d3_06_Ooh_Child.flac', 'trey250801d3_07_First_Tube.flac']
+2025-08-03 09:23:33,286 - DEBUG - Found .txt files: []
+2025-08-03 09:23:33,286 - DEBUG - No .txt files found in: M:/Projects/Staging\TAB - 8.1.25
+2025-08-03 09:23:33,286 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:23:34,799 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Spafford', 'albumartist': 'Spafford', 'album': '2025/08/01 Columbus, OH', 'date': '2025', 'genre': 'Rock'}
+2025-08-03 09:23:34,803 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-08-01', 'venue': '', 'city': 'Columbus, OH', 'source': '', 'format': ''}
+2025-08-03 09:23:34,806 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Spafford', 'date': '2025-08-01', 'venue': 'Woodlands Tavern', 'city': 'Columbus, OH', 'id': '43625', 'source': 'SBD', 'format': '', 'genre': '', 'additional': '43625', 'add': '43625'}
+2025-08-03 09:23:34,806 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Spafford - 2025-08-01 Woodlands Tavern, Columbus, OH [43625]
+2025-08-03 09:23:34,807 - DEBUG - All files in directory: ['spaff250801d1_01_Take_Your_Mama.flac', 'spaff250801d1_02_All_My_Friends.flac', 'spaff250801d1_03_Bee_Jam.flac', 'spaff250801d1_04_Minds_Unchained.flac', 'spaff250801d1_05_Ice_Cream.flac', 'spaff250801d1_06_Chucks_Dream.flac', 'spaff250801d2_01_Gold_Glittered_Hat.flac', 'spaff250801d2_02_Walls.flac', 'spaff250801d2_03_Hollywood.flac', 'spaff250801d2_04_Broken_Wing.flac', 'spaff250801d2_05_High_Beams.flac', 'spaff250801d2_06_Crowd.flac', 'spaff250801d3_01_Banter.flac', 'spaff250801d3_02_Weasel.flac']
+2025-08-03 09:23:34,807 - DEBUG - Found .txt files: []
+2025-08-03 09:23:34,807 - DEBUG - No .txt files found in: M:/Projects/Staging\Spafford - 2025-08-01 Woodlands Tavern, Columbus, OH [43625]
+2025-08-03 09:23:34,807 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:23:35,617 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Pearl Jam', 'albumartist': 'Pearl Jam', 'album': '2025.05.18 Pittsburgh, PA', 'date': '2025', 'genre': 'Rock'}
+2025-08-03 09:23:35,621 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-05-18', 'venue': '', 'city': 'Pittsburgh, PA', 'source': '', 'format': ''}
+2025-08-03 09:23:35,623 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:23:35,623 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\PJ Pitt 2
+2025-08-03 09:23:35,623 - DEBUG - All files in directory: ['CD 01', 'CD 02', 'CD 03', 'DS_Store', 'pj250518_01.jpg']
+2025-08-03 09:23:35,623 - DEBUG - Found .txt files: []
+2025-08-03 09:23:35,623 - DEBUG - No .txt files found in: M:/Projects/Staging\PJ Pitt 2
+2025-08-03 09:23:35,624 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:23:37,533 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Spafford', 'albumartist': 'Spafford', 'album': '2025/07/17 Raleigh, NC', 'date': '2025', 'genre': 'Rock'}
+2025-08-03 09:23:37,537 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-07-17', 'venue': '', 'city': 'Raleigh, NC', 'source': '', 'format': ''}
+2025-08-03 09:23:37,540 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Spafford', 'date': '2025-07-17', 'venue': 'Bowstring Brewyard', 'city': 'Raleigh, NC', 'id': '43449', 'source': 'SBD', 'format': '', 'genre': '', 'additional': '43449', 'add': '43449'}
+2025-08-03 09:23:37,540 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Spafford - 2025-07-17 Bowstring Brewyard, Raleigh, NC [43449]
+2025-08-03 09:23:37,541 - DEBUG - All files in directory: ['spaff250717d1_01_All_My_Friends.flac', 'spaff250717d1_02_Bee_Jam.flac', 'spaff250717d1_03_Windmill.flac', 'spaff250717d1_04_Neutrino.flac', 'spaff250717d1_05_Fake_The_Fate.flac', 'spaff250717d2_01_Plush.flac', 'spaff250717d2_02_Double_Time.flac', 'spaff250717d2_03_Crowd.flac', 'spaff250717d2_04_Banter.flac', 'spaff250717d2_05_Aint_That_Wrong.flac']
+2025-08-03 09:23:37,541 - DEBUG - Found .txt files: []
+2025-08-03 09:23:37,541 - DEBUG - No .txt files found in: M:/Projects/Staging\Spafford - 2025-07-17 Bowstring Brewyard, Raleigh, NC [43449]
+2025-08-03 09:23:37,541 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:23:38,751 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Spafford', 'albumartist': 'Spafford', 'album': '2025/08/01 Columbus, OH', 'date': '2025', 'genre': 'Rock'}
+2025-08-03 09:23:38,755 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-08-01', 'venue': '', 'city': 'Columbus, OH', 'source': '', 'format': ''}
+2025-08-03 09:23:38,758 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Spafford', 'date': '2025-08-01', 'venue': 'Woodlands Tavern', 'city': 'Columbus, OH', 'id': '43625', 'source': 'SBD', 'format': '', 'genre': '', 'additional': '43625', 'add': '43625'}
+2025-08-03 09:23:38,758 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Spafford - 2025-08-01 Woodlands Tavern, Columbus, OH [43625]
+2025-08-03 09:23:38,758 - DEBUG - All files in directory: ['spaff250801d1_01_Take_Your_Mama.flac', 'spaff250801d1_02_All_My_Friends.flac', 'spaff250801d1_03_Bee_Jam.flac', 'spaff250801d1_04_Minds_Unchained.flac', 'spaff250801d1_05_Ice_Cream.flac', 'spaff250801d1_06_Chucks_Dream.flac', 'spaff250801d2_01_Gold_Glittered_Hat.flac', 'spaff250801d2_02_Walls.flac', 'spaff250801d2_03_Hollywood.flac', 'spaff250801d2_04_Broken_Wing.flac', 'spaff250801d2_05_High_Beams.flac', 'spaff250801d2_06_Crowd.flac', 'spaff250801d3_01_Banter.flac', 'spaff250801d3_02_Weasel.flac']
+2025-08-03 09:23:38,758 - DEBUG - Found .txt files: []
+2025-08-03 09:23:38,758 - DEBUG - No .txt files found in: M:/Projects/Staging\Spafford - 2025-08-01 Woodlands Tavern, Columbus, OH [43625]
+2025-08-03 09:23:38,758 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:23:40,051 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Spafford', 'albumartist': 'Spafford', 'album': '2025/07/17 Raleigh, NC', 'date': '2025', 'genre': 'Rock'}
+2025-08-03 09:23:40,056 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-07-17', 'venue': '', 'city': 'Raleigh, NC', 'source': '', 'format': ''}
+2025-08-03 09:23:40,059 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Spafford', 'date': '2025-07-17', 'venue': 'Bowstring Brewyard', 'city': 'Raleigh, NC', 'id': '43449', 'source': 'SBD', 'format': '', 'genre': '', 'additional': '43449', 'add': '43449'}
+2025-08-03 09:23:40,059 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Spafford - 2025-07-17 Bowstring Brewyard, Raleigh, NC [43449]
+2025-08-03 09:23:40,062 - DEBUG - All files in directory: ['spaff250717d1_01_All_My_Friends.flac', 'spaff250717d1_02_Bee_Jam.flac', 'spaff250717d1_03_Windmill.flac', 'spaff250717d1_04_Neutrino.flac', 'spaff250717d1_05_Fake_The_Fate.flac', 'spaff250717d2_01_Plush.flac', 'spaff250717d2_02_Double_Time.flac', 'spaff250717d2_03_Crowd.flac', 'spaff250717d2_04_Banter.flac', 'spaff250717d2_05_Aint_That_Wrong.flac']
+2025-08-03 09:23:40,062 - DEBUG - Found .txt files: []
+2025-08-03 09:23:40,062 - DEBUG - No .txt files found in: M:/Projects/Staging\Spafford - 2025-07-17 Bowstring Brewyard, Raleigh, NC [43449]
+2025-08-03 09:23:40,062 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:23:40,539 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Pink Floyd', 'albumartist': 'Pink Floyd', 'album': 'Newcastle 1974', 'date': '1974', 'genre': 'Rock'}
+2025-08-03 09:23:40,544 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:23:40,546 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '1974-11-09', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:23:40,546 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\PF_1974-11-09
+2025-08-03 09:23:40,547 - DEBUG - All files in directory: ['1974-11-09 Odeon, Newcastle, England']
+2025-08-03 09:23:40,547 - DEBUG - Found .txt files: []
+2025-08-03 09:23:40,547 - DEBUG - No .txt files found in: M:/Projects/Staging\PF_1974-11-09
+2025-08-03 09:23:40,547 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:23:40,989 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Papadosio', 'albumartist': 'Papadosio', 'album': '2025/07/17 Thornville, OH', 'date': '2025', 'genre': 'Rock'}
+2025-08-03 09:23:40,994 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-07-17', 'venue': '', 'city': 'Thornville, OH', 'source': '', 'format': ''}
+2025-08-03 09:23:40,997 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Papadosio', 'date': '2025-07-17', 'venue': 'Secret Dreams Music and Arts Festival', 'city': 'Thornville, OH', 'id': '43609', 'source': 'SBD', 'format': '', 'genre': '', 'additional': '43609', 'add': '43609'}
+2025-08-03 09:23:40,997 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Papadosio - 2025-07-17 Secret Dreams Music and Arts Festival, Thornville, OH [43609]
+2025-08-03 09:23:40,998 - DEBUG - All files in directory: ['pado250717d1_01_Threes.flac', 'pado250717d1_02_Epiphany.flac', 'pado250717d1_03_Lions_Mane.flac', 'pado250717d1_04_Threes.flac', 'pado250717d1_05_Glimpse_Of_Light.flac', 'pado250717d1_06_Cordyceps.flac', 'pado250717d1_07_Puddles_For_Oceans.flac', 'pado250717d2_01_Not_Just_A_Word.flac', 'pado250717d2_02_New_Love.flac']
+2025-08-03 09:23:40,998 - DEBUG - Found .txt files: []
+2025-08-03 09:23:40,998 - DEBUG - No .txt files found in: M:/Projects/Staging\Papadosio - 2025-07-17 Secret Dreams Music and Arts Festival, Thornville, OH [43609]
+2025-08-03 09:23:40,998 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:23:41,519 - DEBUG - [DEBUG] Parsed file tags from folder: {'album': 'Minnesota TC 1985 Part One', 'comment': 'fre:ac - free audio converter <https://www.freac.org/>'}
+2025-08-03 09:23:41,524 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:23:41,526 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:23:41,526 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Neil Young
+2025-08-03 09:23:41,527 - DEBUG - All files in directory: ['00 Carnegie Hall solo 2014 - Timeline.m3u8', '00 Rotterdam 1989 - Timeline.m3u8', '01 - Country Home.flac', '02 - Comes A Time.flac', "03 - Lookin' For A Love.flac", '04 - Heart Of Gold.flac', '05 - This Old House.flac', '06 - Southern Pacific.flac', '07 - Sugar Mountain.flac', '08 - The Needle And The Damage Done.flac', '09 - Helpless.flac', '10 - California Sunset.flac', '11 - Nothing Is Perfect.flac', '12 - Field Of Opportunity.flac', '13 - Down By The River.flac', '14 - Old Man.flac', '15 - Powderfinger.flac', '16 - Band Introductions.flac', '17 - Get Back To The Country.flac', '18 - Grey Riders.flac', 'folder.jpg', 'Minnesota Cover Timeline.jpg', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 01 - From Hank To Hendrix.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 02 - On The Way Home.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 03 - Only Love Can Break Your Heart.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 04 - Love In Mind.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 05 - Mellow My Mind.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 06 - Are You Ready For The Country.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 07 - Someday.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 08 - Changes.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 09 - Harvest.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 10 - Old Man.m4a', "Neil Young - Carnegie Hall solo 2014 - Timeline - 11 - Goin' Back.m4a", 'Neil Young - Carnegie Hall solo 2014 - Timeline - 12 - A Man Needs A Maid.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 13 - Ohio.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 14 - Southern Man.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 15 - Mr. Soul.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 16 - Out Of My Mind.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 17 - Needle Of Death.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 18 - The Needle And The Damage Done.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 19 - Harvest Moon.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 20 - Flying On The Ground Is Wrong.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 21 - Journey Through The Past.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 22 - Heart Of Gold.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 23 - Comes A Time.m4a', 'Neil Young - Rotterdam 1989 - Timeline - 01 - My My, Hey Hey (Out Of The Blue).m4a', 'Neil Young - Rotterdam 1989 - Timeline - 02 - Cocaine Eyes.m4a', 'Neil Young - Rotterdam 1989 - Timeline - 03 - Razor Love.m4a', 'Neil Young - Rotterdam 1989 - Timeline - 04 - Comes A Time.m4a', "Neil Young - Rotterdam 1989 - Timeline - 05 - Don't Let It Bring You Down.m4a", 'Neil Young - Rotterdam 1989 - Timeline - 06 - Someday.m4a', 'Neil Young - Rotterdam 1989 - Timeline - 07 - Crime In The City.m4a', 'Neil Young - Rotterdam 1989 - Timeline - 08 - Eldorado.m4a', 'Neil Young - Rotterdam 1989 - Timeline - 09 - Roll Another Number (For The Road).m4a', 'Neil Young - Rotterdam 1989 - Timeline - 10 - Too Far Gone.m4a', "Neil Young - Rotterdam 1989 - Timeline - 11 - This Note's For You.m4a", 'Neil Young - Rotterdam 1989 - Timeline - 12 - The Needle And The Damage Done.m4a', 'Neil Young - Rotterdam 1989 - Timeline - 13 - No More.m4a', "Neil Young - Rotterdam 1989 - Timeline - 14 - Dreamin' Man.m4a", "Neil Young - Rotterdam 1989 - Timeline - 15 - Fuckin' Up.m4a", 'Neil Young - Rotterdam 1989 - Timeline - 16 - Winterlong.m4a', 'Neil Young - Rotterdam 1989 - Timeline - 17 - Heart Of Gold.m4a', "Neil Young - Rotterdam 1989 - Timeline - 18 - Rockin' In The Free World.m4a", 'Neil Young - Rotterdam 1989 - Timeline - 19 - Powderfinger.m4a', 'Thumbs.db']
+2025-08-03 09:23:41,527 - DEBUG - Found .txt files: []
+2025-08-03 09:23:41,527 - DEBUG - No .txt files found in: M:/Projects/Staging\Neil Young
+2025-08-03 09:23:41,527 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:23:42,035 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Leftover Salmon', 'albumartist': 'Leftover Salmon', 'album': '2025/07/19 Hillsboro, WI', 'date': '2025', 'genre': 'Bluegrass'}
+2025-08-03 09:23:42,039 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-07-19', 'venue': '', 'city': 'Hillsboro, WI', 'source': '', 'format': ''}
+2025-08-03 09:23:42,043 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Leftover Salmon', 'date': '2025-07-19', 'venue': 'Driftless Music Gardens', 'city': 'Hillsboro, WI', 'id': '43630', 'source': 'SBD', 'format': '', 'genre': '', 'additional': '43630', 'add': '43630'}
+2025-08-03 09:23:42,043 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Leftover Salmon - 2025-07-19 Driftless Music Gardens, Hillsboro, WI [43630]
+2025-08-03 09:23:42,043 - DEBUG - All files in directory: ['los250719d1_01_Are_You_Ready_For_The_Country.flac', 'los250719d1_02_Get_Me_Outta_This_City.flac', 'los250719d1_03_Brand_New_Good_Old_Days.flac', 'los250719d1_04_Mississippi_Sawyer.flac', 'los250719d1_05_Shine_On.flac', 'los250719d1_06_Danger_Man.flac', 'los250719d1_07_Salmon_Scales.flac', 'los250719d1_08_California_Cottonfields.flac', 'los250719d1_09_Doin_My_Time.flac', 'los250719d1_10_Ask_The_Fish.flac', 'los250719d1_11_I_Dont_Owe_You_A_Thing.flac', 'los250719d1_12_Light_Behind_The_Rain.flac', 'los250719d1_13_You_Dont_Love_Me.flac']
+2025-08-03 09:23:42,044 - DEBUG - Found .txt files: []
+2025-08-03 09:23:42,044 - DEBUG - No .txt files found in: M:/Projects/Staging\Leftover Salmon - 2025-07-19 Driftless Music Gardens, Hillsboro, WI [43630]
+2025-08-03 09:23:42,044 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:23:42,470 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Leftover Salmon', 'albumartist': 'Leftover Salmon', 'album': '2025/07/19 Hillsboro, WI', 'date': '2025', 'genre': 'Bluegrass'}
+2025-08-03 09:23:42,474 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-07-19', 'venue': '', 'city': 'Hillsboro, WI', 'source': '', 'format': ''}
+2025-08-03 09:23:42,478 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Leftover Salmon', 'date': '2025-07-19', 'venue': 'Driftless Music Gardens', 'city': 'Hillsboro, WI', 'id': '43630', 'source': 'SBD', 'format': '', 'genre': '', 'additional': '43630', 'add': '43630'}
+2025-08-03 09:23:42,478 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Leftover Salmon - 2025-07-19 Driftless Music Gardens, Hillsboro, WI [43630]
+2025-08-03 09:23:42,478 - DEBUG - All files in directory: ['los250719d1_01_Are_You_Ready_For_The_Country.flac', 'los250719d1_02_Get_Me_Outta_This_City.flac', 'los250719d1_03_Brand_New_Good_Old_Days.flac', 'los250719d1_04_Mississippi_Sawyer.flac', 'los250719d1_05_Shine_On.flac', 'los250719d1_06_Danger_Man.flac', 'los250719d1_07_Salmon_Scales.flac', 'los250719d1_08_California_Cottonfields.flac', 'los250719d1_09_Doin_My_Time.flac', 'los250719d1_10_Ask_The_Fish.flac', 'los250719d1_11_I_Dont_Owe_You_A_Thing.flac', 'los250719d1_12_Light_Behind_The_Rain.flac', 'los250719d1_13_You_Dont_Love_Me.flac']
+2025-08-03 09:23:42,478 - DEBUG - Found .txt files: []
+2025-08-03 09:23:42,478 - DEBUG - No .txt files found in: M:/Projects/Staging\Leftover Salmon - 2025-07-19 Driftless Music Gardens, Hillsboro, WI [43630]
+2025-08-03 09:23:42,479 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:23:43,334 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Leftover Salmon', 'albumartist': 'Leftover Salmon', 'album': '2025/07/18 Grand Rapids, MI', 'date': '2025', 'genre': 'Bluegrass'}
+2025-08-03 09:23:43,338 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-07-18', 'venue': '', 'city': 'Grand Rapids, MI', 'source': '', 'format': ''}
+2025-08-03 09:23:43,341 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Leftover Salmon', 'date': '2025-07-18', 'venue': 'Frederik Meijer Gardens', 'city': 'Grand Rapids, MI', 'id': '43629', 'source': 'SBD', 'format': '', 'genre': '', 'additional': '43629', 'add': '43629'}
+2025-08-03 09:23:43,341 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Leftover Salmon - 2025-07-18 Frederik Meijer Gardens, Grand Rapids, MI [43629]
+2025-08-03 09:23:43,341 - DEBUG - All files in directory: ['los250718d1_01_Sing_up_to_the_Moon.flac', 'los250718d1_02_Just_Before_The_Evening.flac', 'los250718d1_03_Liza.flac', 'los250718d1_04_Troubled_Times.flac', 'los250718d1_05_Lets_Party_About_It.flac', 'los250718d1_06_Tangled_Up_In_Blue.flac', 'los250718d1_07_Evermore.flac', 'los250718d1_08_Storms.flac', 'los250718d1_09_Rivers_Rising.flac', 'los250718d1_10_High_Country.flac', 'los250718d1_11_99_Years.flac']
+2025-08-03 09:23:43,341 - DEBUG - Found .txt files: []
+2025-08-03 09:23:43,341 - DEBUG - No .txt files found in: M:/Projects/Staging\Leftover Salmon - 2025-07-18 Frederik Meijer Gardens, Grand Rapids, MI [43629]
+2025-08-03 09:23:43,342 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:23:44,067 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Béla Fleck & The Flecktones', 'album': 'Live At The Quick', 'date': '2002', 'genre': 'Country & Folk'}
+2025-08-03 09:23:44,072 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:23:44,076 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:23:44,076 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Béla Fleck & The Flecktones - Live At The Quick
+2025-08-03 09:23:44,077 - DEBUG - All files in directory: ['01 Béla Fleck & The Flecktones - That Old Thing (Intro)／Earth Jam.flac', '02 Béla Fleck & The Flecktones - Zona Mona.flac', '03 Béla Fleck & The Flecktones - Ovombo Summit.flac', '04 Béla Fleck & The Flecktones - Hall Of Mirrors.flac', '05 Béla Fleck & The Flecktones - Scratch & Sniff.flac', '06 Béla Fleck & The Flecktones - Improv／Amazing Grace.flac', '07 Béla Fleck & The Flecktones - Big Country.flac', '08 Béla Fleck & The Flecktones - Interlude.flac', "09 Béla Fleck & The Flecktones - Lover's Leap.flac", '10 Béla Fleck & The Flecktones - Alash Khem (Alash River Song).flac', '11 Béla Fleck & The Flecktones - A Moment So Close.flac', '12 Béla Fleck & The Flecktones - Improv／Prelude From Bach Violin Partitia #3.flac', '13 Béla Fleck & The Flecktones - Intro.flac', '14 Béla Fleck & The Flecktones - Hoedown.flac', 'Live At The Quick.log']
+2025-08-03 09:23:44,077 - DEBUG - Found .txt files: []
+2025-08-03 09:23:44,077 - DEBUG - No .txt files found in: M:/Projects/Staging\Béla Fleck & The Flecktones - Live At The Quick
+2025-08-03 09:23:44,077 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:23:44,770 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'From The Archives 17 Part 2', 'date': '2015-08-21'}
+2025-08-03 09:23:44,770 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:23:44,772 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '2015-08-21', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:23:44,772 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\fta2015-08-21.fta17.pt2.134057.flac16
+2025-08-03 09:23:44,773 - DEBUG - All files in directory: ['ffp.ffp', 'fta2015-08-21s1t01.flac', 'fta2015-08-21s1t02.flac', 'fta2015-08-21s1t03.flac', 'fta2015-08-21s1t04.flac', 'fta2015-08-21s1t05.flac', 'fta2015-08-21s1t06.flac', 'fta2015-08-21s1t07.flac', 'fta2015-08-21s1t08.flac', 'fta2015-08-21s1t09.flac', 'fta2015-08-21s1t10.flac', 'phish-archive-radio2015-08-21.134057.txt']
+2025-08-03 09:23:44,773 - DEBUG - Found .txt files: ['phish-archive-radio2015-08-21.134057.txt']
+2025-08-03 09:23:44,775 - DEBUG - Trying to read metadata from: M:/Projects/Staging\fta2015-08-21.fta17.pt2.134057.flac16\phish-archive-radio2015-08-21.134057.txt
+2025-08-03 09:23:44,793 - DEBUG - Extracted metadata: {'city': 'Watkins Glen, NY', 'format': 'FLAC16'}
+2025-08-03 09:23:44,793 - DEBUG - [DEBUG] TXT metadata parsed: {'city': 'Watkins Glen, NY', 'format': 'FLAC16'}
+2025-08-03 09:23:45,689 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Herbie Hancock', 'album': 'HH1973-11-01', 'comment': 'Ultrasonic Studios'}
+2025-08-03 09:23:45,693 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:23:45,696 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '1973-11-01', 'venue': 'Ultrasonic Studios', 'city': 'Hampstead, NY', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:23:45,697 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)
+2025-08-03 09:23:45,697 - DEBUG - All files in directory: ['01. Actual Proof.flac', '02. Butterfly.flac', '03. Sly.flac', '04. Chameleon.flac', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY-EACLog.log', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.ffp', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 09:23:45,697 - DEBUG - Found .txt files: ['Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 09:23:45,699 - DEBUG - Trying to read metadata from: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)\Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt
+2025-08-03 09:23:45,742 - DEBUG - Extracted metadata: {'source': 'FM'}
+2025-08-03 09:23:45,743 - DEBUG - [DEBUG] TXT metadata parsed: {'source': 'FM'}
+2025-08-03 09:23:46,304 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'The Jazz Mandolin Project', 'albumartist': 'The Jazz Mandolin Project', 'album': 'The Jazz Mandolin Project', 'date': '1996', 'genre': 'Jazz'}
+2025-08-03 09:23:46,309 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:23:46,312 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': '', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:23:46,312 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1996 - The Jazz Mandolin Project - The Jazz Mandolin Project (Accurate)
+2025-08-03 09:23:46,312 - DEBUG - All files in directory: ['01 - The Country Open.flac', '02 - Monkey Blake.flac', '03 - Mandoneon.flac', '04 - Ballad for Trio.flac', '05 - The Opera.flac', '06 - Nozani Na.flac', '07 - The Gourd.flac', '08 - Milestones in the Sunshine.flac', '09 - Contois.flac', '10 - Lithograph.flac', 'Artwork', 'folder.jpg', 'The Jazz Mandolin Project - The Jazz Mandolin Project.log', 'The Jazz Mandolin Project - The Jazz Mandolin Project.m3u', 'The Jazz Mandolin Project.accurip', 'The Jazz Mandolin Project.cue']
+2025-08-03 09:23:46,312 - DEBUG - Found .txt files: []
+2025-08-03 09:23:46,312 - DEBUG - No .txt files found in: M:/Projects/Staging\1996 - The Jazz Mandolin Project - The Jazz Mandolin Project (Accurate)
+2025-08-03 09:23:46,312 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:24:13,685 - DEBUG - Verified themes folder at: themes
+2025-08-03 09:24:13,691 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:24:13,691 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:24:13,691 - DEBUG - Updating processor schemes...
+2025-08-03 09:24:13,692 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:24:13,692 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:24:13,766 - DEBUG - History loaded.
+2025-08-03 09:24:13,766 - DEBUG - Used cache loaded.
+2025-08-03 09:24:13,814 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 09:24:13,882 - DEBUG - Restored main window geometry: 1600x1100+710+257
+2025-08-03 09:24:13,893 - DEBUG - Saved main window size and position: 1600x1100+710+257
+2025-08-03 09:24:13,919 - DEBUG - No saved sash position for main found in config
+2025-08-03 09:24:13,989 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 09:24:13,989 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 09:24:19,664 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 09:24:19,671 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 09:24:19,673 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC24', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:24:19,673 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD
+2025-08-03 09:24:19,674 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 09:24:19,674 - DEBUG - Found .txt files: []
+2025-08-03 09:24:19,674 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD
+2025-08-03 09:24:19,674 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:24:20,689 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Herbie Hancock', 'album': 'HH1973-11-01', 'comment': 'Ultrasonic Studios'}
+2025-08-03 09:24:20,694 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:24:20,697 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '1973-11-01', 'venue': 'Ultrasonic Studios', 'city': 'Hampstead, NY', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:24:20,697 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)
+2025-08-03 09:24:20,697 - DEBUG - All files in directory: ['01. Actual Proof.flac', '02. Butterfly.flac', '03. Sly.flac', '04. Chameleon.flac', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY-EACLog.log', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.ffp', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 09:24:20,697 - DEBUG - Found .txt files: ['Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 09:24:20,703 - DEBUG - Trying to read metadata from: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)\Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt
+2025-08-03 09:24:20,745 - DEBUG - Extracted metadata: {'source': 'FM'}
+2025-08-03 09:24:20,745 - DEBUG - [DEBUG] TXT metadata parsed: {'source': 'FM'}
+2025-08-03 09:24:22,852 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'The Jazz Mandolin Project', 'albumartist': 'The Jazz Mandolin Project', 'album': 'The Jazz Mandolin Project', 'date': '1996', 'genre': 'Jazz'}
+2025-08-03 09:24:22,857 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:24:22,860 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:24:22,860 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1996 - The Jazz Mandolin Project - The Jazz Mandolin Project (Accurate)
+2025-08-03 09:24:22,861 - DEBUG - All files in directory: ['01 - The Country Open.flac', '02 - Monkey Blake.flac', '03 - Mandoneon.flac', '04 - Ballad for Trio.flac', '05 - The Opera.flac', '06 - Nozani Na.flac', '07 - The Gourd.flac', '08 - Milestones in the Sunshine.flac', '09 - Contois.flac', '10 - Lithograph.flac', 'Artwork', 'folder.jpg', 'The Jazz Mandolin Project - The Jazz Mandolin Project.log', 'The Jazz Mandolin Project - The Jazz Mandolin Project.m3u', 'The Jazz Mandolin Project.accurip', 'The Jazz Mandolin Project.cue']
+2025-08-03 09:24:22,861 - DEBUG - Found .txt files: []
+2025-08-03 09:24:22,861 - DEBUG - No .txt files found in: M:/Projects/Staging\1996 - The Jazz Mandolin Project - The Jazz Mandolin Project (Accurate)
+2025-08-03 09:24:22,861 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:24:26,474 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'STS9', 'albumartist': 'STS9', 'album': '2025.02.14 :: Pool Deck :: Jam Cruise', 'date': '2025'}
+2025-08-03 09:24:26,479 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-02-14', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:24:26,481 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'STS9', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:24:26,481 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\2025 - STS9 - MP3
+2025-08-03 09:24:26,482 - DEBUG - All files in directory: ['2025.02.14 __ Pool Deck __ Jam Cruise', '2025.02.15 __ Pantheon Theater __ Jam Cruise', '2025.02.22 __ Sweetwater Fest __ Atlanta,GA', '2025.04.18 __ Skydeck __ Nashville, TN', '2025.04.19 __ Skydeck __ Nashville,TN', '2025.05.15 __ Resonate Music Festival __ Suwanee, FL', '2025.05.16 __ Resonate Music Festival __ Suwanee, FL', '2025.06.13 __ The Anthem __ Washington, DC', '2025.07.10 __ Crystal Ballroom __ Portland, OR', '2025.07.11 __ Northwest Tune-Up Festival __ Bellingham, WA', '2025.07.12 __ The Crocodile __ Seattle, WA', '2025.07.13 __ The Crocodile __ Seattle, WA']
+2025-08-03 09:24:26,482 - DEBUG - Found .txt files: []
+2025-08-03 09:24:26,482 - DEBUG - No .txt files found in: M:/Projects/Staging\2025 - STS9 - MP3
+2025-08-03 09:24:26,482 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:24:28,858 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'STS9', 'albumartist': 'STS9', 'album': '2025.02.14 :: Pool Deck :: Jam Cruise', 'date': '2025'}
+2025-08-03 09:24:28,863 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-02-14', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:24:28,866 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'STS9', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:24:28,866 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\2025 - STS9 - MP3
+2025-08-03 09:24:28,869 - DEBUG - All files in directory: ['2025.02.14 __ Pool Deck __ Jam Cruise', '2025.02.15 __ Pantheon Theater __ Jam Cruise', '2025.02.22 __ Sweetwater Fest __ Atlanta,GA', '2025.04.18 __ Skydeck __ Nashville, TN', '2025.04.19 __ Skydeck __ Nashville,TN', '2025.05.15 __ Resonate Music Festival __ Suwanee, FL', '2025.05.16 __ Resonate Music Festival __ Suwanee, FL', '2025.06.13 __ The Anthem __ Washington, DC', '2025.07.10 __ Crystal Ballroom __ Portland, OR', '2025.07.11 __ Northwest Tune-Up Festival __ Bellingham, WA', '2025.07.12 __ The Crocodile __ Seattle, WA', '2025.07.13 __ The Crocodile __ Seattle, WA']
+2025-08-03 09:24:28,869 - DEBUG - Found .txt files: []
+2025-08-03 09:24:28,869 - DEBUG - No .txt files found in: M:/Projects/Staging\2025 - STS9 - MP3
+2025-08-03 09:24:28,869 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:24:29,814 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'STS9', 'albumartist': 'STS9', 'album': '2025.02.14 :: Pool Deck :: Jam Cruise', 'date': '2025'}
+2025-08-03 09:24:29,820 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-02-14', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:24:29,822 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:24:29,822 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\2025 - STS9 - MP3\2025.02.14 __ Pool Deck __ Jam Cruise
+2025-08-03 09:24:29,822 - DEBUG - All files in directory: ['01 STS9 - Oil & Water ___.mp3', '02 STS9 - Glass z-13 ___.mp3', '03 STS9 - Menacer.mp3', "04 STS9 - It's Alright ___.mp3", '05 STS9 - Mod ___ Modular.mp3', '06 STS9 - Nautilus w_Karl Denson ___.mp3', '07 STS9 - Mobsters ___.mp3', '08 STS9 - Could You Be Loved_.mp3', '09 STS9 - Shaky Ground ___.mp3', '10 STS9 - Human Dream ___.mp3', '11 STS9 - Totem.mp3']
+2025-08-03 09:24:29,823 - DEBUG - Found .txt files: []
+2025-08-03 09:24:29,823 - DEBUG - No .txt files found in: M:/Projects/Staging\2025 - STS9 - MP3\2025.02.14 __ Pool Deck __ Jam Cruise
+2025-08-03 09:24:29,823 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:24:30,963 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'STS9', 'albumartist': 'STS9', 'album': '2025.02.15 :: Pantheon Theater :: Jam Cruise', 'date': '2025'}
+2025-08-03 09:24:30,969 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-02-15', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:24:30,971 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:24:30,971 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\2025 - STS9 - MP3\2025.02.15 __ Pantheon Theater __ Jam Cruise
+2025-08-03 09:24:30,972 - DEBUG - All files in directory: ['01 STS9 - Tonight the Ocean swallowed the Moon.mp3', '02 STS9 - Poseidon.mp3', '03 STS9 - March.mp3', '04 STS9 - Frequency 2,3.mp3', '05 STS9 - Never, Never.mp3', '06 STS9 - Shock Doctrine.mp3', '07 STS9 - Hubble.mp3', '08 STS9 - Sun, Moon & Stars.mp3', '09 STS9 - Vapors.mp3', '10 STS9 - When the dust settles.mp3']
+2025-08-03 09:24:30,972 - DEBUG - Found .txt files: []
+2025-08-03 09:24:30,972 - DEBUG - No .txt files found in: M:/Projects/Staging\2025 - STS9 - MP3\2025.02.15 __ Pantheon Theater __ Jam Cruise
+2025-08-03 09:24:30,972 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:24:33,481 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'STS9', 'albumartist': 'STS9', 'album': '2025.02.22 :: Sweetwater Fest :: Atlanta,GA', 'date': '2025'}
+2025-08-03 09:24:33,486 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-02-22', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:24:33,490 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': 'Atlanta, GA', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:24:33,490 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\2025 - STS9 - MP3\2025.02.22 __ Sweetwater Fest __ Atlanta,GA
+2025-08-03 09:24:33,491 - DEBUG - All files in directory: ['01 STS9 - Somesing.mp3', '02 STS9 - Arigato.mp3', '03 STS9 - Like I Do.mp3', '04 STS9 - Possibilities.mp3', '05 STS9 - The Rabble.mp3', '06 STS9 - Strange Games.mp3', '07 STS9 - Move my peeps.mp3', '08 STS9 - Soul Slap.mp3', '09 STS9 - Give & Take.mp3', '10 STS9 - Luma Daylight.mp3', '11 STS9 - Tokyo.mp3', '12 STS9 - Sky High.mp3', '13 STS9 - Get Loud _ Modular.mp3', '14 STS9 - Grow.mp3']
+2025-08-03 09:24:33,491 - DEBUG - Found .txt files: []
+2025-08-03 09:24:33,491 - DEBUG - No .txt files found in: M:/Projects/Staging\2025 - STS9 - MP3\2025.02.22 __ Sweetwater Fest __ Atlanta,GA
+2025-08-03 09:24:33,491 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:24:34,684 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'STS9', 'albumartist': 'STS9', 'album': '2025.04.18 :: Skydeck :: Nashville, TN', 'date': '2025'}
+2025-08-03 09:24:34,688 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-04-18', 'venue': '', 'city': 'Nashville, TN', 'source': '', 'format': ''}
+2025-08-03 09:24:34,691 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': 'Nashville, TN', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:24:34,691 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\2025 - STS9 - MP3\2025.04.18 __ Skydeck __ Nashville, TN
+2025-08-03 09:24:34,691 - DEBUG - All files in directory: ['01 STS9 - March.mp3', '02 STS9 - G-Funk.mp3', '03 STS9 - ABCees.mp3', '04 STS9 - Muir Soul.mp3', '05 STS9 - Native End.mp3', '06 STS9 - ReEmergence.mp3', '07 STS9 - GLOgli.mp3', '08 STS9 - Rent.mp3', '09 STS9 - Evasive Maneuvers.mp3', '10 STS9 - Forest Hu.mp3', '11 STS9 - Hubble.mp3', '12 STS9 - Shaky Ground.mp3', "13 STS9 - Life's a Symphony in Unity, It's Alright ft. Maureen Murphy.mp3", '14 STS9 - Glass z-13.mp3', '15 STS9 - When the Dust Settles.mp3', '16 STS9 - Dance.mp3']
+2025-08-03 09:24:34,691 - DEBUG - Found .txt files: []
+2025-08-03 09:24:34,691 - DEBUG - No .txt files found in: M:/Projects/Staging\2025 - STS9 - MP3\2025.04.18 __ Skydeck __ Nashville, TN
+2025-08-03 09:24:34,691 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:24:35,112 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'STS9', 'albumartist': 'STS9', 'album': '2025.04.19 :: Skydeck :: Nashville,TN', 'date': '2025'}
+2025-08-03 09:24:35,118 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-04-19', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:24:35,120 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': 'Nashville, TN', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:24:35,120 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\2025 - STS9 - MP3\2025.04.19 __ Skydeck __ Nashville,TN
+2025-08-03 09:24:35,121 - DEBUG - All files in directory: ['01 STS9 - Home Park.mp3', '02 STS9 - Peachtree.mp3', '03 STS9 - Ramone & Emiglio.mp3', '04 STS9 - Totem.mp3', '05 STS9 - Arrowhead.mp3', '06 STS9 - Blu Mood.mp3', '07 STS9 - Never, Never.mp3', '08 STS9 - Inspire Strikes Back.mp3', '09 STS9 - Tooth.mp3', '10 STS9 - Peoples.mp3', '11 STS9 - 20-12.mp3', '12 STS9 - Circus.mp3', '13 STS9 - Strange Games.mp3', '14 STS9 - Year Infinity.mp3', '15 STS9 - Click Lang Echo.mp3', '16 STS9 - Monkey Music.mp3']
+2025-08-03 09:24:35,121 - DEBUG - Found .txt files: []
+2025-08-03 09:24:35,121 - DEBUG - No .txt files found in: M:/Projects/Staging\2025 - STS9 - MP3\2025.04.19 __ Skydeck __ Nashville,TN
+2025-08-03 09:24:35,121 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:24:35,545 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'STS9', 'albumartist': 'STS9', 'album': '2025.05.15 :: Resonate Music Festival :: Suwanee, FL', 'date': '2025'}
+2025-08-03 09:24:35,551 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-05-15', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:24:35,554 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:24:35,554 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\2025 - STS9 - MP3\2025.05.15 __ Resonate Music Festival __ Suwanee, FL
+2025-08-03 09:24:35,554 - DEBUG - All files in directory: ['01 STS9 - Biggs.mp3', '02 STS9 - One, Two, Three.mp3', '03 STS9 - Light the Way.mp3', '04 STS9 - Worry No More.mp3', '05 STS9 - STS9.mp3', '06 STS9 - Glass z-13.mp3', '07 STS9 - Feel It.mp3', '08 STS9 - Call Jam.mp3', '09 STS9 - Interlude.mp3', '10 STS9 - Soul Slap.mp3', '11 STS9 - Sky High.mp3', '12 STS9 - Lift You Up.mp3', '13 STS9 - Breathe In.mp3', '14 STS9 - Potamus.mp3', '15 STS9 - Sun, Moon, and Stars.mp3']
+2025-08-03 09:24:35,554 - DEBUG - Found .txt files: []
+2025-08-03 09:24:35,554 - DEBUG - No .txt files found in: M:/Projects/Staging\2025 - STS9 - MP3\2025.05.15 __ Resonate Music Festival __ Suwanee, FL
+2025-08-03 09:24:35,554 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:24:36,435 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'STS9', 'albumartist': 'STS9', 'album': '2025.05.16 :: Resonate Music Festival :: Suwanee, FL', 'date': '2025'}
+2025-08-03 09:24:36,441 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-05-16', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:24:36,443 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:24:36,444 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\2025 - STS9 - MP3\2025.05.16 __ Resonate Music Festival __ Suwanee, FL
+2025-08-03 09:24:36,444 - DEBUG - All files in directory: ['01 STS9 - When the Dust Settles Reprise.mp3', '02 STS9 - Year Infinity.mp3', '03 STS9 - Walk the Sky.mp3', '04 STS9 - Out of This World.mp3', '05 STS9 - Scheme.mp3', '06 STS9 - Peachtree.mp3', '07 STS9 - Vapors.mp3', "08 STS9 - It's Alright.mp3", "09 STS9 - Life's a Symphony in Unity, It's Alright.mp3", '10 STS9 - Moonsocket.mp3', '11 STS9 - Light Reveals.mp3', '12 STS9 - Shaky Ground.mp3']
+2025-08-03 09:24:36,444 - DEBUG - Found .txt files: []
+2025-08-03 09:24:36,444 - DEBUG - No .txt files found in: M:/Projects/Staging\2025 - STS9 - MP3\2025.05.16 __ Resonate Music Festival __ Suwanee, FL
+2025-08-03 09:24:36,444 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:24:37,017 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'STS9', 'albumartist': 'STS9', 'album': '2025.06.13 :: The Anthem :: Washington, DC', 'date': '2025'}
+2025-08-03 09:24:37,022 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-06-13', 'venue': 'The Anthem', 'city': 'Washington, DC', 'source': '', 'format': ''}
+2025-08-03 09:24:37,025 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': 'The Anthem', 'city': 'Washington, DC', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:24:37,025 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\2025 - STS9 - MP3\2025.06.13 __ The Anthem __ Washington, DC
+2025-08-03 09:24:37,025 - DEBUG - All files in directory: ['01 STS9 - Sürge.mp3', '02 STS9 - Searchlight.mp3', '03 STS9 - EHM.mp3', '04 STS9 - The Rabble.mp3', '05 STS9 - EHM.mp3', '06 STS9 - Frequencies 2 _ 3.mp3', '07 STS9 - Year Infinity.mp3', '08 STS9 - Strange Games.mp3', '09 STS9 - Skyspace.mp3', '10 STS9 - Shock Doctrine.mp3', '11 STS9 - Peachtree.mp3', '12 STS9 - Kamuy.mp3', '13 STS9 - Balancing.mp3', "14 STS9 - Life's a Symphony in Unity, It's Alright.mp3", '15 STS9 - Orbital.mp3', '16 STS9 - Shaky Ground.mp3', '17 STS9 - Brace Yourself Jason.mp3', '18 STS9 - Shaky Ground.mp3', '19 STS9 - Open E.mp3', '20 STS9 - World Go Round.mp3']
+2025-08-03 09:24:37,025 - DEBUG - Found .txt files: []
+2025-08-03 09:24:37,025 - DEBUG - No .txt files found in: M:/Projects/Staging\2025 - STS9 - MP3\2025.06.13 __ The Anthem __ Washington, DC
+2025-08-03 09:24:37,025 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:24:38,526 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'STS9', 'albumartist': 'STS9', 'album': '2025.05.16 :: Resonate Music Festival :: Suwanee, FL', 'date': '2025'}
+2025-08-03 09:24:38,531 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-05-16', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:24:38,534 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:24:38,534 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\2025 - STS9 - MP3\2025.05.16 __ Resonate Music Festival __ Suwanee, FL
+2025-08-03 09:24:38,534 - DEBUG - All files in directory: ['01 STS9 - When the Dust Settles Reprise.mp3', '02 STS9 - Year Infinity.mp3', '03 STS9 - Walk the Sky.mp3', '04 STS9 - Out of This World.mp3', '05 STS9 - Scheme.mp3', '06 STS9 - Peachtree.mp3', '07 STS9 - Vapors.mp3', "08 STS9 - It's Alright.mp3", "09 STS9 - Life's a Symphony in Unity, It's Alright.mp3", '10 STS9 - Moonsocket.mp3', '11 STS9 - Light Reveals.mp3', '12 STS9 - Shaky Ground.mp3']
+2025-08-03 09:24:38,534 - DEBUG - Found .txt files: []
+2025-08-03 09:24:38,534 - DEBUG - No .txt files found in: M:/Projects/Staging\2025 - STS9 - MP3\2025.05.16 __ Resonate Music Festival __ Suwanee, FL
+2025-08-03 09:24:38,535 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:24:39,889 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'STS9', 'albumartist': 'STS9', 'album': '2025.05.15 :: Resonate Music Festival :: Suwanee, FL', 'date': '2025'}
+2025-08-03 09:24:39,894 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-05-15', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:24:39,897 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:24:39,897 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\2025 - STS9 - MP3\2025.05.15 __ Resonate Music Festival __ Suwanee, FL
+2025-08-03 09:24:39,899 - DEBUG - All files in directory: ['01 STS9 - Biggs.mp3', '02 STS9 - One, Two, Three.mp3', '03 STS9 - Light the Way.mp3', '04 STS9 - Worry No More.mp3', '05 STS9 - STS9.mp3', '06 STS9 - Glass z-13.mp3', '07 STS9 - Feel It.mp3', '08 STS9 - Call Jam.mp3', '09 STS9 - Interlude.mp3', '10 STS9 - Soul Slap.mp3', '11 STS9 - Sky High.mp3', '12 STS9 - Lift You Up.mp3', '13 STS9 - Breathe In.mp3', '14 STS9 - Potamus.mp3', '15 STS9 - Sun, Moon, and Stars.mp3']
+2025-08-03 09:24:39,900 - DEBUG - Found .txt files: []
+2025-08-03 09:24:39,900 - DEBUG - No .txt files found in: M:/Projects/Staging\2025 - STS9 - MP3\2025.05.15 __ Resonate Music Festival __ Suwanee, FL
+2025-08-03 09:24:39,900 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:24:40,481 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'STS9', 'albumartist': 'STS9', 'album': '2025.07.11 :: Northwest Tune-Up Festival :: Bellingham, WA', 'date': '2025'}
+2025-08-03 09:24:40,485 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-07-11', 'venue': '', 'city': 'Bellingham, WA', 'source': '', 'format': ''}
+2025-08-03 09:24:40,488 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': 'Bellingham, WA', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:24:40,488 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\2025 - STS9 - MP3\2025.07.11 __ Northwest Tune-Up Festival __ Bellingham, WA
+2025-08-03 09:24:40,488 - DEBUG - All files in directory: ["01 STS9 - Life's a Symphony In Unity, It's Alright.mp3", '02 STS9 - Metameme.mp3', '03 STS9 - Poseidon.mp3', '04 STS9 - Golden Gate.mp3', '05 STS9 - When the Dust Settles.mp3', '06 STS9 - Portal to the Starry Path.mp3', '07 STS9 - Shaky Ground.mp3', '08 STS9 - Walk to the Light.mp3', '09 STS9 - Year Infinity.mp3', '10 STS9 - Inspire Strikes Back.mp3', '11 STS9 - Click Lang Echo.mp3']
+2025-08-03 09:24:40,488 - DEBUG - Found .txt files: []
+2025-08-03 09:24:40,488 - DEBUG - No .txt files found in: M:/Projects/Staging\2025 - STS9 - MP3\2025.07.11 __ Northwest Tune-Up Festival __ Bellingham, WA
+2025-08-03 09:24:40,488 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:24:41,034 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'STS9', 'albumartist': 'STS9', 'album': '2025.07.10 :: Crystal Ballroom :: Portland, OR', 'date': '2025'}
+2025-08-03 09:24:41,039 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-07-10', 'venue': '', 'city': 'Portland, OR', 'source': '', 'format': ''}
+2025-08-03 09:24:41,041 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': 'Portland, OR', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:24:41,041 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\2025 - STS9 - MP3\2025.07.10 __ Crystal Ballroom __ Portland, OR
+2025-08-03 09:24:41,042 - DEBUG - All files in directory: ['01 STS9 - Move My Peeps.mp3', '02 STS9 - Get Loud.mp3', '03 STS9 - Glass z-13.mp3', '04 STS9 - Arigato.mp3', '05 STS9 - Big Basin.mp3', '06 STS9 - Strange Games.mp3', '07 STS9 - Portal to the Starry Path.mp3', '08 STS9 - GLOgli.mp3', '09 STS9 - Grow.mp3', '10 STS9 - Soul Slap.mp3', "11 STS9 - It's Alright.mp3", '12 STS9 - MOD.mp3', '13 STS9 - Dusk.mp3', '14 STS9 - Gobnugget.mp3', '15 STS9 - Walk the Sky.mp3', '16 STS9 - Hidden Hand, Hidden Fist.mp3', '17 STS9 - By the Morning Sun.mp3']
+2025-08-03 09:24:41,042 - DEBUG - Found .txt files: []
+2025-08-03 09:24:41,042 - DEBUG - No .txt files found in: M:/Projects/Staging\2025 - STS9 - MP3\2025.07.10 __ Crystal Ballroom __ Portland, OR
+2025-08-03 09:24:41,042 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:24:50,960 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Béla Fleck & The Flecktones', 'album': 'Live At The Quick', 'date': '2002', 'genre': 'Country & Folk'}
+2025-08-03 09:24:50,965 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:24:50,968 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:24:50,968 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Béla Fleck & The Flecktones - Live At The Quick
+2025-08-03 09:24:50,972 - DEBUG - All files in directory: ['01 Béla Fleck & The Flecktones - That Old Thing (Intro)／Earth Jam.flac', '02 Béla Fleck & The Flecktones - Zona Mona.flac', '03 Béla Fleck & The Flecktones - Ovombo Summit.flac', '04 Béla Fleck & The Flecktones - Hall Of Mirrors.flac', '05 Béla Fleck & The Flecktones - Scratch & Sniff.flac', '06 Béla Fleck & The Flecktones - Improv／Amazing Grace.flac', '07 Béla Fleck & The Flecktones - Big Country.flac', '08 Béla Fleck & The Flecktones - Interlude.flac', "09 Béla Fleck & The Flecktones - Lover's Leap.flac", '10 Béla Fleck & The Flecktones - Alash Khem (Alash River Song).flac', '11 Béla Fleck & The Flecktones - A Moment So Close.flac', '12 Béla Fleck & The Flecktones - Improv／Prelude From Bach Violin Partitia #3.flac', '13 Béla Fleck & The Flecktones - Intro.flac', '14 Béla Fleck & The Flecktones - Hoedown.flac', 'Live At The Quick.log']
+2025-08-03 09:24:50,972 - DEBUG - Found .txt files: []
+2025-08-03 09:24:50,972 - DEBUG - No .txt files found in: M:/Projects/Staging\Béla Fleck & The Flecktones - Live At The Quick
+2025-08-03 09:24:50,972 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:24:53,939 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'From The Archives 17 Part 2', 'date': '2015-08-21'}
+2025-08-03 09:24:53,940 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:24:53,942 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '2015-08-21', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:24:53,942 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\fta2015-08-21.fta17.pt2.134057.flac16
+2025-08-03 09:24:53,942 - DEBUG - All files in directory: ['ffp.ffp', 'fta2015-08-21s1t01.flac', 'fta2015-08-21s1t02.flac', 'fta2015-08-21s1t03.flac', 'fta2015-08-21s1t04.flac', 'fta2015-08-21s1t05.flac', 'fta2015-08-21s1t06.flac', 'fta2015-08-21s1t07.flac', 'fta2015-08-21s1t08.flac', 'fta2015-08-21s1t09.flac', 'fta2015-08-21s1t10.flac', 'phish-archive-radio2015-08-21.134057.txt']
+2025-08-03 09:24:53,943 - DEBUG - Found .txt files: ['phish-archive-radio2015-08-21.134057.txt']
+2025-08-03 09:24:53,945 - DEBUG - Trying to read metadata from: M:/Projects/Staging\fta2015-08-21.fta17.pt2.134057.flac16\phish-archive-radio2015-08-21.134057.txt
+2025-08-03 09:24:53,963 - DEBUG - Extracted metadata: {'city': 'Watkins Glen, NY', 'format': 'FLAC16'}
+2025-08-03 09:24:53,963 - DEBUG - [DEBUG] TXT metadata parsed: {'city': 'Watkins Glen, NY', 'format': 'FLAC16'}
+2025-08-03 09:24:54,685 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Leftover Salmon', 'albumartist': 'Leftover Salmon', 'album': '2025/07/18 Grand Rapids, MI', 'date': '2025', 'genre': 'Bluegrass'}
+2025-08-03 09:24:54,689 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-07-18', 'venue': '', 'city': 'Grand Rapids, MI', 'source': '', 'format': ''}
+2025-08-03 09:24:54,693 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Leftover Salmon', 'date': '2025-07-18', 'venue': 'Frederik Meijer Gardens', 'city': 'Grand Rapids, MI', 'id': '43629', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '43629', 'add': '43629'}
+2025-08-03 09:24:54,693 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Leftover Salmon - 2025-07-18 Frederik Meijer Gardens, Grand Rapids, MI [43629]
+2025-08-03 09:24:54,693 - DEBUG - All files in directory: ['los250718d1_01_Sing_up_to_the_Moon.flac', 'los250718d1_02_Just_Before_The_Evening.flac', 'los250718d1_03_Liza.flac', 'los250718d1_04_Troubled_Times.flac', 'los250718d1_05_Lets_Party_About_It.flac', 'los250718d1_06_Tangled_Up_In_Blue.flac', 'los250718d1_07_Evermore.flac', 'los250718d1_08_Storms.flac', 'los250718d1_09_Rivers_Rising.flac', 'los250718d1_10_High_Country.flac', 'los250718d1_11_99_Years.flac']
+2025-08-03 09:24:54,693 - DEBUG - Found .txt files: []
+2025-08-03 09:24:54,693 - DEBUG - No .txt files found in: M:/Projects/Staging\Leftover Salmon - 2025-07-18 Frederik Meijer Gardens, Grand Rapids, MI [43629]
+2025-08-03 09:24:54,693 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:24:58,113 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Papadosio', 'albumartist': 'Papadosio', 'album': '2025/07/17 Thornville, OH', 'date': '2025', 'genre': 'Rock'}
+2025-08-03 09:24:58,118 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-07-17', 'venue': '', 'city': 'Thornville, OH', 'source': '', 'format': ''}
+2025-08-03 09:24:58,122 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Papadosio', 'date': '2025-07-17', 'venue': 'Secret Dreams Music and Arts Festival', 'city': 'Thornville, OH', 'id': '43609', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '43609', 'add': '43609'}
+2025-08-03 09:24:58,122 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Papadosio - 2025-07-17 Secret Dreams Music and Arts Festival, Thornville, OH [43609]
+2025-08-03 09:24:58,122 - DEBUG - All files in directory: ['pado250717d1_01_Threes.flac', 'pado250717d1_02_Epiphany.flac', 'pado250717d1_03_Lions_Mane.flac', 'pado250717d1_04_Threes.flac', 'pado250717d1_05_Glimpse_Of_Light.flac', 'pado250717d1_06_Cordyceps.flac', 'pado250717d1_07_Puddles_For_Oceans.flac', 'pado250717d2_01_Not_Just_A_Word.flac', 'pado250717d2_02_New_Love.flac']
+2025-08-03 09:24:58,122 - DEBUG - Found .txt files: []
+2025-08-03 09:24:58,122 - DEBUG - No .txt files found in: M:/Projects/Staging\Papadosio - 2025-07-17 Secret Dreams Music and Arts Festival, Thornville, OH [43609]
+2025-08-03 09:24:58,122 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:24:58,882 - DEBUG - [DEBUG] Parsed file tags from folder: {'album': 'Minnesota TC 1985 Part One', 'comment': 'fre:ac - free audio converter <https://www.freac.org/>'}
+2025-08-03 09:24:58,887 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:24:58,889 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:24:58,889 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Neil Young
+2025-08-03 09:24:58,890 - DEBUG - All files in directory: ['00 Carnegie Hall solo 2014 - Timeline.m3u8', '00 Rotterdam 1989 - Timeline.m3u8', '01 - Country Home.flac', '02 - Comes A Time.flac', "03 - Lookin' For A Love.flac", '04 - Heart Of Gold.flac', '05 - This Old House.flac', '06 - Southern Pacific.flac', '07 - Sugar Mountain.flac', '08 - The Needle And The Damage Done.flac', '09 - Helpless.flac', '10 - California Sunset.flac', '11 - Nothing Is Perfect.flac', '12 - Field Of Opportunity.flac', '13 - Down By The River.flac', '14 - Old Man.flac', '15 - Powderfinger.flac', '16 - Band Introductions.flac', '17 - Get Back To The Country.flac', '18 - Grey Riders.flac', 'folder.jpg', 'Minnesota Cover Timeline.jpg', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 01 - From Hank To Hendrix.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 02 - On The Way Home.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 03 - Only Love Can Break Your Heart.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 04 - Love In Mind.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 05 - Mellow My Mind.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 06 - Are You Ready For The Country.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 07 - Someday.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 08 - Changes.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 09 - Harvest.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 10 - Old Man.m4a', "Neil Young - Carnegie Hall solo 2014 - Timeline - 11 - Goin' Back.m4a", 'Neil Young - Carnegie Hall solo 2014 - Timeline - 12 - A Man Needs A Maid.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 13 - Ohio.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 14 - Southern Man.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 15 - Mr. Soul.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 16 - Out Of My Mind.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 17 - Needle Of Death.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 18 - The Needle And The Damage Done.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 19 - Harvest Moon.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 20 - Flying On The Ground Is Wrong.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 21 - Journey Through The Past.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 22 - Heart Of Gold.m4a', 'Neil Young - Carnegie Hall solo 2014 - Timeline - 23 - Comes A Time.m4a', 'Neil Young - Rotterdam 1989 - Timeline - 01 - My My, Hey Hey (Out Of The Blue).m4a', 'Neil Young - Rotterdam 1989 - Timeline - 02 - Cocaine Eyes.m4a', 'Neil Young - Rotterdam 1989 - Timeline - 03 - Razor Love.m4a', 'Neil Young - Rotterdam 1989 - Timeline - 04 - Comes A Time.m4a', "Neil Young - Rotterdam 1989 - Timeline - 05 - Don't Let It Bring You Down.m4a", 'Neil Young - Rotterdam 1989 - Timeline - 06 - Someday.m4a', 'Neil Young - Rotterdam 1989 - Timeline - 07 - Crime In The City.m4a', 'Neil Young - Rotterdam 1989 - Timeline - 08 - Eldorado.m4a', 'Neil Young - Rotterdam 1989 - Timeline - 09 - Roll Another Number (For The Road).m4a', 'Neil Young - Rotterdam 1989 - Timeline - 10 - Too Far Gone.m4a', "Neil Young - Rotterdam 1989 - Timeline - 11 - This Note's For You.m4a", 'Neil Young - Rotterdam 1989 - Timeline - 12 - The Needle And The Damage Done.m4a', 'Neil Young - Rotterdam 1989 - Timeline - 13 - No More.m4a', "Neil Young - Rotterdam 1989 - Timeline - 14 - Dreamin' Man.m4a", "Neil Young - Rotterdam 1989 - Timeline - 15 - Fuckin' Up.m4a", 'Neil Young - Rotterdam 1989 - Timeline - 16 - Winterlong.m4a', 'Neil Young - Rotterdam 1989 - Timeline - 17 - Heart Of Gold.m4a', "Neil Young - Rotterdam 1989 - Timeline - 18 - Rockin' In The Free World.m4a", 'Neil Young - Rotterdam 1989 - Timeline - 19 - Powderfinger.m4a', 'Thumbs.db']
+2025-08-03 09:24:58,890 - DEBUG - Found .txt files: []
+2025-08-03 09:24:58,890 - DEBUG - No .txt files found in: M:/Projects/Staging\Neil Young
+2025-08-03 09:24:58,890 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:25:00,440 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Leftover Salmon', 'albumartist': 'Leftover Salmon', 'album': '2025/07/19 Hillsboro, WI', 'date': '2025', 'genre': 'Bluegrass'}
+2025-08-03 09:25:00,444 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-07-19', 'venue': '', 'city': 'Hillsboro, WI', 'source': '', 'format': ''}
+2025-08-03 09:25:00,447 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'Leftover Salmon', 'date': '2025-07-19', 'venue': 'Driftless Music Gardens', 'city': 'Hillsboro, WI', 'id': '43630', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '43630', 'add': '43630'}
+2025-08-03 09:25:00,447 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\Leftover Salmon - 2025-07-19 Driftless Music Gardens, Hillsboro, WI [43630]
+2025-08-03 09:25:00,448 - DEBUG - All files in directory: ['los250719d1_01_Are_You_Ready_For_The_Country.flac', 'los250719d1_02_Get_Me_Outta_This_City.flac', 'los250719d1_03_Brand_New_Good_Old_Days.flac', 'los250719d1_04_Mississippi_Sawyer.flac', 'los250719d1_05_Shine_On.flac', 'los250719d1_06_Danger_Man.flac', 'los250719d1_07_Salmon_Scales.flac', 'los250719d1_08_California_Cottonfields.flac', 'los250719d1_09_Doin_My_Time.flac', 'los250719d1_10_Ask_The_Fish.flac', 'los250719d1_11_I_Dont_Owe_You_A_Thing.flac', 'los250719d1_12_Light_Behind_The_Rain.flac', 'los250719d1_13_You_Dont_Love_Me.flac']
+2025-08-03 09:25:00,448 - DEBUG - Found .txt files: []
+2025-08-03 09:25:00,448 - DEBUG - No .txt files found in: M:/Projects/Staging\Leftover Salmon - 2025-07-19 Driftless Music Gardens, Hillsboro, WI [43630]
+2025-08-03 09:25:00,448 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:34:15,481 - DEBUG - Verified themes folder at: themes
+2025-08-03 09:34:15,486 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:34:15,486 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:34:15,487 - DEBUG - Updating processor schemes...
+2025-08-03 09:34:15,487 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:34:15,487 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:37:15,567 - DEBUG - Verified themes folder at: themes
+2025-08-03 09:37:15,573 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:37:15,573 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:37:15,574 - DEBUG - Updating processor schemes...
+2025-08-03 09:37:15,574 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:37:15,574 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:37:15,653 - DEBUG - History loaded.
+2025-08-03 09:37:15,653 - DEBUG - Used cache loaded.
+2025-08-03 09:37:15,701 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 09:37:15,772 - DEBUG - Restored main window geometry: 1600x1100+710+257
+2025-08-03 09:37:15,781 - DEBUG - Saved main window size and position: 1600x1100+710+257
+2025-08-03 09:37:15,805 - DEBUG - No saved sash position for main found in config
+2025-08-03 09:37:15,866 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 09:37:15,866 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 09:37:23,799 - DEBUG - Verified themes folder at: themes
+2025-08-03 09:37:23,805 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:37:23,805 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:37:23,805 - DEBUG - Updating processor schemes...
+2025-08-03 09:37:23,805 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:37:23,805 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:37:23,882 - DEBUG - History loaded.
+2025-08-03 09:37:23,882 - DEBUG - Used cache loaded.
+2025-08-03 09:37:23,930 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 09:37:24,003 - DEBUG - Restored main window geometry: 1600x1100+710+257
+2025-08-03 09:37:24,010 - DEBUG - Saved main window size and position: 1600x1100+710+257
+2025-08-03 09:37:24,033 - DEBUG - No saved sash position for main found in config
+2025-08-03 09:37:24,095 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 09:37:24,095 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 09:37:33,833 - DEBUG - Verified themes folder at: themes
+2025-08-03 09:37:33,839 - INFO - Loaded folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:37:33,839 - INFO - Loaded saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:37:33,840 - DEBUG - Updating processor schemes...
+2025-08-03 09:37:33,840 - DEBUG - Old folder scheme: %date% - %venue% - %city% [%format%] [%additional%]
+2025-08-03 09:37:33,840 - DEBUG - Old saving scheme: M:\Live Music\%artist%\$year(%date%)
+2025-08-03 09:37:33,918 - DEBUG - History loaded.
+2025-08-03 09:37:33,918 - DEBUG - Used cache loaded.
+2025-08-03 09:37:33,969 - DEBUG - TagForge GUI initialization complete.
+2025-08-03 09:37:34,021 - DEBUG - Restored main window geometry: 1600x1100+710+257
+2025-08-03 09:37:34,026 - DEBUG - Saved main window size and position: 1600x1100+710+257
+2025-08-03 09:37:34,070 - DEBUG - No saved sash position for main found in config
+2025-08-03 09:37:34,130 - DEBUG - Restored sash position for left_paned: 665
+2025-08-03 09:37:34,131 - DEBUG - Restored sash position for outer pane: 921
+2025-08-03 09:37:40,629 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Phish', 'albumartist': 'Phish', 'album': '2003-01-02 - Hampton Coliseum, Hampton, VA', 'date': '2003-01-02', 'genre': 'Rock', 'comment': 'powered by nugs.net'}
+2025-08-03 09:37:40,637 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2003-01-02', 'venue': 'Hampton Coliseum', 'city': 'Hampton, VA', 'source': '', 'format': ''}
+2025-08-03 09:37:40,639 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC24', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:37:40,639 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1 FLACHD
+2025-08-03 09:37:40,640 - DEBUG - All files in directory: ['01-01 - Phish - Chalk Dust Torture.flac', '01-02 - Phish - Bathtub Gin.flac', "01-03 - Phish - It's Ice.flac", '01-04 - Phish - Back on the Train.flac', '01-05 - Phish - Round Room.flac', '01-06 - Phish - The Horse.flac', '01-07 - Phish - Silent in the Morning.flac', '01-08 - Phish - Stash.flac', '01-09 - Phish - Water in the Sky.flac', '01-10 - Phish - Character Zero.flac', '02-01 - Phish - 46 Days.flac', '02-02 - Phish - Simple.flac', '02-03 - Phish - My Friend, My Friend.flac', '02-04 - Phish - Limb By Limb.flac', '02-05 - Phish - Thunderhead.flac', '02-06 - Phish - Run Like an Antelope.flac', '02-07 - Phish - Cavern.flac', '02-08 - Phish - Mexican Cousin.flac']
+2025-08-03 09:37:40,640 - DEBUG - Found .txt files: []
+2025-08-03 09:37:40,640 - DEBUG - No .txt files found in: M:/Projects/Staging\1 FLACHD
+2025-08-03 09:37:40,640 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:37:43,027 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Herbie Hancock', 'album': 'HH1973-11-01', 'comment': 'Ultrasonic Studios'}
+2025-08-03 09:37:43,032 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:37:43,035 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '1973-11-01', 'venue': 'Ultrasonic Studios', 'city': 'Hampstead, NY', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:37:43,035 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)
+2025-08-03 09:37:43,035 - DEBUG - All files in directory: ['01. Actual Proof.flac', '02. Butterfly.flac', '03. Sly.flac', '04. Chameleon.flac', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY-EACLog.log', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.ffp', 'Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 09:37:43,035 - DEBUG - Found .txt files: ['Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt']
+2025-08-03 09:37:43,038 - DEBUG - Trying to read metadata from: M:/Projects/Staging\1973-11-01 Ultrasonic Studios, Hampstead, NY (FM) (FLAC)\Herbie Hancock 1973-11-01 Ultrasonic Studios, Hampstead, NY.txt
+2025-08-03 09:37:43,080 - DEBUG - Extracted metadata: {'source': 'FM'}
+2025-08-03 09:37:43,081 - DEBUG - [DEBUG] TXT metadata parsed: {'source': 'FM'}
+2025-08-03 09:37:45,385 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'The Jazz Mandolin Project', 'albumartist': 'The Jazz Mandolin Project', 'album': 'The Jazz Mandolin Project', 'date': '1996', 'genre': 'Jazz'}
+2025-08-03 09:37:45,390 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:37:45,393 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:37:45,393 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\1996 - The Jazz Mandolin Project - The Jazz Mandolin Project (Accurate)
+2025-08-03 09:37:45,393 - DEBUG - All files in directory: ['01 - The Country Open.flac', '02 - Monkey Blake.flac', '03 - Mandoneon.flac', '04 - Ballad for Trio.flac', '05 - The Opera.flac', '06 - Nozani Na.flac', '07 - The Gourd.flac', '08 - Milestones in the Sunshine.flac', '09 - Contois.flac', '10 - Lithograph.flac', 'Artwork', 'folder.jpg', 'The Jazz Mandolin Project - The Jazz Mandolin Project.log', 'The Jazz Mandolin Project - The Jazz Mandolin Project.m3u', 'The Jazz Mandolin Project.accurip', 'The Jazz Mandolin Project.cue']
+2025-08-03 09:37:45,394 - DEBUG - Found .txt files: []
+2025-08-03 09:37:45,394 - DEBUG - No .txt files found in: M:/Projects/Staging\1996 - The Jazz Mandolin Project - The Jazz Mandolin Project (Accurate)
+2025-08-03 09:37:45,394 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:37:47,437 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'STS9', 'albumartist': 'STS9', 'album': '2025.02.14 :: Pool Deck :: Jam Cruise', 'date': '2025'}
+2025-08-03 09:37:47,442 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-02-14', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:37:47,444 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'STS9', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:37:47,444 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\2025 - STS9 - MP3
+2025-08-03 09:37:47,444 - DEBUG - All files in directory: ['2025.02.14 __ Pool Deck __ Jam Cruise', '2025.02.15 __ Pantheon Theater __ Jam Cruise', '2025.02.22 __ Sweetwater Fest __ Atlanta,GA', '2025.04.18 __ Skydeck __ Nashville, TN', '2025.04.19 __ Skydeck __ Nashville,TN', '2025.05.15 __ Resonate Music Festival __ Suwanee, FL', '2025.05.16 __ Resonate Music Festival __ Suwanee, FL', '2025.06.13 __ The Anthem __ Washington, DC', '2025.07.10 __ Crystal Ballroom __ Portland, OR', '2025.07.11 __ Northwest Tune-Up Festival __ Bellingham, WA', '2025.07.12 __ The Crocodile __ Seattle, WA', '2025.07.13 __ The Crocodile __ Seattle, WA']
+2025-08-03 09:37:47,444 - DEBUG - Found .txt files: []
+2025-08-03 09:37:47,445 - DEBUG - No .txt files found in: M:/Projects/Staging\2025 - STS9 - MP3
+2025-08-03 09:37:47,445 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:37:55,154 - DEBUG - [DEBUG] Parsed file tags from folder: {}
+2025-08-03 09:37:55,154 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:37:55,156 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'TEST', 'date': '', 'venue': '', 'city': 'TeST', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:37:55,156 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\test
+2025-08-03 09:37:55,157 - DEBUG - All files in directory: []
+2025-08-03 09:37:55,157 - DEBUG - Found .txt files: []
+2025-08-03 09:37:55,157 - DEBUG - No .txt files found in: M:/Projects/Staging\test
+2025-08-03 09:37:55,157 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:38:11,806 - DEBUG - [DEBUG] Parsed file tags from folder: {}
+2025-08-03 09:38:11,806 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:38:11,808 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'TEST', 'date': '', 'venue': '', 'city': 'TeST', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:38:11,808 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\test
+2025-08-03 09:38:11,810 - DEBUG - All files in directory: []
+2025-08-03 09:38:11,810 - DEBUG - Found .txt files: []
+2025-08-03 09:38:11,810 - DEBUG - No .txt files found in: M:/Projects/Staging\test
+2025-08-03 09:38:11,810 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:38:15,005 - DEBUG - [DEBUG] Parsed file tags from folder: {'artist': 'Trey Anastasio', 'albumartist': 'Trey Anastasio', 'album': '2025/08/01 Los Angeles, CA', 'date': '2025', 'genre': 'Rock'}
+2025-08-03 09:38:15,009 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '2025-08-01', 'venue': '', 'city': 'Los Angeles, CA', 'source': '', 'format': ''}
+2025-08-03 09:38:15,011 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': '', 'date': '', 'venue': '', 'city': '', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:38:15,011 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\TAB - 8.1.25
+2025-08-03 09:38:15,012 - DEBUG - All files in directory: ['trey250801d1_01_Set_Your_Soul_Free.flac', 'trey250801d1_02_Mozambique.flac', 'trey250801d1_03_Cayman_Review.flac', 'trey250801d1_04_A_Wave_of_Hope.flac', 'trey250801d1_05_Dark_And_Down.flac', 'trey250801d1_06_Magilla.flac', 'trey250801d1_07_Alive_Again.flac', 'trey250801d1_08_Love_Is_What_We_Are.flac', 'trey250801d1_09_Shine.flac', 'trey250801d1_10_Everythings_Right.flac', 'trey250801d2_01_Wolfmans_Brother.flac', 'trey250801d2_02_The_Moma_Dance.flac', 'trey250801d2_03_Camel_Walk.flac', 'trey250801d2_04_Sand.flac', 'trey250801d2_05_Valentine.flac', 'trey250801d2_06_Whats_Going_Through_Your_Mind.flac', 'trey250801d2_07_Simple_Twist_Up_Dave.flac', 'trey250801d2_08_RiseCome_Together.flac', 'trey250801d3_01_Monsters.flac', 'trey250801d3_02_The_Devil_Went_Down_To_Georgia.flac', 'trey250801d3_03_Ghost.flac', 'trey250801d3_04_Push_On_Til_The_Day.flac', 'trey250801d3_05_A_Life_Beyond_The_Dream.flac', 'trey250801d3_06_Ooh_Child.flac', 'trey250801d3_07_First_Tube.flac']
+2025-08-03 09:38:15,012 - DEBUG - Found .txt files: []
+2025-08-03 09:38:15,012 - DEBUG - No .txt files found in: M:/Projects/Staging\TAB - 8.1.25
+2025-08-03 09:38:15,012 - DEBUG - [DEBUG] TXT metadata parsed: {}
+2025-08-03 09:38:15,425 - DEBUG - [DEBUG] Parsed file tags from folder: {}
+2025-08-03 09:38:15,425 - DEBUG - [DEBUG] Parsed album flexibly: {'date': '', 'venue': '', 'city': '', 'source': '', 'format': ''}
+2025-08-03 09:38:15,427 - DEBUG - [DEBUG] Folder name parsed metadata: {'artist': 'TEST', 'date': '', 'venue': '', 'city': 'TeST', 'id': '', 'source': 'SBD', 'format': 'FLAC16', 'genre': '', 'additional': '', 'add': ''}
+2025-08-03 09:38:15,427 - DEBUG - Looking for .txt files in folder: M:/Projects/Staging\test
+2025-08-03 09:38:15,429 - DEBUG - All files in directory: []
+2025-08-03 09:38:15,429 - DEBUG - Found .txt files: []
+2025-08-03 09:38:15,429 - DEBUG - No .txt files found in: M:/Projects/Staging\test
+2025-08-03 09:38:15,429 - DEBUG - [DEBUG] TXT metadata parsed: {}

@@ -10,7 +10,6 @@ from utils.audio_player import AudioPlayer
 from utils.autocomplete import AutocompleteCombobox
 from utils.logger import log_message  # Make sure this is imported
 
-
 def build_main_gui(app):
     self = app  # Use self as alias for convenience
 
