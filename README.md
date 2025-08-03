@@ -33,7 +33,10 @@ Installation Requirements
 Installation Steps
 
 - Clone or download the repository.
-
+```
+  git clone https://github.com/deadthread/tagforge.git
+  cd tagforge
+```
 - Create and activate a Python virtual environment (recommended):
 
 ```
