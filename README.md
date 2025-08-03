@@ -51,7 +51,7 @@ pip install -r requirements.txt
 ```
 Run the application:
 ```
-    python TagForge.py
+python TagForge.py
 ```
 Usage
 
