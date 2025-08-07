@@ -1,0 +1,43 @@
+{
+  "artist_history": [
+    "Spafford",
+    "The String Cheese Incident",
+    "Dogs In A Pile",
+    "Phil Lesh & Friends"
+  ],
+  "venue_history": [
+    "Terrapin Crossroads",
+    "The Andrew J Brady Music Center",
+    "Upper Merion Township Building Park",
+    "Levitt Pavilion"
+  ],
+  "city_history": [
+    "San Rafael, CA",
+    "Cincinnati, OH",
+    "King of Prussia, PA",
+    "Westport, CT"
+  ],
+  "additional_history": [
+    "",
+    "41101",
+    "43063"
+  ],
+  "source_history": [
+    "",
+    "AUD",
+    "SBD"
+  ],
+  "format_history": [
+    "",
+    "MP3-128",
+    "FLAC24",
+    "FLAC16"
+  ],
+  "genre_history": [
+    "",
+    "Jam"
+  ],
+  "last_source": "AUD",
+  "last_format": "MP3-128",
+  "last_genre": ""
+}
