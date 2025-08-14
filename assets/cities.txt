@@ -1,3 +1,57 @@
+Milwaukee, WI
+San Francisco, CA
+Englewood, CO
+Del Norte, CO
+Cincinnati, OH
+Holland, MI
+Indianapolis, IN
+Detroit, MI
+Columbus, OH
+Raleigh, NC
+Thornville, OH
+Nampa, ID
+Bend, OR
+Lexington, KY
+Blain, PA
+Hillsboro, WI
+Aspen, CO
+Fort Collins, CO
+Redmond, OR
+Columbia, MD
+Charleston, SC
+Asheville, NC
+Alpharetta, GA
+Knoxville , TN
+Charlotte, NC
+Minneapolis, MN
+Independence, MO
+Tulsa, OK
+Mesa, AZ
+Las Vegas, NV
+Indio, CA
+Berkeley, CA
+Sacramento, CA
+Spokane, WA
+Bozeman, MT
+Denver, CO
+Kaslo, BC
+Seattle, WA
+Happy Valley, OR
+North Pomfret, VT
+Teton Villiage, WY
+Bellvue, CO
+Crested Butte, CO
+Kansas City, MO
+St. Louis, MO
+Nashville, IN
+St. Augustine, FL
+Floyd, VA
+Fairfield, CT
+New York, NY
+Baltimore, MD
+Spotsylvania, VA
+Reno, NV
+Hampstead, NY
 Saratoga Springs, NY
 Grand Rapids, MI
 TesT
@@ -16,7 +70,6 @@ Brisbane City, AUS
 Sydney, AUS
 Melbourne, AUS
 London, UK
-St. Louis, MO
 Huber Heights, OH
 Runaway Bay, JM
 88, KY
@@ -468,7 +521,6 @@ Alpha, KY
 Alpha, MI
 Alpha, MN
 Alpha, OH
-Alpharetta, GA
 Alpine, AL
 Alpine, AR
 Alpine, AZ
@@ -1036,7 +1088,6 @@ Asheboro, NC
 Asher, KY
 Asher, OK
 Asherton, TX
-Asheville, NC
 Ashfield, MA
 Ashfield, PA
 Ashford, AL
@@ -1087,7 +1138,6 @@ Ashville, PA
 Ashwood, OR
 Askov, MN
 Asotin, WA
-Aspen, CO
 Aspermont, TX
 Aspers, PA
 Aspinwall, IA
@@ -1462,7 +1512,6 @@ Balta, ND
 Baltic, CT
 Baltic, OH
 Baltic, SD
-Baltimore, MD
 Baltimore, OH
 Bamberg, SC
 Banco, VA
@@ -1976,7 +2025,6 @@ Bellvale, NY
 Bellville, GA
 Bellville, OH
 Bellville, TX
-Bellvue, CO
 Bellwood, AL
 Bellwood, IL
 Bellwood, NE
@@ -2036,7 +2084,6 @@ Ben Wheeler, TX
 Bena, MN
 Bena, VA
 Benavides, TX
-Bend, OR
 Bend, TX
 Bendena, KS
 Bendersville, PA
@@ -2121,7 +2168,6 @@ Bergton, VA
 Berino, NM
 Berkeley Heights, NJ
 Berkeley Springs, WV
-Berkeley, CA
 Berkeley, IL
 Berkey, OH
 Berkley, MA
@@ -2435,7 +2481,6 @@ Bladen, NE
 Bladenboro, NC
 Bladensburg, MD
 Bladensburg, OH
-Blain, PA
 Blaine, KY
 Blaine, ME
 Blaine, OH
@@ -2876,7 +2921,6 @@ Boynton, OK
 Boynton, PA
 Boys Ranch, TX
 Boys Town, NE
-Bozeman, MT
 Bozman, MD
 Bozrah, CT
 Braceville, IL
@@ -4657,7 +4701,6 @@ Charleston, IL
 Charleston, ME
 Charleston, MO
 Charleston, MS
-Charleston, SC
 Charleston, TN
 Charleston, WV
 Charlestown, IN
@@ -4672,7 +4715,6 @@ Charlotte Hall, MD
 Charlotte, AR
 Charlotte, IA
 Charlotte, MI
-Charlotte, NC
 Charlotte, TN
 Charlotte, TX
 Charlotte, VT
@@ -4994,7 +5036,6 @@ Cimarron, CO
 Cimarron, KS
 Cimarron, NM
 Cincinnati, IA
-Cincinnati, OH
 Cincinnatus, NY
 Cinebar, WA
 Circle Pines, MN
@@ -5593,7 +5634,6 @@ Columbia, IA
 Columbia, IL
 Columbia, KY
 Columbia, LA
-Columbia, MD
 Columbia, MO
 Columbia, MS
 Columbia, NC
@@ -5623,7 +5663,6 @@ Columbus, ND
 Columbus, NE
 Columbus, NJ
 Columbus, NM
-Columbus, OH
 Columbus, PA
 Columbus, TX
 Columbus, WI
@@ -6153,7 +6192,6 @@ Cresson, TX
 Cressona, PA
 Crest Hill, IL
 Crest Park, CA
-Crested Butte, CO
 Crestline, CA
 Crestline, KS
 Crestline, OH
@@ -6794,7 +6832,6 @@ Deford, MI
 Defuniak Springs, FL
 Dekalb, IL
 Del Mar, CA
-Del Norte, CO
 Del Rey, CA
 Del Rio, TN
 Del Rio, TX
@@ -6916,7 +6953,6 @@ Denton, NC
 Denton, NE
 Denton, TX
 Denver City, TX
-Denver, CO
 Denver, IA
 Denver, IN
 Denver, MO
@@ -6973,7 +7009,6 @@ Destrehan, LA
 Detroit Lakes, MN
 Detroit, AL
 Detroit, ME
-Detroit, MI
 Detroit, OR
 Detroit, TX
 Devault, PA
@@ -8401,7 +8436,6 @@ Engadine, MI
 Engelhard, NC
 England, AR
 Englewood Cliffs, NJ
-Englewood, CO
 Englewood, FL
 Englewood, KS
 Englewood, NJ
@@ -8720,7 +8754,6 @@ Fairfax, VT
 Fairfield Bay, AR
 Fairfield, AL
 Fairfield, CA
-Fairfield, CT
 Fairfield, FL
 Fairfield, IA
 Fairfield, ID
@@ -9188,7 +9221,6 @@ Flowery Branch, GA
 Flowood, MS
 Floyd, IA
 Floyd, NM
-Floyd, VA
 Floydada, TX
 Floyds Knobs, IN
 Fluker, LA
@@ -9328,7 +9360,6 @@ Fort Buchanan, PR
 Fort Calhoun, NE
 Fort Campbell, KY
 Fort Cobb, OK
-Fort Collins, CO
 Fort Covington, NY
 Fort Davis, AL
 Fort Davis, TX
@@ -11429,7 +11460,6 @@ Hanston, KS
 Hansville, WA
 Happy Camp, CA
 Happy Jack, AZ
-Happy Valley, OR
 Happy, KY
 Happy, TX
 Haralson, GA
@@ -12161,7 +12191,6 @@ Hillsboro, OH
 Hillsboro, OR
 Hillsboro, TN
 Hillsboro, TX
-Hillsboro, WI
 Hillsboro, WV
 Hillsborough, NC
 Hillsborough, NH
@@ -12304,7 +12333,6 @@ Holland, IA
 Holland, IN
 Holland, KY
 Holland, MA
-Holland, MI
 Holland, MN
 Holland, MO
 Holland, NY
@@ -12895,7 +12923,6 @@ Independence, IA
 Independence, KS
 Independence, KY
 Independence, LA
-Independence, MO
 Independence, MS
 Independence, OH
 Independence, OR
@@ -12922,7 +12949,6 @@ Indian Wells, AZ
 Indian Wells, CA
 Indian, AK
 Indiana, PA
-Indianapolis, IN
 Indianola, IA
 Indianola, IL
 Indianola, MS
@@ -12931,7 +12957,6 @@ Indianola, OK
 Indianola, PA
 Indianola, WA
 Indiantown, FL
-Indio, CA
 Indore, WV
 Industry, IL
 Industry, PA
@@ -13554,7 +13579,6 @@ Kanopolis, KS
 Kanorado, KS
 Kanosh, UT
 Kansas City, KS
-Kansas City, MO
 Kansas, AL
 Kansas, IL
 Kansas, OH
@@ -14633,7 +14657,6 @@ Las Cruces, NM
 Las Marias, PR
 Las Piedras, PR
 Las Vegas, NM
-Las Vegas, NV
 Lasara, TX
 Lascassas, TN
 Lashmeet, WV
@@ -15040,7 +15063,6 @@ Lexington, AL
 Lexington, GA
 Lexington, IL
 Lexington, IN
-Lexington, KY
 Lexington, MA
 Lexington, MI
 Lexington, MO
@@ -17119,7 +17141,6 @@ Merton, WI
 Mertzon, TX
 Mertztown, PA
 Mesa Verde National Park, CO
-Mesa, AZ
 Mesa, CO
 Mesa, ID
 Mesa, WA
@@ -17501,7 +17522,6 @@ Milton, WI
 Milton, WV
 Miltona, MN
 Miltonvale, KS
-Milwaukee, WI
 Mimbres, NM
 Mims, FL
 Mina, NV
@@ -17554,7 +17574,6 @@ Minidoka, ID
 Minier, IL
 Minisink Hills, PA
 Minneapolis, KS
-Minneapolis, MN
 Minneapolis, NC
 Minneola, FL
 Minneola, KS
@@ -18441,7 +18460,6 @@ Nakina, NC
 Naknek, AK
 Nalcrest, FL
 Nallen, WV
-Nampa, ID
 Nanafalia, AL
 Nancy, KY
 Nanjemoy, MD
@@ -18499,7 +18517,6 @@ Nashua, NH
 Nashville, AR
 Nashville, GA
 Nashville, IL
-Nashville, IN
 Nashville, KS
 Nashville, MI
 Nashville, NC
@@ -18940,7 +18957,6 @@ New Windsor, NY
 New Woodstock, NY
 New York Mills, MN
 New York Mills, NY
-New York, NY
 New Zion, SC
 Newalla, OK
 Newark Valley, NY
@@ -19364,7 +19380,6 @@ North Pitcher, NY
 North Plains, OR
 North Platte, NE
 North Pole, AK
-North Pomfret, VT
 North Port, FL
 North Powder, OR
 North Pownal, VT
@@ -22092,7 +22107,6 @@ Raisin City, CA
 Rake, IA
 Raleigh, IL
 Raleigh, MS
-Raleigh, NC
 Raleigh, ND
 Raleigh, WV
 Ralls, TX
@@ -22350,7 +22364,6 @@ Redkey, IN
 Redlake, MN
 Redlands, CA
 Redmon, IL
-Redmond, OR
 Redmond, UT
 Redmond, WA
 Redondo Beach, CA
@@ -22431,7 +22444,6 @@ Renfro Valley, KY
 Renick, MO
 Renick, WV
 Renner, SD
-Reno, NV
 Reno, OH
 Reno, PA
 Renovo, PA
@@ -23414,7 +23426,6 @@ Sachse, TX
 Sackets Harbor, NY
 Saco, ME
 Saco, MT
-Sacramento, CA
 Sacramento, KY
 Sacramento, NM
 Sacramento, PA
@@ -23759,7 +23770,6 @@ San Elizario, TX
 San Felipe, TX
 San Fernando, CA
 San Fidel, NM
-San Francisco, CA
 San Gabriel, CA
 San German, PR
 San Geronimo, CA
@@ -24197,7 +24207,6 @@ Seaside, CA
 Seaside, OR
 Seaton, IL
 Seatonville, IL
-Seattle, WA
 Seaview, VA
 Seaview, WA
 Sebago, ME
@@ -25313,10 +25322,8 @@ Spivey, KS
 Splendora, TX
 Spofford, NH
 Spokane, MO
-Spokane, WA
 Spooner, WI
 Spotswood, NJ
-Spotsylvania, VA
 Spottsville, KY
 Spout Spring, VA
 Spraggs, PA
@@ -26552,7 +26559,6 @@ Thornton, TX
 Thornton, WA
 Thornton, WV
 Thorntown, IN
-Thornville, OH
 Thornwood, NY
 Thorofare, NJ
 Thorp, WA
@@ -27001,7 +27007,6 @@ Tulia, TX
 Tullahoma, TN
 Tullos, LA
 Tully, NY
-Tulsa, OK
 Tuluksak, AK
 Tumacacori, AZ
 Tumbling Shoals, AR

@@ -1,3 +1,64 @@
+Fiserv Forum
+Golden Gate Park
+8150
+Fox Theatre
+Gothic Theatre
+Rhythms On The Rio
+Riverfront Live
+Park Theatre
+HI-FI Indy
+Magic Stick
+Woodlands Tavern
+Bowstring Brewyard
+Secret Dreams Music and Arts Festival
+Ford Amphitheater
+Hayden Homes Amphitheater
+The Burl
+Bear's Picnic
+Driftless Music Gardens
+Belly Up
+Rhythms On The Rio at Del Norte Town Park
+Washington's
+Fairwell Festival
+Merriweather Post Pavilion
+Credit One Stadium
+Exploreasheville.com Arena
+Ameris Bank Amphitheatre
+Knoxville Civic Coliseum
+Skyla Credit Union Amphitheatre
+Meadow Brook Amphitheatre
+The Armory
+Cable Dahmer Arena
+BOK Center
+Mesa Amphitheatre
+The Theater at Virgin Hotels
+Empire Polo Club
+Greek Theatre
+Sacramento Memorial Auditorium
+Spokane Arena
+Brick Breeden Fieldhouse
+Mission Ballroom
+Kaslo Jazz Fest
+Pier 62 Oodalalee Concert Series
+Pickathon Pendarvis Farm
+The Thing
+The Mangy Moose
+The Mishawaka
+Public House
+Grinders KC
+Atomic
+Brown County Music Center
+St. Augustine Amphitheatre
+Casual Campout
+GD60 - Golden Gate Park
+The Orange Peel
+Floydfest
+Live At The Quick - Quick Center For The Arts in
+Beacon Theatre
+Funk Box
+Oakley Farm
+High Sierra Music Festival
+Ultrasonic Studios
 Broadview Stage at SPAC
 Frederik Meijer Gardens
 TeST
@@ -8,7 +69,6 @@ Brooklyn Arts Center
 Asheville Yards
 Roanoke Island Festival Park
 Heuser Park
-Exploreasheville.com Arena
 Bospop Festival
 Sailerhalle
 The Beacon Theatre
@@ -16,7 +76,6 @@ Gambler's Run Music Festival
 Charleston Pour House
 From The Earth Brewing Company
 Visulite Theatre
-Bowstring Brewyard
 Troutstock
 Camp Schriver X
 Fourth on the Farm
@@ -24,18 +83,15 @@ The Outpost
 Old Town Pub
 Koka Booth Amphitheatre
 Wolf Trap National Park For The Performing Arts
-Driftless Music Gardens
 Peoria RiverFront Park
 Interlochen Center for the Arts
 Roman Amphitheatre
 Lycabettus Theatre
 Lukiškiu kalejimas 2.0
-Riverfront Live
 COHAB.SPACE
 Plain Dealer Pavilion
 Flood City Music Festival
 Iroquois Amphitheater
-Floydfest
 Great South Bay Music Festival
 Rendezvous In The Park
 Dillon Amphitheater
@@ -45,7 +101,6 @@ TroutStock Music Festival
 Secret Dreams Festival
 Wahoo’s Tavern
 The Pour House Music Hall
-High Sierra Music Festival
 Spark Arena
 Riverstage
 ICC Sydney Theatre
@@ -77,7 +132,6 @@ Blue Note
 Salty Gebhardt Amphitheater
 Utah Arts Festival
 All Good Now
-Brown County Music Center
 Natalie's Grandview
 Park West
 Island Expodus 15 - Jewel Paradise Cove
@@ -172,7 +226,6 @@ American Family Field
 American Family Insurance Amphitheater
 American Legion Memorial Stadium
 American Music Theatre
-Ameris Bank Amphitheatre
 Ames Center
 Amica Mutual Pavilion
 Amphitheater at Craig Ranch
@@ -231,7 +284,6 @@ BBVA Stadium
 BMI Event Center
 BMO Harris Bank Center
 BMO Stadium
-BOK Center
 BREC Memorial Stadium
 BYU IdahoCenter
 Baker Hall
@@ -261,7 +313,6 @@ Baxter Arena
 BayCare Sound atCoachmen Park
 Bayfront Festival Park
 Bayou Music Center
-Beacon Theatre
 Bearden Auditorium
 Beasley Coliseum
 Beau Rivage Theater
@@ -336,7 +387,6 @@ Branscomb Memorial Auditorium
 Bremerton Performing Arts Center
 Breslin Auditorium
 Breslin Center
-Brick Breeden Fieldhouse
 Bridges Auditorium
 Bridges Hall of Music
 Bridgestone Arena
@@ -379,7 +429,6 @@ CU Events Center
 CU Presents – Grusin Music Hall
 CURE Insurance Arena
 Cabarrus Arena
-Cable Dahmer Arena
 Cadence Bank Amphitheatre
 Cadence Bank Arena
 Cadet Field House
@@ -548,7 +597,6 @@ Craig Auditorium
 Cramton Bowl
 Crane School of Music
 Crawley Center
-Credit One Stadium
 Credit Union 1 Amphitheatre
 Credit Union 1 Arena
 Credit Union of Texas Event Center
@@ -693,7 +741,6 @@ Emens Auditorium
 Emerald Theatre
 Emo's
 Empire Expo Center
-Empire Polo Club
 Empower Federal Credit Union Amphitheater
 Empower Field at Mile High
 Empress Theatre
@@ -763,7 +810,6 @@ First Security Amphitheatre
 First United Bank Center
 FirstBank Amphitheater
 Fischgrund Performing Arts Center
-Fiserv Forum
 Fisher Auditorium
 Fisher Center
 Fishers Event Center
@@ -783,7 +829,6 @@ Foellinger Theater
 Foley Event Center
 Folsom Field
 Footprint Center
-Ford Amphitheater
 Ford Amphitheater at Coney Island
 Ford Center
 Ford Community and Performing Arts Center
@@ -810,7 +855,6 @@ Fox Cities Performing Arts Center
 Fox Oakland Theatre
 Fox Performing Arts Center
 Fox Theater
-Fox Theatre
 Fox Tucson Theatre
 Frank M. Moody Concert Hall
 Franklin CenterAuditorium
@@ -907,7 +951,6 @@ Great Smoky Mountains Expo Center
 Great Southern Bank Arena
 Greater Grace Temple
 Greater Zion Stadium
-Greek Theatre
 Green Music Center
 Greene Hall
 Greenfield Lake Amphitheater
@@ -954,7 +997,6 @@ Haskell Theatre
 Hatfield Performing Arts Center
 Hawaii Theatre
 Hawkins Arena
-Hayden Homes Amphitheater
 Hayes Hall
 Hayes Theater
 Haynes Pavilion
@@ -1357,7 +1399,6 @@ McMahon Memorial Auditorium
 McMorran Place
 Mcmenamins Edgewood Lawn
 Mead Theatre
-Meadow Brook Amphitheatre
 Meadowlands Exposition Center
 Meany Hall for the Performing Arts
 Medina Performing Arts Center
@@ -1377,7 +1418,6 @@ Mercedes-Benz Stadium
 Mercer County Festival Grounds
 Meridian Auditorium
 Merrill Auditorium
-Merriweather Post Pavilion
 Mershon Auditorium
 Mesquite Arena
 MetLife Stadium
@@ -1409,7 +1449,6 @@ Minneapolis Armory
 Minneapolis Convention Center
 Minot Municipal Auditorium
 Minute Maid Park
-Mission Ballroom
 Mississippi Coast Coliseum
 Mississippi Coliseum
 Mississippi Valley FairGrandstand
@@ -1781,7 +1820,6 @@ SMH Memorial Center
 SNHU Arena
 SRC Arena
 Saban Theatre
-Sacramento Memorial Auditorium
 Saenger Theatre
 Saint Andrew's Hall
 Salem Armory Auditorium
@@ -1901,11 +1939,9 @@ Special Events Recreation Center
 Spectrum Amphitheatre
 Spectrum Center
 Sphere at The Venetian Resort
-Spokane Arena
 Spokane Pavilion
 Sports Illustrated Stadium
 Springfield Expo Center
-St. Augustine Amphitheatre
 St. Joseph Civic Arena
 Stabler Arena
 Stadium Theatre Performing Arts Centre & Conservatory
@@ -2058,7 +2094,6 @@ The Nomad Playhouse
 The NorVa
 The Novo by Microsoft
 The Oil Palace
-The Orange Peel
 The Pageant
 The Palestra
 The Palladium
@@ -2082,7 +2117,6 @@ The Sound
 The Stone Pony Summer Stage
 The Tabernacle
 The Theater at Madison Square Garden
-The Theater at Virgin Hotels
 The Theatre at Ace Hotel
 The Tropicana Showroom
 The Van Buren

@@ -1,9 +1,28 @@
-Phish
+Billy Strings
+Dead & Company
+Steve Kimock Band
+Squeaky Feet
+Spafford
+Papadosio
+My Morning Jacket
+moe.
 Leftover Salmon
+Kitchen Dwellers
+Johnny Blue Skies
+Greensky Bluegrass
+Eggy
+Dogs In A Pile
+Daniel Donato
+Consider the Source
+Big Something
+Béla Fleck & The Flecktones
+The Allman Brothers Band
+The Disco Biscuits
+Herbie Hancock
+Phish
 TeST
 TeST2
 Mountain Grass Unit
-Squeaky Feet
 Solar Circuit
 Magic Beans
 GRAB
@@ -36,7 +55,6 @@ Band of Horses
 Ben Folds
 Big Gigantic
 Billy & The Kids
-Billy Strings
 Black Crowes
 Black Joe Lewis & The Honeybears
 Black Pumas
@@ -59,19 +77,15 @@ Clutch
 Cody Jinks
 Cory Wong
 Dan Deacon
-Daniel Donato
 Dave Matthews Band
-Dead & Company
 Deer Tick
 Derek Trucks Band
 Desmond Jones
 Devon Gilfillian
-Dogs In A Pile
 Doom Flamingo
 Drive-By Truckers
 Dustin Kensrue
 Eagles of Death Metal
-Eggy
 Eminence Ensemble
 Father John Misty
 Fleet Foxes
@@ -87,7 +101,6 @@ Goose
 Gov't Mule
 Grace Bowers
 Grateful Dead
-Greensky Bluegrass
 Hiss Golden Messenger
 Holly Bowling
 Horseshoes & Hand Grenades
@@ -124,7 +137,6 @@ Kendall Street Company
 King Crimson
 King Gizzard & The Lizard Wizard
 Kings of Leon
-Kitchen Dwellers
 Kodaline
 Lake Street Dive
 Lake Trout
@@ -152,12 +164,10 @@ Metallica
 Metrognome
 Michael Franti & Spearhead
 Mike Gordon
-moe.
 Mondo Cozmo
 Moody Blues
 Moon Taxi
 Mt. Joy
-My Morning Jacket
 Naked & Famous
 Nathaniel Rateliff
 Nathaniel Rateliff & The Night Sweats
@@ -190,7 +200,6 @@ Snarky Puppy
 SOJA
 Soulive
 Southside Johnny & The Asbury Jukes
-Spafford
 Steep Canyon Rangers
 Stephen Malkmus & The Jicks
 Steve Kimock
@@ -201,11 +210,9 @@ STS9
 Sugarland
 TAND
 Tedeschi Trucks Band
-The Allman Brothers Band
 The Avett Brothers
 The Black Keys
 The Dead
-The Disco Biscuits
 The Floozies
 The Greyboy Allstars
 The Head and the Heart

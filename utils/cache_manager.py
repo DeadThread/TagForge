@@ -58,8 +58,10 @@ def load_history(histories, set_last_used_callback=None, log_func=None):
                 
                 cleaned = [v for v in vals if v]
                 histories[key] = set(cleaned)
-                if cleaned and set_last_used_callback:
-                    set_last_used_callback(key, cleaned[0])
+                
+                # REMOVED: Don't automatically set last used values on startup
+                # if cleaned and set_last_used_callback:
+                #     set_last_used_callback(key, cleaned[0])
         else:
             for key in histories:
                 histories[key] = set()
@@ -133,6 +135,7 @@ class CacheController:
 
     def load_history(self):
         def set_last_used(key, value):
+            # MODIFIED: Only set last used values when explicitly called, not on startup
             if self.gui:
                 if key == "source":
                     self.gui.last_source = value
@@ -149,8 +152,57 @@ class CacheController:
                 elif key == "add":
                     self.gui.last_add = value
 
-        load_history(self.histories, set_last_used_callback=set_last_used, log_func=self.log)
+        # MODIFIED: Don't pass the callback to avoid auto-setting last used values
+        load_history(self.histories, set_last_used_callback=None, log_func=self.log)
         self.log("History loaded.", level="debug")
+
+    def set_last_used_value(self, key, value):
+        """
+        Explicitly set a last used value - only call this when user actually uses a value
+        """
+        if self.gui:
+            if key == "source":
+                self.gui.last_source = value
+            elif key == "format":
+                self.gui.last_format = value
+            elif key == "genre":
+                self.gui.last_genre = value
+            elif key == "artist":
+                self.gui.last_artist = value
+            elif key == "venue":
+                self.gui.last_venue = value
+            elif key == "city":
+                self.gui.last_city = value
+            elif key == "add":
+                self.gui.last_add = value
+
+    def get_current_ui_values(self):
+        """
+        Get current values from UI widgets - only non-empty values
+        """
+        if not self.gui:
+            return {}
+        
+        ui_values = {}
+        widget_map = {
+            'artist': getattr(self.gui, 'artist', None),
+            'venue': getattr(self.gui, 'venue', None),
+            'city': getattr(self.gui, 'city', None),
+            'add': getattr(self.gui, 'add', None),
+            'source': getattr(self.gui, 'source', None),
+            'format': getattr(self.gui, 'format', None),
+            'genre': getattr(self.gui, 'genre', None),
+        }
+        
+        for key, widget in widget_map.items():
+            if widget:
+                value = widget.get().strip()
+                if value:  # Only include non-empty values
+                    ui_values[key] = value
+                    # Update the last used value when user actually uses it
+                    self.set_last_used_value(key, value)
+        
+        return ui_values
 
     def save_history(self):
         """

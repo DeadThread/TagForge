@@ -71,7 +71,20 @@ def update_combobox_values(
             if val and val not in seen:
                 final_list.append(val)
                 seen.add(val)
-             
+       
+        # Append extra cached values for artist/genre
+        if key == "artist":
+            extra_cache = sorted(artist_cache, key=lambda x: x.lower())
+        elif key == "genre":
+            extra_cache = sorted(genre_cache, key=lambda x: x.lower())
+        else:
+            extra_cache = []
+       
+        for val in extra_cache:
+            if val and val not in seen:
+                final_list.append(val)
+                seen.add(val)
+       
         # Append history values (unordered)
         for val in histories.get(key, set()):
             if val and val not in seen:
