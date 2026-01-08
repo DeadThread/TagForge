@@ -34,9 +34,35 @@ class SchemeEvaluator:
         self.log(f"Evaluating folder scheme with metadata: {md_extended}", level="debug")
 
         def replace_token(match):
-            token = match.group(1).lower()
-            val = md_extended.get(token, "")
+            token_raw = match.group(1)
+            token_lower = token_raw.lower()
+
+            # Handle source, format, additional
+            numbered_match = re.match(r"(source|format|additional)n?(\d*)", token_lower)
+            if numbered_match:
+                base, num = numbered_match.groups()
+                val = md_extended.get(base, [])
+                if isinstance(val, str):
+                    val = [x.strip() for x in val.split(",") if x.strip()]
+
+                if num:
+                    # Specific numbered token like N1, N2
+                    idx = int(num) - 1
+                    return val[idx] if 0 <= idx < len(val) else ""
+                else:
+                    # %sourceN%, %formatN%, %additionalN% → join all
+                    if token_lower.endswith("n"):
+                        return ", ".join(val) if val else ""
+                    # %source%, %format%, %additional% → first value only
+                    else:
+                        return val[0] if val else ""
+
+            # fallback for other tokens
+            val = md_extended.get(token_lower, "")
+            if isinstance(val, list):
+                val = val[0] if val else ""
             return str(val) if val else ""
+
 
         def repl_year(m):
             inside = m.group(1).strip()

@@ -1,62 +1,187 @@
-Milwaukee, WI
-San Francisco, CA
-Englewood, CO
-Del Norte, CO
+Darlington, MD
+Roanoke, VA
+Charlottesville, VA
+Peoria, IL
+Asheville, NC
+Nashville, TN
+Greenville, SC
+Brooksville, FL
+Dothan, AL
+Santa Fe, NM
+Aspen, CO
+Denver, CO
+Lawrence, KS
+Minneapolis, MN
+Chester, NY
+Asbury Park, NJ
+Garrettsville, OH
+Austin, TX
+Fort Worth, TX
+Tulsa, OK
+Louisville, KY
+Newark, NJ
+Albany, NY
+Pittsburgh, PA
+Baltimore, MD
+Huntsville, AL
+Chattanooga, TN
+Boone, NC
+Richmond, VA
+Knoxville, TN
+Waynesboro, VA
+Bridgeport, CT
+Quincy, CA
+Telluride, CO
+Brooklyn, NY
+Stratton, VT
+Las Vegas, NV
+Bellvue, CO
+Livingston, MT
+London, GB
+Cagliari, ITA
+Navarro, CA
+Portsmouth, NH
+Sidney, ME
+Providence, RI
+Morristown, NJ
+Golden, CO
+Fredericton, NB
+Morrison, CO
+Tempe, AZ
+Harrisburg, PA
+Athens, GA
+Florence, AL
+Columbia, MO
+Bonner, MT
+Salt Lake City, UT
+Arrington, VA
+Irving, TX
+Berkeley, CA
+Tilmon, TX
+Birmingham, AL
+Seattle, WA
+New York, NY
 Cincinnati, OH
-Holland, MI
+Camden, NJ
+Annapolis, MD
+Toronto, CAN
+Park City, UT
+Clarkston, MI
+Chicago, IL
+Fayetteville, WV
+West Hollywood, CA
+Nevada City, CA
+Novato, CA
+Nashville, IN
+Manteno, IL
+Lexington, KY
+Cary, NC
+Alta, WY
+Grand Junction, CO
+Owensboro, KY
+Charleston, SC
+Charleston, WV
+San Francisco, CA
+Montréal, Québec, Canada
+Ontario, CA
+Hampton, VA
+Alpharetta, GA
+New River Gorge, WV
+Vista, CA
+Pittsboro, NC
+Los Angeles, CA
+Boston, MA
 Indianapolis, IN
+Mundelein, IL
+St. Augustine, FL
+Charlotte, NC
+Norfolk, VA
+Grand Rapids, MI
+Hillsboro, WI
+Clear Lake, IA
+Des Moines, IA
+Pelham, TN
+Omaha, NE
+Eureka, CA
+Jacksonville, OR
+Salem, OR
+Eau Claire, WI
+Cleveland Heights, OH
+Vail, CO
+Buena Vista, CO
+Cleveland, OH
+Bond, CO
+Lake George, NY
+Charlton, MA
+Essex Junction, VT
+Brownfield, ME
+Darrington, WA
+Montreal, CAN
+Noblesville, IN
+Mountain View, CA
+Bethel, NY
+Evergreen, CO
+Dillon, CO
+Woodinville, WA
+Hartford, CT
+Fort Wayne, IN
+Interlochen, MI
+Paw Paw, MI
+Eugene, OR
+Redmond, WA
+Lebanon, NH
+Reno, NV
+Queens, NY
+Buenos Aires, ARG
+Virginia Beach, VA
 Detroit, MI
+Bend, OR
+Mansfield, MA
+Saratoga Springs, NY
+Buffalo, NY
 Columbus, OH
+Milwaukee, WI
+Huntsville, UT
+Hotchkiss, CO
+Iowa City, IA
+Chattangooga, TN
+Bloomington, IN
+Ardmore, PA
+Del Norte, CO
+Steamboat Springs, CO
+Everett, WA
+Vancouver, BC
+Missoula, MT
+Bozeman, MT
+Fargo, ND
+Englewood, CO
+Holland, MI
 Raleigh, NC
 Thornville, OH
 Nampa, ID
-Bend, OR
-Lexington, KY
 Blain, PA
-Hillsboro, WI
-Aspen, CO
 Fort Collins, CO
 Redmond, OR
 Columbia, MD
-Charleston, SC
-Asheville, NC
-Alpharetta, GA
 Knoxville , TN
-Charlotte, NC
-Minneapolis, MN
 Independence, MO
-Tulsa, OK
 Mesa, AZ
-Las Vegas, NV
 Indio, CA
-Berkeley, CA
 Sacramento, CA
 Spokane, WA
-Bozeman, MT
-Denver, CO
 Kaslo, BC
-Seattle, WA
 Happy Valley, OR
 North Pomfret, VT
 Teton Villiage, WY
-Bellvue, CO
 Crested Butte, CO
 Kansas City, MO
 St. Louis, MO
-Nashville, IN
-St. Augustine, FL
 Floyd, VA
 Fairfield, CT
-New York, NY
-Baltimore, MD
 Spotsylvania, VA
-Reno, NV
 Hampstead, NY
-Saratoga Springs, NY
-Grand Rapids, MI
 TesT
 TeST2
-Hampton, VA
 Sante Fe, NM
 Weert, NLD
 Winterbach, DEU
@@ -312,7 +437,6 @@ Albany, KY
 Albany, LA
 Albany, MN
 Albany, MO
-Albany, NY
 Albany, OH
 Albany, OK
 Albany, OR
@@ -542,7 +666,6 @@ Alta Vista, IA
 Alta Vista, KS
 Alta, CA
 Alta, IA
-Alta, WY
 Altadena, CA
 Altair, TX
 Altamahaw, NC
@@ -786,7 +909,6 @@ Annandale, VA
 Annapolis Junction, MD
 Annapolis, CA
 Annapolis, IL
-Annapolis, MD
 Annapolis, MO
 Annawan, IL
 Annemanie, AL
@@ -923,7 +1045,6 @@ Arden, NY
 Ardenvoir, WA
 Ardmore, AL
 Ardmore, OK
-Ardmore, PA
 Ardmore, TN
 Ardsley On Hudson, NY
 Ardsley, NY
@@ -1034,7 +1155,6 @@ Arpin, WI
 Arrey, NM
 Arriba, CO
 Arrington, TN
-Arrington, VA
 Arrow Rock, MO
 Arrowsmith, IL
 Arroyo Grande, CA
@@ -1065,7 +1185,6 @@ Arvilla, ND
 Arvin, CA
 Arvonia, VA
 Ary, KY
-Asbury Park, NJ
 Asbury, MO
 Asbury, NJ
 Asbury, WV
@@ -1162,7 +1281,6 @@ Atglen, PA
 Athelstane, WI
 Athena, OR
 Athens, AL
-Athens, GA
 Athens, IL
 Athens, IN
 Athens, LA
@@ -1317,7 +1435,6 @@ Austin, KY
 Austin, MN
 Austin, NV
 Austin, PA
-Austin, TX
 Austinburg, OH
 Austinville, IA
 Austinville, VA
@@ -2248,7 +2365,6 @@ Bethel, ME
 Bethel, MN
 Bethel, MO
 Bethel, NC
-Bethel, NY
 Bethel, OH
 Bethel, OK
 Bethel, PA
@@ -2406,7 +2522,6 @@ Birds Landing, CA
 Birdsboro, PA
 Birdseye, IN
 Birdsnest, VA
-Birmingham, AL
 Birmingham, IA
 Birmingham, MI
 Birmingham, NJ
@@ -2583,7 +2698,6 @@ Bloomington Springs, TN
 Bloomington, CA
 Bloomington, ID
 Bloomington, IL
-Bloomington, IN
 Bloomington, MD
 Bloomington, NE
 Bloomington, NY
@@ -2740,7 +2854,6 @@ Bonanza, OR
 Bonanza, UT
 Bonaparte, IA
 Boncarbo, CO
-Bond, CO
 Bondsville, MA
 Bonduel, WI
 Bondurant, IA
@@ -2760,7 +2873,6 @@ Bonlee, NC
 Bonne Terre, MO
 Bonneau, SC
 Bonner Springs, KS
-Bonner, MT
 Bonnerdale, AR
 Bonners Ferry, ID
 Bonney Lake, WA
@@ -2778,7 +2890,6 @@ Boon, MI
 Boone Grove, IN
 Boone, CO
 Boone, IA
-Boone, NC
 Boones Mill, VA
 Booneville, AR
 Booneville, IA
@@ -2817,7 +2928,6 @@ Bostic, NC
 Boston, GA
 Boston, IN
 Boston, KY
-Boston, MA
 Boston, NY
 Boston, VA
 Bostwick, FL
@@ -3102,7 +3212,6 @@ Bridge City, TX
 Bridgehampton, NY
 Bridgeport, AL
 Bridgeport, CA
-Bridgeport, CT
 Bridgeport, IL
 Bridgeport, MI
 Bridgeport, NE
@@ -3293,7 +3402,6 @@ Brooklyn, IN
 Brooklyn, MD
 Brooklyn, MI
 Brooklyn, MS
-Brooklyn, NY
 Brooklyn, PA
 Brooklyn, WI
 Brookneal, VA
@@ -3310,7 +3418,6 @@ Brookside, NJ
 Brookston, IN
 Brookston, MN
 Brookston, TX
-Brooksville, FL
 Brooksville, KY
 Brooksville, ME
 Brooksville, MS
@@ -3333,7 +3440,6 @@ Browder, KY
 Browerville, MN
 Brown City, MI
 Brownell, KS
-Brownfield, ME
 Brownfield, PA
 Brownfield, TX
 Browning, IL
@@ -3492,7 +3598,6 @@ Budd Lake, NJ
 Bude, MS
 Buellton, CA
 Buena Park, CA
-Buena Vista, CO
 Buena Vista, GA
 Buena Vista, NM
 Buena Vista, PA
@@ -3519,7 +3624,6 @@ Buffalo, MN
 Buffalo, MO
 Buffalo, MT
 Buffalo, ND
-Buffalo, NY
 Buffalo, OH
 Buffalo, OK
 Buffalo, SC
@@ -3919,7 +4023,6 @@ Camden, MI
 Camden, MO
 Camden, MS
 Camden, NC
-Camden, NJ
 Camden, NY
 Camden, OH
 Camden, SC
@@ -4280,7 +4383,6 @@ Carversville, PA
 Carville, LA
 Cary, IL
 Cary, MS
-Cary, NC
 Caryville, FL
 Caryville, TN
 Casa Blanca, NM
@@ -4702,7 +4804,6 @@ Charleston, ME
 Charleston, MO
 Charleston, MS
 Charleston, TN
-Charleston, WV
 Charlestown, IN
 Charlestown, MA
 Charlestown, MD
@@ -4719,12 +4820,10 @@ Charlotte, TN
 Charlotte, TX
 Charlotte, VT
 Charlottesville, IN
-Charlottesville, VA
 Charlotteville, NY
 Charlton City, MA
 Charlton Depot, MA
 Charlton Heights, WV
-Charlton, MA
 Charm, OH
 Charmco, WV
 Charter Oak, IA
@@ -4763,7 +4862,6 @@ Chatsworth, IL
 Chatsworth, NJ
 Chattahoochee, FL
 Chattanooga, OK
-Chattanooga, TN
 Chattaroy, WA
 Chattaroy, WV
 Chaumont, NY
@@ -4859,7 +4957,6 @@ Chester, MT
 Chester, NE
 Chester, NH
 Chester, NJ
-Chester, NY
 Chester, OH
 Chester, OK
 Chester, PA
@@ -4905,7 +5002,6 @@ Cheyney, PA
 Chicago Heights, IL
 Chicago Park, CA
 Chicago Ridge, IL
-Chicago, IL
 Chichester, NH
 Chichester, NY
 Chickamauga, GA
@@ -5140,7 +5236,6 @@ Clarkson, KY
 Clarkson, NE
 Clarkson, NY
 Clarkston, GA
-Clarkston, MI
 Clarkston, UT
 Clarkston, WA
 Clarksville, AR
@@ -5213,7 +5308,6 @@ Clear Brook, VA
 Clear Creek, IN
 Clear Creek, WV
 Clear Fork, WV
-Clear Lake, IA
 Clear Lake, MN
 Clear Lake, SD
 Clear Lake, WI
@@ -5265,7 +5359,6 @@ Cleveland, NC
 Cleveland, ND
 Cleveland, NM
 Cleveland, NY
-Cleveland, OH
 Cleveland, OK
 Cleveland, SC
 Cleveland, TN
@@ -5634,7 +5727,6 @@ Columbia, IA
 Columbia, IL
 Columbia, KY
 Columbia, LA
-Columbia, MO
 Columbia, MS
 Columbia, NC
 Columbia, NJ
@@ -6606,13 +6698,11 @@ Darien, IL
 Darien, WI
 Darling, MS
 Darlington, IN
-Darlington, MD
 Darlington, MO
 Darlington, PA
 Darlington, SC
 Darlington, WI
 Darragh, PA
-Darrington, WA
 Darrouzett, TX
 Darrow, LA
 Dartmouth, MA
@@ -6992,7 +7082,6 @@ Des Allemands, LA
 Des Arc, AR
 Des Arc, MO
 Des Lacs, ND
-Des Moines, IA
 Des Moines, NM
 Des Plaines, IL
 Descanso, CA
@@ -7102,7 +7191,6 @@ Dilley, TX
 Dilliner, PA
 Dillingham, AK
 Dillon Beach, CA
-Dillon, CO
 Dillon, MT
 Dillon, SC
 Dillonvale, OH
@@ -7244,7 +7332,6 @@ Dos Palos, CA
 Dos Rios, CA
 Doss, TX
 Doswell, VA
-Dothan, AL
 Dothan, WV
 Doty, WA
 Double Springs, AL
@@ -7879,7 +7966,6 @@ Eatontown, NJ
 Eatonville, WA
 Eau Claire, MI
 Eau Claire, PA
-Eau Claire, WI
 Eau Galle, WI
 Eben Junction, MI
 Ebensburg, PA
@@ -8536,7 +8622,6 @@ Espanola, NM
 Esparto, CA
 Esperance, NY
 Essex Fells, NJ
-Essex Junction, VT
 Essex, CA
 Essex, CT
 Essex, IA
@@ -8604,7 +8689,6 @@ Eudora, MO
 Eufaula, AL
 Eufaula, OK
 Eugene, MO
-Eugene, OR
 Euless, TX
 Eunice, LA
 Eunice, MO
@@ -8612,7 +8696,6 @@ Eunice, NM
 Eupora, MS
 Eure, NC
 Eureka Springs, AR
-Eureka, CA
 Eureka, IL
 Eureka, KS
 Eureka, MI
@@ -8659,12 +8742,10 @@ Evensville, TN
 Everest, KS
 Everett, MA
 Everett, PA
-Everett, WA
 Everetts, NC
 Everglades City, FL
 Evergreen Park, IL
 Evergreen, AL
-Evergreen, CO
 Evergreen, LA
 Evergreen, NC
 Evergreen, VA
@@ -8877,7 +8958,6 @@ Far Hills, NJ
 Far Rockaway, NY
 Farber, MO
 Fargo, GA
-Fargo, ND
 Fargo, OK
 Faribault, MN
 Farina, IL
@@ -8962,7 +9042,6 @@ Fayetteville, OH
 Fayetteville, PA
 Fayetteville, TN
 Fayetteville, TX
-Fayetteville, WV
 Fayville, MA
 Faywood, NM
 FBI, DC
@@ -9185,7 +9264,6 @@ Floral City, FL
 Floral Park, NY
 Floral, AR
 Florala, AL
-Florence, AL
 Florence, AZ
 Florence, CO
 Florence, IN
@@ -9466,10 +9544,8 @@ Fort Walton Beach, FL
 Fort Washakie, WY
 Fort Washington, MD
 Fort Washington, PA
-Fort Wayne, IN
 Fort White, FL
 Fort Wingate, NM
-Fort Worth, TX
 Fort Yates, ND
 Fort Yukon, AK
 Fortescue, NJ
@@ -9991,7 +10067,6 @@ Garrett, IN
 Garrett, KY
 Garrett, PA
 Garrett, WY
-Garrettsville, OH
 Garrison, IA
 Garrison, KY
 Garrison, MN
@@ -10492,7 +10567,6 @@ Golden Gate, IL
 Golden Meadow, LA
 Golden Valley, AZ
 Golden Valley, ND
-Golden, CO
 Golden, IL
 Golden, MO
 Golden, MS
@@ -10700,7 +10774,6 @@ Grand Island, NY
 Grand Isle, LA
 Grand Isle, ME
 Grand Isle, VT
-Grand Junction, CO
 Grand Junction, IA
 Grand Junction, MI
 Grand Junction, TN
@@ -11001,7 +11074,6 @@ Greenville, NY
 Greenville, OH
 Greenville, PA
 Greenville, RI
-Greenville, SC
 Greenville, TX
 Greenville, UT
 Greenville, VA
@@ -11566,7 +11638,6 @@ Harrisburg, NC
 Harrisburg, NE
 Harrisburg, OH
 Harrisburg, OR
-Harrisburg, PA
 Harrisburg, SD
 Harrison City, PA
 Harrison Township, MI
@@ -11613,7 +11684,6 @@ Hartfield, VA
 Hartford City, IN
 Hartford, AL
 Hartford, AR
-Hartford, CT
 Hartford, IA
 Hartford, IL
 Hartford, KS
@@ -12576,7 +12646,6 @@ Hot Springs, NC
 Hot Springs, SD
 Hot Springs, VA
 Hot Sulphur Springs, CO
-Hotchkiss, CO
 Hotevilla, AZ
 Houck, AZ
 Houghton Lake Heights, MI
@@ -12776,14 +12845,12 @@ Huntley, MT
 Huntley, WY
 Huntly, VA
 Huntsburg, OH
-Huntsville, AL
 Huntsville, AR
 Huntsville, IL
 Huntsville, MO
 Huntsville, OH
 Huntsville, TN
 Huntsville, TX
-Huntsville, UT
 Hurdland, MO
 Hurdle Mills, NC
 Hurdsfield, ND
@@ -12993,7 +13060,6 @@ Intercourse, PA
 Interior, SD
 Interlachen, FL
 Interlaken, NY
-Interlochen, MI
 International Falls, MN
 Intervale, NH
 Inver Grove Heights, MN
@@ -13018,7 +13084,6 @@ Ionia, MI
 Ionia, MO
 Ionia, NY
 Iota, LA
-Iowa City, IA
 Iowa Falls, IA
 Iowa Park, TX
 Iowa, LA
@@ -13066,7 +13131,6 @@ Irvine, KY
 Irvine, PA
 Irving, IL
 Irving, NY
-Irving, TX
 Irvington, AL
 Irvington, IL
 Irvington, KY
@@ -13196,7 +13260,6 @@ Jacksonville, MO
 Jacksonville, NC
 Jacksonville, NY
 Jacksonville, OH
-Jacksonville, OR
 Jacksonville, TX
 Jacksonville, VT
 Jacob, IL
@@ -14089,7 +14152,6 @@ Knoxville, IA
 Knoxville, IL
 Knoxville, MD
 Knoxville, PA
-Knoxville, TN
 Kobuk, AK
 Kodak, TN
 Kodiak, AK
@@ -14377,7 +14439,6 @@ Lake Geneva, WI
 Lake George, CO
 Lake George, MI
 Lake George, MN
-Lake George, NY
 Lake Grove, NY
 Lake Hamilton, FL
 Lake Harbor, FL
@@ -14729,7 +14790,6 @@ Lawndale, IL
 Lawndale, NC
 Lawnside, NJ
 Lawrence Township, NJ
-Lawrence, KS
 Lawrence, MA
 Lawrence, MI
 Lawrence, MS
@@ -14805,7 +14865,6 @@ Lebanon, KY
 Lebanon, ME
 Lebanon, MO
 Lebanon, NE
-Lebanon, NH
 Lebanon, NJ
 Lebanon, OH
 Lebanon, OK
@@ -15357,7 +15416,6 @@ Livingston, CA
 Livingston, IL
 Livingston, KY
 Livingston, LA
-Livingston, MT
 Livingston, NJ
 Livingston, NY
 Livingston, TN
@@ -15590,7 +15648,6 @@ Los Alamitos, CA
 Los Alamos, CA
 Los Alamos, NM
 Los Altos, CA
-Los Angeles, CA
 Los Banos, CA
 Los Ebanos, TX
 Los Fresnos, TX
@@ -15636,7 +15693,6 @@ Louisville, AL
 Louisville, CO
 Louisville, GA
 Louisville, IL
-Louisville, KY
 Louisville, MS
 Louisville, NE
 Louisville, OH
@@ -16198,7 +16254,6 @@ Mansfield, AR
 Mansfield, GA
 Mansfield, IL
 Mansfield, LA
-Mansfield, MA
 Mansfield, MO
 Mansfield, OH
 Mansfield, PA
@@ -16214,7 +16269,6 @@ Mantachie, MS
 Mantador, ND
 Manteca, CA
 Mantee, MS
-Manteno, IL
 Manteo, NC
 Manter, KS
 Manti, UT
@@ -17621,7 +17675,6 @@ Mission, KS
 Mission, SD
 Mission, TX
 Mississippi State, MS
-Missoula, MT
 Missouri City, MO
 Missouri City, TX
 Missouri Valley, IA
@@ -18018,7 +18071,6 @@ Morris, NY
 Morris, OK
 Morris, PA
 Morrisdale, PA
-Morrison, CO
 Morrison, IA
 Morrison, IL
 Morrison, MO
@@ -18031,7 +18083,6 @@ Morriston, FL
 Morristown, AZ
 Morristown, IN
 Morristown, MN
-Morristown, NJ
 Morristown, NY
 Morristown, OH
 Morristown, SD
@@ -18291,7 +18342,6 @@ Mountain Ranch, CA
 Mountain Rest, SC
 Mountain Top, PA
 Mountain View, AR
-Mountain View, CA
 Mountain View, HI
 Mountain View, MO
 Mountain View, OK
@@ -18364,7 +18414,6 @@ Muncy Valley, PA
 Muncy, PA
 Munday, TX
 Munday, WV
-Mundelein, IL
 Munden, KS
 Munds Park, AZ
 Munford, AL
@@ -18521,7 +18570,6 @@ Nashville, KS
 Nashville, MI
 Nashville, NC
 Nashville, OH
-Nashville, TN
 Nashwauk, MN
 Nason, IL
 Nassau, DE
@@ -18562,7 +18610,6 @@ Naval Anacost Annex, DC
 Navarre, FL
 Navarre, MN
 Navarre, OH
-Navarro, CA
 Navasota, TX
 Navesink, NJ
 Naylor, GA
@@ -18673,7 +18720,6 @@ Netcong, NJ
 Nett Lake, MN
 Nettie, WV
 Nettleton, MS
-Nevada City, CA
 Nevada, IA
 Nevada, MO
 Nevada, OH
@@ -18966,7 +19012,6 @@ Newark, DE
 Newark, IL
 Newark, MD
 Newark, MO
-Newark, NJ
 Newark, NY
 Newark, OH
 Newark, TX
@@ -19180,7 +19225,6 @@ Noble, LA
 Noble, MO
 Noble, OK
 Nobleboro, ME
-Noblesville, IN
 Nobleton, FL
 Nocatee, FL
 Nocona, TX
@@ -19221,7 +19265,6 @@ Norfolk, CT
 Norfolk, MA
 Norfolk, NE
 Norfolk, NY
-Norfolk, VA
 Norfork, AR
 Norge, VA
 Norlina, NC
@@ -19525,7 +19568,6 @@ Nottingham, PA
 Nottoway, VA
 Notus, ID
 Nova, OH
-Novato, CA
 Novelty, MO
 Novelty, OH
 Novi, MI
@@ -19921,7 +19963,6 @@ Olyphant, PA
 Omaha, AR
 Omaha, GA
 Omaha, IL
-Omaha, NE
 Omaha, TX
 Omak, WA
 Omar, WV
@@ -19969,7 +20010,6 @@ Onset, MA
 Onslow, IA
 Onsted, MI
 Ontario Center, NY
-Ontario, CA
 Ontario, NY
 Ontario, OH
 Ontario, OR
@@ -20243,7 +20283,6 @@ Owego, NY
 Owen, WI
 Owendale, MI
 Owens Cross Roads, AL
-Owensboro, KY
 Owensburg, IN
 Owensville, IN
 Owensville, MO
@@ -20506,7 +20545,6 @@ Parish, NY
 Parishville, NY
 Park City, KY
 Park City, MT
-Park City, UT
 Park Falls, WI
 Park Forest, IL
 Park Hall, MD
@@ -20648,7 +20686,6 @@ Pavillion, WY
 Pavo, GA
 Paw Creek, NC
 Paw Paw, IL
-Paw Paw, MI
 Paw Paw, WV
 Pawcatuck, CT
 Pawhuska, OK
@@ -20746,7 +20783,6 @@ Pelham, GA
 Pelham, NC
 Pelham, NH
 Pelham, NY
-Pelham, TN
 Pelican Lake, WI
 Pelican Rapids, MN
 Pelican, AK
@@ -20836,7 +20872,6 @@ Penwell, TX
 Peoa, UT
 Peoria Heights, IL
 Peoria, AZ
-Peoria, IL
 Peosta, IA
 Peotone, IL
 Pep, NM
@@ -21230,7 +21265,6 @@ Pitsburg, OH
 Pitts, GA
 Pittsboro, IN
 Pittsboro, MS
-Pittsboro, NC
 Pittsburg, CA
 Pittsburg, IL
 Pittsburg, KS
@@ -21239,7 +21273,6 @@ Pittsburg, MO
 Pittsburg, NH
 Pittsburg, OK
 Pittsburg, TX
-Pittsburgh, PA
 Pittsfield, IL
 Pittsfield, MA
 Pittsfield, ME
@@ -21677,7 +21710,6 @@ Portlandville, NY
 Portola Valley, CA
 Portola, CA
 Portsmouth, IA
-Portsmouth, NH
 Portsmouth, OH
 Portsmouth, RI
 Portsmouth, VA
@@ -21923,7 +21955,6 @@ Provencal, LA
 Providence Forge, VA
 Providence, KY
 Providence, NC
-Providence, RI
 Providence, UT
 Provincetown, MA
 Provo, UT
@@ -22033,7 +22064,6 @@ Quilcene, WA
 Quimby, IA
 Quinault, WA
 Quinby, VA
-Quincy, CA
 Quincy, FL
 Quincy, IL
 Quincy, IN
@@ -22365,7 +22395,6 @@ Redlake, MN
 Redlands, CA
 Redmon, IL
 Redmond, UT
-Redmond, WA
 Redondo Beach, CA
 Redrock, NM
 Redstone, MT
@@ -22599,7 +22628,6 @@ Richmond, MO
 Richmond, OH
 Richmond, TX
 Richmond, UT
-Richmond, VA
 Richmond, VT
 Richmondville, NY
 Richton Park, IL
@@ -22809,7 +22837,6 @@ Roanoke, IL
 Roanoke, IN
 Roanoke, LA
 Roanoke, TX
-Roanoke, VA
 Roans Prairie, TX
 Roaring Branch, PA
 Roaring Gap, NC
@@ -23673,7 +23700,6 @@ Salem, NJ
 Salem, NM
 Salem, NY
 Salem, OH
-Salem, OR
 Salem, SC
 Salem, SD
 Salem, UT
@@ -23718,7 +23744,6 @@ Salome, AZ
 Salona, PA
 Salsbury Cove, ME
 Salt Flat, TX
-Salt Lake City, UT
 Salt Lick, KY
 Salt Point, NY
 Salt Rock, WV
@@ -23901,7 +23926,6 @@ Santa Cruz, NM
 Santa Elena, TX
 Santa Fe Springs, CA
 Santa Fe, MO
-Santa Fe, NM
 Santa Fe, TN
 Santa Fe, TX
 Santa Isabel, PR
@@ -25579,7 +25603,6 @@ Staunton, IN
 Staunton, VA
 Stayton, OR
 Steamboat Rock, IA
-Steamboat Springs, CO
 Steamburg, NY
 Stearns, KY
 Stebbins, AK
@@ -26391,10 +26414,8 @@ Tell City, IN
 Tell, TX
 Teller, AK
 Tellico Plains, TN
-Telluride, CO
 Telogia, FL
 Temecula, CA
-Tempe, AZ
 Temperance, MI
 Temperanceville, VA
 Temple Bar Marina, AZ
@@ -27340,7 +27361,6 @@ Vadito, NM
 Vado, NM
 Vaiden, MS
 Vail, AZ
-Vail, CO
 Vail, IA
 Vails Gate, NY
 Valatie, NY
@@ -27700,7 +27720,6 @@ Virgil, KS
 Virgil, SD
 Virgilina, VA
 Virgin, UT
-Virginia Beach, VA
 Virginia City, MT
 Virginia City, NV
 Virginia State University, VA
@@ -27710,7 +27729,6 @@ Virginia, NE
 Virginville, PA
 Viroqua, WI
 Visalia, CA
-Vista, CA
 Vivian, LA
 Vivian, SD
 Voca, TX
@@ -28296,7 +28314,6 @@ Waynesboro, GA
 Waynesboro, MS
 Waynesboro, PA
 Waynesboro, TN
-Waynesboro, VA
 Waynesburg, KY
 Waynesburg, OH
 Waynesburg, PA
@@ -28571,7 +28588,6 @@ West Hempstead, NY
 West Henrietta, NY
 West Hickory, PA
 West Hills, CA
-West Hollywood, CA
 West Hurley, NY
 West Hyannisport, MA
 West Islip, NY
@@ -29527,7 +29543,6 @@ Woodgate, NY
 Woodhaven, NY
 Woodhull, IL
 Woodhull, NY
-Woodinville, WA
 Woodlake, CA
 Woodlake, TX
 Woodland Hills, CA

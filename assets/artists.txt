@@ -1,34 +1,52 @@
+Dizgo
+Daniel Donato
 Billy Strings
-Dead & Company
-Steve Kimock Band
-Squeaky Feet
-Spafford
-Papadosio
-My Morning Jacket
+Big Something
+The String Cheese Incident
+String Cheese Incident
+Space Bacon
+Lettuce
+Umphrey's McGee
+Widespread Panic
+Peter Gabriel
+Octave Cat
+Neighbor
 moe.
-Leftover Salmon
+Magic Beans
+Lotus
 Kitchen Dwellers
 Johnny Blue Skies
+Jason Isbell and the 400 Unit
+Houseplant
 Greensky Bluegrass
+Gov't Mule
 Eggy
 Dogs In A Pile
-Daniel Donato
+Mike Gordon & Leo Kottke
+Dead & Company
+Trey Anastasio Band
+Phish
+Pigeons Playing Ping Pong
+King Gizzard & The Lizard Wizard
+The Disco Biscuits
+Squeaky Feet
+Spafford
+Solar Circuit
+My Morning Jacket
+Melvin Seals and JGB
+Leftover Salmon
+King Crimson
+Joe Russo's Almost Dead
+Steve Kimock Band
+Papadosio
 Consider the Source
-Big Something
 Béla Fleck & The Flecktones
 The Allman Brothers Band
-The Disco Biscuits
 Herbie Hancock
-Phish
 TeST
 TeST2
 Mountain Grass Unit
-Solar Circuit
-Magic Beans
 GRAB
-Houseplant
-Dizgo
-Space Bacon
 Kitchen Dwellers, Leftover Salmon
 Warren Haynes
 Aaron Lee Tasjan
@@ -98,7 +116,6 @@ Galactic
 Gary Clark Jr.
 Ghost Light
 Goose
-Gov't Mule
 Grace Bowers
 Grateful Dead
 Hiss Golden Messenger
@@ -113,13 +130,11 @@ J. Roddy Walston & The Business
 Jack Johnson
 James Bay
 Jamestown Revival
-Jason Isbell and the 400 Unit
 Jeff Beck
 Jimi Hendrix
 Jimkata
 Jimmy Buffett
 Joan Jett and the Blackhearts
-Joe Russo's Almost Dead
 John Butler Trio
 John Moreland
 Jon Bellion
@@ -134,8 +149,6 @@ Kaleo
 Karina Rykman
 Keller Williams
 Kendall Street Company
-King Crimson
-King Gizzard & The Lizard Wizard
 Kings of Leon
 Kodaline
 Lake Street Dive
@@ -144,9 +157,7 @@ Larry Keel Experience
 Laroo
 LaMP
 Leon Bridges
-Lettuce
 Little Feat
-Lotus
 Low Cut Connie
 Lucero
 Lucy Dacus
@@ -159,7 +170,6 @@ Mandolin Orange
 Marcus King
 Marcus King Band
 Martin Sexton
-Melvin Seals and JGB
 Metallica
 Metrognome
 Michael Franti & Spearhead
@@ -171,7 +181,6 @@ Mt. Joy
 Naked & Famous
 Nathaniel Rateliff
 Nathaniel Rateliff & The Night Sweats
-Neighbor
 Nick Mason's Saucerful of Secrets
 Nicki Bluhm
 Night Moves
@@ -181,7 +190,6 @@ Orebolo
 Oysterhead
 Passenger
 Pearl Jam
-Pigeons Playing Ping Pong
 Pixies
 Rainbow Kitten Surprise
 Railroad Earth
@@ -205,7 +213,6 @@ Stephen Malkmus & The Jicks
 Steve Kimock
 Steve Miller Band
 Stick Figure
-String Cheese Incident
 STS9
 Sugarland
 TAND
@@ -228,7 +235,6 @@ The Revivalists
 The Rolling Stones
 The Soul Rebels
 The Stews
-The String Cheese Incident
 The War on Drugs
 The White Buffalo
 The Who
@@ -237,13 +243,10 @@ The Word
 The Zombies
 Thievery Corporation
 Trampled by Turtles
-Trey Anastasio Band
 Turkuaz
 Twiddle
-Umphrey's McGee
 Van Morrison
 Vulfpeck
-Widespread Panic
 Wilco
 Yak Attack
 Yam Yam
